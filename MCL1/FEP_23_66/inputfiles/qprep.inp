@@ -1,0 +1,20 @@
+rl /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.lib 
+rl 23.lib
+rl 66_renumber.lib
+rprm AMBER14sb_23_66_merged.prm 
+! TO DO Change if protein system is used
+rp 23_66.pdb 
+! set solute_density 0.05794 
+! NOTE, this is now large for water system, change for protein system
+set solvent_pack 2.3
+boundary 1 -2.386 -47.346 6.724 25
+solvate -2.386 -47.346 6.724 25 4 water.pdb
+!addbond at1 at2 y
+maketop MKC_p 
+writetop dualtop.top 
+wp top_p.pdb y 
+rt dualtop.top
+mask none
+mask not excluded 
+wp complexnotexcluded.pdb y 
+q 

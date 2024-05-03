@@ -1,0 +1,17 @@
+rl /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.lib
+rprm /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.prm
+! TO DO Change if protein system is used
+rp /zfsdata/data/david/openff-lig-params/JNK1/protprep/JNK1_protein_mini_renamed.pdb
+! set solute_density 0.05794
+! NOTE, this is now large for water system, change for protein system
+set solvent_pack 2.3
+boundary 1 22.437 7.029 31.45 25.0
+solvate 22.437 7.029 31.45 25.0 1 HOH
+maketop MKC_p
+writetop dualtop.top
+wp top_p.pdb y
+rt dualtop.top
+mask none
+mask not excluded
+wp complexnotexcluded.pdb y
+q

@@ -1,0 +1,415 @@
+--------------------------------------------------------------------------------
+Welcome to qprep version: 6.0.1
+ 
+This version was compiled using: GCC version 8.5.0 20210514 (Red Hat 8.5.0-20)
+ 
+And using the following compiler options: 
+-mtune=generic -march=x86-64 -O3 -w -std=legacy -ffree-line-length-none -fcray-pointer -fall-intrinsics
+
+ 
+For command line options type qprep --help  or qprep -h at the terminal.
+ 
+If you are using the interactive mode you can type "help"
+at the prompt. To quit type "quit".
+--------------------------------------------------------------------------------
+
+qprep> 
+Reading molecular library /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.lib
+
+name  atoms  net Q  bonds  rules   imps Q-grps
+ACE       6   0.00      5      0      1    none, creating default
+ALA      10   0.00      9      0      2    none, creating default
+ARG      24   1.00     23      0      6    none, creating default
+ARN      23   0.00     22      0      5    none, creating default
+ASH      13  -0.00     12      0      3    none, creating default
+ASN      14   0.00     13      0      4    none, creating default
+ASP      12  -1.00     11      0      3    none, creating default
+CYM      10  -1.00      9      0      2    none, creating default
+CYS      11   0.00     10      0      2    none, creating default
+CYX      10   0.00      9      0      2    none, creating default
+GLH      16   0.00     15      0      3    none, creating default
+GLN      17   0.00     16      0      4    none, creating default
+GLU      15  -1.00     14      0      3    none, creating default
+GLY       7   0.00      6      0      2    none, creating default
+HID      17  -0.00     17      0      6    none, creating default
+HIE      17  -0.00     17      0      6    none, creating default
+HIP      18   1.00     18      0      7    none, creating default
+HYP      15   0.00     15      0      2    none, creating default
+ILE      19   0.00     18      0      2    none, creating default
+LEU      19   0.00     18      0      2    none, creating default
+LYN      21   0.00     20      0      2    none, creating default
+LYS      22   1.00     21      0      2    none, creating default
+MET      17   0.00     16      0      2    none, creating default
+NHE       3   0.00      2      0      1    none, creating default
+NMA       6  -0.00      5      0      1    none, creating default
+PHE      20   0.00     20      0      8    none, creating default
+PRO      14   0.00     14      0      2    none, creating default
+SER      11   0.00     10      0      2    none, creating default
+THR      14  -0.00     13      0      2    none, creating default
+TRP      24   0.00     25      0      9    none, creating default
+TYR      21   0.00     21      0      8    none, creating default
+VAL      16  -0.00     15      0      2    none, creating default
+HOH       3   0.00      3      0      0    none, creating default
+SOD       1   1.00      0      0      0      1
+
+Accumulated no. of library entries loaded =  34
+
+qprep> 
+Reading force field parameter file.
+Forcefield name:               Q-Amber14SB
+Forcefield type:               AMBER
+Lennard-Jones combination rule:ARITHMETIC
+Scaling of 1-4 electrostatics: 0.833
+Cut-off rule:                  any atoms
+Improper potential:            PERIODIC
+Improper generation:           EXPLICIT
+Coulomb constant is set to the default value of 332.
+Read   66 atom types
+>>>>> WARNING: No SYBYL name for one or more atom types.
+Read    0 atom type alias names
+Read    0 LJ type 2 pairs
+Read  178 bond types
+Read   75 unique bond parameters
+>>>>> WARNING: No SYBYL bond type for one or more bond types.
+Read  493 angle types
+Read  136  unique angle parameters
+Read  642 torsion types
+Read  314 unique torsion parameters
+Read   62 improper types
+Force field parameters successfully read.
+
+qprep> 
+>>>WARNING: ignoring unrecognised line in PDB file
+TITLE     JNK1_protein
+>>>WARNING: ignoring unrecognised line in PDB file
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+>>>WARNING: ignoring unrecognised line in PDB file
+REMARK 888
+>>>WARNING: ignoring unrecognised line in PDB file
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+>>>>> ERROR: Residue number   369 is of unknown type CPH 
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT    1    4    5    6
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT    4    1
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT    5    1
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT    6    1
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1484 1491
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1491 1484
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1500 1507
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1507 1500
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1857 1864
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1864 1857
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1891 1896
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1896 1891
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1922 1929
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 1929 1922
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2340 2345
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2345 2340
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2835 2842
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2842 2835
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2865 2872
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 2872 2865
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3039 3046
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3046 3039
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3182 3189
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3189 3182
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3569 3574
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3574 3569
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3622 3627
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3627 3622
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3747 3754
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3754 3747
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3859 3866
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 3866 3859
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4108 4115
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4115 4108
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4286 4293
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4293 4286
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4375 4380
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4380 4375
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4467 4472
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4472 4467
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4492 4499
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4499 4492
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4670 4675
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4675 4670
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4824 4829
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4829 4824
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4948 4953
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4953 4948
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4962 4969
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 4969 4962
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5169 5174
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5174 5169
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5208 5215
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5215 5208
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5234 5241
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5241 5234
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5355 5360
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5360 5355
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5425 5430
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5430 5425
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5439 5446
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5446 5439
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5478 5485
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5485 5478
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5544 5551
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5551 5544
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5560 5567
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5567 5560
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5621 5628
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5628 5621
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5717 5724
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5724 5717
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5765 5770
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5770 5765
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5798 5805
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5805 5798
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5807 5809 5810 5811
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5809 5807
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5810 5807
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5811 5807
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5965 5947 5977 5966
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5977 5965
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5966 5965 5978 5967 5974
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5978 5966
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5967 5966 5979 5980 5968
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5979 5967
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5980 5967
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5968 5967 5969 5972
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5969 5968 5981 5970
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5981 5969
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5970 5969 5982 5971
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5982 5970
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5971 5970 5983 5973
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5983 5971
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5972 5968 5984 5973
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5984 5972
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5973 5971 5972 5985
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5985 5973
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5974 5966 5975 5976
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5975 5974
+>>>WARNING: ignoring unrecognised line in PDB file
+CONECT 5976 5974
+>>>WARNING: ignoring unrecognised line in PDB file
+END
+PDB file contains  5984 atoms.
+The number of atoms in the topology will be  6001
+>>>>> ERROR: The check of the PDB file failed.
+qprep> qprep> 
+Simulation sphere center                =     22.437   7.029  31.450
+Simulation radius                       =     25.000
+qprep> 
+Solvation sphere center                 =     22.437   7.029  31.450
+Library entry used to generate solvent  =       HOH 
+Radius of solvent sphere                =      25.00 A
+Grid spacing                            =       3.10 A 
+No. of solvent molecules in the sphere:  2109
+Minimum distance to solute heavy atoms (solvent_pack):  2.30 A
+No. of solvent molecules to add to the system:  2109
+qprep> Assigned  6327 atom types.
+Assigned  6327 atomic charges.
+Made         0 solute bonds.
+Made         0 extra bonds.
+Made      6327 solvent bonds.
+Made         0 solute angles.
+Made      6327 solvent angles.
+Made         0 solute torsions.
+Made         0 solvent torsions.
+Made         0 solute impropers.
+Made         0 solvent impropers.
+Made         0 entries in the 1-4 neighbour list.
+Made         0 entries in the long-range 1-4 neighbour list.
+Made     12654 entries in list of excluded neighbours.
+Made         0 entries in list of long-range excluded neighbours.
+Made         0 solute hydrogens.
+Made      4218 solvent hydrogens.
+Made        0 solute  charge groups comprising a total of      0 atoms.
+Made     2109 solvent charge groups comprising a total of   6327 atoms.
+Effective water radius                     : 24.68
+Topology successfully generated.
+qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :      0
+solvent atoms               :   6327
+coordinates                 :  18981
+integer atom codes          :   6327
+solute bonds                :      0
+solvent bonds               :   6327
+bond parameters             :      2
+solute angles               :      0
+solvent angles              :   6327
+angle parameters            :      2
+torsions                    :      0
+torsion parameters          :      0
+impropers                   :      0
+improper parameters         :      0
+charges                     :   6327
+total charge of not excluded:   0.00
+charge groups               :   2109
+atom type parameters        :     66
+polar LJ pairs              :      0
+neighbour list              :      0
+long-range neighbour list   :      0
+neighbour exclusion list    :  12654
+long-range exclusions       :      0
+residues                    :   2109
+molecules                   :   2109
+Atom type names             :     66
+SYBYL type information      :     66
+excluded atom list          :      0
+
+qprep> 
+
+PDB file successfully written.
+
+qprep> ---------------------------- Reading topology file ---------------------------
+MKC_p                                                                           
+
+No. of solute atoms     =          0
+No. of solvent atoms    =       6327
+No. of coordinates      =      18981
+No. of atom type codes  =       6327
+No. of solute bonds     =          0
+No. of solvent bonds    =       6327
+No. of solute angles    =          0
+No. of solvent angles   =       6327
+No. of solute torsions  =          0
+No. of solvent torsions =          0
+No. of solute impropers =          0
+No. of solvent impropers=          0
+No. of atomic charges   =       6327
+No. of solute chargegrps=          0
+No. of solvent chargegps=       2109
+Charge group cut-off    : Any atoms
+vdW  rule [ 1=G / 2=A ] =          2
+El-static 1-4 damping   =      0.833
+Coulomb constant        =   332.0000
+No. of atom types       =         66
+No. of LJ type 2 pairs  =          0
+No. of heavy atoms      =       2109
+No. of 1-4 neighbours   =          0
+No. long-range 1-4 nbrs =          0
+No. of nbor exclusions  =      12654
+No. of long-range excls =          0
+No. of residues         =       2109
+No of solute residues   =          0
+No. of molecules        =       2109
+Atom type names         =         66
+SYBYL atom types        =         66
+Boundary: sphere
+Exclusion radius        =     25.000
+Eff. solvent radius     =     24.680
+Solute center           =     22.437     7.029    31.450
+Solvent center          =     22.437     7.029    31.450
+No. of excluded atoms   =          0
+Molecular topology read successfully.
+
+qprep> The current mask contains  6327 atoms.
+Mask cleared.
+qprep> The current mask contains     0 atoms.
+  6327 atoms added to mask which now contains  6327 atoms.
+qprep> 
+
+PDB file successfully written.
+
+qprep> 
