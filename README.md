@@ -77,14 +77,14 @@ setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmo
 # Analysis dataset
 
 ``` bash
-qligfep_analyze -t BACE -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsBACE && mv BACE* resultsBACE
-qligfep_analyze -t CDK2 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsCDK2 && mv CDK2* resultsCDK2
-qligfep_analyze -t JNK1 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsJNK1 && mv JNK1* resultsJNK1
-qligfep_analyze -t MCL1 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsMCL1 && mv MCL1* resultsMCL1
-qligfep_analyze -t PTP1B -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsPTP1B && mv PTP1B* resultsPTP1B
-qligfep_analyze -t Thrombin -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsThrombin && mv Thrombin* resultsThrombin
-qligfep_analyze -t Tyk2 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsTyk2 && mv Tyk2* resultsTyk2
-qligfep_analyze -t p38 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsp38 && mv p38* resultsp38
+qligfep_analyze -t BACE -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsBACE && mv BACE* resultsBACE
+qligfep_analyze -t CDK2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsCDK2 && mv CDK2* resultsCDK2
+qligfep_analyze -t JNK1 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsJNK1 && mv JNK1* resultsJNK1
+qligfep_analyze -t MCL1 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsMCL1 && mv MCL1* resultsMCL1
+qligfep_analyze -t PTP1B -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsPTP1B && mv PTP1B* resultsPTP1B
+qligfep_analyze -t Thrombin -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsThrombin && mv Thrombin* resultsThrombin
+qligfep_analyze -t Tyk2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsTyk2 && mv Tyk2* resultsTyk2
+qligfep_analyze -t p38 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsp38 && mv p38* resultsp38
 ```
 # Merk Protein System Preparations
 
@@ -149,11 +149,11 @@ setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmo
 # Analysis dataset
 
 ``` bash
-qligfep_analyze -t cdk8 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscdk8 && mv cdk8* resultscdk8
-qligfep_analyze -t cmet -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscmet && mv cmet* resultscmet
-qligfep_analyze -t eg5 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultseg5 && mv eg5* resultseg5
-qligfep_analyze -t hif2a -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultshif2a && mv hif2a* resultshif2a
-qligfep_analyze -t pfkfb3 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultspfkfb3 && mv pfkfb3* resultspfkfb3
-qligfep_analyze -t shp2 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsshp2 && mv shp2* resultsshp2
-qligfep_analyze -t syk -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultssyk && mv syk* resultssyk
-qligfep_analyze -t tnks2 -j lomap.json -l DEBUG -exp delta_r_user_dG.exp -m ddGbar && mkdir resultstnks2 && mv tnks2* resultstnks2
+qligfep_analyze -t cdk8 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscdk8 && mv cdk8* resultscdk8
+qligfep_analyze -t cmet -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscmet && mv cmet* resultscmet
+qligfep_analyze -t eg5 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultseg5 && mv eg5* resultseg5
+qligfep_analyze -t hif2a -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultshif2a && mv hif2a* resultshif2a
+qligfep_analyze -t pfkfb3 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultspfkfb3 && mv pfkfb3* resultspfkfb3
+qligfep_analyze -t shp2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsshp2 && mv shp2* resultsshp2
+qligfep_analyze -t syk -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultssyk && mv syk* resultssyk
+qligfep_analyze -t tnks2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultstnks2 && mv tnks2* resultstnks2
