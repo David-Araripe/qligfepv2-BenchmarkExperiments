@@ -116,111 +116,119 @@ PHE  ARG  THR  ALA  ALA  VAL  GLH  GLY  PRO  PHE  VAL  THR  LEU  ASH  MET  GLH
 ASH  CYX  GLY  TYR  ASN 
 
 qprep> qprep> 
-Simulation sphere center                =     14.917  -1.542  -0.993
+Simulation sphere center                =     14.917  -2.542  -0.993
 Simulation radius                       =     25.000
 qprep> 
-Solvation sphere center                 =     14.917  -1.542  -0.993
-ERROR >>>>>: Size not specified in water file.
-qprep> >>> WARNING: Bond distance is 12.38 A.
-qprep> >>> WARNING: Bond distance is 15.24 A.
-qprep> >>> WARNING: Bond distance is 11.83 A.
-qprep> Assigned  6045 atom types.
-Assigned  6045 atomic charges.
+Solvation sphere center                 =     14.917  -2.542  -0.993
+Library entry used to generate solvent  =       HOH 
+Radius of solvent sphere                =      25.00 A
+Grid spacing                            =       3.10 A 
+No. of solvent molecules in the sphere:  2109
+Minimum distance to solute heavy atoms (solvent_pack):  2.30 A
+No. of solvent molecules to add to the system:   955
+qprep> Assigned  8910 atom types.
+Assigned  8910 atomic charges.
 Made      6123 solute bonds.
->>> Missing bond type for atom types HC       N       
->>> Missing bond type for atom types O        O       
-Made         3 extra bonds.
-Made         0 solvent bonds.
->>> Missing bond type for atom types HC       N       
- atoms:         2440        5625
->>> Missing bond type for atom types O        O       
- atoms:         4218        5014
-Made     11014 solute angles.
-Made         0 solvent angles.
->>> Missing angle type for atom types 2C       2C       2C      
- atoms:         5969        5972        3401
->>> Missing torsion type for atom types 3C       CT       HC       N       
- atoms:         2433        2439        2440        5625
->>> Missing torsion type for atom types HC       CT       HC       N       
- atoms:         2441        2439        2440        5625
->>> Missing torsion type for atom types HC       CT       HC       N       
- atoms:         2442        2439        2440        5625
->>> Missing torsion type for atom types CT       HC       N        C       
- atoms:         2439        2440        5625        5623
->>> Missing torsion type for atom types CT       HC       N        H       
- atoms:         2439        2440        5625        5626
->>> Missing torsion type for atom types CT       HC       N        CX      
- atoms:         2439        2440        5625        5627
->>> Missing torsion type for atom types C        O        O        C       
- atoms:         4217        4218        5014        5013
-Made     26375 solute torsions.
+Made         0 extra bonds.
+Made      2865 solvent bonds.
+Made     11006 solute angles.
+Made      2865 solvent angles.
+Made     26325 solute torsions.
 Made         0 solvent torsions.
 Made      1260 solute impropers.
 Made         0 solvent impropers.
 Made     16033 entries in the 1-4 neighbour list.
-Made        43 entries in the long-range 1-4 neighbour list.
-Made     17129 entries in list of excluded neighbours.
-Made        11 entries in list of long-range excluded neighbours.
+Made         8 entries in the long-range 1-4 neighbour list.
+Made     22859 entries in list of excluded neighbours.
+Made         0 entries in list of long-range excluded neighbours.
 Made        27 solute hydrogens.
-Made         0 solvent hydrogens.
-Made      255 solute  charge groups comprising a total of   3952 atoms.
-Made        0 solvent charge groups comprising a total of      0 atoms.
-Skipped   134excluded charge groups comprising a total of   2093 atoms.
-Effective water radius                     :  0.00
+Made      1910 solvent hydrogens.
+Made      247 solute  charge groups comprising a total of   3832 atoms.
+Made      955 solvent charge groups comprising a total of   2865 atoms.
+Skipped   142excluded charge groups comprising a total of   2213 atoms.
+Effective water radius                     : 24.17
+Topology successfully generated.
+qprep> 
+---------------------------- Writing topology file ---------------------------
+solute atoms                :   6045
+solvent atoms               :   2865
+coordinates                 :  26730
+integer atom codes          :   8910
+solute bonds                :   6123
+solvent bonds               :   2865
+bond parameters             :     35
+solute angles               :  11006
+solvent angles              :   2865
+angle parameters            :     44
+torsions                    :  26325
+torsion parameters          :    203
+impropers                   :   1260
+improper parameters         :     18
+charges                     :   8910
+total charge of not excluded:   8.00
+charge groups               :   1202
+atom type parameters        :     66
+polar LJ pairs              :      0
+neighbour list              :  16033
+long-range neighbour list   :      8
+neighbour exclusion list    :  22859
+long-range exclusions       :      0
+residues                    :   1344
+molecules                   :    956
+Atom type names             :     66
+SYBYL type information      :     66
+excluded atom list          :   2213
 
-ERROR: There are missing parameters!
+qprep> 
 
-You need to add parameters and do readprm + maketop again.
-parameter file: /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.prm
-qprep>  WARNING: The topology is incomplete due to missing parameters!
- Do you really want to write this erroneous topology?
- Enter yes to proceed, anything else to cancel.
------> Write _ERRONEOUS_ topology [yes/NO] ? qprep> ---------------------------- Reading topology file ---------------------------
+PDB file successfully written.
+
+qprep> ---------------------------- Reading topology file ---------------------------
 MKC_p                                                                           
 
 No. of solute atoms     =       6045
-No. of solvent atoms    =       2811
-No. of coordinates      =      26568
-No. of atom type codes  =       8856
+No. of solvent atoms    =       2865
+No. of coordinates      =      26730
+No. of atom type codes  =       8910
 No. of solute bonds     =       6123
-No. of solvent bonds    =       2811
+No. of solvent bonds    =       2865
 No. of solute angles    =      11006
-No. of solvent angles   =       2811
+No. of solvent angles   =       2865
 No. of solute torsions  =      26325
 No. of solvent torsions =          0
 No. of solute impropers =       1260
 No. of solvent impropers=          0
-No. of atomic charges   =       8856
-No. of solute chargegrps=        255
-No. of solvent chargegps=        937
+No. of atomic charges   =       8910
+No. of solute chargegrps=        247
+No. of solvent chargegps=        955
 Charge group cut-off    : Any atoms
 vdW  rule [ 1=G / 2=A ] =          2
 El-static 1-4 damping   =      0.833
 Coulomb constant        =   332.0000
 No. of atom types       =         66
 No. of LJ type 2 pairs  =          0
-No. of heavy atoms      =       3989
+No. of heavy atoms      =       4007
 No. of 1-4 neighbours   =      16033
 No. long-range 1-4 nbrs =          8
-No. of nbor exclusions  =      22751
+No. of nbor exclusions  =      22859
 No. of long-range excls =          0
-No. of residues         =       1326
+No. of residues         =       1344
 No of solute residues   =        389
-No. of molecules        =        938
+No. of molecules        =        956
 Atom type names         =         66
 SYBYL atom types        =         66
 Boundary: sphere
 Exclusion radius        =     25.000
-Eff. solvent radius     =     24.210
-Solute center           =     14.917    -1.542    -0.993
-Solvent center          =     14.917    -1.542    -0.993
-No. of excluded atoms   =       2093
+Eff. solvent radius     =     24.170
+Solute center           =     14.917    -2.542    -0.993
+Solvent center          =     14.917    -2.542    -0.993
+No. of excluded atoms   =       2213
 Molecular topology read successfully.
 
-qprep> The current mask contains  8856 atoms.
+qprep> The current mask contains  8910 atoms.
 Mask cleared.
 qprep> The current mask contains     0 atoms.
-  6763 atoms added to mask which now contains  6763 atoms.
+  6697 atoms added to mask which now contains  6697 atoms.
 qprep> 
 
 PDB file successfully written.

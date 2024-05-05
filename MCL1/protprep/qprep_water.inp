@@ -1,12 +1,12 @@
 rl /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.lib
 rprm /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.prm
 ! TO DO Change if protein system is used
-rp /zfsdata/data/david/openff-lig-params/MCL1/prepare_prot/MCL1_modif_renamed.pdb
+rp /zfsdata/data/david/openff220-startfiles/MCL1/protprep/MCL1_modif_renamed.pdb
 ! set solute_density 0.05794
 ! NOTE, this is now large for water system, change for protein system
 set solvent_pack 2.3
 boundary 1 -2.059 -47.508 6.828 25.0
-solvate -2.059 -47.508 6.828 25.0 4 water.pdb
+solvate -2.059 -47.508 6.828 25.0 1 HOH
 maketop MKC_p
 writetop dualtop.top
 wp top_p.pdb y

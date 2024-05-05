@@ -1,7 +1,7 @@
 rl /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.lib
 rprm /zfsdata/data/david/Q/src/QligFEP/FF/AMBER14sb.prm
 ! TO DO Change if protein system is used
-rp /zfsdata/data/david/openff-lig-params/CDK2/protprep/CDK2_protein_mini_renamed.pdb
+rp /zfsdata/data/david/openff220-startfiles/CDK2/protprep/CDK2_protein_mini_renamed.pdb
 ! set solute_density 0.05794
 ! NOTE, this is now large for water system, change for protein system
 set solvent_pack 2.3

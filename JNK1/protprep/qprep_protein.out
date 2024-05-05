@@ -115,10 +115,10 @@ ASH  GLH  ARG  GLH  HID  THR  ILE  GLH  GLH  TRP  LYS  GLH  LEU  ILE  TYR  LYS
 GLH  VAL  MET  ASH  LEU  GLH  NMA  PRO  LYS  ARG  PRO  THR  THR  LEU  ASN  LEU 
 
 qprep> qprep> 
-Simulation sphere center                =     22.437   7.029  31.450
+Simulation sphere center                =     22.607   7.337  31.361
 Simulation radius                       =     25.000
 qprep> 
-Solvation sphere center                 =     22.437   7.029  31.450
+Solvation sphere center                 =     22.607   7.337  31.361
 ERROR >>>>>: Size not specified in water file.
 qprep> Assigned  6001 atom types.
 Assigned  6001 atomic charges.
@@ -137,9 +137,9 @@ Made     17047 entries in list of excluded neighbours.
 Made         0 entries in list of long-range excluded neighbours.
 Made        38 solute hydrogens.
 Made         0 solvent hydrogens.
-Made      200 solute  charge groups comprising a total of   3271 atoms.
+Made      201 solute  charge groups comprising a total of   3292 atoms.
 Made        0 solvent charge groups comprising a total of      0 atoms.
-Skipped   168excluded charge groups comprising a total of   2730 atoms.
+Skipped   167excluded charge groups comprising a total of   2709 atoms.
 Effective water radius                     :  0.00
 Topology successfully generated.
 qprep> 
@@ -160,7 +160,7 @@ impropers                   :   1152
 improper parameters         :     20
 charges                     :   6001
 total charge of not excluded:  18.00
-charge groups               :    200
+charge groups               :    201
 atom type parameters        :     66
 polar LJ pairs              :      0
 neighbour list              :  16002
@@ -171,7 +171,7 @@ residues                    :    368
 molecules                   :      2
 Atom type names             :     66
 SYBYL type information      :     66
-excluded atom list          :   2730
+excluded atom list          :   2709
 
 qprep> 
 
@@ -193,7 +193,7 @@ No. of solvent torsions =          0
 No. of solute impropers =       1152
 No. of solvent impropers=          0
 No. of atomic charges   =       6001
-No. of solute chargegrps=        200
+No. of solute chargegrps=        201
 No. of solvent chargegps=          0
 Charge group cut-off    : Any atoms
 vdW  rule [ 1=G / 2=A ] =          2
@@ -213,15 +213,15 @@ SYBYL atom types        =         66
 Boundary: sphere
 Exclusion radius        =     25.000
 Eff. solvent radius     =      0.000
-Solute center           =     22.437     7.029    31.450
-Solvent center          =     22.437     7.029    31.450
-No. of excluded atoms   =       2730
+Solute center           =     22.607     7.337    31.361
+Solvent center          =     22.607     7.337    31.361
+No. of excluded atoms   =       2709
 Molecular topology read successfully.
 
 qprep> The current mask contains  6001 atoms.
 Mask cleared.
 qprep> The current mask contains     0 atoms.
-  3271 atoms added to mask which now contains  3271 atoms.
+  3292 atoms added to mask which now contains  3292 atoms.
 qprep> 
 
 PDB file successfully written.
