@@ -9,9 +9,9 @@ Notes on the settings:
 
 ## BACE
 ``` bash
-qligfep -l1 CAT-13o -l2 CAT-24 -FF AMBER14sb -s protein -c TETRA -R 10 -S sigmoidal -r 25 -l 0.5 -w 100 -T 298 -b 2442_5627,3403_5974,4220_5016
+qligfep -l1 CAT-13o -l2 CAT-24 -FF AMBER14sb -s protein -c TETRA -R 10 -S sigmoidal -r 25 -l 0.5 -w 100 -T 298 -b 2440_5625,3401_5972,4218_5014
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -b 2442_5627,3403_5974,4220_5016 -j lomap.json -S sigmoidal -clean dcd
+setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -b 2440_5625,3401_5972,4218_5014 -j lomap.json -S sigmoidal -clean dcd
 ```
 ## CDK2
 ``` bash
