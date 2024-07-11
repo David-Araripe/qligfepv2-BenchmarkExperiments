@@ -1,4 +1,4 @@
-TITLE     0738_prepd_protein
+TITLE     0738_prepd_protein; capped OC2 from GLU A 921, but it's almost out of the sphere range (25 A)
 MODEL        1
 ATOM      1  N   GLY B 448      -7.246 -61.907  -6.122  1.00  0.00           N
 ATOM      2  H1  GLY B 448      -7.514 -62.853  -6.307  1.00  0.00            
@@ -5022,7 +5022,6 @@ ATOM   5019  CD  GLU B 759     -31.660 -20.571  10.612  1.00  0.00           C
 ATOM   5020  OE1 GLU B 759     -30.449 -20.806  10.402  1.00  0.00           O
 ATOM   5021  OE2 GLU B 759     -32.128 -19.435  10.841  1.00  0.00           O
 ATOM   5022  C   GLU B 759     -32.479 -25.497   9.323  1.00  0.00           C
-ATOM   5023  OC1 GLU B 759     -31.681 -25.237   8.392  1.00  0.00           O
-ATOM   5024  OC2 GLU B 759     -32.921 -26.614   9.679  1.00  0.00           O
+ATOM   5024  O   GLU B 759     -32.921 -26.614   9.679  1.00  0.00           O
 TER
 ENDMDL
