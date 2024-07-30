@@ -1,0 +1,502 @@
+{
+    "edges": [
+        {
+            "weight": 0.7046880897187134,
+            "source": 0,
+            "target": 14,
+            "strict_flag": true,
+            "from": "17124-1",
+            "to": "18637-1",
+            "delta_measurement_value": 42.0,
+            "delta_measurement_error": 22.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 0,
+            "target": 11,
+            "strict_flag": true,
+            "from": "17124-1",
+            "to": "18634-1",
+            "delta_measurement_value": 32.0,
+            "delta_measurement_error": 35.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 1,
+            "target": 6,
+            "strict_flag": true,
+            "from": "18624-1",
+            "to": "18629-1",
+            "delta_measurement_value": 150.0,
+            "delta_measurement_error": 84.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 1,
+            "target": 7,
+            "strict_flag": true,
+            "from": "18624-1",
+            "to": "18630-1",
+            "delta_measurement_value": 380.0,
+            "delta_measurement_error": 136.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8913661439068313,
+            "source": 2,
+            "target": 8,
+            "strict_flag": true,
+            "from": "18625-1",
+            "to": "18631-1",
+            "delta_measurement_value": 980.0,
+            "delta_measurement_error": 253.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 2,
+            "target": 5,
+            "strict_flag": true,
+            "from": "18625-1",
+            "to": "18628-1",
+            "delta_measurement_value": 700.0,
+            "delta_measurement_error": 180.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8913661439068313,
+            "source": 3,
+            "target": 13,
+            "strict_flag": true,
+            "from": "18626-1",
+            "to": "18636-1",
+            "delta_measurement_value": -2700.0,
+            "delta_measurement_error": -1530.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 3,
+            "target": 6,
+            "strict_flag": true,
+            "from": "18626-1",
+            "to": "18629-1",
+            "delta_measurement_value": -120.0,
+            "delta_measurement_error": 14.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8913661439068313,
+            "source": 4,
+            "target": 10,
+            "strict_flag": true,
+            "from": "18627-1",
+            "to": "18633-1",
+            "delta_measurement_value": 400.0,
+            "delta_measurement_error": 111.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 4,
+            "target": 7,
+            "strict_flag": true,
+            "from": "18627-1",
+            "to": "18630-1",
+            "delta_measurement_value": 390.0,
+            "delta_measurement_error": 166.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 5,
+            "target": 12,
+            "strict_flag": true,
+            "from": "18628-1",
+            "to": "18635-1",
+            "delta_measurement_value": -4000.0,
+            "delta_measurement_error": -550.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 6,
+            "target": 7,
+            "strict_flag": true,
+            "from": "18629-1",
+            "to": "18630-1",
+            "delta_measurement_value": 230.0,
+            "delta_measurement_error": 52.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 6,
+            "target": 9,
+            "strict_flag": true,
+            "from": "18629-1",
+            "to": "18632-1",
+            "delta_measurement_value": 210.0,
+            "delta_measurement_error": -39.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 7,
+            "target": 10,
+            "strict_flag": true,
+            "from": "18630-1",
+            "to": "18633-1",
+            "delta_measurement_value": 10.0,
+            "delta_measurement_error": -55.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 8,
+            "target": 11,
+            "strict_flag": true,
+            "from": "18631-1",
+            "to": "18634-1",
+            "delta_measurement_value": 75.0,
+            "delta_measurement_error": 44.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 9,
+            "target": 11,
+            "strict_flag": true,
+            "from": "18632-1",
+            "to": "18634-1",
+            "delta_measurement_value": 165.0,
+            "delta_measurement_error": 92.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.6703200460356393,
+            "source": 11,
+            "target": 20,
+            "strict_flag": true,
+            "from": "18634-1",
+            "to": "18660-1",
+            "delta_measurement_value": -355.0,
+            "delta_measurement_error": -42.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.7408182206817179,
+            "source": 11,
+            "target": 16,
+            "strict_flag": true,
+            "from": "18634-1",
+            "to": "18639-1",
+            "delta_measurement_value": -24.0,
+            "delta_measurement_error": -11.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 11,
+            "target": 18,
+            "strict_flag": true,
+            "from": "18634-1",
+            "to": "18658-1",
+            "delta_measurement_value": -29.0,
+            "delta_measurement_error": -8.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 12,
+            "target": 13,
+            "strict_flag": true,
+            "from": "18635-1",
+            "to": "18636-1",
+            "delta_measurement_value": 1400.0,
+            "delta_measurement_error": -930.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.7046880897187134,
+            "source": 14,
+            "target": 16,
+            "strict_flag": true,
+            "from": "18637-1",
+            "to": "18639-1",
+            "delta_measurement_value": -34.0,
+            "delta_measurement_error": 2.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.7408182206817179,
+            "source": 15,
+            "target": 16,
+            "strict_flag": true,
+            "from": "18638-1",
+            "to": "18639-1",
+            "delta_measurement_value": -31.0,
+            "delta_measurement_error": -9.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 15,
+            "target": 17,
+            "strict_flag": true,
+            "from": "18638-1",
+            "to": "18652-1",
+            "delta_measurement_value": 24.0,
+            "delta_measurement_error": 3.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.6703200460356393,
+            "source": 16,
+            "target": 17,
+            "strict_flag": true,
+            "from": "18639-1",
+            "to": "18652-1",
+            "delta_measurement_value": 55.0,
+            "delta_measurement_error": 12.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 18,
+            "target": 19,
+            "strict_flag": true,
+            "from": "18658-1",
+            "to": "18659-1",
+            "delta_measurement_value": -36.0,
+            "delta_measurement_error": -2.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.6703200460356393,
+            "source": 19,
+            "target": 20,
+            "strict_flag": true,
+            "from": "18659-1",
+            "to": "18660-1",
+            "delta_measurement_value": -290.0,
+            "delta_measurement_error": -32.0,
+            "same_charge": true
+        }
+    ],
+    "nodes": {
+        "17124-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)Br)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6t",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 38.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 77.0
+        },
+        "18624-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6e",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 140.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 570.0
+        },
+        "18625-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2Cl)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6f",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 300.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 1100.0
+        },
+        "18626-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)Cl)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6g",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 70.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 300.0
+        },
+        "18627-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)Cl)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6h",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 170.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 580.0
+        },
+        "18628-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2C)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6i",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 120.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 400.0
+        },
+        "18629-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)C)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6j",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 56.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 420.0
+        },
+        "18630-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)C)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6k",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 4.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 190.0
+        },
+        "18631-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6l",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 47.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 120.0
+        },
+        "18632-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6m",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 95.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 210.0
+        },
+        "18633-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6n",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 59.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 180.0
+        },
+        "18634-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2OC)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6o",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 3.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 45.0
+        },
+        "18635-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2C)C)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6p",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 670.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 4400.0
+        },
+        "18636-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2Br)Br)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6q",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 1600.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 3000.0
+        },
+        "18637-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)NC(=O)C)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6r",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 16.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 35.0
+        },
+        "18638-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)S(=O)(=O)C)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6s",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 5.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 38.0
+        },
+        "18639-1": {
+            "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)[N+](=O)[O-])OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6u",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 14.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 69.0
+        },
+        "18652-1": {
+            "smiles": "CC(C)Oc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)S(=O)(=O)C)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 3 cmpd 18b",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 2.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 14.0
+        },
+        "18658-1": {
+            "smiles": "COc1ccc(c(c1)CC(=O)Nc2cc(c(c(n2)OCCO)C#N)N)OC",
+            "formal_charge": 0,
+            "measurement_comment": "table 3 cmpd 20a",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 11.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 74.0
+        },
+        "18659-1": {
+            "smiles": "COCCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2OC)OC)N)C#N",
+            "formal_charge": 0,
+            "measurement_comment": "table 3 cmpd 20b",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 13.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 110.0
+        },
+        "18660-1": {
+            "smiles": "COc1ccc(c(c1)CC(=O)Nc2cc(c(c(n2)OCCS(=O)(=O)C)C#N)N)OC",
+            "formal_charge": 0,
+            "measurement_comment": "table 3 cmpd 20c",
+            "measurement_doi": "10.1021/jm060199b",
+            "measurement_error": 45.0,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 400.0
+        }
+    }
+}

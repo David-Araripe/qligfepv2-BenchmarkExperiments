@@ -1,0 +1,502 @@
+{
+    "edges": [
+        {
+            "weight": 0.8187307530779818,
+            "source": 0,
+            "target": 6,
+            "strict_flag": true,
+            "from": "43249674",
+            "to": "49137374",
+            "delta_measurement_value": 0.34999999999999964,
+            "delta_measurement_error": -0.15,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 0,
+            "target": 1,
+            "strict_flag": true,
+            "from": "43249674",
+            "to": "48009208",
+            "delta_measurement_value": 0.5500000000000007,
+            "delta_measurement_error": -0.05000000000000002,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 0,
+            "target": 2,
+            "strict_flag": true,
+            "from": "43249674",
+            "to": "48022468",
+            "delta_measurement_value": -0.14000000000000057,
+            "delta_measurement_error": -0.04000000000000001,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 0,
+            "target": 3,
+            "strict_flag": true,
+            "from": "43249674",
+            "to": "48168913",
+            "delta_measurement_value": 0.9800000000000004,
+            "delta_measurement_error": -0.08000000000000002,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 1,
+            "target": 2,
+            "strict_flag": true,
+            "from": "48009208",
+            "to": "48022468",
+            "delta_measurement_value": -0.6900000000000013,
+            "delta_measurement_error": 0.010000000000000009,
+            "same_charge": true
+        },
+        {
+            "weight": 0.7408182206817179,
+            "source": 3,
+            "target": 4,
+            "strict_flag": true,
+            "from": "48168913",
+            "to": "48271249",
+            "delta_measurement_value": -0.33000000000000007,
+            "delta_measurement_error": 0.15000000000000002,
+            "same_charge": true
+        },
+        {
+            "weight": 0.7408182206817179,
+            "source": 4,
+            "target": 14,
+            "strict_flag": true,
+            "from": "48271249",
+            "to": "49582390",
+            "delta_measurement_value": 0.07000000000000028,
+            "delta_measurement_error": -0.21999999999999997,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 5,
+            "target": 13,
+            "strict_flag": true,
+            "from": "49072088",
+            "to": "49580115",
+            "delta_measurement_value": -0.9500000000000002,
+            "delta_measurement_error": -0.07,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 5,
+            "target": 9,
+            "strict_flag": true,
+            "from": "49072088",
+            "to": "49175828",
+            "delta_measurement_value": -2.33,
+            "delta_measurement_error": -0.22999999999999998,
+            "same_charge": true
+        },
+        {
+            "weight": 0.6376281516217733,
+            "source": 6,
+            "target": 14,
+            "strict_flag": true,
+            "from": "49137374",
+            "to": "49582390",
+            "delta_measurement_value": 0.370000000000001,
+            "delta_measurement_error": 0.0,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8187307530779818,
+            "source": 6,
+            "target": 11,
+            "strict_flag": true,
+            "from": "49137374",
+            "to": "49220548",
+            "delta_measurement_value": 0.030000000000001137,
+            "delta_measurement_error": 0.12999999999999998,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 6,
+            "target": 10,
+            "strict_flag": true,
+            "from": "49137374",
+            "to": "49220392",
+            "delta_measurement_value": 0.009999999999999787,
+            "delta_measurement_error": 0.09,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 7,
+            "target": 8,
+            "strict_flag": true,
+            "from": "49137530",
+            "to": "49175789",
+            "delta_measurement_value": 0.040000000000000924,
+            "delta_measurement_error": 0.07999999999999999,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 7,
+            "target": 19,
+            "strict_flag": true,
+            "from": "49137530",
+            "to": "50107616",
+            "delta_measurement_value": 1.2600000000000007,
+            "delta_measurement_error": -0.010000000000000009,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 7,
+            "target": 20,
+            "strict_flag": true,
+            "from": "49137530",
+            "to": "50181001",
+            "delta_measurement_value": 1.2100000000000009,
+            "delta_measurement_error": 0.25,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 7,
+            "target": 16,
+            "strict_flag": true,
+            "from": "49137530",
+            "to": "49585367",
+            "delta_measurement_value": 1.1400000000000006,
+            "delta_measurement_error": 0.10999999999999999,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 8,
+            "target": 11,
+            "strict_flag": true,
+            "from": "49175789",
+            "to": "49220548",
+            "delta_measurement_value": -0.08999999999999986,
+            "delta_measurement_error": 0.04999999999999999,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 9,
+            "target": 10,
+            "strict_flag": true,
+            "from": "49175828",
+            "to": "49220392",
+            "delta_measurement_value": 0.5399999999999991,
+            "delta_measurement_error": 0.15,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 11,
+            "target": 12,
+            "strict_flag": true,
+            "from": "49220548",
+            "to": "49396360",
+            "delta_measurement_value": 0.6699999999999999,
+            "delta_measurement_error": 0.010000000000000009,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 12,
+            "target": 15,
+            "strict_flag": true,
+            "from": "49396360",
+            "to": "49582468",
+            "delta_measurement_value": -0.010000000000000675,
+            "delta_measurement_error": 0.010000000000000009,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 12,
+            "target": 17,
+            "strict_flag": true,
+            "from": "49396360",
+            "to": "49932129",
+            "delta_measurement_value": 0.46999999999999975,
+            "delta_measurement_error": -0.09,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 12,
+            "target": 18,
+            "strict_flag": true,
+            "from": "49396360",
+            "to": "49932714",
+            "delta_measurement_value": 0.3299999999999992,
+            "delta_measurement_error": 0.15,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 12,
+            "target": 13,
+            "strict_flag": true,
+            "from": "49396360",
+            "to": "49580115",
+            "delta_measurement_value": 0.14999999999999947,
+            "delta_measurement_error": -0.04000000000000001,
+            "same_charge": true
+        },
+        {
+            "weight": 0.9048374180359595,
+            "source": 15,
+            "target": 17,
+            "strict_flag": true,
+            "from": "49582468",
+            "to": "49932129",
+            "delta_measurement_value": 0.4800000000000004,
+            "delta_measurement_error": -0.1,
+            "same_charge": true
+        },
+        {
+            "weight": 0.951229424500714,
+            "source": 16,
+            "target": 19,
+            "strict_flag": true,
+            "from": "49585367",
+            "to": "50107616",
+            "delta_measurement_value": 0.1200000000000001,
+            "delta_measurement_error": -0.12,
+            "same_charge": true
+        },
+        {
+            "weight": 0.8607079764250578,
+            "source": 18,
+            "target": 20,
+            "strict_flag": true,
+            "from": "49932714",
+            "to": "50181001",
+            "delta_measurement_value": 0.2600000000000007,
+            "delta_measurement_error": -0.04,
+            "same_charge": true
+        }
+    ],
+    "nodes": {
+        "43249674": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5ccccc5Cl",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 2",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.15,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.57
+        },
+        "48009208": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5ccc(cc5Cl)F",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 6",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.2,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.02
+        },
+        "48022468": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5c(cccc5Cl)F",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 7",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.19,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.71
+        },
+        "48168913": {
+            "smiles": "Cc1c(cccn1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 8",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.23,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.59
+        },
+        "48271249": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OC",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 10",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.08,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.92
+        },
+        "49072088": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OC(C)C",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 16",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.13,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 6.42
+        },
+        "49137374": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(ccc5Cl)OC",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 9",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.3,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.22
+        },
+        "49137530": {
+            "smiles": "CCCCOc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 4",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.3,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.14
+        },
+        "49175789": {
+            "smiles": "CCCCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 21",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.22,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.1
+        },
+        "49175828": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(ccc5Cl)OC(C)C",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 15",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.36,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.75
+        },
+        "49220392": {
+            "smiles": "CCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 11",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.21,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.21
+        },
+        "49220548": {
+            "smiles": "CCCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 13",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.17,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 8.19
+        },
+        "49396360": {
+            "smiles": "CCCOc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 14",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.16,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.52
+        },
+        "49580115": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCF",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 12",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.2,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.37
+        },
+        "49582390": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCC6CC6",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 24",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.3,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.85
+        },
+        "49582468": {
+            "smiles": "CCOCc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 17",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.15,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.53
+        },
+        "49585367": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCOC",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 20",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.19,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.0
+        },
+        "49932129": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)CCOC",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 18",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.25,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.05
+        },
+        "49932714": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCCF",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 19",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.01,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 7.19
+        },
+        "50107616": {
+            "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)CCCOC",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 23",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.31,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 6.88
+        },
+        "50181001": {
+            "smiles": "CCCCOc1cc(cnc1Cl)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
+            "formal_charge": 0,
+            "measurement_comment": "table 1 cmpd 22",
+            "measurement_doi": "10.1038/s41598-018-23039-5",
+            "measurement_error": 0.05,
+            "measurement_type": "pic50",
+            "measurement_unit": "",
+            "measurement_value": 6.93
+        }
+    }
+}
