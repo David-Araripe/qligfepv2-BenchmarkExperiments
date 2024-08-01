@@ -420,38 +420,6 @@
         {
             "weight": 0.6065306597126334,
             "source": 1,
-            "target": 14,
-            "strict_flag": true,
-            "from": "0340",
-            "to": "3806-mvEster",
-            "delta_i_m_Source_File_Index": -17.0,
-            "delta_measurement_error": 0.0,
-            "delta_Pair": 6.0,
-            "delta_rPDE10A_I_cAMP pIC50": 1.2799999999999994,
-            "delta_measurement_value": 1.2799999999999994,
-            "delta_i_f3d_flags": 0.0,
-            "delta_r_fepmapper_pred_dG": 1.33,
-            "delta_i_lp_mmshare_version": 0.0,
-            "delta_r_mpc_ALogP": 0.31679999999999997,
-            "delta_r_mpc_Polar_Surface_Area": -26.299999999999997,
-            "delta_charge": 0.0,
-            "delta_s_m_entry_id": -17.0,
-            "delta_i_mpc_Rotatable_Bonds": -2.0,
-            "delta_order": 13.0,
-            "delta_s_m_entry_name": null,
-            "delta_r_lp_Energy": -9.4833775205487,
-            "delta_[V] rPDE10A_I_cAMP pIC50": 1.2799999999999994,
-            "delta_i_mpc_Hbond_Acceptors": -2.0,
-            "delta_b_m_subgroup_collapsed": 0.0,
-            "delta_r_mpc_Molecular_Weight": -44.00995,
-            "delta_b_lp_Chiralities_Consistent": 0.0,
-            "delta_i_mpc_Hbond_Donors": 0.0,
-            "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
-        },
-        {
-            "weight": 0.6065306597126334,
-            "source": 1,
             "target": 15,
             "strict_flag": true,
             "from": "0340",
@@ -706,38 +674,6 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
-        },
-        {
-            "weight": 1.0,
-            "source": 14,
-            "target": 15,
-            "strict_flag": true,
-            "from": "3806-mvEster",
-            "to": "3806",
-            "delta_i_m_Source_File_Index": 3.0,
-            "delta_measurement_error": 0.0,
-            "delta_Pair": 0.0,
-            "delta_rPDE10A_I_cAMP pIC50": 0.0,
-            "delta_measurement_value": 0.0,
-            "delta_i_f3d_flags": 0.0,
-            "delta_r_fepmapper_pred_dG": -1.2100000000000009,
-            "delta_i_lp_mmshare_version": 0.0,
-            "delta_r_mpc_ALogP": 0.0,
-            "delta_r_mpc_Polar_Surface_Area": 0.0,
-            "delta_charge": 0.0,
-            "delta_s_m_entry_id": 3.0,
-            "delta_i_mpc_Rotatable_Bonds": 0.0,
-            "delta_order": 0.0,
-            "delta_s_m_entry_name": null,
-            "delta_r_lp_Energy": 0.0,
-            "delta_[V] rPDE10A_I_cAMP pIC50": 0.0,
-            "delta_i_mpc_Hbond_Acceptors": 0.0,
-            "delta_b_m_subgroup_collapsed": 0.0,
-            "delta_r_mpc_Molecular_Weight": 0.0,
-            "delta_b_lp_Chiralities_Consistent": 0.0,
-            "delta_i_mpc_Hbond_Donors": 0.0,
-            "delta_r_fepmapper_pred_dG_error": -0.010000000000000009,
             "same_charge": true
         },
         {
@@ -1548,7 +1484,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.47
+            "measurement_value": 6.47,
+            "dg_value": -8.88,
+            "dg_error": 0.0
         },
         "0340": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -1587,7 +1525,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.81
+            "measurement_value": 6.81,
+            "dg_value": -9.35,
+            "dg_error": 0.23
         },
         "0395": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([C](=[O])[O-])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]3([H])[C]([H])([H])[C]([H])([c]4[n][c]5[c]([H])[c]([H])[c]([H])[c]([H])[c]5[c]([H])[c]4[H])[C]3([H])[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1626,7 +1566,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.02
+            "measurement_value": 7.02,
+            "dg_value": -9.64,
+            "dg_error": 0.0
         },
         "0738": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1665,7 +1607,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.99
+            "measurement_value": 6.99,
+            "dg_value": -9.6,
+            "dg_error": 0.0
         },
         "0848": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]3([H])[C]([H])([H])[N]([c]4[n][c]5[c]([H])[c]([H])[c]([H])[c]([H])[c]5[c]([H])[c]4[H])[C]3([H])[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1704,7 +1648,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.69
+            "measurement_value": 6.69,
+            "dg_value": -9.18,
+            "dg_error": 0.0
         },
         "1038": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]([H])([H])[O][c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1742,7 +1688,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.87
+            "measurement_value": 7.87,
+            "dg_value": -10.8,
+            "dg_error": 0.0
         },
         "1056": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]([H])([H])[S][c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1780,7 +1728,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.28
+            "measurement_value": 7.28,
+            "dg_value": -9.99,
+            "dg_error": 0.0
         },
         "1423": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]([F])([F])[F])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -1819,7 +1769,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.53
+            "measurement_value": 6.53,
+            "dg_value": -8.96,
+            "dg_error": 0.04
         },
         "1801": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([H])[N]=[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])[C]2=[N][C]([C]#[C][c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]([H])[N]21",
@@ -1857,7 +1809,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 9.14
+            "measurement_value": 9.14,
+            "dg_value": -12.55,
+            "dg_error": 0.0
         },
         "1939": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([H])[n][c]([C]([O][C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1895,7 +1849,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.97
+            "measurement_value": 6.97,
+            "dg_value": -9.57,
+            "dg_error": 0.0
         },
         "2333": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]([H])([H])[C]([H])([H])[c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -1933,7 +1889,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.78
+            "measurement_value": 7.78,
+            "dg_value": -10.68,
+            "dg_error": 0.0
         },
         "2750": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([F])[F])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -1971,7 +1929,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.24
+            "measurement_value": 7.24,
+            "dg_value": -9.94,
+            "dg_error": 0.12
         },
         "3032": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([H])[n][c]([C]([F])([F])[F])[c]([H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2010,7 +1970,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.98
+            "measurement_value": 5.98,
+            "dg_value": -8.21,
+            "dg_error": 0.0
         },
         "3484": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]3([H])[C]([H])([H])[C]3([H])[H])=[C]2[c]2[c]([H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2048,45 +2010,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.11
-        },
-        "3806-mvEster": {
-            "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C](=[O])[O][C]([H])([H])[C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
-            "formal_charge": 0,
-            "s_m_entry_id": 38.0,
-            "s_m_entry_name": "41873806_with4BBXxtal_mvEster",
-            "s_m_Source_Path": "/projects/CNS/OGA/FEP_compare/PLBenchmarks/AC_FEP_SI_datasets/PDE10",
-            "s_m_Source_File": "PDE10_inputs_v2.mae",
-            "i_m_Source_File_Index": 38.0,
-            "rPDE10A_I_cAMP pIC50": 5.53,
-            "[V] rPDE10A_I_cAMP pIC50": 5.53,
-            "Pair": 2.0,
-            "order": 3.0,
-            "i_lp_mmshare_version": 42013.0,
-            "i_f3d_flags": 0.0,
-            "s_lp_Force_Field": "OPLS3e",
-            "r_lp_Energy": 34.5930791208281,
-            "b_lp_Chiralities_Consistent": 1.0,
-            "s_lp_Variant": "41873806-1",
-            "s_m_job_name": "ligprep_1",
-            "r_mpc_Molecular_Weight": 400.44093,
-            "r_mpc_ALogP": 0.636900000000001,
-            "r_mpc_Polar_Surface_Area": 96.53,
-            "i_mpc_Rotatable_Bonds": 8.0,
-            "i_mpc_Hbond_Donors": 0.0,
-            "i_mpc_Hbond_Acceptors": 7.0,
-            "s_mpc_SMILES": "COCCn(c1)ncc1-c(c(n2)C(=O)OCC)n(c23)ccnc3N4CCOCC4",
-            "r_fepmapper_pred_dG": -9.58,
-            "r_fepmapper_pred_dG_error": 0.29,
-            "s_m_subgroup_title": "FEP_inputs",
-            "s_m_subgroupid": "FEP_inputs",
-            "b_m_subgroup_collapsed": 0.0,
-            "charge": 0.0,
-            "measurement_doi": "10.1021/jm500073h",
-            "measurement_error": -1.0,
-            "measurement_type": "pic50",
-            "measurement_unit": "",
-            "measurement_value": 5.53
+            "measurement_value": 7.11,
+            "dg_value": -9.76,
+            "dg_error": 0.0
         },
         "3806": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C](=[O])[O][C]([H])([H])[C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2124,7 +2050,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.53
+            "measurement_value": 5.53,
+            "dg_value": -7.59,
+            "dg_error": 0.19
         },
         "4096": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([F])([F])[F])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2162,7 +2090,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.33
+            "measurement_value": 7.33,
+            "dg_value": -10.06,
+            "dg_error": 0.37
         },
         "4147": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2201,7 +2131,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.97
+            "measurement_value": 5.97,
+            "dg_value": -8.2,
+            "dg_error": 0.09
         },
         "4189": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([H])[n][c]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[c]([H])[c]2[C]([H])([H])[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2240,7 +2172,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.74
+            "measurement_value": 5.74,
+            "dg_value": -7.88,
+            "dg_error": 0.13
         },
         "4415": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([H])[n][c]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[c]([H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2278,7 +2212,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.74
+            "measurement_value": 6.74,
+            "dg_value": -9.25,
+            "dg_error": 0.1
         },
         "4754": {
             "smiles": "[H][C]1=[N][N]([C@]([H])([C]([H])([H])[O][C]([H])([H])[H])[C]([H])([H])[C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2316,7 +2252,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.02
+            "measurement_value": 7.02,
+            "dg_value": -9.64,
+            "dg_error": 0.0
         },
         "5544": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]#[N])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2355,7 +2293,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.07
+            "measurement_value": 7.07,
+            "dg_value": -9.71,
+            "dg_error": 0.15
         },
         "5644": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C](/[C]([H])=[C](\\[H])[c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2393,7 +2333,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.66
+            "measurement_value": 7.66,
+            "dg_value": -10.51,
+            "dg_error": 0.0
         },
         "5670": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C](/[C]([H])=[C](\\[H])[c]3[n][c]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[n]3)=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2431,7 +2373,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.17
+            "measurement_value": 7.17,
+            "dg_value": -9.84,
+            "dg_error": 0.0
         },
         "5687": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([H])[N]=[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])[C]2=[N][C](/[C]([H])=[C](\\[H])[c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]([H])[N]21",
@@ -2470,7 +2414,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.1
+            "measurement_value": 8.1,
+            "dg_value": -11.12,
+            "dg_error": 0.0
         },
         "5973": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]2([H])[C]([H])([H])[C]2([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2508,7 +2454,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.27
+            "measurement_value": 7.27,
+            "dg_value": -9.98,
+            "dg_error": 0.22
         },
         "6221": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2547,7 +2495,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.85
+            "measurement_value": 6.85,
+            "dg_value": -9.4,
+            "dg_error": 0.19
         },
         "6694": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C@@]2([H])[C]([H])([H])[C]2([F])[F])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2585,7 +2535,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.55
+            "measurement_value": 7.55,
+            "dg_value": -10.36,
+            "dg_error": 0.1
         },
         "7395": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C](=[O])[O][C]([H])([H])[C]([H])([H])[H])=[C]2[c]2[c]([H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]([O][C]([H])([H])[H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2623,7 +2575,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.94
+            "measurement_value": 5.94,
+            "dg_value": -8.15,
+            "dg_error": 0.1
         },
         "7846": {
             "smiles": "[H][C]1=[N][N]([C]([H])([H])[C]2([H])[C]([H])([H])[C]2([H])[H])[C]([H])=[C]1[C]1=[C]([C]([H])([H])[H])[N]=[C]2[C]([N]3[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])=[N][C]([H])=[C]([H])[N]21",
@@ -2661,7 +2615,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.19
+            "measurement_value": 7.19,
+            "dg_value": -9.87,
+            "dg_error": 0.13
         },
         "8041": {
             "smiles": "[H][C]1=[C]([H])[N]2[C](=[N][C]([C]([H])([H])[H])=[C]2[c]2[c]([C]([H])([H])[H])[n][c]([C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])[c]([H])[c]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2700,7 +2656,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.48
+            "measurement_value": 5.48,
+            "dg_value": -7.52,
+            "dg_error": 0.0
         },
         "8161": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([C](=[O])[O-])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]([H])([H])[C]([H])([H])[c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2738,7 +2696,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.57
+            "measurement_value": 8.57,
+            "dg_value": -11.76,
+            "dg_error": 0.0
         },
         "8414": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([N]3[C]([H])([H])[C]([H])([c]4[n][c]5[c]([H])[c]([H])[c]([H])[c]([H])[c]5[c]([H])[c]4[H])[C]3([H])[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2777,7 +2737,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.7
+            "measurement_value": 5.7,
+            "dg_value": -7.82,
+            "dg_error": 0.0
         },
         "9211": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C](=[O])[N]([H])[c]3[n][c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[c]([H])[c]3[H])=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2816,7 +2778,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 5.59
+            "measurement_value": 5.59,
+            "dg_value": -7.67,
+            "dg_error": 0.0
         },
         "9237": {
             "smiles": "[H][C]1=[C]([c]2[c]([H])[n][c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]2[H])[N]2[C](=[N][C]([C]([H])([H])[O][c]3[n][c]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[n]3)=[C]2[H])[C]([N]2[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])=[N]1",
@@ -2854,7 +2818,9 @@
             "measurement_error": -1.0,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.91
+            "measurement_value": 6.91,
+            "dg_value": -9.49,
+            "dg_error": 0.0
         }
     }
 }

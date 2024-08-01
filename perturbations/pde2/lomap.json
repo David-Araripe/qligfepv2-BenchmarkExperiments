@@ -296,7 +296,9 @@
             "measurement_error": 0.15,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.57
+            "measurement_value": 8.57,
+            "dg_value": -11.76,
+            "dg_error": 0.21
         },
         "48009208": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5ccc(cc5Cl)F",
@@ -306,7 +308,9 @@
             "measurement_error": 0.2,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.02
+            "measurement_value": 8.02,
+            "dg_value": -11.01,
+            "dg_error": 0.27
         },
         "48022468": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5c(cccc5Cl)F",
@@ -316,7 +320,9 @@
             "measurement_error": 0.19,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.71
+            "measurement_value": 8.71,
+            "dg_value": -11.96,
+            "dg_error": 0.26
         },
         "48168913": {
             "smiles": "Cc1c(cccn1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
@@ -326,7 +332,9 @@
             "measurement_error": 0.23,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.59
+            "measurement_value": 7.59,
+            "dg_value": -10.42,
+            "dg_error": 0.32
         },
         "48271249": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OC",
@@ -336,7 +344,9 @@
             "measurement_error": 0.08,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.92
+            "measurement_value": 7.92,
+            "dg_value": -10.87,
+            "dg_error": 0.11
         },
         "49072088": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OC(C)C",
@@ -346,7 +356,9 @@
             "measurement_error": 0.13,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.42
+            "measurement_value": 6.42,
+            "dg_value": -8.81,
+            "dg_error": 0.18
         },
         "49137374": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(ccc5Cl)OC",
@@ -356,7 +368,9 @@
             "measurement_error": 0.3,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.22
+            "measurement_value": 8.22,
+            "dg_value": -11.28,
+            "dg_error": 0.41
         },
         "49137530": {
             "smiles": "CCCCOc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
@@ -366,7 +380,9 @@
             "measurement_error": 0.3,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.14
+            "measurement_value": 8.14,
+            "dg_value": -11.17,
+            "dg_error": 0.41
         },
         "49175789": {
             "smiles": "CCCCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
@@ -376,7 +392,9 @@
             "measurement_error": 0.22,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.1
+            "measurement_value": 8.1,
+            "dg_value": -11.12,
+            "dg_error": 0.3
         },
         "49175828": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(ccc5Cl)OC(C)C",
@@ -386,7 +404,9 @@
             "measurement_error": 0.36,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.75
+            "measurement_value": 8.75,
+            "dg_value": -12.01,
+            "dg_error": 0.49
         },
         "49220392": {
             "smiles": "CCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
@@ -396,7 +416,9 @@
             "measurement_error": 0.21,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.21
+            "measurement_value": 8.21,
+            "dg_value": -11.27,
+            "dg_error": 0.29
         },
         "49220548": {
             "smiles": "CCCOc1ccc(c(c1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5)Cl",
@@ -406,7 +428,9 @@
             "measurement_error": 0.17,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 8.19
+            "measurement_value": 8.19,
+            "dg_value": -11.24,
+            "dg_error": 0.23
         },
         "49396360": {
             "smiles": "CCCOc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
@@ -416,7 +440,9 @@
             "measurement_error": 0.16,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.52
+            "measurement_value": 7.52,
+            "dg_value": -10.32,
+            "dg_error": 0.22
         },
         "49580115": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCF",
@@ -426,7 +452,9 @@
             "measurement_error": 0.2,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.37
+            "measurement_value": 7.37,
+            "dg_value": -10.12,
+            "dg_error": 0.27
         },
         "49582390": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCC6CC6",
@@ -436,7 +464,9 @@
             "measurement_error": 0.3,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.85
+            "measurement_value": 7.85,
+            "dg_value": -10.78,
+            "dg_error": 0.41
         },
         "49582468": {
             "smiles": "CCOCc1cc(cnc1)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
@@ -446,7 +476,9 @@
             "measurement_error": 0.15,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.53
+            "measurement_value": 7.53,
+            "dg_value": -10.34,
+            "dg_error": 0.21
         },
         "49585367": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCOC",
@@ -456,7 +488,9 @@
             "measurement_error": 0.19,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.0
+            "measurement_value": 7.0,
+            "dg_value": -9.61,
+            "dg_error": 0.26
         },
         "49932129": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)CCOC",
@@ -466,7 +500,9 @@
             "measurement_error": 0.25,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.05
+            "measurement_value": 7.05,
+            "dg_value": -9.68,
+            "dg_error": 0.34
         },
         "49932714": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)OCCCF",
@@ -476,7 +512,9 @@
             "measurement_error": 0.01,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 7.19
+            "measurement_value": 7.19,
+            "dg_value": -9.87,
+            "dg_error": 0.01
         },
         "50107616": {
             "smiles": "Cc1c2nnc(n2c3cc(ccc3n1)CN4CCOCC4)c5cc(cnc5)CCCOC",
@@ -486,7 +524,9 @@
             "measurement_error": 0.31,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.88
+            "measurement_value": 6.88,
+            "dg_value": -9.44,
+            "dg_error": 0.43
         },
         "50181001": {
             "smiles": "CCCCOc1cc(cnc1Cl)c2nnc3n2c4cc(ccc4nc3C)CN5CCOCC5",
@@ -496,7 +536,9 @@
             "measurement_error": 0.05,
             "measurement_type": "pic50",
             "measurement_unit": "",
-            "measurement_value": 6.93
+            "measurement_value": 6.93,
+            "dg_value": -9.51,
+            "dg_error": 0.07
         }
     }
 }

@@ -154,7 +154,9 @@
             "measurement_error": 0.2,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -31.3
+            "measurement_value": -31.3,
+            "dg_value": -7.480879541108987,
+            "dg_error": 0.0478011472275334
         },
         "1b": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3cccc(c3)Cl)[NH3+]",
@@ -165,7 +167,9 @@
             "measurement_error": 0.8,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -35.4
+            "measurement_value": -35.4,
+            "dg_value": -8.460803059273422,
+            "dg_error": 0.1912045889101338
         },
         "1c": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3cccc(c3)Br)[NH3+]",
@@ -176,7 +180,9 @@
             "measurement_error": 0.7,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -35.8
+            "measurement_value": -35.8,
+            "dg_value": -8.556405353728488,
+            "dg_error": 0.1673040152963671
         },
         "1d": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3cccc(c3)I)[NH3+]",
@@ -187,7 +193,9 @@
             "measurement_error": 0.3,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -34.5
+            "measurement_value": -34.5,
+            "dg_value": -8.24569789674952,
+            "dg_error": 0.0717017208413001
         },
         "3a": {
             "smiles": "Cc1cccc(c1)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](Cc3ccccc3)[NH3+]",
@@ -198,7 +206,9 @@
             "measurement_error": 0.6,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -34.8
+            "measurement_value": -34.8,
+            "dg_value": -8.317399617590821,
+            "dg_error": 0.1434034416826003
         },
         "3b": {
             "smiles": "CCc1cccc(c1)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](Cc3ccccc3)[NH3+]",
@@ -209,7 +219,9 @@
             "measurement_error": 0.5,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -32.9
+            "measurement_value": -32.9,
+            "dg_value": -7.863288718929254,
+            "dg_error": 0.1195028680688336
         },
         "5": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3ccccc3)[NH3+]",
@@ -220,7 +232,9 @@
             "measurement_error": -1.0,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -31.7
+            "measurement_value": -31.7,
+            "dg_value": -7.576481835564053,
+            "dg_error": 0.0
         },
         "6a": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3cc(ccc3Cl)Cl)[NH3+]",
@@ -231,7 +245,9 @@
             "measurement_error": 0.2,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -38.4
+            "measurement_value": -38.4,
+            "dg_value": -9.177820267686425,
+            "dg_error": 0.0478011472275334
         },
         "6b": {
             "smiles": "Cc1ccc(cc1CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](Cc3ccccc3)[NH3+])Cl",
@@ -242,7 +258,9 @@
             "measurement_error": 0.5,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -37.2
+            "measurement_value": -37.2,
+            "dg_value": -8.891013384321225,
+            "dg_error": 0.1195028680688336
         },
         "6e": {
             "smiles": "c1ccc(cc1)C[C@H](C(=O)N2CCC[C@H]2C(=O)NCc3cc(ccc3F)Cl)[NH3+]",
@@ -253,7 +271,9 @@
             "measurement_error": 0.3,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -37.3
+            "measurement_value": -37.3,
+            "dg_value": -8.914913957934989,
+            "dg_error": 0.0717017208413001
         },
         "7a": {
             "smiles": "Cc1ccc(c(c1)CNC(=O)[C@@H]2CCCN2C(=O)[C@@H](Cc3ccccc3)[NH3+])C",
@@ -264,7 +284,9 @@
             "measurement_error": 0.1,
             "measurement_type": "dg",
             "measurement_unit": "kilojoules / mole",
-            "measurement_value": -34.4
+            "measurement_value": -34.4,
+            "dg_value": -8.221797323135755,
+            "dg_error": 0.0239005736137667
         }
     }
 }

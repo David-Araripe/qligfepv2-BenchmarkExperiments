@@ -296,7 +296,9 @@
             "measurement_error": 38.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 77.0
+            "measurement_value": 77.0,
+            "dg_value": -9.76,
+            "dg_error": 0.29
         },
         "18624-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2)N)C#N",
@@ -306,7 +308,9 @@
             "measurement_error": 140.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 570.0
+            "measurement_value": 570.0,
+            "dg_value": -8.57,
+            "dg_error": 0.15
         },
         "18625-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2Cl)N)C#N",
@@ -316,7 +320,9 @@
             "measurement_error": 300.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 1100.0
+            "measurement_value": 1100.0,
+            "dg_value": -8.18,
+            "dg_error": 0.16
         },
         "18626-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)Cl)N)C#N",
@@ -326,7 +332,9 @@
             "measurement_error": 70.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 300.0
+            "measurement_value": 300.0,
+            "dg_value": -8.95,
+            "dg_error": 0.14
         },
         "18627-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)Cl)N)C#N",
@@ -336,7 +344,9 @@
             "measurement_error": 170.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 580.0
+            "measurement_value": 580.0,
+            "dg_value": -8.56,
+            "dg_error": 0.17
         },
         "18628-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2C)N)C#N",
@@ -346,7 +356,9 @@
             "measurement_error": 120.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 400.0
+            "measurement_value": 400.0,
+            "dg_value": -8.78,
+            "dg_error": 0.18
         },
         "18629-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)C)N)C#N",
@@ -356,7 +368,9 @@
             "measurement_error": 56.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 420.0
+            "measurement_value": 420.0,
+            "dg_value": -8.75,
+            "dg_error": 0.08
         },
         "18630-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)C)N)C#N",
@@ -366,7 +380,9 @@
             "measurement_error": 4.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 190.0
+            "measurement_value": 190.0,
+            "dg_value": -9.23,
+            "dg_error": 0.01
         },
         "18631-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccccc2OC)N)C#N",
@@ -376,7 +392,9 @@
             "measurement_error": 47.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 120.0
+            "measurement_value": 120.0,
+            "dg_value": -9.5,
+            "dg_error": 0.23
         },
         "18632-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cccc(c2)OC)N)C#N",
@@ -386,7 +404,9 @@
             "measurement_error": 95.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 210.0
+            "measurement_value": 210.0,
+            "dg_value": -9.17,
+            "dg_error": 0.27
         },
         "18633-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2ccc(cc2)OC)N)C#N",
@@ -396,7 +416,9 @@
             "measurement_error": 59.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 180.0
+            "measurement_value": 180.0,
+            "dg_value": -9.26,
+            "dg_error": 0.2
         },
         "18634-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2OC)OC)N)C#N",
@@ -406,7 +428,9 @@
             "measurement_error": 3.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 45.0
+            "measurement_value": 45.0,
+            "dg_value": -10.09,
+            "dg_error": 0.04
         },
         "18635-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2C)C)N)C#N",
@@ -416,7 +440,9 @@
             "measurement_error": 670.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 4400.0
+            "measurement_value": 4400.0,
+            "dg_value": -7.35,
+            "dg_error": 0.09
         },
         "18636-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2Br)Br)N)C#N",
@@ -426,7 +452,9 @@
             "measurement_error": 1600.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 3000.0
+            "measurement_value": 3000.0,
+            "dg_value": -7.58,
+            "dg_error": 0.32
         },
         "18637-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)NC(=O)C)OC)N)C#N",
@@ -436,7 +464,9 @@
             "measurement_error": 16.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 35.0
+            "measurement_value": 35.0,
+            "dg_value": -10.23,
+            "dg_error": 0.27
         },
         "18638-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)S(=O)(=O)C)OC)N)C#N",
@@ -446,7 +476,9 @@
             "measurement_error": 5.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 38.0
+            "measurement_value": 38.0,
+            "dg_value": -10.19,
+            "dg_error": 0.08
         },
         "18639-1": {
             "smiles": "CCOc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)[N+](=O)[O-])OC)N)C#N",
@@ -456,7 +488,9 @@
             "measurement_error": 14.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 69.0
+            "measurement_value": 69.0,
+            "dg_value": -9.83,
+            "dg_error": 0.12
         },
         "18652-1": {
             "smiles": "CC(C)Oc1c(c(cc(n1)NC(=O)Cc2cc(c(cc2OC)S(=O)(=O)C)OC)N)C#N",
@@ -466,7 +500,9 @@
             "measurement_error": 2.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 14.0
+            "measurement_value": 14.0,
+            "dg_value": -10.78,
+            "dg_error": 0.09
         },
         "18658-1": {
             "smiles": "COc1ccc(c(c1)CC(=O)Nc2cc(c(c(n2)OCCO)C#N)N)OC",
@@ -476,7 +512,9 @@
             "measurement_error": 11.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 74.0
+            "measurement_value": 74.0,
+            "dg_value": -9.79,
+            "dg_error": 0.09
         },
         "18659-1": {
             "smiles": "COCCOc1c(c(cc(n1)NC(=O)Cc2cc(ccc2OC)OC)N)C#N",
@@ -486,7 +524,9 @@
             "measurement_error": 13.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 110.0
+            "measurement_value": 110.0,
+            "dg_value": -9.55,
+            "dg_error": 0.07
         },
         "18660-1": {
             "smiles": "COc1ccc(c(c1)CC(=O)Nc2cc(c(c(n2)OCCS(=O)(=O)C)C#N)N)OC",
@@ -496,7 +536,9 @@
             "measurement_error": 45.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 400.0
+            "measurement_value": 400.0,
+            "dg_value": -8.78,
+            "dg_error": 0.07
         }
     }
 }

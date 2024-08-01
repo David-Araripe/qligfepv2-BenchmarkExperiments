@@ -454,7 +454,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 540.0
+            "measurement_value": 540.0,
+            "dg_value": -8.6,
+            "dg_error": 0.0
         },
         "1b": {
             "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[N]=[C]([c]1[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
@@ -466,7 +468,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 52.0
+            "measurement_value": 52.0,
+            "dg_value": -10.0,
+            "dg_error": 0.0
         },
         "3a": {
             "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
@@ -478,7 +482,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 8.7
+            "measurement_value": 8.7,
+            "dg_value": -11.06,
+            "dg_error": 0.0
         },
         "3b": {
             "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])=[N]2",
@@ -490,7 +496,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 3.6
+            "measurement_value": 3.6,
+            "dg_value": -11.59,
+            "dg_error": 0.0
         },
         "5a": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -502,7 +510,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 13.0
+            "measurement_value": 13.0,
+            "dg_value": -10.83,
+            "dg_error": 0.0
         },
         "5b": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -514,7 +524,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 21.0
+            "measurement_value": 21.0,
+            "dg_value": -10.54,
+            "dg_error": 0.0
         },
         "5c": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([Cl])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -526,7 +538,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 50.0
+            "measurement_value": 50.0,
+            "dg_value": -10.02,
+            "dg_error": 0.0
         },
         "5d": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -538,7 +552,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 10.5
+            "measurement_value": 10.5,
+            "dg_value": -10.95,
+            "dg_error": 0.0
         },
         "5e": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([Cl])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -550,7 +566,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 39.0
+            "measurement_value": 39.0,
+            "dg_value": -10.17,
+            "dg_error": 0.0
         },
         "5f": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -562,7 +580,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 30.0
+            "measurement_value": 30.0,
+            "dg_value": -10.33,
+            "dg_error": 0.0
         },
         "5g": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([Cl])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -574,7 +594,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 12.0
+            "measurement_value": 12.0,
+            "dg_value": -10.87,
+            "dg_error": 0.0
         },
         "5h": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([O][C]([H])([H])[H])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -586,7 +608,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 43.0
+            "measurement_value": 43.0,
+            "dg_value": -10.11,
+            "dg_error": 0.0
         },
         "5i": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([H])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -598,7 +622,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 1.4
+            "measurement_value": 1.4,
+            "dg_value": -12.15,
+            "dg_error": 0.0
         },
         "5j": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -610,7 +636,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 7.5
+            "measurement_value": 7.5,
+            "dg_value": -11.15,
+            "dg_error": 0.0
         },
         "5k": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -622,7 +650,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 9.2
+            "measurement_value": 9.2,
+            "dg_value": -11.03,
+            "dg_error": 0.0
         },
         "5l": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([H])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -634,7 +664,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 40.0
+            "measurement_value": 40.0,
+            "dg_value": -10.16,
+            "dg_error": 0.0
         },
         "5m": {
             "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([F])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -646,7 +678,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 0.5
+            "measurement_value": 0.5,
+            "dg_value": -12.77,
+            "dg_error": 0.0
         },
         "5n": {
             "smiles": "[H][O][C]([H])([H])[C]([H])([H])[O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -658,7 +692,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 14.0
+            "measurement_value": 14.0,
+            "dg_value": -10.78,
+            "dg_error": 0.0
         },
         "5o": {
             "smiles": "[H][O][C]([H])([H])[C]([H])([H])[O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([F])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -670,7 +706,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 1.5
+            "measurement_value": 1.5,
+            "dg_value": -12.11,
+            "dg_error": 0.0
         },
         "5p": {
             "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([C]([O][C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])=[N]2",
@@ -682,7 +720,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 20.0
+            "measurement_value": 20.0,
+            "dg_value": -10.57,
+            "dg_error": 0.0
         },
         "7": {
             "smiles": "[H][O][C]([c]1[c]([H])[n][c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
@@ -694,7 +734,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 700.0
+            "measurement_value": 700.0,
+            "dg_value": -8.45,
+            "dg_error": 0.0
         },
         "8a": {
             "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])=[N]2",
@@ -706,7 +748,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 12.0
+            "measurement_value": 12.0,
+            "dg_value": -10.87,
+            "dg_error": 0.0
         },
         "8b": {
             "smiles": "[H][c]1[c]([H])[c]([N]2[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([H])[c]1[C]1=[N][c]2[c]([c]([H])[c]([F])[c]([H])[c]2[C]([H])([H])[H])[C](=[O])[N]1[H]",
@@ -718,7 +762,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 1.8
+            "measurement_value": 1.8,
+            "dg_value": -12.0,
+            "dg_error": 0.0
         },
         "8c": {
             "smiles": "[H][c]1[c]([F])[c]([H])[c]2[c]([c]1[F])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]3([H])[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
@@ -730,7 +776,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 38.0
+            "measurement_value": 38.0,
+            "dg_value": -10.19,
+            "dg_error": 0.0
         },
         "8d": {
             "smiles": "[H][c]1[c]([H])[c]([C]2([H])[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([H])[c]1[C]1=[N][c]2[c]([c]([H])[c]([F])[c]([H])[c]2[C]([H])([H])[H])[C](=[O])[N]1[H]",
@@ -742,7 +790,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 0.7
+            "measurement_value": 0.7,
+            "dg_value": -12.57,
+            "dg_error": 0.0
         },
         "8e": {
             "smiles": "[H][c]1[c]([F])[c]([H])[c]2[c]([c]1[F])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]3([H])[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
@@ -754,11 +804,15 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 31.0
+            "measurement_value": 31.0,
+            "dg_value": -10.31,
+            "dg_error": 0.0
         },
         "8f": {
             "smiles": "[H]C1=C(F)C([H])=C2C(=O)N([H])C(C3=C([H])C([H])=C([C@]4([H])C([H])([H])C([H])([H])[N@@+]([H])(C([H])([H])[H])C([H])([H])C4([H])[H])C([H])=C3[H])=NC2=C1C([H])([H])[H]",
-            "formal_charge": 1
+            "formal_charge": 1,
+            "dg_value": -11.88,
+            "dg_error": 0.0
         }
     }
 }

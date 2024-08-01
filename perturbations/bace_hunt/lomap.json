@@ -706,7 +706,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 455.0
+            "measurement_value": 455.0,
+            "dg_value": -8.71,
+            "dg_error": 0.0
         },
         "12": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([Cl])=[C]1[H]",
@@ -724,7 +726,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 24.0
+            "measurement_value": 24.0,
+            "dg_value": -10.46,
+            "dg_error": 0.0
         },
         "13": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([C]#[N])=[C]1[H]",
@@ -742,7 +746,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 94.0
+            "measurement_value": 94.0,
+            "dg_value": -9.65,
+            "dg_error": 0.0
         },
         "14": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([O][C]([H])([H])[H])=[C]1[H]",
@@ -760,7 +766,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 68.0
+            "measurement_value": 68.0,
+            "dg_value": -9.84,
+            "dg_error": 0.0
         },
         "15": {
             "smiles": "[H][C]1=[C]([H])[C]([H])=[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])[C]([O][C]([H])([H])[H])=[C]1[H]",
@@ -778,7 +786,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 1701.0
+            "measurement_value": 1701.0,
+            "dg_value": -7.92,
+            "dg_error": 0.0
         },
         "16": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([H])=[C]1[O][C]([H])([H])[H]",
@@ -796,7 +806,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 7197.0
+            "measurement_value": 7197.0,
+            "dg_value": -7.06,
+            "dg_error": 0.0
         },
         "17": {
             "smiles": "[H][C]1=[C]([Cl])[C]([H])=[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])[C]([H])=[C]1[Cl]",
@@ -814,7 +826,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 28.0
+            "measurement_value": 28.0,
+            "dg_value": -10.37,
+            "dg_error": 0.0
         },
         "18": {
             "smiles": "[H][C]1=[C]([F])[C]([H])=[C]([O][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -832,7 +846,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 61.0
+            "measurement_value": 61.0,
+            "dg_value": -9.9,
+            "dg_error": 0.0
         },
         "19": {
             "smiles": "[H][C]1=[C]([F])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([O][C]([H])([H])[H])=[C]1[H]",
@@ -850,7 +866,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 60.0
+            "measurement_value": 60.0,
+            "dg_value": -9.91,
+            "dg_error": 0.0
         },
         "1a": {
             "smiles": "[H][C]1=[C]([H])[C]2=[C]([C]([H])=[C]1[Br])[C@@]1([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]1[H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[O]2",
@@ -868,7 +886,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 36830.0
+            "measurement_value": 36830.0,
+            "dg_value": -6.09,
+            "dg_error": 0.0
         },
         "20": {
             "smiles": "[H][C]1=[C]([F])[C]([H])=[C]([Cl])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -886,7 +906,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 39.0
+            "measurement_value": 39.0,
+            "dg_value": -10.17,
+            "dg_error": 0.0
         },
         "21": {
             "smiles": "[H][C]1=[C]([F])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([Cl])=[C]1[H]",
@@ -904,7 +926,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 36.0
+            "measurement_value": 36.0,
+            "dg_value": -10.22,
+            "dg_error": 0.0
         },
         "22": {
             "smiles": "[H][C]1=[C]([H])[C]([O][C]([H])([C]([H])([H])[H])[C]([H])([H])[H])=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]1[H]",
@@ -922,7 +946,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 2864.0
+            "measurement_value": 2864.0,
+            "dg_value": -7.61,
+            "dg_error": 0.0
         },
         "23": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([O][C]([H])([H])[C]([H])([H])[H])=[C]1[H]",
@@ -940,7 +966,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 70.0
+            "measurement_value": 70.0,
+            "dg_value": -9.82,
+            "dg_error": 0.0
         },
         "24": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([C]([F])([F])[F])=[C]1[H]",
@@ -958,7 +986,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 74.0
+            "measurement_value": 74.0,
+            "dg_value": -9.79,
+            "dg_error": 0.0
         },
         "25": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([S][C]([H])([H])[H])=[C]1[H]",
@@ -976,7 +1006,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 344.0
+            "measurement_value": 344.0,
+            "dg_value": -8.87,
+            "dg_error": 0.0
         },
         "26": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([O][C]([H])([F])[F])=[C]1[H]",
@@ -994,7 +1026,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 28.0
+            "measurement_value": 28.0,
+            "dg_value": -10.37,
+            "dg_error": 0.0
         },
         "27": {
             "smiles": "[H][C]1=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([F])=[C]1[H]",
@@ -1012,7 +1046,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 99.0
+            "measurement_value": 99.0,
+            "dg_value": -9.61,
+            "dg_error": 0.0
         },
         "28": {
             "smiles": "[H][C]1=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]([H])[C]([C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])=[C]1[H]",
@@ -1030,7 +1066,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 278.0
+            "measurement_value": 278.0,
+            "dg_value": -9.0,
+            "dg_error": 0.0
         },
         "29": {
             "smiles": "[H][C]1=[C]([H])[C]2=[C]([C]([H])=[C]1[O][C]([H])([H])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[C@@]1([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]1[H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[O]2",
@@ -1048,7 +1086,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 431.0
+            "measurement_value": 431.0,
+            "dg_value": -8.74,
+            "dg_error": 0.0
         },
         "30": {
             "smiles": "[H][C]1=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]([H])[C]([N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])=[C]1[H]",
@@ -1066,7 +1106,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 8661.0
+            "measurement_value": 8661.0,
+            "dg_value": -6.95,
+            "dg_error": 0.0
         },
         "31": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([H])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -1084,7 +1126,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 113.0
+            "measurement_value": 113.0,
+            "dg_value": -9.54,
+            "dg_error": 0.0
         },
         "32": {
             "smiles": "[H][C]1=[N][C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]([H])[C]([H])=[C]1[H]",
@@ -1102,7 +1146,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 2363.0
+            "measurement_value": 2363.0,
+            "dg_value": -7.72,
+            "dg_error": 0.0
         },
         "33": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([H])[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]1[H]",
@@ -1120,7 +1166,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 6270.0
+            "measurement_value": 6270.0,
+            "dg_value": -7.14,
+            "dg_error": 0.0
         },
         "34": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([Cl])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -1138,7 +1186,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 34.0
+            "measurement_value": 34.0,
+            "dg_value": -10.25,
+            "dg_error": 0.0
         },
         "35": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([C]([F])([F])[F])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -1156,7 +1206,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 63.0
+            "measurement_value": 63.0,
+            "dg_value": -9.88,
+            "dg_error": 0.0
         },
         "36": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([C]#[C][C]([H])([H])[H])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -1174,7 +1226,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 10.0
+            "measurement_value": 10.0,
+            "dg_value": -10.98,
+            "dg_error": 0.0
         },
         "37": {
             "smiles": "[H][C]1=[C]([H])[C]([H])=[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])[C]([F])=[N]1",
@@ -1192,7 +1246,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 130.0
+            "measurement_value": 130.0,
+            "dg_value": -9.45,
+            "dg_error": 0.0
         },
         "38": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([F])[C]([H])=[C]1[C]1=[C]([H])[C]([H])=[C]2[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]3([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[C]2=[C]1[H]",
@@ -1210,7 +1266,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 145.0
+            "measurement_value": 145.0,
+            "dg_value": -9.39,
+            "dg_error": 0.0
         },
         "39": {
             "smiles": "[H][C]1=[N][C]([H])=[C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])[C]([H])=[N]1",
@@ -1228,7 +1286,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 151.0
+            "measurement_value": 151.0,
+            "dg_value": -9.36,
+            "dg_error": 0.0
         },
         "40": {
             "smiles": "[H][C]1=[N][S][C]([C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])=[C]1[H]",
@@ -1246,7 +1306,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 501.0
+            "measurement_value": 501.0,
+            "dg_value": -8.65,
+            "dg_error": 0.0
         },
         "41": {
             "smiles": "[H][C]1=[C]([C](=[O])[N]([H])[C]2=[C]([H])[C]([H])=[C]3[O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C@]4([C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]4[H])[C]3=[C]2[H])[O][C]([C]([H])([H])[H])=[C]1[H]",
@@ -1264,7 +1326,9 @@
             "measurement_error": -1.0,
             "measurement_type": "ic50",
             "measurement_unit": "nM",
-            "measurement_value": 230.0
+            "measurement_value": 230.0,
+            "dg_value": -9.11,
+            "dg_error": 0.0
         }
     }
 }
