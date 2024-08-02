@@ -12,7 +12,9 @@
             "delta_IC50 uM": 5.506,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.01,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -26,7 +28,9 @@
             "delta_IC50 uM": 5.6290000000000004,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.61,
+            "dg_error": 0.0
         },
         {
             "weight": 0.03019738342231849,
@@ -40,7 +44,9 @@
             "delta_IC50 uM": 4.75,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.07,
+            "dg_error": 0.0
         },
         {
             "weight": 0.03019738342231849,
@@ -54,7 +60,9 @@
             "delta_IC50 uM": 4.726,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.05,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -68,7 +76,9 @@
             "delta_IC50 uM": 21.806,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.82,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -82,7 +92,9 @@
             "delta_IC50 uM": 21.929,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 3.42,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -96,7 +108,9 @@
             "delta_IC50 uM": 45.0,
             "delta_ID": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.36,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -110,7 +124,9 @@
             "delta_IC50 uM": 87.0,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.25,
+            "dg_error": 0.0
         },
         {
             "weight": 0.047358924391140915,
@@ -124,7 +140,9 @@
             "delta_IC50 uM": 98.932,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 4.34,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -138,7 +156,9 @@
             "delta_IC50 uM": 42.0,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.89,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7046880897187134,
@@ -152,7 +172,9 @@
             "delta_IC50 uM": -10.7,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.33,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -166,7 +188,9 @@
             "delta_IC50 uM": -5.2,
             "delta_ID": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.96,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -180,7 +204,9 @@
             "delta_IC50 uM": 6.242,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.92,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -194,7 +220,9 @@
             "delta_IC50 uM": -2.601,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.43,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -208,7 +236,9 @@
             "delta_IC50 uM": 0.033,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.09,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -222,7 +252,9 @@
             "delta_IC50 uM": -0.6,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.71,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -236,7 +268,9 @@
             "delta_IC50 uM": 0.6639999999999999,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.88,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -250,7 +284,9 @@
             "delta_IC50 uM": -0.05299999999999999,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.17,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9851119396030626,
@@ -264,7 +300,9 @@
             "delta_IC50 uM": -0.223,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.51,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -278,7 +316,9 @@
             "delta_IC50 uM": 0.321,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.02,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -292,7 +332,9 @@
             "delta_IC50 uM": 0.15100000000000002,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.68,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7788007830714049,
@@ -306,7 +348,9 @@
             "delta_IC50 uM": 0.121,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.29,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -320,7 +364,9 @@
             "delta_IC50 uM": 0.244,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.89,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7046880897187134,
@@ -334,7 +380,9 @@
             "delta_IC50 uM": 0.07700000000000001,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.2,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -348,7 +396,9 @@
             "delta_IC50 uM": 0.2,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.8,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6376281516217733,
@@ -362,7 +412,9 @@
             "delta_IC50 uM": 0.49899999999999994,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -376,7 +428,9 @@
             "delta_IC50 uM": -11.43,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.82,
+            "dg_error": 0.0
         },
         {
             "weight": 0.4065696597405991,
@@ -390,7 +444,9 @@
             "delta_IC50 uM": -1.9529999999999998,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.84,
+            "dg_error": 0.0
         },
         {
             "weight": 0.42741493194872665,
@@ -404,7 +460,9 @@
             "delta_IC50 uM": 2.391,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.54,
+            "dg_error": 0.0
         },
         {
             "weight": 0.4493289641172215,
@@ -418,7 +476,9 @@
             "delta_IC50 uM": 2.514,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.14,
+            "dg_error": 0.0
         },
         {
             "weight": 0.03019738342231849,
@@ -432,7 +492,9 @@
             "delta_IC50 uM": 2.517,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.17,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -446,7 +508,9 @@
             "delta_IC50 uM": 0.12300000000000001,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.6,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -460,7 +524,9 @@
             "delta_IC50 uM": 2.634,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.52,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -474,7 +540,9 @@
             "delta_IC50 uM": 0.0050000000000000044,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.04,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -488,7 +556,9 @@
             "delta_IC50 uM": -0.282,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.92,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -502,7 +572,9 @@
             "delta_IC50 uM": 0.287,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.96,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -516,7 +588,9 @@
             "delta_IC50 uM": -0.02400000000000002,
             "delta_ID": null,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.02,
+            "dg_error": 0.0
         }
     ],
     "nodes": {

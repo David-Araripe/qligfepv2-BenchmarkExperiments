@@ -14,7 +14,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.66,
+            "dg_error": 0.18
         },
         {
             "weight": 0.7408182206817179,
@@ -30,7 +32,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.0,
+            "dg_error": 0.21
         },
         {
             "weight": 0.7788007830714048,
@@ -46,7 +50,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.79,
+            "dg_error": 0.16
         },
         {
             "weight": 0.7408182206817178,
@@ -62,7 +68,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.49,
+            "dg_error": 0.3
         },
         {
             "weight": 0.8187307530779818,
@@ -78,7 +86,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.24,
+            "dg_error": 0.48
         },
         {
             "weight": 0.8913661439068313,
@@ -94,7 +104,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.55,
+            "dg_error": 0.31
         },
         {
             "weight": 0.9048374180359595,
@@ -110,7 +122,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.35,
+            "dg_error": 0.29
         },
         {
             "weight": 0.8187307530779818,
@@ -126,7 +140,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.0,
+            "dg_error": 0.49
         },
         {
             "weight": 0.9048374180359595,
@@ -142,7 +158,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.0,
+            "dg_error": 0.38
         },
         {
             "weight": 0.9048374180359595,
@@ -158,7 +176,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.11,
+            "dg_error": 0.42
         },
         {
             "weight": 0.9048374180359595,
@@ -174,7 +194,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.0,
+            "dg_error": 0.6
         },
         {
             "weight": 0.5769498103804866,
@@ -190,7 +212,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.2,
+            "dg_error": 0.15
         },
         {
             "weight": 0.5975005946182375,
@@ -206,7 +230,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.4,
+            "dg_error": 0.19
         },
         {
             "weight": 0.951229424500714,
@@ -222,7 +248,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.2,
+            "dg_error": 0.21
         },
         {
             "weight": 0.7408182206817179,
@@ -238,7 +266,9 @@
             "delta_s_pdb_PDB_format_version": 0.0,
             "delta_i_pdb_PDB_Model": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.85,
+            "dg_error": 0.17
         }
     ],
     "nodes": {

@@ -14,7 +14,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.29,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -30,7 +32,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.94,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -46,7 +50,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.79,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779818,
@@ -62,7 +68,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.65,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -78,7 +86,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.75,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -94,7 +104,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.65,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -110,7 +122,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.99,
+            "dg_error": 0.0
         },
         {
             "weight": 0.27253179303401254,
@@ -126,7 +140,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -2.62,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8913661439068313,
@@ -142,7 +158,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.62,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -158,7 +176,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.09,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -174,7 +194,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -190,7 +212,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.85,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -206,7 +230,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.21,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779817,
@@ -222,7 +248,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.33,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -238,7 +266,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.06,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -254,7 +284,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.07,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -270,7 +302,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.02,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -286,7 +320,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.97,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8187307530779817,
@@ -302,7 +338,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.53,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7788007830714049,
@@ -318,7 +356,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.08,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -334,7 +374,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.2,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8913661439068313,
@@ -350,7 +392,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.27,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8913661439068313,
@@ -366,7 +410,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.31,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -382,7 +428,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.21,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -398,7 +446,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.76,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -414,7 +464,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.95,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -430,7 +482,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.55,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817178,
@@ -446,7 +500,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.92,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -462,7 +518,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.09,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -478,7 +536,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.22,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -494,7 +554,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -2.05,
+            "dg_error": 0.0
         },
         {
             "weight": 0.27253179303401254,
@@ -510,7 +572,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -2.91,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -526,7 +590,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.44,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -542,7 +608,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.09,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -558,7 +626,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.15,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -574,7 +644,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.18,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -590,7 +662,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.58,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -606,7 +680,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.86,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7046880897187134,
@@ -622,7 +698,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.49,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6603402807049829,
@@ -638,7 +716,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.65,
+            "dg_error": 0.0
         },
         {
             "weight": 0.42741493194872665,
@@ -654,7 +734,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 3.02,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2018965179946554,
@@ -670,7 +752,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.56,
+            "dg_error": 0.0
         },
         {
             "weight": 0.1353352832366127,
@@ -686,7 +770,9 @@
             "delta_version": 0.0,
             "delta_chiral flag": 0.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.09,
+            "dg_error": 0.0
         }
     ],
     "nodes": {

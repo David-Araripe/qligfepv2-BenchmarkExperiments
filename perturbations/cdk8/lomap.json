@@ -12,7 +12,9 @@
             "delta_IC50[uM]": 0.004,
             "delta_Name": -30.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.65,
+            "dg_error": 0.0
         },
         {
             "weight": 0.5488116360940264,
@@ -26,7 +28,9 @@
             "delta_IC50[uM]": 0.002,
             "delta_Name": -29.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3011942119122021,
@@ -40,7 +44,9 @@
             "delta_IC50[uM]": 0.003,
             "delta_Name": -17.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.41,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2725317930340126,
@@ -54,7 +60,9 @@
             "delta_IC50[uM]": 0.002,
             "delta_Name": -24.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -68,7 +76,9 @@
             "delta_IC50[uM]": 0.002,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.41,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2018965179946554,
@@ -82,7 +92,9 @@
             "delta_IC50[uM]": 0.6699999999999999,
             "delta_Name": -2.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.95,
+            "dg_error": 0.0
         },
         {
             "weight": 0.14956861922263504,
@@ -96,7 +108,9 @@
             "delta_IC50[uM]": -1.6600000000000001,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.65,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7046880897187134,
@@ -110,7 +124,9 @@
             "delta_IC50[uM]": 2.33,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.6,
+            "dg_error": 0.0
         },
         {
             "weight": 0.33287108369807955,
@@ -124,7 +140,9 @@
             "delta_IC50[uM]": -0.11000000000000001,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.29,
+            "dg_error": 0.0
         },
         {
             "weight": 0.33287108369807955,
@@ -138,7 +156,9 @@
             "delta_IC50[uM]": 0.15500000000000003,
             "delta_Name": -3.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.45,
+            "dg_error": 0.0
         },
         {
             "weight": 0.33287108369807955,
@@ -152,7 +172,9 @@
             "delta_IC50[uM]": 0.16,
             "delta_Name": -2.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.69,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3011942119122021,
@@ -166,7 +188,9 @@
             "delta_IC50[uM]": 0.06000000000000001,
             "delta_Name": -16.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.26,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817178,
@@ -180,7 +204,9 @@
             "delta_IC50[uM]": 0.27,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.98,
+            "dg_error": 0.0
         },
         {
             "weight": 0.27253179303401254,
@@ -194,7 +220,9 @@
             "delta_IC50[uM]": 0.006,
             "delta_Name": -26.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.55,
+            "dg_error": 0.0
         },
         {
             "weight": 0.4723665527410147,
@@ -208,7 +236,9 @@
             "delta_IC50[uM]": -0.665,
             "delta_Name": -8.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -2.27,
+            "dg_error": 0.0
         },
         {
             "weight": 0.49658530379140947,
@@ -222,7 +252,9 @@
             "delta_IC50[uM]": -0.057999999999999996,
             "delta_Name": -6.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.94,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6703200460356393,
@@ -236,7 +268,9 @@
             "delta_IC50[uM]": -0.0010000000000000009,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.04,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -250,7 +284,9 @@
             "delta_IC50[uM]": -0.095,
             "delta_Name": -13.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.19,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2018965179946554,
@@ -264,7 +300,9 @@
             "delta_IC50[uM]": -0.020999999999999998,
             "delta_Name": -7.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.52,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2018965179946554,
@@ -278,7 +316,9 @@
             "delta_IC50[uM]": -29.985,
             "delta_Name": -9.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -4.53,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6065306597126334,
@@ -292,7 +332,9 @@
             "delta_IC50[uM]": -0.094,
             "delta_Name": -12.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.15,
+            "dg_error": 0.0
         },
         {
             "weight": 0.522045776761016,
@@ -306,7 +348,9 @@
             "delta_IC50[uM]": -0.651,
             "delta_Name": -3.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.88,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -320,7 +364,9 @@
             "delta_IC50[uM]": -0.044,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.55,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3867410234545011,
@@ -334,7 +380,9 @@
             "delta_IC50[uM]": 0.025,
             "delta_Name": -13.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.18,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3867410234545011,
@@ -348,7 +396,9 @@
             "delta_IC50[uM]": 0.025,
             "delta_Name": -11.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.18,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3499377491111553,
@@ -362,7 +412,9 @@
             "delta_IC50[uM]": 0.025,
             "delta_Name": -15.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.18,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3499377491111553,
@@ -376,7 +428,9 @@
             "delta_IC50[uM]": 0.026000000000000002,
             "delta_Name": -6.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.35,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3499377491111553,
@@ -390,7 +444,9 @@
             "delta_IC50[uM]": 0.022000000000000002,
             "delta_Name": -10.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.84,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3499377491111553,
@@ -404,7 +460,9 @@
             "delta_IC50[uM]": 0.022000000000000002,
             "delta_Name": -16.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.84,
+            "dg_error": 0.0
         },
         {
             "weight": 0.5488116360940265,
@@ -418,7 +476,9 @@
             "delta_IC50[uM]": 0.06999999999999999,
             "delta_Name": -3.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.29,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -432,7 +492,9 @@
             "delta_IC50[uM]": 0.172,
             "delta_Name": -4.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.85,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -446,7 +508,9 @@
             "delta_IC50[uM]": 0.10200000000000001,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.56,
+            "dg_error": 0.0
         },
         {
             "weight": 0.22313016014842982,
@@ -460,7 +524,9 @@
             "delta_IC50[uM]": 0.07400000000000001,
             "delta_Name": 6.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.67,
+            "dg_error": 0.0
         },
         {
             "weight": 0.22313016014842982,
@@ -474,7 +540,9 @@
             "delta_IC50[uM]": -29.89,
             "delta_Name": 4.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -3.34,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817178,
@@ -488,7 +556,9 @@
             "delta_IC50[uM]": 0.046,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.53,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3867410234545012,
@@ -502,7 +572,9 @@
             "delta_IC50[uM]": 0.042,
             "delta_Name": -5.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.46,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3867410234545012,
@@ -516,7 +588,9 @@
             "delta_IC50[uM]": -0.003999999999999997,
             "delta_Name": -4.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.07,
+            "dg_error": 0.0
         },
         {
             "weight": 0.3166367693790531,
@@ -530,7 +604,9 @@
             "delta_IC50[uM]": -29.73,
             "delta_Name": -5.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -2.81,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -544,7 +620,9 @@
             "delta_IC50[uM]": 0.001,
             "delta_Name": 7.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.17,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -558,7 +636,9 @@
             "delta_IC50[uM]": 0.002,
             "delta_Name": 6.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.41,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -572,7 +652,9 @@
             "delta_IC50[uM]": -0.002,
             "delta_Name": -8.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.31,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -586,7 +668,9 @@
             "delta_IC50[uM]": -0.003,
             "delta_Name": -7.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.55,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7788007830714049,
@@ -600,7 +684,9 @@
             "delta_IC50[uM]": 0.001,
             "delta_Name": -2.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.1,
+            "dg_error": 0.0
         },
         {
             "weight": 0.8607079764250578,
@@ -614,7 +700,9 @@
             "delta_IC50[uM]": 0.003,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.34,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -628,7 +716,9 @@
             "delta_IC50[uM]": -0.002,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.2465969639416065,
@@ -642,7 +732,9 @@
             "delta_IC50[uM]": 0.0,
             "delta_Name": -9.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.0,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -656,7 +748,9 @@
             "delta_IC50[uM]": -0.003,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.34,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -670,7 +764,9 @@
             "delta_IC50[uM]": -0.002,
             "delta_Name": -2.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.24,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -684,7 +780,9 @@
             "delta_IC50[uM]": 0.001,
             "delta_Name": -1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.1,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -698,7 +796,9 @@
             "delta_IC50[uM]": 0.003,
             "delta_Name": 1.0,
             "delta_charge": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.34,
+            "dg_error": 0.0
         }
     ],
     "nodes": {

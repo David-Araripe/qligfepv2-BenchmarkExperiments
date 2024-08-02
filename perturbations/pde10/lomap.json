@@ -30,7 +30,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 1.0,
             "delta_r_fepmapper_pred_dG_error": -0.040000000000000036,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.8,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -62,7 +64,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 1.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.63,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -94,7 +98,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 1.0,
             "delta_r_fepmapper_pred_dG_error": -0.030000000000000027,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 3.01,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7408182206817179,
@@ -126,7 +132,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 1.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.84,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -158,7 +166,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.19,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -190,7 +200,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.02999999999999997,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.31,
+            "dg_error": 0.0
         },
         {
             "weight": 0.02732372244729256,
@@ -222,7 +234,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.67,
+            "dg_error": 0.0
         },
         {
             "weight": 0.02732372244729256,
@@ -254,7 +268,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.020000000000000018,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.31,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -286,7 +302,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.009999999999999953,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.81,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -318,7 +336,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.69,
+            "dg_error": 0.0
         },
         {
             "weight": 0.7046880897187134,
@@ -350,7 +370,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.030000000000000027,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.84,
+            "dg_error": 0.0
         },
         {
             "weight": 0.951229424500714,
@@ -382,7 +404,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.67,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -415,7 +439,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.99,
             "delta_r_fepmapper_pred_dG_error": -0.020000000000000018,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.36,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6065306597126334,
@@ -447,7 +473,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.76,
+            "dg_error": 0.3
         },
         {
             "weight": 0.7046880897187134,
@@ -480,7 +508,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": -0.26,
             "delta_r_fepmapper_pred_dG_error": -0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.36,
+            "dg_error": 0.27
         },
         {
             "weight": 0.7408182206817179,
@@ -512,7 +542,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.29,
+            "dg_error": 0.23
         },
         {
             "weight": 0.7788007830714049,
@@ -545,7 +577,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.28,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.39,
+            "dg_error": 0.23
         },
         {
             "weight": 0.33287108369807955,
@@ -577,7 +611,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.63,
+            "dg_error": 0.32
         },
         {
             "weight": 0.7408182206817179,
@@ -610,7 +646,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": -0.32000000000000006,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.44,
+            "dg_error": 0.19
         },
         {
             "weight": 0.7408182206817179,
@@ -642,7 +680,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.74,
+            "dg_error": 0.15
         },
         {
             "weight": 0.9048374180359595,
@@ -674,7 +714,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.12,
+            "dg_error": 0.39
         },
         {
             "weight": 0.7046880897187134,
@@ -705,7 +747,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.66,
+            "dg_error": 0.42
         },
         {
             "weight": 0.6065306597126334,
@@ -737,7 +781,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.16,
+            "dg_error": 0.13
         },
         {
             "weight": 0.7408182206817179,
@@ -769,7 +815,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.26,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.2,
+            "dg_error": 0.21
         },
         {
             "weight": 0.7408182206817179,
@@ -801,7 +849,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.67,
+            "dg_error": 0.16
         },
         {
             "weight": 0.04285212686704018,
@@ -833,7 +883,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.040000000000000036,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 4.35,
+            "dg_error": 0.09
         },
         {
             "weight": 0.04285212686704018,
@@ -866,7 +918,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.54,
             "delta_r_fepmapper_pred_dG_error": -0.040000000000000036,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.92,
+            "dg_error": 0.09
         },
         {
             "weight": 0.8187307530779818,
@@ -898,7 +952,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.24,
+            "dg_error": 0.19
         },
         {
             "weight": 0.7788007830714048,
@@ -931,7 +987,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.21999999999999997,
             "delta_r_fepmapper_pred_dG_error": 0.020000000000000018,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.31,
+            "dg_error": 0.24
         },
         {
             "weight": 0.36787944117144233,
@@ -963,7 +1021,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.58,
+            "dg_error": 0.29
         },
         {
             "weight": 0.8187307530779818,
@@ -995,7 +1055,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.49,
+            "dg_error": 0.16
         },
         {
             "weight": 0.4723665527410147,
@@ -1027,7 +1089,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": 0.06000000000000005,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.39,
+            "dg_error": 0.0
         },
         {
             "weight": 0.49658530379140947,
@@ -1058,7 +1122,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.35,
+            "dg_error": 0.1
         },
         {
             "weight": 0.5769498103804868,
@@ -1090,7 +1156,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.45,
+            "dg_error": 0.1
         },
         {
             "weight": 0.36787944117144233,
@@ -1122,7 +1190,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 0.16,
+            "dg_error": 0.0
         },
         {
             "weight": 0.6703200460356392,
@@ -1154,7 +1224,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.32,
+            "dg_error": 0.1
         },
         {
             "weight": 0.7788007830714048,
@@ -1186,7 +1258,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.36,
+            "dg_error": 0.0
         },
         {
             "weight": 0.02872463965423943,
@@ -1218,7 +1292,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.030000000000000027,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 4.34,
+            "dg_error": 0.0
         },
         {
             "weight": 0.9048374180359595,
@@ -1250,7 +1326,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.37,
+            "dg_error": 0.16
         },
         {
             "weight": 0.9048374180359595,
@@ -1283,7 +1361,9 @@
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_dpIC50": -0.26,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -0.36,
+            "dg_error": 0.13
         },
         {
             "weight": 0.9048374180359595,
@@ -1315,7 +1395,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.73,
+            "dg_error": 0.1
         },
         {
             "weight": 0.02872463965423943,
@@ -1347,7 +1429,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": -0.040000000000000036,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 3.3,
+            "dg_error": 0.1
         },
         {
             "weight": 0.24659696394160643,
@@ -1379,7 +1463,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.010000000000000009,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 1.61,
+            "dg_error": 0.1
         },
         {
             "weight": 0.7408182206817179,
@@ -1411,7 +1497,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": -1.43,
+            "dg_error": 0.0
         },
         {
             "weight": 0.02732372244729256,
@@ -1443,7 +1531,9 @@
             "delta_b_lp_Chiralities_Consistent": 0.0,
             "delta_i_mpc_Hbond_Donors": 0.0,
             "delta_r_fepmapper_pred_dG_error": 0.0,
-            "same_charge": true
+            "same_charge": true,
+            "dg_value": 2.12,
+            "dg_error": 0.0
         }
     ],
     "nodes": {
