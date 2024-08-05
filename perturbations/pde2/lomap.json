@@ -10,8 +10,8 @@
             "delta_measurement_value": 0.34999999999999964,
             "delta_measurement_error": -0.15,
             "same_charge": true,
-            "dg_value": -0.48,
-            "dg_error": 0.46
+            "ddg_value": 0.48,
+            "ddg_error": 0.46
         },
         {
             "weight": 0.9048374180359595,
@@ -23,8 +23,8 @@
             "delta_measurement_value": 0.5500000000000007,
             "delta_measurement_error": -0.05000000000000002,
             "same_charge": true,
-            "dg_value": -0.75,
-            "dg_error": 0.34
+            "ddg_value": 0.75,
+            "ddg_error": 0.34
         },
         {
             "weight": 0.9048374180359595,
@@ -36,8 +36,8 @@
             "delta_measurement_value": -0.14000000000000057,
             "delta_measurement_error": -0.04000000000000001,
             "same_charge": true,
-            "dg_value": 0.2,
-            "dg_error": 0.33
+            "ddg_value": -0.2,
+            "ddg_error": 0.33
         },
         {
             "weight": 0.9048374180359595,
@@ -49,8 +49,8 @@
             "delta_measurement_value": 0.9800000000000004,
             "delta_measurement_error": -0.08000000000000002,
             "same_charge": true,
-            "dg_value": -1.34,
-            "dg_error": 0.38
+            "ddg_value": 1.34,
+            "ddg_error": 0.38
         },
         {
             "weight": 0.8187307530779818,
@@ -62,8 +62,8 @@
             "delta_measurement_value": -0.6900000000000013,
             "delta_measurement_error": 0.010000000000000009,
             "same_charge": true,
-            "dg_value": 0.95,
-            "dg_error": 0.37
+            "ddg_value": -0.95,
+            "ddg_error": 0.37
         },
         {
             "weight": 0.7408182206817179,
@@ -75,8 +75,8 @@
             "delta_measurement_value": -0.33000000000000007,
             "delta_measurement_error": 0.15000000000000002,
             "same_charge": true,
-            "dg_value": 0.45,
-            "dg_error": 0.34
+            "ddg_value": -0.45,
+            "ddg_error": 0.34
         },
         {
             "weight": 0.7408182206817179,
@@ -88,8 +88,8 @@
             "delta_measurement_value": 0.07000000000000028,
             "delta_measurement_error": -0.21999999999999997,
             "same_charge": true,
-            "dg_value": -0.09,
-            "dg_error": 0.42
+            "ddg_value": 0.09,
+            "ddg_error": 0.42
         },
         {
             "weight": 0.8187307530779818,
@@ -101,8 +101,8 @@
             "delta_measurement_value": -0.9500000000000002,
             "delta_measurement_error": -0.07,
             "same_charge": true,
-            "dg_value": 1.31,
-            "dg_error": 0.32
+            "ddg_value": -1.31,
+            "ddg_error": 0.32
         },
         {
             "weight": 0.8607079764250578,
@@ -114,8 +114,8 @@
             "delta_measurement_value": -2.33,
             "delta_measurement_error": -0.22999999999999998,
             "same_charge": true,
-            "dg_value": 3.2,
-            "dg_error": 0.52
+            "ddg_value": -3.2,
+            "ddg_error": 0.52
         },
         {
             "weight": 0.6376281516217733,
@@ -127,8 +127,8 @@
             "delta_measurement_value": 0.370000000000001,
             "delta_measurement_error": 0.0,
             "same_charge": true,
-            "dg_value": -0.5,
-            "dg_error": 0.58
+            "ddg_value": 0.5,
+            "ddg_error": 0.58
         },
         {
             "weight": 0.8187307530779818,
@@ -140,8 +140,8 @@
             "delta_measurement_value": 0.030000000000001137,
             "delta_measurement_error": 0.12999999999999998,
             "same_charge": true,
-            "dg_value": -0.04,
-            "dg_error": 0.47
+            "ddg_value": 0.04,
+            "ddg_error": 0.47
         },
         {
             "weight": 0.9048374180359595,
@@ -153,8 +153,8 @@
             "delta_measurement_value": 0.009999999999999787,
             "delta_measurement_error": 0.09,
             "same_charge": true,
-            "dg_value": -0.01,
-            "dg_error": 0.5
+            "ddg_value": 0.01,
+            "ddg_error": 0.5
         },
         {
             "weight": 0.8607079764250578,
@@ -166,8 +166,8 @@
             "delta_measurement_value": 0.040000000000000924,
             "delta_measurement_error": 0.07999999999999999,
             "same_charge": true,
-            "dg_value": -0.05,
-            "dg_error": 0.51
+            "ddg_value": 0.05,
+            "ddg_error": 0.51
         },
         {
             "weight": 0.9048374180359595,
@@ -179,8 +179,8 @@
             "delta_measurement_value": 1.2600000000000007,
             "delta_measurement_error": -0.010000000000000009,
             "same_charge": true,
-            "dg_value": -1.73,
-            "dg_error": 0.59
+            "ddg_value": 1.73,
+            "ddg_error": 0.59
         },
         {
             "weight": 0.9048374180359595,
@@ -192,8 +192,8 @@
             "delta_measurement_value": 1.2100000000000009,
             "delta_measurement_error": 0.25,
             "same_charge": true,
-            "dg_value": -1.66,
-            "dg_error": 0.42
+            "ddg_value": 1.66,
+            "ddg_error": 0.42
         },
         {
             "weight": 0.951229424500714,
@@ -205,8 +205,8 @@
             "delta_measurement_value": 1.1400000000000006,
             "delta_measurement_error": 0.10999999999999999,
             "same_charge": true,
-            "dg_value": -1.56,
-            "dg_error": 0.49
+            "ddg_value": 1.56,
+            "ddg_error": 0.49
         },
         {
             "weight": 0.9048374180359595,
@@ -218,8 +218,8 @@
             "delta_measurement_value": -0.08999999999999986,
             "delta_measurement_error": 0.04999999999999999,
             "same_charge": true,
-            "dg_value": 0.12,
-            "dg_error": 0.38
+            "ddg_value": -0.12,
+            "ddg_error": 0.38
         },
         {
             "weight": 0.9048374180359595,
@@ -231,8 +231,8 @@
             "delta_measurement_value": 0.5399999999999991,
             "delta_measurement_error": 0.15,
             "same_charge": true,
-            "dg_value": -0.74,
-            "dg_error": 0.57
+            "ddg_value": 0.74,
+            "ddg_error": 0.57
         },
         {
             "weight": 0.8607079764250578,
@@ -244,8 +244,8 @@
             "delta_measurement_value": 0.6699999999999999,
             "delta_measurement_error": 0.010000000000000009,
             "same_charge": true,
-            "dg_value": -0.92,
-            "dg_error": 0.32
+            "ddg_value": 0.92,
+            "ddg_error": 0.32
         },
         {
             "weight": 0.9048374180359595,
@@ -257,8 +257,8 @@
             "delta_measurement_value": -0.010000000000000675,
             "delta_measurement_error": 0.010000000000000009,
             "same_charge": true,
-            "dg_value": 0.02,
-            "dg_error": 0.3
+            "ddg_value": -0.02,
+            "ddg_error": 0.3
         },
         {
             "weight": 0.9048374180359595,
@@ -270,8 +270,8 @@
             "delta_measurement_value": 0.46999999999999975,
             "delta_measurement_error": -0.09,
             "same_charge": true,
-            "dg_value": -0.64,
-            "dg_error": 0.4
+            "ddg_value": 0.64,
+            "ddg_error": 0.4
         },
         {
             "weight": 0.9048374180359595,
@@ -283,8 +283,8 @@
             "delta_measurement_value": 0.3299999999999992,
             "delta_measurement_error": 0.15,
             "same_charge": true,
-            "dg_value": -0.45,
-            "dg_error": 0.22
+            "ddg_value": 0.45,
+            "ddg_error": 0.22
         },
         {
             "weight": 0.951229424500714,
@@ -296,8 +296,8 @@
             "delta_measurement_value": 0.14999999999999947,
             "delta_measurement_error": -0.04000000000000001,
             "same_charge": true,
-            "dg_value": -0.2,
-            "dg_error": 0.35
+            "ddg_value": 0.2,
+            "ddg_error": 0.35
         },
         {
             "weight": 0.9048374180359595,
@@ -309,8 +309,8 @@
             "delta_measurement_value": 0.4800000000000004,
             "delta_measurement_error": -0.1,
             "same_charge": true,
-            "dg_value": -0.66,
-            "dg_error": 0.4
+            "ddg_value": 0.66,
+            "ddg_error": 0.4
         },
         {
             "weight": 0.951229424500714,
@@ -322,8 +322,8 @@
             "delta_measurement_value": 0.1200000000000001,
             "delta_measurement_error": -0.12,
             "same_charge": true,
-            "dg_value": -0.17,
-            "dg_error": 0.5
+            "ddg_value": 0.17,
+            "ddg_error": 0.5
         },
         {
             "weight": 0.8607079764250578,
@@ -335,8 +335,8 @@
             "delta_measurement_value": 0.2600000000000007,
             "delta_measurement_error": -0.04,
             "same_charge": true,
-            "dg_value": -0.36,
-            "dg_error": 0.07
+            "ddg_value": 0.36,
+            "ddg_error": 0.07
         }
     ],
     "nodes": {

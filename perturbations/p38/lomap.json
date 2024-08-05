@@ -21,8 +21,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -10.820000000000022,
             "same_charge": true,
-            "dg_value": 1.44,
-            "dg_error": 0.27
+            "ddg_value": -1.44,
+            "ddg_error": 0.27
         },
         {
             "weight": 0.8187307530779818,
@@ -45,8 +45,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 17.900000000000006,
             "same_charge": true,
-            "dg_value": 2.19,
-            "dg_error": 0.25
+            "ddg_value": -2.19,
+            "ddg_error": 0.25
         },
         {
             "weight": 0.6065306597126334,
@@ -69,8 +69,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 2.7600000000000193,
             "same_charge": true,
-            "dg_value": 2.4,
-            "dg_error": 0.2
+            "ddg_value": -2.4,
+            "ddg_error": 0.2
         },
         {
             "weight": 0.9048374180359595,
@@ -93,8 +93,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -34.859999999999985,
             "same_charge": true,
-            "dg_value": 0.89,
-            "dg_error": 0.31
+            "ddg_value": -0.89,
+            "ddg_error": 0.31
         },
         {
             "weight": 0.4065696597405991,
@@ -117,8 +117,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 3.240000000000009,
             "same_charge": true,
-            "dg_value": 0.61,
-            "dg_error": 0.04
+            "ddg_value": -0.61,
+            "ddg_error": 0.04
         },
         {
             "weight": 0.8187307530779818,
@@ -141,8 +141,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -38.52000000000001,
             "same_charge": true,
-            "dg_value": 1.02,
-            "dg_error": 0.21
+            "ddg_value": -1.02,
+            "ddg_error": 0.21
         },
         {
             "weight": 0.4065696597405991,
@@ -165,8 +165,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 41.76000000000002,
             "same_charge": true,
-            "dg_value": -0.41,
-            "dg_error": 0.21
+            "ddg_value": 0.41,
+            "ddg_error": 0.21
         },
         {
             "weight": 0.6703200460356393,
@@ -189,8 +189,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -19.939999999999998,
             "same_charge": true,
-            "dg_value": 1.4,
-            "dg_error": 0.25
+            "ddg_value": -1.4,
+            "ddg_error": 0.25
         },
         {
             "weight": 0.8187307530779818,
@@ -213,8 +213,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -17.67999999999998,
             "same_charge": true,
-            "dg_value": 2.49,
-            "dg_error": 0.17
+            "ddg_value": -2.49,
+            "ddg_error": 0.17
         },
         {
             "weight": 0.301194211912202,
@@ -237,8 +237,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -25.060000000000002,
             "same_charge": true,
-            "dg_value": 1.27,
-            "dg_error": 0.23
+            "ddg_value": -1.27,
+            "ddg_error": 0.23
         },
         {
             "weight": 0.27253179303401254,
@@ -261,8 +261,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -40.139999999999986,
             "same_charge": true,
-            "dg_value": 1.94,
-            "dg_error": 0.29
+            "ddg_value": -1.94,
+            "ddg_error": 0.29
         },
         {
             "weight": 0.25924026064589145,
@@ -285,8 +285,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -46.25999999999999,
             "same_charge": true,
-            "dg_value": 1.12,
-            "dg_error": 0.23
+            "ddg_value": -1.12,
+            "ddg_error": 0.23
         },
         {
             "weight": 0.6703200460356393,
@@ -309,8 +309,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -20.580000000000013,
             "same_charge": true,
-            "dg_value": 0.59,
-            "dg_error": 0.3
+            "ddg_value": -0.59,
+            "ddg_error": 0.3
         },
         {
             "weight": 0.6703200460356393,
@@ -333,8 +333,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -18.319999999999993,
             "same_charge": true,
-            "dg_value": 1.68,
-            "dg_error": 0.23
+            "ddg_value": -1.68,
+            "ddg_error": 0.23
         },
         {
             "weight": 0.6703200460356393,
@@ -357,8 +357,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 37.620000000000005,
             "same_charge": true,
-            "dg_value": 1.51,
-            "dg_error": 0.24
+            "ddg_value": -1.51,
+            "ddg_error": 0.24
         },
         {
             "weight": 0.6703200460356393,
@@ -381,8 +381,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 28.720000000000027,
             "same_charge": true,
-            "dg_value": 0.75,
-            "dg_error": 0.1
+            "ddg_value": -0.75,
+            "ddg_error": 0.1
         },
         {
             "weight": 0.24659696394160643,
@@ -405,8 +405,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -7.380000000000024,
             "same_charge": true,
-            "dg_value": -1.22,
-            "dg_error": 0.16
+            "ddg_value": 1.22,
+            "ddg_error": 0.16
         },
         {
             "weight": 0.13533528323661265,
@@ -429,8 +429,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -30.75999999999999,
             "same_charge": true,
-            "dg_value": -0.97,
-            "dg_error": 0.34
+            "ddg_value": 0.97,
+            "ddg_error": 0.34
         },
         {
             "weight": 0.12245642825298189,
@@ -453,8 +453,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -30.039999999999992,
             "same_charge": true,
-            "dg_value": 0.24,
-            "dg_error": 0.38
+            "ddg_value": -0.24,
+            "ddg_error": 0.38
         },
         {
             "weight": 0.9048374180359595,
@@ -477,8 +477,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -4.6200000000000045,
             "same_charge": true,
-            "dg_value": 0.2,
-            "dg_error": 0.35
+            "ddg_value": -0.2,
+            "ddg_error": 0.35
         },
         {
             "weight": 0.9048374180359595,
@@ -501,8 +501,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.7199999999999989,
             "same_charge": true,
-            "dg_value": -1.21,
-            "dg_error": 0.33
+            "ddg_value": 1.21,
+            "ddg_error": 0.33
         },
         {
             "weight": 0.6703200460356392,
@@ -525,8 +525,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -6.280000000000001,
             "same_charge": true,
-            "dg_value": -2.19,
-            "dg_error": 0.39
+            "ddg_value": 2.19,
+            "ddg_error": 0.39
         },
         {
             "weight": 0.7046880897187134,
@@ -549,8 +549,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.1599999999999966,
             "same_charge": true,
-            "dg_value": -1.37,
-            "dg_error": 0.43
+            "ddg_value": 1.37,
+            "ddg_error": 0.43
         },
         {
             "weight": 0.8187307530779818,
@@ -573,8 +573,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.700000000000017,
             "same_charge": true,
-            "dg_value": 2.19,
-            "dg_error": 0.32
+            "ddg_value": -2.19,
+            "ddg_error": 0.32
         },
         {
             "weight": 0.9048374180359595,
@@ -597,8 +597,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.46000000000000796,
             "same_charge": true,
-            "dg_value": 1.02,
-            "dg_error": 0.29
+            "ddg_value": -1.02,
+            "ddg_error": 0.29
         },
         {
             "weight": 0.6376281516217733,
@@ -621,8 +621,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.6200000000000045,
             "same_charge": true,
-            "dg_value": -0.79,
-            "dg_error": 0.12
+            "ddg_value": 0.79,
+            "ddg_error": 0.12
         },
         {
             "weight": 0.8607079764250578,
@@ -645,8 +645,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.079999999999984,
             "same_charge": true,
-            "dg_value": -0.55,
-            "dg_error": 0.26
+            "ddg_value": 0.55,
+            "ddg_error": 0.26
         },
         {
             "weight": 0.951229424500714,
@@ -669,8 +669,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -6.219999999999999,
             "same_charge": true,
-            "dg_value": -1.19,
-            "dg_error": 0.31
+            "ddg_value": 1.19,
+            "ddg_error": 0.31
         },
         {
             "weight": 0.951229424500714,
@@ -693,8 +693,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -7.97999999999999,
             "same_charge": true,
-            "dg_value": -0.61,
-            "dg_error": 0.32
+            "ddg_value": 0.61,
+            "ddg_error": 0.32
         },
         {
             "weight": 0.6703200460356393,
@@ -717,8 +717,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.6999999999999886,
             "same_charge": true,
-            "dg_value": 0.24,
-            "dg_error": 0.25
+            "ddg_value": -0.24,
+            "ddg_error": 0.25
         },
         {
             "weight": 0.951229424500714,
@@ -741,8 +741,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.759999999999991,
             "same_charge": true,
-            "dg_value": 0.58,
-            "dg_error": 0.28
+            "ddg_value": -0.58,
+            "ddg_error": 0.28
         },
         {
             "weight": 0.9048374180359595,
@@ -765,8 +765,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.12000000000000455,
             "same_charge": true,
-            "dg_value": 0.03,
-            "dg_error": 0.26
+            "ddg_value": -0.03,
+            "ddg_error": 0.26
         },
         {
             "weight": 0.7788007830714049,
@@ -789,8 +789,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 6.680000000000007,
             "same_charge": true,
-            "dg_value": 1.78,
-            "dg_error": 0.18
+            "ddg_value": -1.78,
+            "ddg_error": 0.18
         },
         {
             "weight": 0.8607079764250578,
@@ -813,8 +813,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 6.340000000000003,
             "same_charge": true,
-            "dg_value": 0.47,
-            "dg_error": 0.19
+            "ddg_value": -0.47,
+            "ddg_error": 0.19
         },
         {
             "weight": 0.951229424500714,
@@ -837,8 +837,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 6.1200000000000045,
             "same_charge": true,
-            "dg_value": 0.82,
-            "dg_error": 0.29
+            "ddg_value": -0.82,
+            "ddg_error": 0.29
         },
         {
             "weight": 0.44932896411722156,
@@ -861,8 +861,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.8400000000000034,
             "same_charge": true,
-            "dg_value": 1.72,
-            "dg_error": 0.16
+            "ddg_value": -1.72,
+            "ddg_error": 0.16
         },
         {
             "weight": 0.7408182206817179,
@@ -885,8 +885,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.4000000000000057,
             "same_charge": true,
-            "dg_value": 0.41,
-            "dg_error": 0.12
+            "ddg_value": -0.41,
+            "ddg_error": 0.12
         },
         {
             "weight": 0.9048374180359595,
@@ -909,8 +909,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.21999999999999886,
             "same_charge": true,
-            "dg_value": 0.35,
-            "dg_error": 0.26
+            "ddg_value": -0.35,
+            "ddg_error": 0.26
         },
         {
             "weight": 0.6065306597126334,
@@ -933,8 +933,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.539999999999992,
             "same_charge": true,
-            "dg_value": -1.06,
-            "dg_error": 0.08
+            "ddg_value": 1.06,
+            "ddg_error": 0.08
         },
         {
             "weight": 0.6703200460356393,
@@ -957,8 +957,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.7400000000000091,
             "same_charge": true,
-            "dg_value": -1.78,
-            "dg_error": 0.13
+            "ddg_value": 1.78,
+            "ddg_error": 0.13
         },
         {
             "weight": 0.8187307530779818,
@@ -981,8 +981,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.6399999999999864,
             "same_charge": true,
-            "dg_value": -0.41,
-            "dg_error": 0.16
+            "ddg_value": 0.41,
+            "ddg_error": 0.16
         },
         {
             "weight": 0.9048374180359595,
@@ -1005,8 +1005,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.6999999999999886,
             "same_charge": true,
-            "dg_value": -1.37,
-            "dg_error": 0.25
+            "ddg_value": 1.37,
+            "ddg_error": 0.25
         },
         {
             "weight": 0.6065306597126334,
@@ -1029,8 +1029,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 1.1799999999999784,
             "same_charge": true,
-            "dg_value": -0.65,
-            "dg_error": 0.16
+            "ddg_value": 0.65,
+            "ddg_error": 0.16
         },
         {
             "weight": 0.7408182206817179,
@@ -1053,8 +1053,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 1.299999999999983,
             "same_charge": true,
-            "dg_value": -1.07,
-            "dg_error": 0.18
+            "ddg_value": 1.07,
+            "ddg_error": 0.18
         },
         {
             "weight": 0.9048374180359595,
@@ -1077,8 +1077,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": 0.1599999999999966,
             "same_charge": true,
-            "dg_value": -0.75,
-            "dg_error": 0.17
+            "ddg_value": 0.75,
+            "ddg_error": 0.17
         },
         {
             "weight": 0.6065306597126334,
@@ -1101,8 +1101,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.4399999999999977,
             "same_charge": true,
-            "dg_value": 0.41,
-            "dg_error": 0.27
+            "ddg_value": -0.41,
+            "ddg_error": 0.27
         },
         {
             "weight": 0.4493289641172216,
@@ -1125,8 +1125,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.460000000000008,
             "same_charge": true,
-            "dg_value": 0.0,
-            "dg_error": 0.13
+            "ddg_value": 0.0,
+            "ddg_error": 0.13
         },
         {
             "weight": 0.8187307530779818,
@@ -1149,8 +1149,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -1.1399999999999864,
             "same_charge": true,
-            "dg_value": 0.32,
-            "dg_error": 0.13
+            "ddg_value": -0.32,
+            "ddg_error": 0.13
         },
         {
             "weight": 0.8187307530779818,
@@ -1173,8 +1173,8 @@
             "delta_i_pdb_PDB_CRYST1_z": 0.0,
             "delta_r_pdb_PDB_CRYST1_a": -0.5600000000000023,
             "same_charge": true,
-            "dg_value": -0.96,
-            "dg_error": 0.26
+            "ddg_value": 0.96,
+            "ddg_error": 0.26
         }
     ],
     "nodes": {
