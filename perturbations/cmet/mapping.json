@@ -1,0 +1,148 @@
+{
+    "edges": [
+        {
+            "fep_name": "FEP_CHEMBL3402745_200_5_CHEMBL3402749_500_9",
+            "from": "CHEMBL3402745_200_5",
+            "to": "CHEMBL3402749_500_9",
+            "score": "0.111",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.55,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402754_40_14_CHEMBL3402761_1_21",
+            "from": "CHEMBL3402754_40_14",
+            "to": "CHEMBL3402761_1_21",
+            "score": "0.287",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -2.19,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402745_200_5_CHEMBL3402744_300_4",
+            "from": "CHEMBL3402745_200_5",
+            "to": "CHEMBL3402744_300_4",
+            "score": "0.183",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.25,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402745_200_5_CHEMBL3402761_1_21",
+            "from": "CHEMBL3402745_200_5",
+            "to": "CHEMBL3402761_1_21",
+            "score": "0.030",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -3.15,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402745_200_5_CHEMBL3402754_40_14",
+            "from": "CHEMBL3402745_200_5",
+            "to": "CHEMBL3402754_40_14",
+            "score": "0.100",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.96,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402744_300_4_CHEMBL3402749_500_9",
+            "from": "CHEMBL3402744_300_4",
+            "to": "CHEMBL3402749_500_9",
+            "score": "0.025",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.3,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_CHEMBL3402744_300_4_CHEMBL3402754_40_14",
+            "from": "CHEMBL3402744_300_4",
+            "to": "CHEMBL3402754_40_14",
+            "score": "0.022",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -1.21,
+            "ddg_error": null
+        }
+    ],
+    "nodes": {
+        "CHEMBL3402744_300_4": {
+            "charge": 0.0,
+            "name": "CHEMBL3402744_300_4",
+            "measurement_doi": [
+                "10.1016/j.bmcl.2015.02.002"
+            ],
+            "measurement_error": -1,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 300,
+            "smiles": "[H][C]1=[C]([H])[C]([c]2[c]([H])[c]([F])[c]([H])[c]([F])[c]2[H])=[N][N]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([N]([H])[C](=[O])[O][C]([H])([H])[H])[c]2[H])[C]1=[O]",
+            "dg_value": -8.95,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "CHEMBL3402745_200_5": {
+            "charge": 0.0,
+            "name": "CHEMBL3402745_200_5",
+            "measurement_doi": [
+                "10.1016/j.bmcl.2015.02.002"
+            ],
+            "measurement_error": -1,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 200,
+            "smiles": "[H][C]1=[C]([H])[C]([c]2[c]([H])[c]([F])[c]([H])[c]([F])[c]2[H])=[N][N]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([N]([H])[C](=[O])[O][C]([H])([H])[C]([H])([H])[H])[c]2[H])[C]1=[O]",
+            "dg_value": -9.2,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "CHEMBL3402749_500_9": {
+            "charge": 0.0,
+            "name": "CHEMBL3402749_500_9",
+            "measurement_doi": [
+                "10.1016/j.bmcl.2015.02.002"
+            ],
+            "measurement_error": -1,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 500,
+            "smiles": "[H][C]1=[C]([C]([H])([H])[H])[O][C]([c]2[c]([H])[c]([H])[c]([H])[c]([C]([H])([H])[N]3[N]=[C]([c]4[c]([H])[c]([F])[c]([H])[c]([F])[c]4[H])[C]([H])=[C]([H])[C]3=[O])[c]2[H])=[N]1",
+            "dg_value": -8.65,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "CHEMBL3402754_40_14": {
+            "charge": 0.0,
+            "name": "CHEMBL3402754_40_14",
+            "measurement_doi": [
+                "10.1016/j.bmcl.2015.02.002"
+            ],
+            "measurement_error": -1,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 40,
+            "smiles": "[H][C]1=[C]([H])[C]([c]2[c]([H])[c]([F])[c]([H])[c]([F])[c]2[H])=[N][N]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c](-[c]3[n][c]([H])[c]([C]([H])([H])[H])[c]([H])[n]3)[c]2[H])[C]1=[O]",
+            "dg_value": -10.16,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "CHEMBL3402761_1_21": {
+            "charge": 0.0,
+            "name": "CHEMBL3402761_1_21",
+            "measurement_doi": [
+                "10.1016/j.bmcl.2015.02.002"
+            ],
+            "measurement_error": -1,
+            "measurement_type": "ic50",
+            "measurement_unit": "nM",
+            "measurement_value": 1,
+            "smiles": "[H][C]1=[C]([H])[C]([c]2[c]([H])[c]([H])[c]([H])[c]([C]#[N])[c]2[H])=[N][N]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c](-[c]3[n][c]([H])[c]([O][C]([H])([H])[C]([H])([H])[N]4[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]4([H])[H])[c]([H])[n]3)[c]2[H])[C]1=[O]",
+            "dg_value": -12.35,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        }
+    },
+    "mapping_metadata": {
+        "remarks": "Kartograph mapper, Lomap scorer, Lomap network, allow element changes",
+        "planner": "openfe v0.14 lomap network"
+    }
+}

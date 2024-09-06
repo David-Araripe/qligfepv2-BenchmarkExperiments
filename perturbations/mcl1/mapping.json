@@ -1,0 +1,632 @@
+{
+    "edges": [
+        {
+            "fep_name": "FEP_65_67",
+            "from": "65",
+            "to": "67",
+            "score": "0.861",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.83,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_36_35",
+            "from": "36",
+            "to": "35",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.63,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_43_47",
+            "from": "43",
+            "to": "47",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.26,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_48_32",
+            "from": "48",
+            "to": "32",
+            "score": "0.670",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.08,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_61_49",
+            "from": "61",
+            "to": "49",
+            "score": "0.861",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.28,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_67_63",
+            "from": "67",
+            "to": "63",
+            "score": "0.861",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -1.48,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_56_37",
+            "from": "56",
+            "to": "37",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.31,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_35_52",
+            "from": "35",
+            "to": "52",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.42,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_47_27",
+            "from": "47",
+            "to": "27",
+            "score": "0.670",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.34,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_46_28",
+            "from": "46",
+            "to": "28",
+            "score": "0.670",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.98,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_34_33",
+            "from": "34",
+            "to": "33",
+            "score": "0.705",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.01,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_50_49",
+            "from": "50",
+            "to": "49",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.97,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_31_27",
+            "from": "31",
+            "to": "27",
+            "score": "0.670",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.8,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_31_30",
+            "from": "31",
+            "to": "30",
+            "score": "0.741",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.07,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_37_60",
+            "from": "37",
+            "to": "60",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.03,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_56_58",
+            "from": "56",
+            "to": "58",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.15,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_37_35",
+            "from": "37",
+            "to": "35",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.14,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_36_33",
+            "from": "36",
+            "to": "33",
+            "score": "0.819",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.3,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_33_27",
+            "from": "33",
+            "to": "27",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.76,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_60_63",
+            "from": "60",
+            "to": "63",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.14,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_34_32",
+            "from": "34",
+            "to": "32",
+            "score": "0.741",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.29,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_53_58",
+            "from": "53",
+            "to": "58",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.56,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_30_27",
+            "from": "30",
+            "to": "27",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.73,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_28_27",
+            "from": "28",
+            "to": "27",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.5,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_46_27",
+            "from": "46",
+            "to": "27",
+            "score": "0.741",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.48,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_65_60",
+            "from": "65",
+            "to": "60",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.51,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_53_52",
+            "from": "53",
+            "to": "52",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.74,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_37_50",
+            "from": "37",
+            "to": "50",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.38,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_48_27",
+            "from": "48",
+            "to": "27",
+            "score": "0.741",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.54,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_43_27",
+            "from": "43",
+            "to": "27",
+            "score": "0.670",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.92,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_35_33",
+            "from": "35",
+            "to": "33",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.93,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_60_67",
+            "from": "60",
+            "to": "67",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.34,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_60_61",
+            "from": "60",
+            "to": "61",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.84,
+            "ddg_error": null
+        }
+    ],
+    "nodes": {
+        "27": {
+            "name": "27",
+            "measurement_comment": "Table 3, entry 27",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 7.1,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 35.0,
+            "smiles": "[H]c1c(c(c(c(c1[H])[H])OC([H])([H])C([H])([H])C([H])([H])C2=C(N(c3c2c(c(c(c3[H])[H])[H])[H])[H])C(=O)[O-])[H])[H]",
+            "dg_value": -6.12,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "28": {
+            "name": "28",
+            "measurement_comment": "Table 3, entry 28",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.7,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 15,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3C([H])([H])[H])[H])[H])[H])[H])[H])[H]",
+            "dg_value": -6.62,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "30": {
+            "name": "30",
+            "measurement_comment": "Table 3, entry 30",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.6,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.9,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])[H])[H])[H])[H])[H]",
+            "dg_value": -7.85,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "31": {
+            "name": "31",
+            "measurement_comment": "Table 3, entry 31",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.08,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.7,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C(F)(F)F)[H])[H])[H])[H])[H]",
+            "dg_value": -7.92,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "32": {
+            "name": "32",
+            "measurement_comment": "Table 3, entry 32",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 3.1,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 16,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])[H])C([H])([H])[H])[H])[H])[H])[H]",
+            "dg_value": -6.58,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "33": {
+            "name": "33",
+            "measurement_comment": "Table 3, entry 33",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 2.9,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 9.8,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])[H])Cl)[H])[H])[H])[H]",
+            "dg_value": -6.88,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "34": {
+            "name": "34",
+            "measurement_comment": "Table 3, entry 34",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 3.2,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 9.9,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])[H])C(F)(F)F)[H])[H])[H])[H]",
+            "dg_value": -6.87,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "35": {
+            "name": "35",
+            "measurement_comment": "Table 3, entry 35",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.14,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.38,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)[H])[H])[H])[H]",
+            "dg_value": -8.81,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "36": {
+            "name": "36",
+            "measurement_comment": "Table 3, entry 36",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.1,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.1,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])C([H])([H])[H])Cl)[H])[H])[H])[H]",
+            "dg_value": -8.18,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "37": {
+            "name": "37",
+            "measurement_comment": "Table 3, entry 37",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.15,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.3,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])[H]",
+            "dg_value": -8.95,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "43": {
+            "name": "43",
+            "measurement_comment": "Table 3, entry 43",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.6,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 7.5,
+            "smiles": "[H]c1c(c(c2c(c(c(c(c2c1[H])[H])[H])OC([H])([H])C([H])([H])C([H])([H])C3=C(N(c4c3c(c(c(c4[H])[H])[H])[H])[H])C(=O)[O-])[H])[H])[H]",
+            "dg_value": -7.04,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "46": {
+            "name": "46",
+            "measurement_comment": "Table 3, entry 46",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.1,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 2.9,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c4c(c3[H])C(C(C4([H])[H])([H])[H])([H])[H])[H])[H])[H])[H]",
+            "dg_value": -7.6,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "47": {
+            "name": "47",
+            "measurement_comment": "Table 3, entry 47",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 17,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 62,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c4c(c3[H])c(c(c(n4)[H])[H])[H])[H])[H])[H])[H]",
+            "dg_value": -5.78,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "48": {
+            "name": "48",
+            "measurement_comment": "Table 3, entry 48",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.3,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 14,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c4c3C(=C(N4[H])[H])[H])[H])[H])[H])[H])[H]",
+            "dg_value": -6.66,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "49": {
+            "name": "49",
+            "measurement_comment": "Table 3, entry 49",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.16,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.81,
+            "smiles": "[H]c1c(c2c(c(c1[H])Cl)C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)[H])[H])[H]",
+            "dg_value": -8.36,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "50": {
+            "name": "50",
+            "measurement_comment": "Table 3, entry 50",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.04,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.16,
+            "smiles": "[H]c1c(c2c(c(c1[H])Cl)C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H]",
+            "dg_value": -9.33,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "52": {
+            "name": "52",
+            "measurement_comment": "Table 3, entry 52",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.02,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.19,
+            "smiles": "[H]c1c(c(c(c2c1C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)[H])[H])[H])Cl)[H]",
+            "dg_value": -9.23,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "53": {
+            "name": "53",
+            "measurement_comment": "Table 3, entry 53",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.018,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.055,
+            "smiles": "[H]c1c(c(c(c2c1C(=C(N2[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])Cl)[H]",
+            "dg_value": -9.97,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "56": {
+            "name": "56",
+            "measurement_comment": "Table 3, entry 56",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.01,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.18,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(N2C([H])([H])[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])[H]",
+            "dg_value": -9.26,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "58": {
+            "name": "58",
+            "measurement_comment": "Table 3, entry 58",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.01,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.14,
+            "smiles": "[H]c1c(c(c(c2c1C(=C(N2C([H])([H])[H])C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])Cl)[H]",
+            "dg_value": -9.41,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "60": {
+            "name": "60",
+            "measurement_comment": "Table 3, entry 60",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.01,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.32,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(S2)C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])[H]",
+            "dg_value": -8.92,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "61": {
+            "name": "61",
+            "measurement_comment": "Table 3, entry 61",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.52,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.3,
+            "smiles": "[H]c1c(c2c(c(c1[H])Cl)C(=C(S2)C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H]",
+            "dg_value": -8.08,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "63": {
+            "name": "63",
+            "measurement_comment": "Table 3, entry 63",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.04,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.25,
+            "smiles": "[H]c1c(c(c(c2c1C(=C(S2)C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])Cl)[H]",
+            "dg_value": -9.06,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "65": {
+            "name": "65",
+            "measurement_comment": "Table 3, entry 65",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.24,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 0.75,
+            "smiles": "[H]c1c(c2c(c(c1[H])Cl)SC(=C2C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])C(=O)[O-])[H]",
+            "dg_value": -8.41,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "67": {
+            "name": "67",
+            "measurement_comment": "Table 3, entry 67",
+            "measurement_doi": "10.1021/jm301448p",
+            "measurement_error": 0.1,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 3.0,
+            "smiles": "[H]c1c(c(c2c(c1[H])C(=C(O2)C(=O)[O-])C([H])([H])C([H])([H])C([H])([H])Oc3c(c(c(c(c3[H])C([H])([H])[H])Cl)C([H])([H])[H])[H])[H])[H]",
+            "dg_value": -7.58,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        }
+    },
+    "mapping_metadata": {
+        "remarks": "Kartograph mapper, Lomap scorer, Lomap network, allow element changes",
+        "planner": "openfe v0.14 lomap network"
+    }
+}

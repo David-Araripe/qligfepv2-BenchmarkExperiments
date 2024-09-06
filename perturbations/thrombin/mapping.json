@@ -1,0 +1,779 @@
+{
+    "edges": [
+        {
+            "fep_name": "FEP_3b_2a",
+            "from": "3b",
+            "to": "2a",
+            "score": "0.779",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.64,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1b_6b",
+            "from": "1b",
+            "to": "6b",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.22,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_2b_7e",
+            "from": "2b",
+            "to": "7e",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.64,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_7f_5",
+            "from": "7f",
+            "to": "5",
+            "score": "0.819",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.68,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6c_6a",
+            "from": "6c",
+            "to": "6a",
+            "score": "0.891",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.89,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1a_2d",
+            "from": "1a",
+            "to": "2d",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.78,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1d_1c",
+            "from": "1d",
+            "to": "1c",
+            "score": "0.985",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.02,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6a_6b",
+            "from": "6a",
+            "to": "6b",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.87,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1b_2c",
+            "from": "1b",
+            "to": "2c",
+            "score": "0.985",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.97,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6a_7c",
+            "from": "6a",
+            "to": "7c",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.9,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_3a_3b",
+            "from": "3a",
+            "to": "3b",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.86,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_5_7b",
+            "from": "5",
+            "to": "7b",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.61,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_2d_2c",
+            "from": "2d",
+            "to": "2c",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.66,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6e_6b",
+            "from": "6e",
+            "to": "6b",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.39,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_2b_2c",
+            "from": "2b",
+            "to": "2c",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.01,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_2e_2d",
+            "from": "2e",
+            "to": "2d",
+            "score": "0.819",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.32,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1c_2c",
+            "from": "1c",
+            "to": "2c",
+            "score": "0.985",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.29,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_3a_2d",
+            "from": "3a",
+            "to": "2d",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.49,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_7e_2a",
+            "from": "7e",
+            "to": "2a",
+            "score": "0.779",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -0.96,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6c_6d",
+            "from": "6c",
+            "to": "6d",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.28,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6d_6a",
+            "from": "6d",
+            "to": "6a",
+            "score": "0.985",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -1.17,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1b_3a",
+            "from": "1b",
+            "to": "3a",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.14,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_4_5",
+            "from": "4",
+            "to": "5",
+            "score": "0.074",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 4.73,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_6e_6a",
+            "from": "6e",
+            "to": "6a",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -1.26,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_7f_7b",
+            "from": "7f",
+            "to": "7b",
+            "score": "0.861",
+            "score_method": "Lomap default scorer",
+            "ddg_value": -1.29,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_7c_5",
+            "from": "7c",
+            "to": "5",
+            "score": "0.905",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 1.21,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_4_7f",
+            "from": "4",
+            "to": "7f",
+            "score": "0.074",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 5.41,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1a_2c",
+            "from": "1a",
+            "to": "2c",
+            "score": "0.951",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.12,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_2e_5",
+            "from": "2e",
+            "to": "5",
+            "score": "0.741",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.15,
+            "ddg_error": null
+        },
+        {
+            "fep_name": "FEP_1b_1d",
+            "from": "1b",
+            "to": "1d",
+            "score": "0.966",
+            "score_method": "Lomap default scorer",
+            "ddg_value": 0.66,
+            "ddg_error": null
+        }
+    ],
+    "nodes": {
+        "1a": {
+            "name": "1a",
+            "measurement_additional": [
+                {
+                    "error": 0.2,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -31.3
+                },
+                {
+                    "error": 0.9,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -13.1
+                },
+                {
+                    "error": 0.7,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -18.2
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 1a",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 2.12,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 3.99,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(F)c1",
+            "dg_value": -7.41,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "1b": {
+            "name": "1b",
+            "measurement_additional": [
+                {
+                    "error": 0.8,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -35.4
+                },
+                {
+                    "error": 1.1,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -37.1
+                },
+                {
+                    "error": 0.3,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": 1.7
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 1b",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 140,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 180,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(Cl)c1",
+            "dg_value": -9.26,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "1c": {
+            "name": "1c",
+            "measurement_additional": [
+                {
+                    "error": 0.7,
+                    "type": "dg",
+                    "unit": "kilojoules / mol",
+                    "value": -35.8
+                },
+                {
+                    "error": 0.4,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -34.5
+                },
+                {
+                    "error": 0.3,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -1.3
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 1c",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 147,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 560,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(Br)c1",
+            "dg_value": -8.58,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "1d": {
+            "name": "1d",
+            "measurement_additional": [
+                {
+                    "error": 0.3,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -34.5
+                },
+                {
+                    "error": 1.1,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -38.0
+                },
+                {
+                    "error": 0.8,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -3.5
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 1d",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 230,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 540,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(I)c1",
+            "dg_value": -8.6,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "2a": {
+            "name": "2a",
+            "measurement_comment": "Figure 1 cmpd 2a",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 3.28,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 15.09,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(C(F)(F)F)c1",
+            "dg_value": -6.62,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "2b": {
+            "name": "2b",
+            "measurement_comment": "Figure 1 cmpd 2b",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 0.52,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 4.83,
+            "smiles": "COc1cccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@H](N)Cc2ccccc2)c1",
+            "dg_value": -7.3,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "2c": {
+            "name": "2c",
+            "measurement_comment": "Figure 1 cmpd 2c",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 0.35,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 4.91,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(O)c1",
+            "dg_value": -7.29,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "2d": {
+            "name": "2d",
+            "measurement_comment": "Figure 1 cmpd 2d",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 1.95,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 14.73,
+            "smiles": "Nc1cccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@H](N)Cc2ccccc2)c1",
+            "dg_value": -6.63,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "2e": {
+            "name": "2e",
+            "measurement_comment": "Figure 1 cmpd 2e",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 1.88,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 8.7,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc([N+](=O)[O-])c1",
+            "dg_value": -6.95,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "3a": {
+            "name": "3a",
+            "measurement_additional": [
+                {
+                    "error": 0.6,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -34.8
+                },
+                {
+                    "error": 0.7,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -28.5
+                },
+                {
+                    "error": 1.1,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -6.3
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 3a",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 0.21,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.21,
+            "smiles": "Cc1cccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@H](N)Cc2ccccc2)c1",
+            "dg_value": -8.12,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "3b": {
+            "name": "3b",
+            "measurement_additional": [
+                {
+                    "error": 0.5,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -32.9
+                },
+                {
+                    "error": 0.9,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -16.5
+                },
+                {
+                    "error": 0.4,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -16.4
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 3b",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 0.96,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 5.17,
+            "smiles": "CCc1cccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@H](N)Cc2ccccc2)c1",
+            "dg_value": -7.26,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "4": {
+            "name": "4",
+            "measurement_comment": "Figure 1 cmpd 4",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 1.2,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 4,
+            "smiles": "NC(=[NH2+])c1ccc(CNC(=O)[C@@H]2CCCN2C(=O)[C@H](N)Cc2ccccc2)cc1",
+            "dg_value": -11.53,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "5": {
+            "name": "5",
+            "measurement_additional": [
+                {
+                    "error": -1,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -31.7
+                },
+                {
+                    "error": -1,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -13.6
+                },
+                {
+                    "error": -1,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -18.1
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 5",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 6.7,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 11.21,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1ccccc1",
+            "dg_value": -6.8,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "6a": {
+            "name": "6a",
+            "measurement_additional": [
+                {
+                    "error": 0.2,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -38.4
+                },
+                {
+                    "error": 0.4,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -41.3
+                },
+                {
+                    "error": 0.3,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": 2.9
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 6a",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 20,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 60,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cc(Cl)ccc1Cl",
+            "dg_value": -9.91,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "6b": {
+            "name": "6b",
+            "measurement_additional": [
+                {
+                    "error": 0.5,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -37.2
+                },
+                {
+                    "error": 1.7,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -33.5
+                },
+                {
+                    "error": 2.2,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": -3.7
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 6b",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 90,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 260,
+            "smiles": "Cc1ccc(Cl)cc1CNC(=O)[C@@H]1CCCN1C(=O)[C@H](N)Cc1ccccc1",
+            "dg_value": -9.04,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "6c": {
+            "name": "6c",
+            "measurement_comment": "Figure 1 cmpd 6c",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 80,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 270,
+            "smiles": "COc1ccc(Cl)cc1CNC(=O)[C@@H]1CCCN1C(=O)[C@H](N)Cc1ccccc1",
+            "dg_value": -9.02,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "6d": {
+            "name": "6d",
+            "measurement_comment": "Figure 1 cmpd 6d",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 206,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 433,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cc(Cl)ccc1O",
+            "dg_value": -8.74,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "6e": {
+            "name": "6e",
+            "measurement_additional": [
+                {
+                    "error": 0.3,
+                    "type": "dg",
+                    "unit": "kilojoules / mole",
+                    "value": -37.3
+                },
+                {
+                    "error": 2.1,
+                    "type": "dh",
+                    "unit": "kilojoules / mole",
+                    "value": -41.0
+                },
+                {
+                    "error": 2.2,
+                    "type": "tds",
+                    "unit": "kilojoules / mole",
+                    "value": 3.8
+                }
+            ],
+            "measurement_comment": "Figure 1 cmpd 6e",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 28,
+            "measurement_type": "ki",
+            "measurement_unit": "nM",
+            "measurement_value": 500,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cc(Cl)ccc1F",
+            "dg_value": -8.65,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "7b": {
+            "name": "7b",
+            "measurement_comment": "Figure 1 cmpd 7b",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 1.75,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 3.99,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1ccc(Cl)cc1",
+            "dg_value": -7.41,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "7c": {
+            "name": "7c",
+            "measurement_comment": "Figure 1 cmpd 7c",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 0.33,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 1.46,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1ccccc1Cl",
+            "dg_value": -8.01,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "7d": {
+            "name": "7d",
+            "measurement_comment": "Figure 1 cmpd 7d",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 1.35,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 7.6,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NC[C@@H]1CCC[C@@H]([NH3+])C1",
+            "dg_value": -7.03,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "7e": {
+            "name": "7e",
+            "measurement_comment": "Figure 1 cmpd 7e",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 36,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 75.77,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1cccc(CO)c1",
+            "dg_value": -5.66,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        },
+        "7f": {
+            "name": "7f",
+            "measurement_comment": "Figure 1 cmpd 7f",
+            "measurement_doi": "10.1016/j.jmb.2009.04.051",
+            "measurement_error": 15,
+            "measurement_type": "ki",
+            "measurement_unit": "uM",
+            "measurement_value": 34.55,
+            "smiles": "N[C@H](Cc1ccccc1)C(=O)N1CCC[C@H]1C(=O)NCc1ccc(CO)cc1",
+            "dg_value": -6.12,
+            "dg_error": null,
+            "dg_unit": "kilocalorie / mole"
+        }
+    },
+    "mapping_metadata": {
+        "remarks": "Kartograf mapper, Lomap scorer, Lomap network, allow element changes, atom_max_distance=0.95",
+        "planner": "openfe v1.0.1 lomap network"
+    }
+}
