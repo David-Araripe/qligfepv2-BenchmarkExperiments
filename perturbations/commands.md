@@ -134,7 +134,7 @@ qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && m
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c TETRA -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_ls -rs 42
+setupFEP -FF AMBER14sb -c TETRA -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
