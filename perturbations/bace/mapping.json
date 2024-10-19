@@ -1,0 +1,446 @@
+{
+  "nodes": [
+    {
+      "name": "CAT-13n"
+    },
+    {
+      "name": "CAT-13m"
+    },
+    {
+      "name": "CAT-13j"
+    },
+    {
+      "name": "CAT-4n"
+    },
+    {
+      "name": "CAT-4p"
+    },
+    {
+      "name": "CAT-4i"
+    },
+    {
+      "name": "CAT-13e"
+    },
+    {
+      "name": "CAT-4d"
+    },
+    {
+      "name": "CAT-4a"
+    },
+    {
+      "name": "CAT-4m"
+    },
+    {
+      "name": "CAT-4k"
+    },
+    {
+      "name": "CAT-4l"
+    },
+    {
+      "name": "CAT-4j"
+    },
+    {
+      "name": "CAT-4c"
+    },
+    {
+      "name": "CAT-13k"
+    },
+    {
+      "name": "CAT-4o"
+    },
+    {
+      "name": "CAT-4b"
+    },
+    {
+      "name": "CAT-17h"
+    },
+    {
+      "name": "CAT-17e"
+    },
+    {
+      "name": "CAT-17b"
+    },
+    {
+      "name": "CAT-13d"
+    },
+    {
+      "name": "CAT-13h"
+    },
+    {
+      "name": "CAT-17g"
+    },
+    {
+      "name": "CAT-17f"
+    },
+    {
+      "name": "CAT-24"
+    },
+    {
+      "name": "CAT-17i"
+    },
+    {
+      "name": "CAT-17a"
+    },
+    {
+      "name": "CAT-17c"
+    },
+    {
+      "name": "CAT-17d"
+    },
+    {
+      "name": "CAT-13a"
+    },
+    {
+      "name": "CAT-13i"
+    },
+    {
+      "name": "CAT-13c"
+    },
+    {
+      "name": "CAT-13b"
+    },
+    {
+      "name": "CAT-13o"
+    },
+    {
+      "name": "CAT-13g"
+    },
+    {
+      "name": "CAT-13f"
+    }
+  ],
+  "edges": [
+    {
+      "from": "CAT-13n",
+      "to": "CAT-4p",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13n",
+      "to": "CAT-13j",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13m",
+      "to": "CAT-13j",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13m",
+      "to": "CAT-4p",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13j",
+      "to": "CAT-4i",
+      "similarity": 0.8187307530779817,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13j",
+      "to": "CAT-13g",
+      "similarity": 0.3867410234545013,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-4n",
+      "to": "CAT-4i",
+      "similarity": 0.7408182206817178,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4n",
+      "to": "CAT-4p",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4p",
+      "to": "CAT-4m",
+      "similarity": 0.28650479686019004,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-4p",
+      "to": "CAT-13g",
+      "similarity": 0.3867410234545013,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-4p",
+      "to": "CAT-4o",
+      "similarity": 0.28650479686019004,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-4p",
+      "to": "CAT-13a",
+      "similarity": 0.25924026064589145,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13e",
+      "to": "CAT-13a",
+      "similarity": 0.33287108369807955,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13e",
+      "to": "CAT-13b",
+      "similarity": 0.301194211912202,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-4d",
+      "to": "CAT-4c",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4d",
+      "to": "CAT-13k",
+      "similarity": 0.7672059499758557,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4d",
+      "to": "CAT-4b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4a",
+      "to": "CAT-4l",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4a",
+      "to": "CAT-4k",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4m",
+      "to": "CAT-13k",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4m",
+      "to": "CAT-4j",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4m",
+      "to": "CAT-4j_flip",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4k",
+      "to": "CAT-4j",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      
+      "from": "CAT-4k",
+      "to": "CAT-4j_flip",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    
+    },
+    {
+      "from": "CAT-4l",
+      "to": "CAT-4j",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4l",
+      "to": "CAT-4j_flip",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4j",
+      "to": "CAT-4o",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-4j_flip",
+      "to": "CAT-4o",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13k",
+      "to": "CAT-4b",
+      "similarity": 0.8478937040879158,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13k",
+      "to": "CAT-4o",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17h",
+      "to": "CAT-13d",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17h",
+      "to": "CAT-17i",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17h",
+      "to": "CAT-13a",
+      "similarity": 0.3499377491111553,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-17e",
+      "to": "CAT-17g",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17e",
+      "to": "CAT-17b",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17b",
+      "to": "CAT-13h",
+      "similarity": 0.8065414401773269,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13d",
+      "to": "CAT-17a",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13d",
+      "to": "CAT-13a",
+      "similarity": 0.36787944117144233,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13h",
+      "to": "CAT-17a",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17g",
+      "to": "CAT-17i",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17f",
+      "to": "CAT-17d",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17f",
+      "to": "CAT-17d_flip",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17f",
+      "to": "CAT-17c",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-24",
+      "to": "CAT-17i",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-24",
+      "to": "CAT-17d",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-24",
+      "to": "CAT-17d_flip",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-17i",
+      "to": "CAT-17c",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13a",
+      "to": "CAT-13i",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13a",
+      "to": "CAT-13c",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13a",
+      "to": "CAT-13b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13a",
+      "to": "CAT-13f",
+      "similarity": 0.301194211912202,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13a",
+      "to": "CAT-13g",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13c",
+      "to": "CAT-13b",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CAT-13b",
+      "to": "CAT-13f",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "CAT-13o",
+      "to": "CAT-13f",
+      "similarity": 0.42741493194872665,
+      "strict_flag": false
+    }
+  ]
+}
