@@ -1,0 +1,504 @@
+{
+  "nodes": [
+    {
+      "name": "23"
+    },
+    {
+      "name": "26"
+    },
+    {
+      "name": "27"
+    },
+    {
+      "name": "28"
+    },
+    {
+      "name": "29"
+    },
+    {
+      "name": "30 flip"
+    },
+    {
+      "name": "31"
+    },
+    {
+      "name": "32"
+    },
+    {
+      "name": "33"
+    },
+    {
+      "name": "34"
+    },
+    {
+      "name": "35"
+    },
+    {
+      "name": "36"
+    },
+    {
+      "name": "37"
+    },
+    {
+      "name": "42"
+    },
+    {
+      "name": "43 flip"
+    },
+    {
+      "name": "44"
+    },
+    {
+      "name": "45"
+    },
+    {
+      "name": "46 flip"
+    },
+    {
+      "name": "47 flip"
+    },
+    {
+      "name": "48 flip"
+    },
+    {
+      "name": "49"
+    },
+    {
+      "name": "50"
+    },
+    {
+      "name": "51"
+    },
+    {
+      "name": "52"
+    },
+    {
+      "name": "53"
+    },
+    {
+      "name": "54"
+    },
+    {
+      "name": "56"
+    },
+    {
+      "name": "57"
+    },
+    {
+      "name": "58"
+    },
+    {
+      "name": "60"
+    },
+    {
+      "name": "61"
+    },
+    {
+      "name": "62"
+    },
+    {
+      "name": "63"
+    },
+    {
+      "name": "64"
+    },
+    {
+      "name": "65"
+    },
+    {
+      "name": "66"
+    },
+    {
+      "name": "67"
+    },
+    {
+      "name": "68"
+    },
+    {
+      "name": "38 flip"
+    },
+    {
+      "name": "39"
+    },
+    {
+      "name": "40 flip"
+    },
+    {
+      "name": "41 flip"
+    }
+  ],
+  "edges": [
+    {
+      "from": "23",
+      "to": "66",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "23",
+      "to": "42",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "26",
+      "to": "27",
+      "similarity": 0.6376281516217733,
+      "strict_flag": true
+    },
+    {
+      "from": "26",
+      "to": "44",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "26",
+      "to": "57",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "26",
+      "to": "68",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "31",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "42",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "43 flip",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "45",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "47 flip",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "46 flip",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "48 flip",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "28",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "30 flip",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "27",
+      "to": "38 flip",
+      "similarity": 0.5488116360940264,
+      "strict_flag": false
+    },
+    {
+      "from": "27",
+      "to": "39",
+      "similarity": 0.5488116360940264,
+      "strict_flag": false
+    },
+    {
+      "from": "27",
+      "to": "40 flip",
+      "similarity": 0.49658530379140947,
+      "strict_flag": false
+    },
+    {
+      "from": "28",
+      "to": "46 flip",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "28",
+      "to": "29",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "28",
+      "to": "38 flip",
+      "similarity": 0.49658530379140947,
+      "strict_flag": false
+    },
+    {
+      "from": "28",
+      "to": "39",
+      "similarity": 0.49658530379140947,
+      "strict_flag": false
+    },
+    {
+      "from": "30 flip",
+      "to": "37",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "30 flip",
+      "to": "40 flip",
+      "similarity": 0.522045776761016,
+      "strict_flag": false
+    },
+    {
+      "from": "31",
+      "to": "35",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "32",
+      "to": "34",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "32",
+      "to": "33",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "32",
+      "to": "41 flip",
+      "similarity": 0.522045776761016,
+      "strict_flag": false
+    },
+    {
+      "from": "33",
+      "to": "45",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "33",
+      "to": "48 flip",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "33",
+      "to": "34",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "33",
+      "to": "35",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "33",
+      "to": "41 flip",
+      "similarity": 0.5406408953093165,
+      "strict_flag": false
+    },
+    {
+      "from": "35",
+      "to": "36",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "35",
+      "to": "37",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "35",
+      "to": "49",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "36",
+      "to": "52",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "37",
+      "to": "53",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "37",
+      "to": "56",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "37",
+      "to": "60",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "62",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "64",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "66",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "68",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "44",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "51",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "54",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "42",
+      "to": "57",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "43 flip",
+      "to": "47 flip",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "49",
+      "to": "50",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "50",
+      "to": "61",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "51",
+      "to": "62",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "52",
+      "to": "53",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "53",
+      "to": "58",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "53",
+      "to": "63",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "54",
+      "to": "64",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "56",
+      "to": "58",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "60",
+      "to": "61",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "60",
+      "to": "63",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "60",
+      "to": "65",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "60",
+      "to": "67",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "65",
+      "to": "67",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    }
+  ]
+}

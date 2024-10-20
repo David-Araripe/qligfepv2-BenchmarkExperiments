@@ -1,0 +1,123 @@
+{
+  "nodes": [
+    {
+      "name": "6a"
+    },
+    {
+      "name": "3a"
+    },
+    {
+      "name": "1d"
+    },
+    {
+      "name": "6e"
+    },
+    {
+      "name": "6b"
+    },
+    {
+      "name": "1b"
+    },
+    {
+      "name": "1a"
+    },
+    {
+      "name": "5"
+    },
+    {
+      "name": "3b"
+    },
+    {
+      "name": "7a"
+    },
+    {
+      "name": "1c"
+    }
+  ],
+  "edges": [
+    {
+      "from": "6a",
+      "to": "6e",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "6a",
+      "to": "6b",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "3a",
+      "to": "5",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "3a",
+      "to": "3b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "1d",
+      "to": "1b",
+      "similarity": 0.9656054162575665,
+      "strict_flag": true
+    },
+    {
+      "from": "1d",
+      "to": "1c",
+      "similarity": 0.9851119396030626,
+      "strict_flag": true
+    },
+    {
+      "from": "6e",
+      "to": "1b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "6e",
+      "to": "7a",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "6b",
+      "to": "1b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "6b",
+      "to": "7a",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "1b",
+      "to": "1a",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "1a",
+      "to": "1c",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "1a",
+      "to": "3b",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "1a",
+      "to": "5",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    }
+  ]
+}

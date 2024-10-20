@@ -1,0 +1,231 @@
+{
+  "nodes": [
+    {
+      "name": "18626-1"
+    },
+    {
+      "name": "18628-1_flip"
+    },
+    {
+      "name": "18629-1"
+    },
+    {
+      "name": "18636-1"
+    },
+    {
+      "name": "17124-1"
+    },
+    {
+      "name": "18627-1"
+    },
+    {
+      "name": "18638-1"
+    },
+    {
+      "name": "18659-1"
+    },
+    {
+      "name": "18639-1"
+    },
+    {
+      "name": "18634-1"
+    },
+    {
+      "name": "18630-1"
+    },
+    {
+      "name": "18637-1"
+    },
+    {
+      "name": "18658-1"
+    },
+    {
+      "name": "18632-1"
+    },
+    {
+      "name": "18633-1"
+    },
+    {
+      "name": "18635-1"
+    },
+    {
+      "name": "18631-1"
+    },
+    {
+      "name": "18660-1"
+    },
+    {
+      "name": "18625-1"
+    },
+    {
+      "name": "18624-1"
+    },
+    {
+      "name": "18652-1"
+    }
+  ],
+  "edges": [
+    {
+      "from": "18626-1",
+      "to": "18624-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "18626-1",
+      "to": "18629-1",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "18628-1_flip",
+      "to": "18627-1",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "18628-1_flip",
+      "to": "18625-1",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "18629-1",
+      "to": "18624-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "18636-1",
+      "to": "18625-1",
+      "similarity": 0.8913661439068313,
+      "strict_flag": true
+    },
+    {
+      "from": "18636-1",
+      "to": "18635-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "17124-1",
+      "to": "18637-1",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "17124-1",
+      "to": "18634-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "18627-1",
+      "to": "18633-1",
+      "similarity": 0.8913661439068313,
+      "strict_flag": true
+    },
+    {
+      "from": "18638-1",
+      "to": "18634-1",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "18638-1",
+      "to": "18652-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "18659-1",
+      "to": "18658-1",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "18659-1",
+      "to": "18634-1",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "18659-1",
+      "to": "18660-1",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true
+    },
+    {
+      "from": "18639-1",
+      "to": "18637-1",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "18639-1",
+      "to": "18634-1",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "18634-1",
+      "to": "18652-1",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "18634-1",
+      "to": "18631-1",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "18630-1",
+      "to": "18632-1",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "18630-1",
+      "to": "18633-1",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "18630-1",
+      "to": "18624-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "18658-1",
+      "to": "18631-1",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "18632-1",
+      "to": "18624-1",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "18635-1",
+      "to": "18625-1",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "18631-1",
+      "to": "18624-1",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "18631-1",
+      "to": "18625-1",
+      "similarity": 0.8913661439068313,
+      "strict_flag": true
+    }
+  ]
+}

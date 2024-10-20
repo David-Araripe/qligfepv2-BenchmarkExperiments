@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "name": "jmc_23"
+    },
+    {
+      "name": "jmc_28"
+    },
+    {
+      "name": "jmc_27"
+    },
+    {
+      "name": "jmc_30"
+    },
+    {
+      "name": "ejm_46"
+    },
+    {
+      "name": "ejm_47"
+    },
+    {
+      "name": "ejm_49"
+    },
+    {
+      "name": "ejm_31"
+    },
+    {
+      "name": "ejm_45"
+    },
+    {
+      "name": "ejm_44"
+    },
+    {
+      "name": "ejm_43"
+    },
+    {
+      "name": "ejm_50"
+    },
+    {
+      "name": "ejm_42"
+    },
+    {
+      "name": "ejm_55"
+    },
+    {
+      "name": "ejm_54"
+    },
+    {
+      "name": "ejm_48"
+    }
+  ],
+  "edges": [
+    {
+      "from": "jmc_23",
+      "to": "jmc_28",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "jmc_23",
+      "to": "jmc_27",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "jmc_23",
+      "to": "ejm_31",
+      "similarity": 0.33287108369807955,
+      "strict_flag": false
+    },
+    {
+      "from": "jmc_28",
+      "to": "jmc_30",
+      "similarity": 0.7788007830714048,
+      "strict_flag": true
+    },
+    {
+      "from": "jmc_27",
+      "to": "ejm_46",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "jmc_30",
+      "to": "ejm_46",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_46",
+      "to": "ejm_31",
+      "similarity": 0.36787944117144233,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_47",
+      "to": "ejm_31",
+      "similarity": 0.33287108369807955,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_47",
+      "to": "ejm_50",
+      "similarity": 0.301194211912202,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_49",
+      "to": "ejm_31",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_49",
+      "to": "ejm_50",
+      "similarity": 0.24659696394160643,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_44",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_45",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_42",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_48",
+      "similarity": 0.301194211912202,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_44",
+      "to": "ejm_43",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_43",
+      "to": "ejm_42",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_55",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_42",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_48",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "ejm_42",
+      "to": "ejm_54",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "ejm_55",
+      "to": "ejm_54",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    }
+  ]
+}
