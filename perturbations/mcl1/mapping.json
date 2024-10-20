@@ -16,7 +16,7 @@
       "name": "29"
     },
     {
-      "name": "30 flip"
+      "name": "30_flip"
     },
     {
       "name": "31"
@@ -43,7 +43,7 @@
       "name": "42"
     },
     {
-      "name": "43 flip"
+      "name": "43_flip"
     },
     {
       "name": "44"
@@ -52,13 +52,13 @@
       "name": "45"
     },
     {
-      "name": "46 flip"
+      "name": "46_flip"
     },
     {
-      "name": "47 flip"
+      "name": "47_flip"
     },
     {
-      "name": "48 flip"
+      "name": "48_flip"
     },
     {
       "name": "49"
@@ -115,16 +115,16 @@
       "name": "68"
     },
     {
-      "name": "38 flip"
+      "name": "38_flip"
     },
     {
       "name": "39"
     },
     {
-      "name": "40 flip"
+      "name": "40_flip"
     },
     {
-      "name": "41 flip"
+      "name": "41_flip"
     }
   ],
   "edges": [
@@ -178,7 +178,7 @@
     },
     {
       "from": "27",
-      "to": "43 flip",
+      "to": "43_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true
     },
@@ -190,19 +190,19 @@
     },
     {
       "from": "27",
-      "to": "47 flip",
+      "to": "47_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true
     },
     {
       "from": "27",
-      "to": "46 flip",
+      "to": "46_flip",
       "similarity": 0.7408182206817179,
       "strict_flag": true
     },
     {
       "from": "27",
-      "to": "48 flip",
+      "to": "48_flip",
       "similarity": 0.7408182206817179,
       "strict_flag": true
     },
@@ -214,13 +214,13 @@
     },
     {
       "from": "27",
-      "to": "30 flip",
+      "to": "30_flip",
       "similarity": 0.9048374180359595,
       "strict_flag": true
     },
     {
       "from": "27",
-      "to": "38 flip",
+      "to": "38_flip",
       "similarity": 0.5488116360940264,
       "strict_flag": false
     },
@@ -232,13 +232,13 @@
     },
     {
       "from": "27",
-      "to": "40 flip",
+      "to": "40_flip",
       "similarity": 0.49658530379140947,
       "strict_flag": false
     },
     {
       "from": "28",
-      "to": "46 flip",
+      "to": "46_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true
     },
@@ -250,7 +250,7 @@
     },
     {
       "from": "28",
-      "to": "38 flip",
+      "to": "38_flip",
       "similarity": 0.49658530379140947,
       "strict_flag": false
     },
@@ -261,14 +261,14 @@
       "strict_flag": false
     },
     {
-      "from": "30 flip",
+      "from": "30_flip",
       "to": "37",
       "similarity": 0.8187307530779818,
       "strict_flag": true
     },
     {
-      "from": "30 flip",
-      "to": "40 flip",
+      "from": "30_flip",
+      "to": "40_flip",
       "similarity": 0.522045776761016,
       "strict_flag": false
     },
@@ -292,7 +292,7 @@
     },
     {
       "from": "32",
-      "to": "41 flip",
+      "to": "41_flip",
       "similarity": 0.522045776761016,
       "strict_flag": false
     },
@@ -304,7 +304,7 @@
     },
     {
       "from": "33",
-      "to": "48 flip",
+      "to": "48_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true
     },
@@ -322,7 +322,7 @@
     },
     {
       "from": "33",
-      "to": "41 flip",
+      "to": "41_flip",
       "similarity": 0.5406408953093165,
       "strict_flag": false
     },
@@ -417,8 +417,8 @@
       "strict_flag": true
     },
     {
-      "from": "43 flip",
-      "to": "47 flip",
+      "from": "43_flip",
+      "to": "47_flip",
       "similarity": 0.951229424500714,
       "strict_flag": true
     },
