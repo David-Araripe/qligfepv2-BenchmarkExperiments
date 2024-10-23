@@ -1,426 +1,600 @@
 {
-  "nodes": [
-    {
-      "name": "2j"
+  "nodes": {
+    "2j": {
+      "ddg_value": -10.08,
+      "smiles": "[H][C]1=[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2gg"
+    "2gg": {
+      "ddg_value": -10.66,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2t"
+    "2t": {
+      "ddg_value": -11.85,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]#[N])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2g"
+    "2g": {
+      "ddg_value": -10.66,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2l"
+    "2l": {
+      "ddg_value": -12.26,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2o"
+    "2o": {
+      "ddg_value": -10.49,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2h"
+    "2h": {
+      "ddg_value": -9.48,
+      "smiles": "[H][C]1=[C]([S][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2i"
+    "2i": {
+      "ddg_value": -10.05,
+      "smiles": "[H][C]1=[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2f"
+    "2f": {
+      "ddg_value": -8.48,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([F])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2k"
+    "2k": {
+      "ddg_value": -10.55,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2n"
+    "2n": {
+      "ddg_value": -11.85,
+      "smiles": "[H][O][C]([H])([H])[C]([H])([H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3fln"
+    "3fln": {
+      "ddg_value": -10.88,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2e"
+    "2e": {
+      "ddg_value": -10.7,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2s"
+    "2s": {
+      "ddg_value": -11.11,
+      "smiles": "[H][O][C]([H])([H])[C@@]([H])([O][H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2m"
+    "2m": {
+      "ddg_value": -10.96,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2r"
+    "2r": {
+      "ddg_value": -10.79,
+      "smiles": "[H][O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3flz"
+    "3flz": {
+      "ddg_value": -9.49,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2q"
+    "2q": {
+      "ddg_value": -12.26,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2ee"
+    "2ee": {
+      "ddg_value": -12.26,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[N]([C](=[O])[C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2z"
+    "2z": {
+      "ddg_value": -10.36,
+      "smiles": "[H][O][C]([H])([H])[C]([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3fly"
+    "3fly": {
+      "ddg_value": -11.42,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2aa"
+    "2aa": {
+      "ddg_value": -9.27,
+      "smiles": "[H][O][C]([H])([H])[C]([H])([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])[C]([H])([H])[O][H]",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3flw"
+    "3flw": {
+      "ddg_value": -10.68,
+      "smiles": "[H][O][C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])[C]([H])([H])[C]([H])([H])[O][H]",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2y"
+    "2y": {
+      "ddg_value": -9.78,
+      "smiles": "[H][O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H]",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2bb"
+    "2bb": {
+      "ddg_value": -9.06,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2v"
+    "2v": {
+      "ddg_value": -8.97,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2u"
+    "2u": {
+      "ddg_value": -12.26,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]([H])([H])[N]([S](=[O])(=[O])[C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2p"
+    "2p": {
+      "ddg_value": -11.2,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3fmk"
+    "3fmk": {
+      "ddg_value": -11.83,
+      "smiles": "[H][C]1=[N][N]([C]([H])([H])[C@@]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[H])[N]=[N]1",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2x"
+    "2x": {
+      "ddg_value": -10.23,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C@]3([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2ff"
+    "2ff": {
+      "ddg_value": -11.44,
+      "smiles": "[H][O][C]1([H])[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[C]1([H])[H]",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3flq"
+    "3flq": {
+      "ddg_value": -9.93,
+      "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C@@]([H])([C]([H])([H])[H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     },
-    {
-      "name": "3fmh"
+    "3fmh": {
+      "ddg_value": -10.83,
+      "smiles": "[H][C]1=[N][N]([C]([H])([H])[C@]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[H])[N]=[N]1",
+      "formal_charge": 0.0
     },
-    {
-      "name": "2c"
+    "2c": {
+      "ddg_value": -10.46,
+      "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[Cl])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+      "formal_charge": 0.0
     }
-  ],
+  },
   "edges": [
     {
       "from": "2j",
       "to": "2gg",
       "similarity": 0.6376281516217732,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.58,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2t",
       "similarity": 0.7788007830714049,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -1.77,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2l",
       "similarity": 0.8607079764250578,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -2.18,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2k",
       "similarity": 0.8607079764250578,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.47,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2p",
       "similarity": 0.522045776761016,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.12,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2ff",
       "similarity": 0.2592402606458915,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.36,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2v",
       "similarity": 0.25924026064589145,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 1.11,
+      "same_charge": true
     },
     {
       "from": "2j",
       "to": "2ee",
       "similarity": 0.21224797382674304,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -2.18,
+      "same_charge": true
     },
     {
       "from": "2gg",
       "to": "3fln",
       "similarity": 0.6703200460356393,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.22,
+      "same_charge": true
     },
     {
       "from": "2t",
       "to": "3fln",
       "similarity": 0.8187307530779818,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.97,
+      "same_charge": true
     },
     {
       "from": "2g",
       "to": "3fln",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.22,
+      "same_charge": true
     },
     {
       "from": "2g",
       "to": "3flz",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 1.17,
+      "same_charge": true
     },
     {
       "from": "2g",
       "to": "2h",
       "similarity": 0.951229424500714,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 1.18,
+      "same_charge": true
     },
     {
       "from": "2g",
       "to": "2i",
       "similarity": 0.951229424500714,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.61,
+      "same_charge": true
     },
     {
       "from": "2g",
       "to": "2c",
       "similarity": 0.12245642825298189,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 0.2,
+      "same_charge": true
     },
     {
       "from": "2l",
       "to": "3fln",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 1.38,
+      "same_charge": true
     },
     {
       "from": "2o",
       "to": "3fln",
       "similarity": 0.6065306597126334,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.39,
+      "same_charge": true
     },
     {
       "from": "2o",
       "to": "2n",
       "similarity": 0.6376281516217732,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -1.36,
+      "same_charge": true
     },
     {
       "from": "2h",
       "to": "2i",
       "similarity": 0.951229424500714,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.57,
+      "same_charge": true
     },
     {
       "from": "2f",
       "to": "2e",
       "similarity": 0.8187307530779818,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -2.22,
+      "same_charge": true
     },
     {
       "from": "2f",
       "to": "3flz",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -1.01,
+      "same_charge": true
     },
     {
       "from": "2k",
       "to": "2m",
       "similarity": 0.7408182206817179,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.41,
+      "same_charge": true
     },
     {
       "from": "2k",
       "to": "3fln",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -0.33,
+      "same_charge": true
     },
     {
       "from": "2k",
       "to": "2q",
       "similarity": 0.44932896411722156,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.71,
+      "same_charge": true
     },
     {
       "from": "2k",
       "to": "2u",
       "similarity": 0.2465969639416065,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.71,
+      "same_charge": true
     },
     {
       "from": "2n",
       "to": "2s",
       "similarity": 0.7046880897187134,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.74,
+      "same_charge": true
     },
     {
       "from": "2n",
       "to": "2r",
       "similarity": 0.7046880897187134,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 1.06,
+      "same_charge": true
     },
     {
       "from": "2n",
       "to": "3fln",
       "similarity": 0.7408182206817179,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.97,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2e",
       "similarity": 0.9048374180359595,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.18,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2p",
       "similarity": 0.5488116360940264,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.32,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2ff",
       "similarity": 0.2725317930340126,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.56,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2v",
       "similarity": 0.27253179303401254,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 1.91,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2ee",
       "similarity": 0.22313016014842982,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.38,
+      "same_charge": true
     },
     {
       "from": "3fln",
       "to": "2u",
       "similarity": 0.1224564282529819,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.38,
+      "same_charge": true
     },
     {
       "from": "2s",
       "to": "2r",
       "similarity": 0.6703200460356393,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.32,
+      "same_charge": true
     },
     {
       "from": "3flz",
       "to": "2c",
       "similarity": 0.13533528323661265,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.97,
+      "same_charge": true
     },
     {
       "from": "2q",
       "to": "2ee",
       "similarity": 0.15723716631362758,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 0.0,
+      "same_charge": true
     },
     {
       "from": "2z",
       "to": "2v",
       "similarity": 0.6703200460356393,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 1.39,
+      "same_charge": true
     },
     {
       "from": "2z",
       "to": "3fly",
       "similarity": 0.8187307530779818,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -1.06,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "3flw",
       "similarity": 0.6703200460356393,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.74,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "2aa",
       "similarity": 0.8187307530779818,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 2.15,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "2v",
       "similarity": 0.8187307530779818,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 2.45,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "3fmk",
       "similarity": 0.4065696597405991,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.41,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "3fmh",
       "similarity": 0.4065696597405991,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 0.59,
+      "same_charge": true
     },
     {
       "from": "3fly",
       "to": "2x",
       "similarity": 0.24659696394160643,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": 1.19,
+      "same_charge": true
     },
     {
       "from": "2aa",
       "to": "3flw",
       "similarity": 0.6376281516217733,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": -1.41,
+      "same_charge": true
     },
     {
       "from": "2aa",
       "to": "3flq",
       "similarity": 0.5488116360940264,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.66,
+      "same_charge": true
     },
     {
       "from": "2y",
       "to": "2v",
       "similarity": 0.6703200460356393,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.81,
+      "same_charge": true
     },
     {
       "from": "2bb",
       "to": "2v",
       "similarity": 0.6065306597126334,
-      "strict_flag": true
+      "strict_flag": true,
+      "ddg_value": 0.09,
+      "same_charge": true
     },
     {
       "from": "2v",
       "to": "2x",
       "similarity": 0.301194211912202,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.26,
+      "same_charge": true
     },
     {
       "from": "2v",
       "to": "3flq",
       "similarity": 0.5488116360940264,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -0.96,
+      "same_charge": true
     },
     {
       "from": "2v",
       "to": "3fmk",
       "similarity": 0.33287108369807955,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -2.86,
+      "same_charge": true
     },
     {
       "from": "2v",
       "to": "3fmh",
       "similarity": 0.33287108369807955,
-      "strict_flag": false
+      "strict_flag": false,
+      "ddg_value": -1.86,
+      "same_charge": true
     }
   ]
 }
