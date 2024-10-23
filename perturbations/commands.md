@@ -8,6 +8,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 Analyze the results
 ```bash
 qligfep_analyze -t bace -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_bace && mv bace*  results_bace && cp mapping_ddG.json results_bace
+```
 
 # cdk2
 
