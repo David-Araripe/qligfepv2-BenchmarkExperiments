@@ -25,7 +25,7 @@
       "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([F])([F])[F])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2=[C]([C](=[O])[O-])[N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]32)[c]1[H]",
       "formal_charge": -1.0
     },
-    "30 flip": {
+    "30_flip": {
       "ddg_value": -7.85,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]([H])[c]([C]([H])([H])[H])[c]1[H])=[C]([C](=[O])[O-])[N]2[H]",
       "formal_charge": -1.0
@@ -70,7 +70,7 @@
       "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]13)=[C]([C](=[O])[O-])[N]2[H]",
       "formal_charge": -1.0
     },
-    "43 flip": {
+    "43_flip": {
       "ddg_value": -7.03,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[c]1[H])=[C]([C](=[O])[O-])[N]2[H]",
       "formal_charge": -1.0
@@ -85,17 +85,17 @@
       "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]([H])[c]3[c]1[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3([H])[H])=[C]([C](=[O])[O-])[N]2[H]",
       "formal_charge": -1.0
     },
-    "46 flip": {
+    "46_flip": {
       "ddg_value": -7.6,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]3[c]([c]1[H])[C]([H])([H])[C]([H])([H])[C]3([H])[H])=[C]([C](=[O])[O-])[N]2[H]",
       "formal_charge": -1.0
     },
-    "47 flip": {
+    "47_flip": {
       "ddg_value": -5.78,
       "smiles": "[H][c]1[n][c]2[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]([H])[c]2[c]([H])[c]1[H]",
       "formal_charge": -1.0
     },
-    "48 flip": {
+    "48_flip": {
       "ddg_value": -6.66,
       "smiles": "[H][C]1=[C]([H])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]21",
       "formal_charge": -1.0
@@ -190,7 +190,7 @@
       "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[Cl])[C]([C]([H])([H])[C]([H])([H])[C]([H])([H])[O][c]1[c]([H])[c]([H])[c]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]13)=[C]([C](=[O])[O-])[O]2",
       "formal_charge": -1.0
     },
-    "38 flip": {
+    "38_flip": {
       "ddg_value": -7.02,
       "smiles": "[H][c]1[c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -1.0
@@ -200,12 +200,12 @@
       "smiles": "[H][c]1[c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]([H])[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -1.0
     },
-    "40 flip": {
+    "40_flip": {
       "ddg_value": -7.25,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]([O][c]2[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -1.0
     },
-    "41 flip": {
+    "41_flip": {
       "ddg_value": -7.13,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]([O][c]2[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[C]([H])([H])[C]3=[C]([C](=[O])[O-])[N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]43)[c]([H])[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -1.0
@@ -278,7 +278,7 @@
     },
     {
       "from": "27",
-      "to": "43 flip",
+      "to": "43_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true,
       "ddg_value": -0.91,
@@ -294,7 +294,7 @@
     },
     {
       "from": "27",
-      "to": "47 flip",
+      "to": "47_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true,
       "ddg_value": 0.34,
@@ -302,7 +302,7 @@
     },
     {
       "from": "27",
-      "to": "46 flip",
+      "to": "46_flip",
       "similarity": 0.7408182206817179,
       "strict_flag": true,
       "ddg_value": -1.48,
@@ -310,7 +310,7 @@
     },
     {
       "from": "27",
-      "to": "48 flip",
+      "to": "48_flip",
       "similarity": 0.7408182206817179,
       "strict_flag": true,
       "ddg_value": -0.54,
@@ -326,7 +326,7 @@
     },
     {
       "from": "27",
-      "to": "30 flip",
+      "to": "30_flip",
       "similarity": 0.9048374180359595,
       "strict_flag": true,
       "ddg_value": -1.73,
@@ -334,7 +334,7 @@
     },
     {
       "from": "27",
-      "to": "38 flip",
+      "to": "38_flip",
       "similarity": 0.5488116360940264,
       "strict_flag": false,
       "ddg_value": -0.9,
@@ -350,7 +350,7 @@
     },
     {
       "from": "27",
-      "to": "40 flip",
+      "to": "40_flip",
       "similarity": 0.49658530379140947,
       "strict_flag": false,
       "ddg_value": -1.13,
@@ -358,7 +358,7 @@
     },
     {
       "from": "28",
-      "to": "46 flip",
+      "to": "46_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true,
       "ddg_value": -0.98,
@@ -374,7 +374,7 @@
     },
     {
       "from": "28",
-      "to": "38 flip",
+      "to": "38_flip",
       "similarity": 0.49658530379140947,
       "strict_flag": false,
       "ddg_value": -0.4,
@@ -389,7 +389,7 @@
       "same_charge": true
     },
     {
-      "from": "30 flip",
+      "from": "30_flip",
       "to": "37",
       "similarity": 0.8187307530779818,
       "strict_flag": true,
@@ -397,8 +397,8 @@
       "same_charge": true
     },
     {
-      "from": "30 flip",
-      "to": "40 flip",
+      "from": "30_flip",
+      "to": "40_flip",
       "similarity": 0.522045776761016,
       "strict_flag": false,
       "ddg_value": 0.6,
@@ -430,7 +430,7 @@
     },
     {
       "from": "32",
-      "to": "41 flip",
+      "to": "41_flip",
       "similarity": 0.522045776761016,
       "strict_flag": false,
       "ddg_value": -0.55,
@@ -446,7 +446,7 @@
     },
     {
       "from": "33",
-      "to": "48 flip",
+      "to": "48_flip",
       "similarity": 0.6703200460356393,
       "strict_flag": true,
       "ddg_value": 0.22,
@@ -470,7 +470,7 @@
     },
     {
       "from": "33",
-      "to": "41 flip",
+      "to": "41_flip",
       "similarity": 0.5406408953093165,
       "strict_flag": false,
       "ddg_value": -0.25,
@@ -597,8 +597,8 @@
       "same_charge": true
     },
     {
-      "from": "43 flip",
-      "to": "47 flip",
+      "from": "43_flip",
+      "to": "47_flip",
       "similarity": 0.951229424500714,
       "strict_flag": true,
       "ddg_value": 1.25,
