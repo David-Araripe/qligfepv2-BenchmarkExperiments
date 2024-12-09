@@ -16,7 +16,7 @@ qligfep_analyze -t bace -j mapping.json -l debug -exp ddg_value -m ddGbar && mkd
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest aromaticity_ls -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -33,7 +33,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t cdk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cdk2 && mv cdk2*  results_cdk2 && cp mapping_ddG.json results_cdk2
+qligfep_analyze -t jnk1 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_jnk1 && mv jnk1*  results_jnk1 && cp mapping_ddG.json results_jnk1
 ```
 
 ## mcl1
@@ -64,7 +64,7 @@ qligfep_analyze -t p38 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdi
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest aromaticity_p -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 30 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -74,9 +74,9 @@ qligfep_analyze -t ptp1b -j mapping.json -l debug -exp ddg_value -m ddGbar && mk
 
 ## thrombin
 
-Setup FEP's for target
+<!-- Setup FEP's for target (radius set to 24 to avoid non-bonded charged lysine from being included in the system) -->
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
@@ -89,6 +89,10 @@ qligfep_analyze -t thrombin -j mapping.json -l debug -exp ddg_value -m ddGbar &&
 Setup FEP's for target
 ```bash
 setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+```
+
+```bash
+qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
 ```
 
 # Merck dataset
