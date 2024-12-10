@@ -1,0 +1,254 @@
+{
+  "nodes": {
+    "SHP099-1-Example-7": {},
+    "Example-22": {},
+    "11": {},
+    "4": {},
+    "Example-2": {},
+    "Example-26": {},
+    "SHP836-2": {},
+    "Example-6": {},
+    "Example-1": {},
+    "3": {},
+    "Example-9": {},
+    "Example-8": {},
+    "7": {},
+    "Example-24": {},
+    "Example-28": {},
+    "10": {},
+    "Example-25": {},
+    "Example-27": {},
+    "6": {},
+    "Example-30": {},
+    "Example-5": {},
+    "Example-23": {},
+    "Example-29": {},
+    "Example-14": {},
+    "Example-3": {},
+    "Example-4": {}
+  },
+  "edges": [
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-28",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-5",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-26",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-9",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-25",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "11",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "10",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP099-1-Example-7",
+      "to": "Example-14",
+      "similarity": 0.022313016014842982,
+      "strict_flag": false
+    },
+    {
+      "from": "Example-22",
+      "to": "Example-24",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-22",
+      "to": "Example-23",
+      "similarity": 0.9851119396030626,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-22",
+      "to": "Example-29",
+      "similarity": 0.3328710836980796,
+      "strict_flag": false
+    },
+    {
+      "from": "11",
+      "to": "Example-30",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "4",
+      "to": "SHP836-2",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "4",
+      "to": "3",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-2",
+      "to": "Example-30",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-2",
+      "to": "Example-1",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-26",
+      "to": "Example-24",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP836-2",
+      "to": "6",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP836-2",
+      "to": "3",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "SHP836-2",
+      "to": "Example-27",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-6",
+      "to": "Example-30",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-6",
+      "to": "Example-1",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-1",
+      "to": "7",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-9",
+      "to": "Example-8",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-9",
+      "to": "Example-14",
+      "similarity": 0.022313016014842982,
+      "strict_flag": false
+    },
+    {
+      "from": "Example-8",
+      "to": "Example-23",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-8",
+      "to": "Example-30",
+      "similarity": 0.8187307530779817,
+      "strict_flag": true
+    },
+    {
+      "from": "7",
+      "to": "6",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-24",
+      "to": "Example-23",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "10",
+      "to": "Example-30",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-25",
+      "to": "Example-5",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-27",
+      "to": "6",
+      "similarity": 0.6376281516217733,
+      "strict_flag": true
+    },
+    {
+      "from": "6",
+      "to": "Example-30",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "Example-5",
+      "to": "Example-29",
+      "similarity": 0.3328710836980796,
+      "strict_flag": false
+    },
+    {
+      "from": "Example-29",
+      "to": "Example-3",
+      "similarity": 0.027253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "Example-29",
+      "to": "Example-4",
+      "similarity": 0.027253179303401254,
+      "strict_flag": false
+    },
+    {
+      "from": "Example-3",
+      "to": "Example-4",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    }
+  ]
+}

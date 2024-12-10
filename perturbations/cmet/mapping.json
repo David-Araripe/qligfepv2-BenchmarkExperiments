@@ -1,0 +1,240 @@
+{
+  "nodes": {
+    "CHEMBL3402753_200": {},
+    "CHEMBL3402754_40": {},
+    "CHEMBL3402755_4200": {},
+    "CHEMBL3402749_500": {},
+    "CHEMBL3402747_3400": {},
+    "CHEMBL3402752_30000": {},
+    "CHEMBL3402744_300": {},
+    "CHEMBL3402745_200": {},
+    "CHEMBL3402751_2100": {},
+    "CHEMBL3402750_400": {},
+    "CHEMBL3402748_5300": {},
+    "CHEMBL3402761_1-redocked": {},
+    "CHEMBL3402743_42": {},
+    "CHEMBL3402764_90": {},
+    "CHEMBL3402765_11-charged-pKa-8.1": {},
+    "CHEMBL3402742_23": {},
+    "CHEMBL3402741_400": {},
+    "CHEMBL3402763_90": {},
+    "CHEMBL3402756_2.7-redocked": {},
+    "CHEMBL3402760_1-redocked": {},
+    "CHEMBL3402757_6.5-redocked": {},
+    "CHEMBL3402758_10-redocked": {},
+    "CHEMBL3402759_5.7-redocked": {},
+    "CHEMBL3402762_1-redocked": {}
+  },
+  "edges": [
+    {
+      "from": "CHEMBL3402753_200",
+      "to": "CHEMBL3402754_40",
+      "similarity": 0.951229424500714,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402754_40",
+      "to": "CHEMBL3402755_4200",
+      "similarity": 0.7408182206817178,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402754_40",
+      "to": "CHEMBL3402745_200",
+      "similarity": 0.10025884372280373,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402755_4200",
+      "to": "CHEMBL3402744_300",
+      "similarity": 0.11080315836233384,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402755_4200",
+      "to": "CHEMBL3402761_1-redocked",
+      "similarity": 0.049787068367863924,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402749_500",
+      "to": "CHEMBL3402752_30000",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402749_500",
+      "to": "CHEMBL3402747_3400",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402749_500",
+      "to": "CHEMBL3402748_5300",
+      "similarity": 0.19204990862075408,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402747_3400",
+      "to": "CHEMBL3402752_30000",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402747_3400",
+      "to": "CHEMBL3402744_300",
+      "similarity": 0.1224564282529819,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402747_3400",
+      "to": "CHEMBL3402751_2100",
+      "similarity": 0.1826835240527346,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402752_30000",
+      "to": "CHEMBL3402744_300",
+      "similarity": 0.1224564282529819,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402744_300",
+      "to": "CHEMBL3402745_200",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402744_300",
+      "to": "CHEMBL3402761_1-redocked",
+      "similarity": 0.033373269960326066,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402751_2100",
+      "to": "CHEMBL3402748_5300",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402750_400",
+      "to": "CHEMBL3402748_5300",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402743_42",
+      "to": "CHEMBL3402764_90",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402743_42",
+      "to": "CHEMBL3402765_11-charged-pKa-8.1",
+      "similarity": 0.22313016014842982,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402743_42",
+      "to": "CHEMBL3402742_23",
+      "similarity": 0.14227407158651353,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402764_90",
+      "to": "CHEMBL3402742_23",
+      "similarity": 0.1572371663136276,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402764_90",
+      "to": "CHEMBL3402758_10-redocked",
+      "similarity": 0.03174563637806793,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402764_90",
+      "to": "CHEMBL3402741_400",
+      "similarity": 0.10539922456186433,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402764_90",
+      "to": "CHEMBL3402765_11-charged-pKa-8.1",
+      "similarity": 0.049787068367863924,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402764_90",
+      "to": "CHEMBL3402756_2.7-redocked",
+      "similarity": 0.02732372244729256,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402742_23",
+      "to": "CHEMBL3402741_400",
+      "similarity": 0.522045776761016,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402742_23",
+      "to": "CHEMBL3402763_90",
+      "similarity": 0.0450492023935578,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402741_400",
+      "to": "CHEMBL3402763_90",
+      "similarity": 0.1826835240527346,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402756_2.7-redocked",
+      "to": "CHEMBL3402759_5.7-redocked",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402756_2.7-redocked",
+      "to": "CHEMBL3402757_6.5-redocked",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402760_1-redocked",
+      "to": "CHEMBL3402757_6.5-redocked",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402760_1-redocked",
+      "to": "CHEMBL3402758_10-redocked",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402760_1-redocked",
+      "to": "CHEMBL3402762_1-redocked",
+      "similarity": 0.16529888822158648,
+      "strict_flag": false
+    },
+    {
+      "from": "CHEMBL3402757_6.5-redocked",
+      "to": "CHEMBL3402758_10-redocked",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402757_6.5-redocked",
+      "to": "CHEMBL3402759_5.7-redocked",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true
+    },
+    {
+      "from": "CHEMBL3402758_10-redocked",
+      "to": "CHEMBL3402762_1-redocked",
+      "similarity": 0.1287349035878042,
+      "strict_flag": false
+    }
+  ]
+}
