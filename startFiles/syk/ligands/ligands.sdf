@@ -110,6 +110,9 @@ CHEMBL3265014
  31 51  1  0  0  0  0
  31 52  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-10.4002
+
 $$$$
 CHEMBL3265036
   PyMOL3.0          3D                             0
@@ -231,6 +234,9 @@ CHEMBL3265036
  31 54  1  0  0  0  0
  32 55  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-10.4179
+
 $$$$
 CHEMBL3265020
   PyMOL3.0          3D                             0
@@ -337,6 +343,9 @@ CHEMBL3265020
  29 47  1  0  0  0  0
  29 48  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-11.0033
+
 $$$$
 CHEMBL3265023
   PyMOL3.0          3D                             0
@@ -447,6 +456,9 @@ CHEMBL3265023
  30 49  1  0  0  0  0
  30 50  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-10.4772
+
 $$$$
 CHEMBL3265033
   PyMOL3.0          3D                             0
@@ -566,6 +578,9 @@ CHEMBL3265033
  32 53  1  0  0  0  0
  33 54  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-11.8386
+
 $$$$
 CHEMBL3265027
   PyMOL3.0          3D                             0
@@ -654,6 +669,9 @@ CHEMBL3265027
  24 25  2  0  0  0  0
  25 39  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-10.3299
+
 $$$$
 CHEMBL3265028
   PyMOL3.0          3D                             0
@@ -750,6 +768,9 @@ CHEMBL3265028
  26 42  1  0  0  0  0
  27 43  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-11.0103
+
 $$$$
 CHEMBL3265032
   PyMOL3.0          3D                             0
@@ -865,6 +886,9 @@ CHEMBL3265032
  30 51  1  0  0  0  0
  31 52  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-11.0688
+
 $$$$
 CHEMBL3265031
   PyMOL3.0          3D                             0
@@ -992,6 +1016,9 @@ CHEMBL3265031
  32 57  1  0  0  0  0
  33 58  1  0  0  0  0
 M  END
+> <r_exp_dg>
+-12.0789
+
 $$$$
 CHEMBL3265037
   PyMOL3.0          3D                             0
@@ -1115,6 +1142,9 @@ CHEMBL3265037
  33 55  1  0  0  0  0
  33 56  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-12.7646
+
 $$$$
 CHEMBL3265026
   PyMOL3.0          3D                             0
@@ -1227,6 +1257,9 @@ CHEMBL3265026
  30 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.3613
+
 $$$$
 CHEMBL3265012
   PyMOL3.0          3D                             0
@@ -1332,6 +1365,9 @@ CHEMBL3265012
  30 47  1  0  0  0  0
  30 48  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.5463
+
 $$$$
 CHEMBL3265029
   PyMOL3.0          3D                             0
@@ -1428,6 +1464,9 @@ CHEMBL3265029
  26 42  1  0  0  0  0
  27 43  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.1253
+
 $$$$
 CHEMBL3265035
   PyMOL3.0          3D                             0
@@ -1540,6 +1579,9 @@ CHEMBL3265035
  29 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.0766
+
 $$$$
 CHEMBL3265024
   PyMOL3.0          3D                             0
@@ -1650,6 +1692,9 @@ CHEMBL3265024
  31 49  1  0  0  0  0
  31 50  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.7847
+
 $$$$
 CHEMBL3265018
   PyMOL3.0          3D                             0
@@ -1754,6 +1799,9 @@ CHEMBL3265018
  29 46  1  0  0  0  0
  29 47  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.1877
+
 $$$$
 CHEMBL3265008
   PyMOL3.0          3D                             0
@@ -1859,6 +1907,9 @@ CHEMBL3265008
  30 47  1  0  0  0  0
  30 48  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-9.78436
+
 $$$$
 CHEMBL3265016
   PyMOL3.0          3D                             0
@@ -1965,8 +2016,11 @@ CHEMBL3265016
  29 47  1  0  0  0  0
  29 48  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.6897
+
 $$$$
-CHEMBL3265025 flip
+CHEMBL3265025-flip
   PyMOL3.0          3D                             0
 
  50 54  0  0  0  0  0  0  0  0999 V2000
@@ -2075,6 +2129,9 @@ CHEMBL3265025 flip
  31 49  1  0  0  0  0
  31 50  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.1995
+
 $$$$
 CHEMBL3265013
   PyMOL3.0          3D                             0
@@ -2186,6 +2243,9 @@ CHEMBL3265013
  30 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-9.81322
+
 $$$$
 CHEMBL3259820
   PyMOL3.0          3D                             0
@@ -2291,6 +2351,9 @@ CHEMBL3259820
  29 47  1  0  0  0  0
  29 48  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.5757
+
 $$$$
 CHEMBL3265006
   PyMOL3.0          3D                             0
@@ -2402,6 +2465,9 @@ CHEMBL3265006
  28 50  1  0  0  0  0
  29 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-9.95804
+
 $$$$
 CHEMBL3265030_n
   PyMOL3.0          3D                             0
@@ -2517,6 +2583,9 @@ CHEMBL3265030_n
  30 51  1  0  0  0  0
  31 52  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.4719
+
 $$$$
 CHEMBL3265022
   PyMOL3.0          3D                             0
@@ -2627,6 +2696,9 @@ CHEMBL3265022
  30 49  1  0  0  0  0
  30 50  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.7913
+
 $$$$
 CHEMBL3265019
   PyMOL3.0          3D                             0
@@ -2729,6 +2801,9 @@ CHEMBL3265019
  29 45  1  0  0  0  0
  29 46  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.777
+
 $$$$
 CHEMBL3265009
   PyMOL3.0          3D                             0
@@ -2840,6 +2915,9 @@ CHEMBL3265009
  30 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.2976
+
 $$$$
 CHEMBL3265021
   PyMOL3.0          3D                             0
@@ -2944,6 +3022,9 @@ CHEMBL3265021
  29 46  1  0  0  0  0
  29 47  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.8907
+
 $$$$
 CHEMBL3265005
   PyMOL3.0          3D                             0
@@ -3049,6 +3130,9 @@ CHEMBL3265005
  29 47  1  0  0  0  0
  29 48  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.3233
+
 $$$$
 CHEMBL3265017
   PyMOL3.0          3D                             0
@@ -3153,6 +3237,9 @@ CHEMBL3265017
  29 46  1  0  0  0  0
  29 47  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.4873
+
 $$$$
 CHEMBL3265010
   PyMOL3.0          3D                             0
@@ -3266,6 +3353,9 @@ CHEMBL3265010
  31 51  1  0  0  0  0
  31 52  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.1324
+
 $$$$
 CHEMBL3265034
   PyMOL3.0          3D                             0
@@ -3383,6 +3473,9 @@ CHEMBL3265034
  30 52  1  0  0  0  0
  31 53  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.4873
+
 $$$$
 intermediate
   PyMOL3.0          3D                             0
@@ -3480,8 +3573,11 @@ intermediate
  26 41  1  0  0  0  0
  26 42  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+None
+
 $$$$
-CHEMBL3265011 flip
+CHEMBL3265011-flip
   PyMOL3.0          3D                             0
 
  51 54  0  0  0  0  0  0  0  0999 V2000
@@ -3591,8 +3687,11 @@ CHEMBL3265011 flip
  30 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-8.63789
+
 $$$$
-CHEMBL3265015 flip
+CHEMBL3265015-flip
   PyMOL3.0          3D                             0
 
  51 54  0  0  0  0  0  0  0  0999 V2000
@@ -3702,6 +3801,9 @@ CHEMBL3265015 flip
  30 50  1  0  0  0  0
  30 51  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-9.47732
+
 $$$$
 CHEMBL3265002
   PyMOL3.0          3D                             0
@@ -3843,8 +3945,11 @@ CHEMBL3265002
  40 64  1  0  0  0  0
  40 65  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.6173
+
 $$$$
-docked CHEMBL3264998
+docked-CHEMBL3264998
   PyMOL3.0          3D                             0
 
  63 67  0  0  0  0  0  0  0  0999 V2000
@@ -3979,6 +4084,9 @@ docked CHEMBL3264998
  39 62  1  0  0  0  0
  39 63  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.7121
+
 $$$$
 CHEMBL3264997
   PyMOL3.0          3D                             0
@@ -4109,8 +4217,11 @@ CHEMBL3264997
  38 59  1  0  0  0  0
  38 60  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.983
+
 $$$$
-docked CHEMBL3264994
+docked-CHEMBL3264994
   PyMOL3.0          3D                             0
 
  64 68  0  0  0  0  0  0  0  0999 V2000
@@ -4247,6 +4358,9 @@ docked CHEMBL3264994
  37 63  1  0  0  0  0
  38 64  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-9.80496
+
 $$$$
 CHEMBL3264995
   PyMOL3.0          3D                             0
@@ -4377,8 +4491,11 @@ CHEMBL3264995
  38 59  1  0  0  0  0
  38 60  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-12.3815
+
 $$$$
-docked CHEMBL3265004
+docked-CHEMBL3265004
   PyMOL3.0          3D                             0
 
  65 70  0  0  0  0  0  0  0  0999 V2000
@@ -4518,6 +4635,9 @@ docked CHEMBL3265004
  40 64  1  0  0  0  0
  40 65  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.8575
+
 $$$$
 CHEMBL3265001
   PyMOL3.0          3D                             0
@@ -4653,6 +4773,9 @@ CHEMBL3265001
  40 61  1  0  0  0  0
  40 62  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-12.038
+
 $$$$
 CHEMBL3264996
   PyMOL3.0          3D                             0
@@ -4791,6 +4914,9 @@ CHEMBL3264996
  38 63  1  0  0  0  0
  39 64  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.6659
+
 $$$$
 intermediate_1
   PyMOL3.0          3D                             0
@@ -4917,8 +5043,11 @@ intermediate_1
  35 56  1  0  0  0  0
  35 57  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+None
+
 $$$$
-docked CHEMBL3264999 adjust
+docked-CHEMBL3264999-adjust
   PyMOL3.0          3D                             0
 
  62 66  0  0  0  0  0  0  0  0999 V2000
@@ -5051,8 +5180,11 @@ docked CHEMBL3264999 adjust
  38 61  1  0  0  0  0
  38 62  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.414
+
 $$$$
-redocked CHEMBL3265000 ground state
+redocked-CHEMBL3265000-ground-state
   PyMOL3.0          3D                             0
 
  67 71  0  0  0  0  0  0  0  0999 V2000
@@ -5195,8 +5327,11 @@ redocked CHEMBL3265000 ground state
  42 66  1  0  0  0  0
  42 67  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-11.8111
+
 $$$$
-CHEMBL3265003 tautomer 2
+CHEMBL3265003 tautomer-2
   PyMOL3.0          3D                             0
 
  65 70  0  0  0  0  0  0  0  0999 V2000
@@ -5336,4 +5471,7 @@ CHEMBL3265003 tautomer 2
  40 64  1  0  0  0  0
  40 65  1  0  0  0  0
 M  END
+> <r_exp_dg> 
+-10.821
+
 $$$$
