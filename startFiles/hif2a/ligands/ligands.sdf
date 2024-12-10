@@ -88,6 +88,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg>
+-11.3247
+
 $$$$
 7a
                     3D
@@ -184,6 +187,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg>
+-9.99707
 
 $$$$
 7b
@@ -282,6 +288,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg>
+-7.39451
+
 $$$$
 15
                     3D
@@ -374,6 +383,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg>
+-11.0462
 
 $$$$
 23
@@ -468,6 +480,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg>
+-7.06742
+
 $$$$
 25
                     3D
@@ -557,6 +572,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg>
+-10.2831
+
 $$$$
 30
                     3D
@@ -634,6 +652,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg>
+-10.5657
 
 $$$$
 31
@@ -719,6 +740,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg>
+-8.84235
+
 $$$$
 41
                     3D
@@ -800,6 +824,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg>
+-9.78701
 
 $$$$
 42
@@ -885,6 +912,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-8.93969
+
 $$$$
 43
                     3D
@@ -969,6 +999,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-8.69946
+
 $$$$
 50
                     3D
@@ -1050,6 +1083,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-9.69694
 
 $$$$
 54
@@ -1138,6 +1174,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-9.3095
 
 $$$$
 57
@@ -1232,6 +1271,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.6737
+
 $$$$
 61
                     3D
@@ -1323,6 +1365,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.1076
+
 $$$$
 67
                     3D
@@ -1403,6 +1448,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.1717
 
 $$$$
 84
@@ -1487,6 +1535,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-7.57545
+
 $$$$
 124
                     3D
@@ -1566,6 +1617,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.123
 
 $$$$
 155
@@ -1660,6 +1714,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.5033
+
 $$$$
 156
                     3D
@@ -1753,6 +1810,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-9.73619
+
 $$$$
 163
                     3D
@@ -1845,6 +1905,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-11.0103
 
 $$$$
 164
@@ -1941,6 +2004,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-6.76476
+
 $$$$
 165
                     3D
@@ -2036,6 +2102,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-9.23534
+
 $$$$
 167
                     3D
@@ -2128,6 +2197,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.6737
 
 $$$$
 206
@@ -2228,6 +2300,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.123
+
 $$$$
 215
                     3D
@@ -2321,6 +2396,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.5996
+
 $$$$
 224
                     3D
@@ -2411,6 +2489,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-9.66013
 
 $$$$
 227
@@ -2505,6 +2586,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.7585
+
 $$$$
 231
                     3D
@@ -2597,6 +2681,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.0228
 
 $$$$
 234
@@ -2691,6 +2778,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.3478
+
 $$$$
 235
                     3D
@@ -2781,6 +2871,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.123
 
 $$$$
 237
@@ -2874,6 +2967,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-9.54973
 
 $$$$
 251
@@ -2970,6 +3066,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.2436
+
 $$$$
 252
                     3D
@@ -3060,6 +3159,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-9.71233
 
 $$$$
 254
@@ -3158,6 +3260,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-9.54973
+
 $$$$
 256
                     3D
@@ -3246,6 +3351,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.6737
 
 $$$$
 266
@@ -3345,6 +3453,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.5337
+
 $$$$
 289
                     3D
@@ -3437,6 +3548,9 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.914
 
 $$$$
 290
@@ -3533,6 +3647,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-10.5657
+
 $$$$
 336
                     3D
@@ -3624,6 +3741,9 @@ hif2a_automap_ligands
 > <subgroupid>
 hif2a_automap_ligands
 
+> <r_exp_dg> 
+-9.82348
+
 $$$$
 338
                     3D
@@ -3714,5 +3834,8 @@ hif2a_automap_ligands
 
 > <subgroupid>
 hif2a_automap_ligands
+
+> <r_exp_dg> 
+-10.7585
 
 $$$$
