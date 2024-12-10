@@ -592,7 +592,7 @@ ligands
 ligands_copy
 
 $$$$
-30 flip
+30_flip
                     3D
  Schrodinger Suite 2024-2.
  41 43  0  0  1  0            999 V2000
@@ -1542,7 +1542,7 @@ ligands
 ligands_copy
 
 $$$$
-38 flip
+38_flip
                     3D
  Schrodinger Suite 2024-2.
  48 51  0  0  1  0            999 V2000
@@ -1808,7 +1808,7 @@ ligands
 ligands_copy
 
 $$$$
-40 flip
+40_flip
                     3D
  Schrodinger Suite 2024-2.
  49 52  0  0  1  0            999 V2000
@@ -1943,7 +1943,7 @@ ligands
 ligands_copy
 
 $$$$
-41 flip
+41_flip
                     3D
  Schrodinger Suite 2024-2.
  49 52  0  0  1  0            999 V2000
@@ -2203,7 +2203,7 @@ ligands
 ligands_copy
 
 $$$$
-43 flip
+43_flip
                     3D
  Schrodinger Suite 2024-2.
  44 47  0  0  1  0            999 V2000
@@ -2586,7 +2586,7 @@ ligands
 ligands_copy
 
 $$$$
-46 flip
+46_flip
                     3D
  Schrodinger Suite 2024-2.
  45 48  0  0  1  0            999 V2000
@@ -2713,7 +2713,7 @@ ligands
 ligands_copy
 
 $$$$
-47 flip
+47_flip
                     3D
  Schrodinger Suite 2024-2.
  43 46  0  0  1  0            999 V2000
@@ -2836,7 +2836,7 @@ ligands
 ligands_copy
 
 $$$$
-48 flip
+48_flip
                     3D
  Schrodinger Suite 2024-2.
  42 45  0  0  1  0            999 V2000
