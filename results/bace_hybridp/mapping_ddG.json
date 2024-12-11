@@ -1,0 +1,801 @@
+{
+    "nodes": {
+        "CAT-13n": {
+            "ddg_value": -8.543,
+            "smiles": "[H][c]1[n][c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[n][c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13m": {
+            "ddg_value": -8.763,
+            "smiles": "[H][c]1[n][c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[n]1",
+            "formal_charge": 1.0
+        },
+        "CAT-13j": {
+            "ddg_value": -8.733,
+            "smiles": "[H][c]1[n][c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4n": {
+            "ddg_value": -9.093,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[N]",
+            "formal_charge": 1.0
+        },
+        "CAT-4p": {
+            "ddg_value": -10.083,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[Cl]",
+            "formal_charge": 1.0
+        },
+        "CAT-4i": {
+            "ddg_value": -8.263,
+            "smiles": "[H][c]1[n][c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13e": {
+            "ddg_value": -9.963,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4d": {
+            "ddg_value": -9.113,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4a": {
+            "ddg_value": -7.933,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4m": {
+            "ddg_value": -9.153,
+            "smiles": "[H][c]1[n][c]([H])[c]([C]([H])([H])[H])[c]([H])[c]1-[c]1[c]([H])[c]([H])[c]([H])[c]([C@]2([c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4k": {
+            "ddg_value": -7.853,
+            "smiles": "[H][c]1[n][c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4l": {
+            "ddg_value": -9.343,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[n][c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4j": {
+            "ddg_value": -9.023,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4j_flip": {
+            "ddg_value": -9.023,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4c": {
+            "ddg_value": -7.853,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13k": {
+            "ddg_value": -9.703,
+            "smiles": "[H][c]1[n][c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-4o": {
+            "ddg_value": -9.383,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[F]",
+            "formal_charge": 1.0
+        },
+        "CAT-4b": {
+            "ddg_value": -9.633,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17h": {
+            "ddg_value": -10.333,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[Cl]",
+            "formal_charge": 1.0
+        },
+        "CAT-17e": {
+            "ddg_value": -10.023,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[O][C]([H])([H])[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17b": {
+            "ddg_value": -10.023,
+            "smiles": "[H][c]1[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13d": {
+            "ddg_value": -10.473,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13h": {
+            "ddg_value": -9.633,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([C]([H])([H])[H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17g": {
+            "ddg_value": -9.743,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[F]",
+            "formal_charge": 1.0
+        },
+        "CAT-17f": {
+            "ddg_value": -9.423,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[N]",
+            "formal_charge": 1.0
+        },
+        "CAT-24": {
+            "ddg_value": -11.35,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[C][C]([H])([H])[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17i": {
+            "ddg_value": -9.473,
+            "smiles": "[H][c]1[n][c]([H])[c]([C]([H])([H])[H])[c]([H])[c]1-[c]1[c]([H])[c]([H])[c]([H])[c]([C@]2([C]3([H])[C]([H])([H])[C]3([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17a": {
+            "ddg_value": -10.733,
+            "smiles": "[H][c]1[c]([H])[c](-[c]2[c]([H])[c]([Cl])[c]([H])[c]([Cl])[c]2[H])[c]([H])[c]([C@]2([C]3([H])[C]([H])([H])[C]3([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17c": {
+            "ddg_value": -9.863,
+            "smiles": "[H][c]1[c]([H])[c]([C]#[N])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17d": {
+            "ddg_value": -9.423,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17d_flip": {
+            "ddg_value": -9.423,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13a": {
+            "ddg_value": -8.843,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13i": {
+            "ddg_value": -9.273,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13c": {
+            "ddg_value": -9.323,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13b": {
+            "ddg_value": -9.123,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13o": {
+            "ddg_value": -8.543,
+            "smiles": "[H][C]1=[C]([H])[S][C]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])=[N]1",
+            "formal_charge": 1.0
+        },
+        "CAT-13g": {
+            "ddg_value": -9.093,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-13f": {
+            "ddg_value": -9.093,
+            "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
+            "formal_charge": 1.0
+        }
+    },
+    "edges": [
+        {
+            "from": "CAT-13n",
+            "to": "CAT-4p",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -1.54,
+            "same_charge": true,
+            "Q_ddG_avg": 0.3710000000000093,
+            "Q_ddG_sem": 0.392582847307419,
+            "Q_ddG_std": 1.241455967805545
+        },
+        {
+            "from": "CAT-13n",
+            "to": "CAT-13j",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.19,
+            "same_charge": true,
+            "Q_ddG_avg": 3.134399999999985,
+            "Q_ddG_sem": 0.3834807322408779,
+            "Q_ddG_std": 1.2126725526703404
+        },
+        {
+            "from": "CAT-13m",
+            "to": "CAT-13j",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.03,
+            "same_charge": true,
+            "Q_ddG_avg": 3.7654999999999887,
+            "Q_ddG_sem": 0.39348862372373644,
+            "Q_ddG_std": 1.2443202843319732
+        },
+        {
+            "from": "CAT-13m",
+            "to": "CAT-4p",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -1.32,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1962000000000046,
+            "Q_ddG_sem": 0.21496061499725938,
+            "Q_ddG_std": 0.6797651506218894
+        },
+        {
+            "from": "CAT-13j",
+            "to": "CAT-4i",
+            "similarity": 0.8187307530779817,
+            "strict_flag": true,
+            "ddg_value": 0.47,
+            "same_charge": true,
+            "Q_ddG_avg": 0.49680000000000035,
+            "Q_ddG_sem": 0.4448274384522609,
+            "Q_ddG_std": 1.4066678712475094
+        },
+        {
+            "from": "CAT-13j",
+            "to": "CAT-13g",
+            "similarity": 0.3867410234545013,
+            "strict_flag": false,
+            "ddg_value": -0.36,
+            "same_charge": true,
+            "Q_ddG_avg": -3.289300000000001,
+            "Q_ddG_sem": 0.5586295239243982,
+            "Q_ddG_std": 1.766541663816622
+        },
+        {
+            "from": "CAT-4n",
+            "to": "CAT-4i",
+            "similarity": 0.7408182206817178,
+            "strict_flag": true,
+            "ddg_value": 0.83,
+            "same_charge": true,
+            "Q_ddG_avg": 2.6041,
+            "Q_ddG_sem": 0.412330625833202,
+            "Q_ddG_std": 1.3039039266755814
+        },
+        {
+            "from": "CAT-4n",
+            "to": "CAT-4p",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.99,
+            "same_charge": true,
+            "Q_ddG_avg": 0.3318999999999992,
+            "Q_ddG_sem": 0.1909449370892038,
+            "Q_ddG_std": 0.6038209088794457
+        },
+        {
+            "from": "CAT-4p",
+            "to": "CAT-4m",
+            "similarity": 0.28650479686019004,
+            "strict_flag": false,
+            "ddg_value": 0.93,
+            "same_charge": true,
+            "Q_ddG_avg": 1.4274000000000004,
+            "Q_ddG_sem": 0.21500900911357176,
+            "Q_ddG_std": 0.6799181862547874
+        },
+        {
+            "from": "CAT-4p",
+            "to": "CAT-13g",
+            "similarity": 0.3867410234545013,
+            "strict_flag": false,
+            "ddg_value": 0.99,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5851999999999999,
+            "Q_ddG_sem": 0.43723237071378873,
+            "Q_ddG_std": 1.3826501582106734
+        },
+        {
+            "from": "CAT-4p",
+            "to": "CAT-4o",
+            "similarity": 0.28650479686019004,
+            "strict_flag": false,
+            "ddg_value": 0.7,
+            "same_charge": true,
+            "Q_ddG_avg": 1.543700000000003,
+            "Q_ddG_sem": 0.217579578545414,
+            "Q_ddG_std": 0.6880470405430139
+        },
+        {
+            "from": "CAT-4p",
+            "to": "CAT-13a",
+            "similarity": 0.25924026064589145,
+            "strict_flag": false,
+            "ddg_value": 1.24,
+            "same_charge": true,
+            "Q_ddG_avg": -0.2132999999999985,
+            "Q_ddG_sem": 0.6417835343789989,
+            "Q_ddG_std": 2.0294977334306137
+        },
+        {
+            "from": "CAT-13e",
+            "to": "CAT-13a",
+            "similarity": 0.33287108369807955,
+            "strict_flag": false,
+            "ddg_value": 1.12,
+            "same_charge": true,
+            "Q_ddG_avg": 0.7623999999999995,
+            "Q_ddG_sem": 0.3894204668478532,
+            "Q_ddG_std": 1.2314556427253072
+        },
+        {
+            "from": "CAT-13e",
+            "to": "CAT-13b",
+            "similarity": 0.301194211912202,
+            "strict_flag": false,
+            "ddg_value": 0.84,
+            "same_charge": true,
+            "Q_ddG_avg": -0.4732000000000003,
+            "Q_ddG_sem": 0.24774680623572123,
+            "Q_ddG_std": 0.7834441907372854
+        },
+        {
+            "from": "CAT-4d",
+            "to": "CAT-4c",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": 1.26,
+            "same_charge": true,
+            "Q_ddG_avg": 3.8107999999999995,
+            "Q_ddG_sem": 0.5761484687127095,
+            "Q_ddG_std": 1.8219414315504217
+        },
+        {
+            "from": "CAT-4d",
+            "to": "CAT-13k",
+            "similarity": 0.7672059499758557,
+            "strict_flag": true,
+            "ddg_value": -0.59,
+            "same_charge": true,
+            "Q_ddG_avg": -0.050200000000000244,
+            "Q_ddG_sem": 0.5259760032549012,
+            "Q_ddG_std": 1.6632821648776253
+        },
+        {
+            "from": "CAT-4d",
+            "to": "CAT-4b",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.52,
+            "same_charge": true,
+            "Q_ddG_avg": -0.821200000000001,
+            "Q_ddG_sem": 0.36879748643395066,
+            "Q_ddG_std": 1.1662400524763332
+        },
+        {
+            "from": "CAT-4a",
+            "to": "CAT-4l",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -1.41,
+            "same_charge": true,
+            "Q_ddG_avg": 1.032500000000006,
+            "Q_ddG_sem": 0.21585729776868814,
+            "Q_ddG_std": 0.6826007105182362
+        },
+        {
+            "from": "CAT-4a",
+            "to": "CAT-4k",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.08,
+            "same_charge": true,
+            "Q_ddG_avg": 2.1377000000000024,
+            "Q_ddG_sem": 0.26820197799419765,
+            "Q_ddG_std": 0.8481291234240226
+        },
+        {
+            "from": "CAT-4m",
+            "to": "CAT-13k",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.55,
+            "same_charge": true,
+            "Q_ddG_avg": -1.9253999999999998,
+            "Q_ddG_sem": 0.46772198366123446,
+            "Q_ddG_std": 1.4790667801015616
+        },
+        {
+            "from": "CAT-4m",
+            "to": "CAT-4j",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.13,
+            "same_charge": true,
+            "Q_ddG_avg": 2.8606999999999996,
+            "Q_ddG_sem": 0.21678863669482304,
+            "Q_ddG_std": 0.685545862798398
+        },
+        {
+            "from": "CAT-4m",
+            "to": "CAT-4j_flip",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.13,
+            "same_charge": true,
+            "Q_ddG_avg": 0.6721999999999992,
+            "Q_ddG_sem": 0.2992861273096365,
+            "Q_ddG_std": 0.9464258343895732
+        },
+        {
+            "from": "CAT-4k",
+            "to": "CAT-4j",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -1.17,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5036000000000005,
+            "Q_ddG_sem": 0.2535389003683655,
+            "Q_ddG_std": 0.8017604006185388
+        },
+        {
+            "from": "CAT-4k",
+            "to": "CAT-4j_flip",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -1.17,
+            "same_charge": true,
+            "Q_ddG_avg": -3.073500000000001,
+            "Q_ddG_sem": 0.19754786002384325,
+            "Q_ddG_std": 0.6247011845674696
+        },
+        {
+            "from": "CAT-4l",
+            "to": "CAT-4j",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.32,
+            "same_charge": true,
+            "Q_ddG_avg": 0.13300000000000978,
+            "Q_ddG_sem": 0.20259207289526351,
+            "Q_ddG_std": 0.6406523862438958
+        },
+        {
+            "from": "CAT-4l",
+            "to": "CAT-4j_flip",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.32,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1594999999999942,
+            "Q_ddG_sem": 0.21937278090045675,
+            "Q_ddG_std": 0.693717644290527
+        },
+        {
+            "from": "CAT-4j",
+            "to": "CAT-4o",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.36,
+            "same_charge": true,
+            "Q_ddG_avg": -2.335199999999997,
+            "Q_ddG_sem": 0.27290936224321793,
+            "Q_ddG_std": 0.8630151794725279
+        },
+        {
+            "from": "CAT-4j_flip",
+            "to": "CAT-4o",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.36,
+            "same_charge": true,
+            "Q_ddG_avg": 0.1177000000000028,
+            "Q_ddG_sem": 0.2768343204879048,
+            "Q_ddG_std": 0.875426987246795
+        },
+        {
+            "from": "CAT-13k",
+            "to": "CAT-4b",
+            "similarity": 0.8478937040879158,
+            "strict_flag": true,
+            "ddg_value": 0.07,
+            "same_charge": true,
+            "Q_ddG_avg": -0.21119999999999806,
+            "Q_ddG_sem": 0.2964467000996975,
+            "Q_ddG_std": 0.9374467771559087
+        },
+        {
+            "from": "CAT-13k",
+            "to": "CAT-4o",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.32,
+            "same_charge": true,
+            "Q_ddG_avg": 2.333199999999991,
+            "Q_ddG_sem": 0.33352777995243504,
+            "Q_ddG_std": 1.0547074475891405
+        },
+        {
+            "from": "CAT-17h",
+            "to": "CAT-13d",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.14,
+            "same_charge": true,
+            "Q_ddG_avg": -0.8880000000000003,
+            "Q_ddG_sem": 0.15840912852484226,
+            "Q_ddG_std": 0.5009336483008503
+        },
+        {
+            "from": "CAT-17h",
+            "to": "CAT-17i",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.86,
+            "same_charge": true,
+            "Q_ddG_avg": 0.7274000000000003,
+            "Q_ddG_sem": 0.28538083327371516,
+            "Q_ddG_std": 0.9024534337017064
+        },
+        {
+            "from": "CAT-17h",
+            "to": "CAT-13a",
+            "similarity": 0.3499377491111553,
+            "strict_flag": false,
+            "ddg_value": 1.49,
+            "same_charge": true,
+            "Q_ddG_avg": -1.7149999999999963,
+            "Q_ddG_sem": 0.16855565846330997,
+            "Q_ddG_std": 0.5330197932534964
+        },
+        {
+            "from": "CAT-17e",
+            "to": "CAT-17g",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.28,
+            "same_charge": true,
+            "Q_ddG_avg": 3.7264,
+            "Q_ddG_sem": 0.2068814153083838,
+            "Q_ddG_std": 0.6542164779337187
+        },
+        {
+            "from": "CAT-17e",
+            "to": "CAT-17b",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": -1.0168999999999961,
+            "Q_ddG_sem": 0.1903882585665406,
+            "Q_ddG_std": 0.6020605368233325
+        },
+        {
+            "from": "CAT-17b",
+            "to": "CAT-13h",
+            "similarity": 0.8065414401773269,
+            "strict_flag": true,
+            "ddg_value": 0.39,
+            "same_charge": true,
+            "Q_ddG_avg": 1.3516999999999992,
+            "Q_ddG_sem": 0.2913896103158106,
+            "Q_ddG_std": 0.9214548551068575
+        },
+        {
+            "from": "CAT-13d",
+            "to": "CAT-17a",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.26,
+            "same_charge": true,
+            "Q_ddG_avg": 0.3044999999999991,
+            "Q_ddG_sem": 0.22690512775166624,
+            "Q_ddG_std": 0.7175370164667464
+        },
+        {
+            "from": "CAT-13d",
+            "to": "CAT-13a",
+            "similarity": 0.36787944117144233,
+            "strict_flag": false,
+            "ddg_value": 1.63,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5902000000000012,
+            "Q_ddG_sem": 0.31794692638866623,
+            "Q_ddG_std": 1.0054364624380796
+        },
+        {
+            "from": "CAT-13h",
+            "to": "CAT-17a",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": -1.1,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5675000000000008,
+            "Q_ddG_sem": 0.3901531712033109,
+            "Q_ddG_std": 1.2337726573400791
+        },
+        {
+            "from": "CAT-17g",
+            "to": "CAT-17i",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.27,
+            "same_charge": true,
+            "Q_ddG_avg": -0.2744,
+            "Q_ddG_sem": 0.17761338350473468,
+            "Q_ddG_std": 0.5616628348039414
+        },
+        {
+            "from": "CAT-17f",
+            "to": "CAT-17d",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": 3.487600000000001,
+            "Q_ddG_sem": 0.5208847761261601,
+            "Q_ddG_std": 1.6471822910655638
+        },
+        {
+            "from": "CAT-17f",
+            "to": "CAT-17d_flip",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": -0.0677000000000001,
+            "Q_ddG_sem": 0.5212350189693704,
+            "Q_ddG_std": 1.6482898561842818
+        },
+        {
+            "from": "CAT-17f",
+            "to": "CAT-17c",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.44,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5786999999999978,
+            "Q_ddG_sem": 0.18432601823942277,
+            "Q_ddG_std": 0.5828900496663159
+        },
+        {
+            "from": "CAT-24",
+            "to": "CAT-17i",
+            "similarity": 0.7046880897187134,
+            "strict_flag": true,
+            "ddg_value": 1.88,
+            "same_charge": true,
+            "Q_ddG_avg": 4.1212,
+            "Q_ddG_sem": 0.4052937280541114,
+            "Q_ddG_std": 1.281651302031875
+        },
+        {
+            "from": "CAT-24",
+            "to": "CAT-17d",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 1.93,
+            "same_charge": true,
+            "Q_ddG_avg": 5.4751,
+            "Q_ddG_sem": 0.31363097582987554,
+            "Q_ddG_std": 0.9917882284036245
+        },
+        {
+            "from": "CAT-24",
+            "to": "CAT-17d_flip",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 1.93,
+            "same_charge": true,
+            "Q_ddG_avg": 2.3053,
+            "Q_ddG_sem": 0.8629090757432094,
+            "Q_ddG_std": 2.728758092979295
+        },
+        {
+            "from": "CAT-17i",
+            "to": "CAT-17c",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.39,
+            "same_charge": true,
+            "Q_ddG_avg": -2.6327,
+            "Q_ddG_sem": 0.2763531888725006,
+            "Q_ddG_std": 0.8739055154878014
+        },
+        {
+            "from": "CAT-13a",
+            "to": "CAT-13i",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.43,
+            "same_charge": true,
+            "Q_ddG_avg": -0.45059999999999967,
+            "Q_ddG_sem": 0.5957995636117905,
+            "Q_ddG_std": 1.8840836499476346
+        },
+        {
+            "from": "CAT-13a",
+            "to": "CAT-13c",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": -0.48,
+            "same_charge": true,
+            "Q_ddG_avg": 1.2548000000000021,
+            "Q_ddG_sem": 0.4391995651181818,
+            "Q_ddG_std": 1.3888709731288937
+        },
+        {
+            "from": "CAT-13a",
+            "to": "CAT-13b",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.28,
+            "same_charge": true,
+            "Q_ddG_avg": 0.22699999999999987,
+            "Q_ddG_sem": 0.21597346596283534,
+            "Q_ddG_std": 0.6829680666034101
+        },
+        {
+            "from": "CAT-13a",
+            "to": "CAT-13f",
+            "similarity": 0.301194211912202,
+            "strict_flag": false,
+            "ddg_value": -0.25,
+            "same_charge": true,
+            "Q_ddG_avg": -1.9878,
+            "Q_ddG_sem": 0.6053825319581,
+            "Q_ddG_std": 1.9143876566672697
+        },
+        {
+            "from": "CAT-13a",
+            "to": "CAT-13g",
+            "similarity": 0.27253179303401254,
+            "strict_flag": false,
+            "ddg_value": -0.25,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1122222222222238,
+            "Q_ddG_sem": 0.6233165858316618,
+            "Q_ddG_std": 1.9711001145878904
+        },
+        {
+            "from": "CAT-13c",
+            "to": "CAT-13b",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 0.2,
+            "same_charge": true,
+            "Q_ddG_avg": -0.2652000000000001,
+            "Q_ddG_sem": 0.44428308318008225,
+            "Q_ddG_std": 1.4049464687311042
+        },
+        {
+            "from": "CAT-13b",
+            "to": "CAT-13f",
+            "similarity": 0.27253179303401254,
+            "strict_flag": false,
+            "ddg_value": 0.03,
+            "same_charge": true,
+            "Q_ddG_avg": 0.08389999999999986,
+            "Q_ddG_sem": 0.5239513574750999,
+            "Q_ddG_std": 1.6568796727584052
+        },
+        {
+            "from": "CAT-13o",
+            "to": "CAT-13f",
+            "similarity": 0.42741493194872665,
+            "strict_flag": false,
+            "ddg_value": -0.55,
+            "same_charge": true,
+            "Q_ddG_avg": -2.367299999999993,
+            "Q_ddG_sem": 0.538409818818342,
+            "Q_ddG_std": 1.702601342064548
+        }
+    ]
+}

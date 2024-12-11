@@ -1,0 +1,405 @@
+{
+  "nodes": {
+    "1a": {
+      "dg_value": -8.55056,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "1b": {
+      "dg_value": -9.93717,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[N]=[C]([c]1[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
+      "formal_charge": 0.0
+    },
+    "3a": {
+      "dg_value": -10.9965,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]2[c]([c]1[H])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
+      "formal_charge": 0.0
+    },
+    "3b": {
+      "dg_value": -11.5193,
+      "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])=[N]2",
+      "formal_charge": 0.0
+    },
+    "5f": {
+      "dg_value": -10.2631,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5l": {
+      "dg_value": -10.0926,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([H])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5g": {
+      "dg_value": -10.806,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([Cl])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5e": {
+      "dg_value": -10.1076,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([Cl])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5i": {
+      "dg_value": -12.0789,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([H])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5b": {
+      "dg_value": -10.4744,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5h": {
+      "dg_value": -10.0498,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([O][C]([H])([H])[H])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5a": {
+      "dg_value": -10.7585,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5k": {
+      "dg_value": -10.9634,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([F])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5p": {
+      "dg_value": -10.5033,
+      "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([C]([O][C]([H])([H])[C]([H])([H])[O][C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]1[H])=[N]2",
+      "formal_charge": 0.0
+    },
+    "5j": {
+      "dg_value": -11.0844,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([F])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5d": {
+      "dg_value": -10.8851,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5m": {
+      "dg_value": -12.6889,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([F])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5n": {
+      "dg_value": -10.7146,
+      "smiles": "[H][O][C]([H])([H])[C]([H])([H])[O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5c": {
+      "dg_value": -9.96041,
+      "smiles": "[H][O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([H])[c]([H])[c]([H])[c]([Cl])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "7": {
+      "dg_value": -8.39681,
+      "smiles": "[H][O][C]([c]1[c]([H])[n][c]([C]2=[N][c]3[c]([H])[c]([H])[c]([F])[c]([H])[c]3[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "5o_adjust": {
+      "dg_value": -12.038,
+      "smiles": "[H][O][C]([H])([H])[C]([H])([H])[O][C]([c]1[c]([H])[c]([H])[c]([C]2=[N][c]3[c]([c]([H])[c]([F])[c]([H])[c]3[C]([H])([H])[H])[C](=[O])[N]2[H])[c]([H])[c]1[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+      "formal_charge": 0.0
+    },
+    "8c_adjust": {
+      "dg_value": -10.123,
+      "smiles": "[H][c]1[c]([F])[c]([H])[c]2[c]([c]1[F])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]3([H])[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
+      "formal_charge": 1.0
+    },
+    "8d": {
+      "dg_value": -12.4895,
+      "smiles": "[H][c]1[c]([H])[c]([C]2([H])[C]([H])([H])[C]([H])([H])[N+]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([H])[c]1[C]1=[N][c]2[c]([c]([H])[c]([F])[c]([H])[c]2[C]([H])([H])[H])[C](=[O])[N]1[H]",
+      "formal_charge": 1.0
+    },
+    "8f": {
+      "dg_value": -11.8111,
+      "smiles": "[H][c]1[c]([H])[c]([C]2([H])[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([H])[c]1[C]1=[N][c]2[c]([c]([H])[c]([F])[c]([H])[c]2[C]([H])([H])[H])[C](=[O])[N]1[H]",
+      "formal_charge": 1.0
+    },
+    "8b": {
+      "dg_value": -11.93,
+      "smiles": "[H][c]1[c]([H])[c]([N]2[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([H])[c]1[C]1=[N][c]2[c]([c]([H])[c]([F])[c]([H])[c]2[C]([H])([H])[H])[C](=[O])[N]1[H]",
+      "formal_charge": 1.0
+    },
+    "8e": {
+      "dg_value": -10.2436,
+      "smiles": "[H][c]1[c]([F])[c]([H])[c]2[c]([c]1[F])[N]=[C]([c]1[c]([H])[c]([H])[c]([C]3([H])[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])[N]([H])[C]2=[O]",
+      "formal_charge": 1.0
+    },
+    "8a": {
+      "dg_value": -10.806,
+      "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[F])[C](=[O])[N]([H])[C]([c]1[c]([H])[c]([H])[c]([N]3[C]([H])([H])[C]([H])([H])[N+]([H])([C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[c]([H])[c]1[H])=[N]2",
+      "formal_charge": 1.0
+    }
+  },
+  "edges": [
+    {
+      "from": "1a",
+      "to": "5a",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true,
+      "ddg_value": -2.21,
+      "same_charge": true
+    },
+    {
+      "from": "1a",
+      "to": "1b",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true,
+      "ddg_value": -1.39,
+      "same_charge": true
+    },
+    {
+      "from": "1b",
+      "to": "5a",
+      "similarity": 0.7788007830714049,
+      "strict_flag": true,
+      "ddg_value": -0.82,
+      "same_charge": true
+    },
+    {
+      "from": "3a",
+      "to": "3b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.52,
+      "same_charge": true
+    },
+    {
+      "from": "3a",
+      "to": "5a",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.24,
+      "same_charge": true
+    },
+    {
+      "from": "3b",
+      "to": "5d",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.63,
+      "same_charge": true
+    },
+    {
+      "from": "5f",
+      "to": "5l",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 0.17,
+      "same_charge": true
+    },
+    {
+      "from": "5f",
+      "to": "5i",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -1.82,
+      "same_charge": true
+    },
+    {
+      "from": "5l",
+      "to": "5b",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.38,
+      "same_charge": true
+    },
+    {
+      "from": "5g",
+      "to": "5h",
+      "similarity": 0.8913661439068313,
+      "strict_flag": true,
+      "ddg_value": 0.76,
+      "same_charge": true
+    },
+    {
+      "from": "5g",
+      "to": "5i",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -1.27,
+      "same_charge": true
+    },
+    {
+      "from": "5e",
+      "to": "7",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 1.71,
+      "same_charge": true
+    },
+    {
+      "from": "5e",
+      "to": "5d",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -0.78,
+      "same_charge": true
+    },
+    {
+      "from": "5i",
+      "to": "5h",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true,
+      "ddg_value": 2.03,
+      "same_charge": true
+    },
+    {
+      "from": "5i",
+      "to": "5m",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.61,
+      "same_charge": true
+    },
+    {
+      "from": "5b",
+      "to": "5j",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.61,
+      "same_charge": true
+    },
+    {
+      "from": "5b",
+      "to": "5c",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.51,
+      "same_charge": true
+    },
+    {
+      "from": "5a",
+      "to": "5d",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.13,
+      "same_charge": true
+    },
+    {
+      "from": "5a",
+      "to": "5c",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 0.8,
+      "same_charge": true
+    },
+    {
+      "from": "5k",
+      "to": "5d",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 0.08,
+      "same_charge": true
+    },
+    {
+      "from": "5k",
+      "to": "5m",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -1.73,
+      "same_charge": true
+    },
+    {
+      "from": "5p",
+      "to": "5o_adjust",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true,
+      "ddg_value": -1.53,
+      "same_charge": true
+    },
+    {
+      "from": "5p",
+      "to": "5n",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.21,
+      "same_charge": true
+    },
+    {
+      "from": "5j",
+      "to": "5d",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 0.2,
+      "same_charge": true
+    },
+    {
+      "from": "5d",
+      "to": "5n",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true,
+      "ddg_value": 0.17,
+      "same_charge": true
+    },
+    {
+      "from": "5d",
+      "to": "7",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 2.49,
+      "same_charge": true
+    },
+    {
+      "from": "5m",
+      "to": "5o_adjust",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true,
+      "ddg_value": 0.65,
+      "same_charge": true
+    },
+    {
+      "from": "8c_adjust",
+      "to": "8e",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.12,
+      "same_charge": true
+    },
+    {
+      "from": "8c_adjust",
+      "to": "8d",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -2.37,
+      "same_charge": true
+    },
+    {
+      "from": "8d",
+      "to": "8f",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 0.68,
+      "same_charge": true
+    },
+    {
+      "from": "8f",
+      "to": "8b",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -0.12,
+      "same_charge": true
+    },
+    {
+      "from": "8b",
+      "to": "8a",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": 1.12,
+      "same_charge": true
+    },
+    {
+      "from": "8e",
+      "to": "8a",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true,
+      "ddg_value": -0.56,
+      "same_charge": true
+    }
+  ]
+}

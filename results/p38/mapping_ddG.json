@@ -1,0 +1,759 @@
+{
+    "nodes": {
+        "2j": {
+            "ddg_value": -10.08,
+            "smiles": "[H][C]1=[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2gg": {
+            "ddg_value": -10.66,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2t": {
+            "ddg_value": -11.85,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]#[N])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2g": {
+            "ddg_value": -10.66,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2l": {
+            "ddg_value": -12.26,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2o": {
+            "ddg_value": -10.49,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2h": {
+            "ddg_value": -9.48,
+            "smiles": "[H][C]1=[C]([S][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2i": {
+            "ddg_value": -10.05,
+            "smiles": "[H][C]1=[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2f": {
+            "ddg_value": -8.48,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([F])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2k": {
+            "ddg_value": -10.55,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2n": {
+            "ddg_value": -11.85,
+            "smiles": "[H][O][C]([H])([H])[C]([H])([H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+            "formal_charge": 0.0
+        },
+        "3fln": {
+            "ddg_value": -10.88,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2e": {
+            "ddg_value": -10.7,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2s": {
+            "ddg_value": -11.11,
+            "smiles": "[H][O][C]([H])([H])[C@@]([H])([O][H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+            "formal_charge": 0.0
+        },
+        "2m": {
+            "ddg_value": -10.96,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2r": {
+            "ddg_value": -10.79,
+            "smiles": "[H][O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[N]1[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]([H])[c]2[c]([H])[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]21",
+            "formal_charge": 0.0
+        },
+        "3flz": {
+            "ddg_value": -9.49,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[H])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2q": {
+            "ddg_value": -12.26,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2ee": {
+            "ddg_value": -12.26,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[N]([C](=[O])[C]([H])([H])[H])[C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2z": {
+            "ddg_value": -10.36,
+            "smiles": "[H][O][C]([H])([H])[C]([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])([C]([H])([H])[H])[C]([H])([H])[H]",
+            "formal_charge": 0.0
+        },
+        "3fly": {
+            "ddg_value": -11.42,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2aa": {
+            "ddg_value": -9.27,
+            "smiles": "[H][O][C]([H])([H])[C]([H])([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])[C]([H])([H])[O][H]",
+            "formal_charge": 0.0
+        },
+        "3flw": {
+            "ddg_value": -10.68,
+            "smiles": "[H][O][C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H])[C]([H])([H])[C]([H])([H])[O][H]",
+            "formal_charge": 0.0
+        },
+        "2y": {
+            "ddg_value": -9.78,
+            "smiles": "[H][O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[N]([H])[c]1[n][c]([H])[c]2[c]([n]1)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]1[c]([H])[c]([H])[c]([F])[c]([H])[c]1[F])=[C]2[H]",
+            "formal_charge": 0.0
+        },
+        "2bb": {
+            "ddg_value": -9.06,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2v": {
+            "ddg_value": -8.97,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]([H])([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2u": {
+            "ddg_value": -12.26,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]2([H])[C]([H])([H])[C]([H])([H])[N]([S](=[O])(=[O])[C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2p": {
+            "ddg_value": -11.2,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[C]([H])([H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "3fmk": {
+            "ddg_value": -11.83,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[C@@]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[H])[N]=[N]1",
+            "formal_charge": 0.0
+        },
+        "2x": {
+            "ddg_value": -10.23,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C@]3([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "2ff": {
+            "ddg_value": -11.44,
+            "smiles": "[H][O][C]1([H])[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        },
+        "3flq": {
+            "ddg_value": -9.93,
+            "smiles": "[H][C]1=[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C@@]([H])([C]([H])([H])[H])[C]([H])([H])[S](=[O])(=[O])[C]([H])([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "3fmh": {
+            "ddg_value": -10.83,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[C@]([H])([N]([H])[c]2[n][c]([H])[c]3[c]([n]2)[N]([C]([H])([H])[H])[C](=[O])[C]([O][c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[F])=[C]3[H])[C]([H])([H])[H])[N]=[N]1",
+            "formal_charge": 0.0
+        },
+        "2c": {
+            "ddg_value": -10.46,
+            "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[Cl])[C](=[O])[N]([C]([H])([H])[H])[c]2[n][c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]3([H])[H])[n][c]([H])[c]21",
+            "formal_charge": 0.0
+        }
+    },
+    "edges": [
+        {
+            "from": "2j",
+            "to": "2gg",
+            "similarity": 0.6376281516217732,
+            "strict_flag": true,
+            "ddg_value": -0.58,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1607000000000012,
+            "Q_ddG_sem": 0.4672918199583639,
+            "Q_ddG_std": 1.4777064830337587
+        },
+        {
+            "from": "2j",
+            "to": "2t",
+            "similarity": 0.7788007830714049,
+            "strict_flag": true,
+            "ddg_value": -1.77,
+            "same_charge": true,
+            "Q_ddG_avg": -3.0054,
+            "Q_ddG_sem": 0.3888344429188339,
+            "Q_ddG_std": 1.2296024723462453
+        },
+        {
+            "from": "2j",
+            "to": "2l",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -2.18,
+            "same_charge": true,
+            "Q_ddG_avg": -3.0588000000000015,
+            "Q_ddG_sem": 0.44132912435052374,
+            "Q_ddG_std": 1.3956052307153342
+        },
+        {
+            "from": "2j",
+            "to": "2k",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.47,
+            "same_charge": true,
+            "Q_ddG_avg": -1.4569000000000027,
+            "Q_ddG_sem": 0.2859546415080547,
+            "Q_ddG_std": 0.904267974662379
+        },
+        {
+            "from": "2j",
+            "to": "2p",
+            "similarity": 0.522045776761016,
+            "strict_flag": false,
+            "ddg_value": -1.12,
+            "same_charge": true,
+            "Q_ddG_avg": -5.427031746031744,
+            "Q_ddG_sem": 1.0332866010450428,
+            "Q_ddG_std": 3.267539135036056
+        },
+        {
+            "from": "2j",
+            "to": "2ff",
+            "similarity": 0.2592402606458915,
+            "strict_flag": false,
+            "ddg_value": -1.36,
+            "same_charge": true,
+            "Q_ddG_avg": -1.9885999999999981,
+            "Q_ddG_sem": 0.3370083233393503,
+            "Q_ddG_std": 1.0657138921868294
+        },
+        {
+            "from": "2j",
+            "to": "2v",
+            "similarity": 0.25924026064589145,
+            "strict_flag": false,
+            "ddg_value": 1.11,
+            "same_charge": true,
+            "Q_ddG_avg": 0.7775999999999996,
+            "Q_ddG_sem": 0.44649179611724127,
+            "Q_ddG_std": 1.411931032310007
+        },
+        {
+            "from": "2j",
+            "to": "2ee",
+            "similarity": 0.21224797382674304,
+            "strict_flag": false,
+            "ddg_value": -2.18,
+            "same_charge": true,
+            "Q_ddG_avg": -3.1412777777777787,
+            "Q_ddG_sem": 0.6734410821837642,
+            "Q_ddG_std": 2.129607689629335
+        },
+        {
+            "from": "2gg",
+            "to": "3fln",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -0.22,
+            "same_charge": true,
+            "Q_ddG_avg": -1.4795000000000051,
+            "Q_ddG_sem": 0.21796301750526367,
+            "Q_ddG_std": 0.6892595809997848
+        },
+        {
+            "from": "2t",
+            "to": "3fln",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.97,
+            "same_charge": true,
+            "Q_ddG_avg": 1.0096000000000025,
+            "Q_ddG_sem": 0.20002472347187486,
+            "Q_ddG_std": 0.6325337145164676
+        },
+        {
+            "from": "2g",
+            "to": "3fln",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.22,
+            "same_charge": true,
+            "Q_ddG_avg": 0.8421000000000003,
+            "Q_ddG_sem": 0.19630180080681886,
+            "Q_ddG_std": 0.6207607993422265
+        },
+        {
+            "from": "2g",
+            "to": "3flz",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 1.17,
+            "same_charge": true,
+            "Q_ddG_avg": 0.6036000000000019,
+            "Q_ddG_sem": 0.15323097598070687,
+            "Q_ddG_std": 0.48455889218958687
+        },
+        {
+            "from": "2g",
+            "to": "2h",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 1.18,
+            "same_charge": true,
+            "Q_ddG_avg": 2.139099999999999,
+            "Q_ddG_sem": 0.3430332418294182,
+            "Q_ddG_std": 1.0847663573323065
+        },
+        {
+            "from": "2g",
+            "to": "2i",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.61,
+            "same_charge": true,
+            "Q_ddG_avg": 1.6710000000000065,
+            "Q_ddG_sem": 0.2983587136317624,
+            "Q_ddG_std": 0.9434930948342973
+        },
+        {
+            "from": "2g",
+            "to": "2c",
+            "similarity": 0.12245642825298189,
+            "strict_flag": false,
+            "ddg_value": 0.2,
+            "same_charge": true,
+            "Q_ddG_avg": -2.5885249999999935,
+            "Q_ddG_sem": 0.9223402571380585,
+            "Q_ddG_std": 2.916695990221641
+        },
+        {
+            "from": "2l",
+            "to": "3fln",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 1.38,
+            "same_charge": true,
+            "Q_ddG_avg": 1.2968000000000002,
+            "Q_ddG_sem": 0.2283107881813735,
+            "Q_ddG_std": 0.7219821050413923
+        },
+        {
+            "from": "2o",
+            "to": "3fln",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": -0.39,
+            "same_charge": true,
+            "Q_ddG_avg": -0.7068000000000012,
+            "Q_ddG_sem": 0.7232246442150593,
+            "Q_ddG_std": 2.2870371356845065
+        },
+        {
+            "from": "2o",
+            "to": "2n",
+            "similarity": 0.6376281516217732,
+            "strict_flag": true,
+            "ddg_value": -1.36,
+            "same_charge": true,
+            "Q_ddG_avg": -1.5234000000000094,
+            "Q_ddG_sem": 0.40790454030324286,
+            "Q_ddG_std": 1.2899074152821972
+        },
+        {
+            "from": "2h",
+            "to": "2i",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.57,
+            "same_charge": true,
+            "Q_ddG_avg": -1.3907999999999987,
+            "Q_ddG_sem": 0.4011332322308886,
+            "Q_ddG_std": 1.2684946590348736
+        },
+        {
+            "from": "2f",
+            "to": "2e",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": -2.22,
+            "same_charge": true,
+            "Q_ddG_avg": 0.2289999999999992,
+            "Q_ddG_sem": 0.21704605502058777,
+            "Q_ddG_std": 0.6863598910192816
+        },
+        {
+            "from": "2f",
+            "to": "3flz",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -1.01,
+            "same_charge": true,
+            "Q_ddG_avg": -1.0284999999999993,
+            "Q_ddG_sem": 0.2220380080076382,
+            "Q_ddG_std": 0.702145832430842
+        },
+        {
+            "from": "2k",
+            "to": "2m",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.41,
+            "same_charge": true,
+            "Q_ddG_avg": -0.9544000000000068,
+            "Q_ddG_sem": 0.7320154165043246,
+            "Q_ddG_std": 2.3148359985104774
+        },
+        {
+            "from": "2k",
+            "to": "3fln",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.33,
+            "same_charge": true,
+            "Q_ddG_avg": -0.06649999999999778,
+            "Q_ddG_sem": 0.3202553559271101,
+            "Q_ddG_std": 1.0127363575975732
+        },
+        {
+            "from": "2k",
+            "to": "2q",
+            "similarity": 0.44932896411722156,
+            "strict_flag": false,
+            "ddg_value": -1.71,
+            "same_charge": true,
+            "Q_ddG_avg": -8.586500000000001,
+            "Q_ddG_sem": 0.26460327221458674,
+            "Q_ddG_std": 0.8367490165316402
+        },
+        {
+            "from": "2k",
+            "to": "2u",
+            "similarity": 0.2465969639416065,
+            "strict_flag": false,
+            "ddg_value": -1.71,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "2n",
+            "to": "2s",
+            "similarity": 0.7046880897187134,
+            "strict_flag": true,
+            "ddg_value": 0.74,
+            "same_charge": true,
+            "Q_ddG_avg": -0.42169999999999774,
+            "Q_ddG_sem": 0.5702305191762362,
+            "Q_ddG_std": 1.8032272319372284
+        },
+        {
+            "from": "2n",
+            "to": "2r",
+            "similarity": 0.7046880897187134,
+            "strict_flag": true,
+            "ddg_value": 1.06,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5267000000000002,
+            "Q_ddG_sem": 0.5104421465749082,
+            "Q_ddG_std": 1.6141597969222254
+        },
+        {
+            "from": "2n",
+            "to": "3fln",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 0.97,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1569999999999983,
+            "Q_ddG_sem": 0.5085999233189088,
+            "Q_ddG_std": 1.608334175474736
+        },
+        {
+            "from": "3fln",
+            "to": "2e",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.18,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5745999999999993,
+            "Q_ddG_sem": 0.2518745918110836,
+            "Q_ddG_std": 0.7964973948482191
+        },
+        {
+            "from": "3fln",
+            "to": "2p",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -0.32,
+            "same_charge": true,
+            "Q_ddG_avg": -4.069708333333338,
+            "Q_ddG_sem": 1.2986632277049566,
+            "Q_ddG_std": 4.106733713053546
+        },
+        {
+            "from": "3fln",
+            "to": "2ff",
+            "similarity": 0.2725317930340126,
+            "strict_flag": false,
+            "ddg_value": -0.56,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5067999999999997,
+            "Q_ddG_sem": 0.24720331712984756,
+            "Q_ddG_std": 0.7817255272792363
+        },
+        {
+            "from": "3fln",
+            "to": "2v",
+            "similarity": 0.27253179303401254,
+            "strict_flag": false,
+            "ddg_value": 1.91,
+            "same_charge": true,
+            "Q_ddG_avg": 2.4959999999999987,
+            "Q_ddG_sem": 0.5889403874756765,
+            "Q_ddG_std": 1.862393030485241
+        },
+        {
+            "from": "3fln",
+            "to": "2ee",
+            "similarity": 0.22313016014842982,
+            "strict_flag": false,
+            "ddg_value": -1.38,
+            "same_charge": true,
+            "Q_ddG_avg": -2.0232999999999954,
+            "Q_ddG_sem": 0.4698704938597445,
+            "Q_ddG_std": 1.4858609659049538
+        },
+        {
+            "from": "3fln",
+            "to": "2u",
+            "similarity": 0.1224564282529819,
+            "strict_flag": false,
+            "ddg_value": -1.38,
+            "same_charge": true,
+            "Q_ddG_avg": -3.1753499999999946,
+            "Q_ddG_sem": 1.286823967273691,
+            "Q_ddG_std": 4.069294684278839
+        },
+        {
+            "from": "2s",
+            "to": "2r",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 0.32,
+            "same_charge": true,
+            "Q_ddG_avg": -0.18429999999999858,
+            "Q_ddG_sem": 0.49309938653378976,
+            "Q_ddG_std": 1.5593171742785361
+        },
+        {
+            "from": "3flz",
+            "to": "2c",
+            "similarity": 0.13533528323661265,
+            "strict_flag": false,
+            "ddg_value": -0.97,
+            "same_charge": true,
+            "Q_ddG_avg": -1.537975000000003,
+            "Q_ddG_sem": 0.8191460965160609,
+            "Q_ddG_std": 2.5903674014268705
+        },
+        {
+            "from": "2q",
+            "to": "2ee",
+            "similarity": 0.15723716631362758,
+            "strict_flag": false,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": 2.0025714285714287,
+            "Q_ddG_sem": 0.997504535307576,
+            "Q_ddG_std": 3.154386307919788
+        },
+        {
+            "from": "2z",
+            "to": "2v",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 1.39,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5910999999999998,
+            "Q_ddG_sem": 0.5900653938335987,
+            "Q_ddG_std": 1.8659506129584458
+        },
+        {
+            "from": "2z",
+            "to": "3fly",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": -1.06,
+            "same_charge": true,
+            "Q_ddG_avg": -2.582500000000003,
+            "Q_ddG_sem": 0.4804925566541067,
+            "Q_ddG_std": 1.5194508777844709
+        },
+        {
+            "from": "3fly",
+            "to": "3flw",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 0.74,
+            "same_charge": true,
+            "Q_ddG_avg": -0.6977999999999973,
+            "Q_ddG_sem": 0.3534636558403143,
+            "Q_ddG_std": 1.1177502225452707
+        },
+        {
+            "from": "3fly",
+            "to": "2aa",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 2.15,
+            "same_charge": true,
+            "Q_ddG_avg": 1.3019000000000034,
+            "Q_ddG_sem": 0.41734552231933697,
+            "Q_ddG_std": 1.3197624218017432
+        },
+        {
+            "from": "3fly",
+            "to": "2v",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 2.45,
+            "same_charge": true,
+            "Q_ddG_avg": 2.0129000000000037,
+            "Q_ddG_sem": 0.3419476114845664,
+            "Q_ddG_std": 1.0813332927455805
+        },
+        {
+            "from": "3fly",
+            "to": "3fmk",
+            "similarity": 0.4065696597405991,
+            "strict_flag": false,
+            "ddg_value": -0.41,
+            "same_charge": true,
+            "Q_ddG_avg": -3.2303999999999977,
+            "Q_ddG_sem": 0.5728216598558402,
+            "Q_ddG_std": 1.811421138222694
+        },
+        {
+            "from": "3fly",
+            "to": "3fmh",
+            "similarity": 0.4065696597405991,
+            "strict_flag": false,
+            "ddg_value": 0.59,
+            "same_charge": true,
+            "Q_ddG_avg": -1.2691999999999997,
+            "Q_ddG_sem": 0.3438488039822154,
+            "Q_ddG_std": 1.087345391308576
+        },
+        {
+            "from": "3fly",
+            "to": "2x",
+            "similarity": 0.24659696394160643,
+            "strict_flag": false,
+            "ddg_value": 1.19,
+            "same_charge": true,
+            "Q_ddG_avg": 1.6392000000000024,
+            "Q_ddG_sem": 0.28708726199537293,
+            "Q_ddG_std": 0.9078496351268744
+        },
+        {
+            "from": "2aa",
+            "to": "3flw",
+            "similarity": 0.6376281516217733,
+            "strict_flag": true,
+            "ddg_value": -1.41,
+            "same_charge": true,
+            "Q_ddG_avg": -3.0095000000000027,
+            "Q_ddG_sem": 0.4717422993542128,
+            "Q_ddG_std": 1.4917801346042912
+        },
+        {
+            "from": "2aa",
+            "to": "3flq",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -0.66,
+            "same_charge": true,
+            "Q_ddG_avg": -0.4879999999999711,
+            "Q_ddG_sem": 0.5580133528868297,
+            "Q_ddG_std": 1.7645931599096762
+        },
+        {
+            "from": "2y",
+            "to": "2v",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 0.81,
+            "same_charge": true,
+            "Q_ddG_avg": 2.2373999999999983,
+            "Q_ddG_sem": 0.5448203869166424,
+            "Q_ddG_std": 1.722873338350791
+        },
+        {
+            "from": "2bb",
+            "to": "2v",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": 0.09,
+            "same_charge": true,
+            "Q_ddG_avg": 2.33393333333332,
+            "Q_ddG_sem": 1.206440690442574,
+            "Q_ddG_std": 3.8151004437046674
+        },
+        {
+            "from": "2v",
+            "to": "2x",
+            "similarity": 0.301194211912202,
+            "strict_flag": false,
+            "ddg_value": -1.26,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1884000000000006,
+            "Q_ddG_sem": 0.43644520847409923,
+            "Q_ddG_std": 1.3801609326451751
+        },
+        {
+            "from": "2v",
+            "to": "3flq",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -0.96,
+            "same_charge": true,
+            "Q_ddG_avg": -1.580500000000029,
+            "Q_ddG_sem": 1.65616109029285,
+            "Q_ddG_std": 5.237241217473186
+        },
+        {
+            "from": "2v",
+            "to": "3fmk",
+            "similarity": 0.33287108369807955,
+            "strict_flag": false,
+            "ddg_value": -2.86,
+            "same_charge": true,
+            "Q_ddG_avg": -7.014949999999999,
+            "Q_ddG_sem": 0.6808048984474185,
+            "Q_ddG_std": 2.1528941212934742
+        },
+        {
+            "from": "2v",
+            "to": "3fmh",
+            "similarity": 0.33287108369807955,
+            "strict_flag": false,
+            "ddg_value": -1.86,
+            "same_charge": true,
+            "Q_ddG_avg": -3.6442000000000014,
+            "Q_ddG_sem": 0.7162796032276779,
+            "Q_ddG_std": 2.2650749877211567
+        }
+    ]
+}

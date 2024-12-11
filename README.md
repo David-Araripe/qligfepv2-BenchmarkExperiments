@@ -1,159 +1,94 @@
-# openff220-startfiles
-So I can run my FEP calculations
+# QligFEPv2 Benchmarking Experiments
 
-# JACS Protein System Preparations
+This repository contains the benchmarking experiments for the QligFEPv2 software for relative binding free energy (RBFE) calculations.
 
-Notes on the settings:
-- `2fs` calculations are default on the CLI, and this setting is not explicitly mentioned in the commands below.
-- Same goes for the `-T 298` setting.
+In this repostory you can find:
+- The starting structures used as inputs to run the caluculations;
+- Scripts for preparing the systems and the RBFE network for each target;
+- Obtained results;
 
-## BACE
-``` bash
-qligfep -l1 CAT-13o -l2 CAT-24 -FF AMBER14sb -s protein -c TETRA -R 10 -S sigmoidal -r 25 -l 0.5 -w 100 -T 298 -b 2440_5625,3401_5972,4218_5014
+- Details;
+... Add structure of the repository here;
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -b 2440_5625,3401_5972,4218_5014 -j lomap.json -S sigmoidal -clean dcd
-```
-## CDK2
-``` bash
-qligfep -l1 17 -l2 1oiu -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+## JACS Benchmark set;
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+The JACS benchmark set is a set of 8 protein-ligand systems used to benchmark the QligFEPv2 software. The prepared ligands/structures used for our calculations are the same reported in the [IndustryBenchmark2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/) repository, with exception of Thrombin, which was prepared by us.
 
-## JNK1
-``` bash
-qligfep -l1 17124-1 -l2 18637-1 -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+Here you can find the modifications applied to each of the targets obtained from the original repository:
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-Note -> had to remove the final modified residue from the pdb file (`ERROR: Residue number   369 is of unknown type CPHE`)
+### bace
 
-used `pdb2amber` command to fix the atom naming; used a script to correctly format the `.pdb` file. (atom naming not aligned to the left in the PDB)
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```ILE171, SER96, SER71, PHE169, GLY291```
 
-## MCL1
+### cdk2
 
-``` bash
-qligfep -l1 23 -l2 66 -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```LYS89, ASP86, LEU138```
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+N-terminal of Chain A was also minimized to remove a clash leading to infinite VDW potentials.
 
-Note -> used `pdb2amber` command to fix the atom naming; used a script to correctly format the `.pdb` file. (atom naming not aligned to the left in the PDB)
+### jnk1
 
-## PTP1B
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```GLY35, VAL40, LEU110, MET111, ALA113```
 
-``` bash
-qligfep -l1 '20667-2qbp' -l2 '23482' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### mcl1
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-Notes: used `pdb2amber` command to fix the atom naming; used a script to correctly format the `.pdb` file. (atom naming not aligned to the left in the PDB)
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```VAL253, MET231, LEU246, LEU290, ILE294, LEU267, MET250, VAL274, LEU235, PHE270, GLY271```
 
-## Thrombin
+### p38
 
-``` bash
-qligfep -l1 '1a' -l2 '1b' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein -b 1089_1322,3452_3684,3878_4316
+No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd -b 1089_1322,3452_3684,3878_4316
-```
-Notes: used `pdb2amber` command to fix the atom naming; used a script to correctly format the `.pdb` file. (atom naming not aligned to the left in the PDB)
+### ptp1b
 
-## Tyk2
+No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
 
-``` bash
-qligfep -l1 'ejm_31' -l2 'ejm_45' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### thrombin
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+The protein found in the source repository contained some hydrogen positioning problems, which we attempted to fix using Maestro's `Refine > H-bond-assignment` tool. Further, some amino acids were placed in the sequence in the incorrect order. Those were fixed by manually reordering them.
 
-## p38
+The resulting structure, however, resulted in crashes during the FEP, which wasn't observed for any of the other targets used in this study. Therefore, we proceeded to use an internally prepared structures by us.
 
-``` bash
-qligfep -l1 'p38a_2aa' -l2 'p38a_3flw' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### tyk2
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```LEU903, TYR980, GLY984, PRO982```
 
-# Analysis dataset
+## Merck Benchmark set;
 
-``` bash
-qligfep_analyze -t BACE -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsBACE && mv BACE* resultsBACE
-qligfep_analyze -t CDK2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsCDK2 && mv CDK2* resultsCDK2
-qligfep_analyze -t JNK1 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsJNK1 && mv JNK1* resultsJNK1
-qligfep_analyze -t MCL1 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsMCL1 && mv MCL1* resultsMCL1
-qligfep_analyze -t PTP1B -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsPTP1B && mv PTP1B* resultsPTP1B
-qligfep_analyze -t Thrombin -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsThrombin && mv Thrombin* resultsThrombin
-qligfep_analyze -t Tyk2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsTyk2 && mv Tyk2* resultsTyk2
-qligfep_analyze -t p38 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsp38 && mv p38* resultsp38
-```
-# Merk Protein System Preparations
+### cdk8
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```val27, gly28, tyr32, lys52, ile79, his102, asp103, asn156, leu158, arg356```
 
-- All the protein files were passed through `fix_indentation.py` to fix the atom type indentation (aligned to the left in the PDB file). Then, the `pdb2amber` command was used to fix the atom naming.
+### cmet
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```ile1084, gly1085, met1160, lys1161```
 
-## cdk8
-``` bash
-qligfep -l1 '13' -l2 '43' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### eg5
+All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```arg119, pro121, leu160, gly217, ala218```
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+### hif2a
+```met289, his293, cys339```
 
-## cmet
-``` bash
-qligfep -l1 'CHEMBL3402741_400' -l2 'CHEMBL3402742_23' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### pfkfb3
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
 
-## eg5
-``` bash
-qligfep -l1 'CHEMBL1077204' -l2 'CHEMBL1085692' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+### shp2
+`phe113, his114, thr219, glu249, asp489, lys492`
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+### syk
+The following residues were minimized to better accommodate the ligands in the binding site:
+`glu376, leu377, gly378, val385, asn457, asp512, phe513, lys402, gly454, ser379, lys375, phe382, lys458`
 
-## hif2a
-``` bash
-qligfep -l1 '1' -l2 '84' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+Further, other amino acids were minimized to avoid protein-protein clashes.
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
+Finally, the orientation of the protein's hydrogen atoms were refined using Maestro's `Refine > H-bond-assignment` tool by checking the boxes:
 
-## pfkfb3
-``` bash
-qligfep -l1 '19' -l2 '24' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
+- [x] Sample water orientations
+- [x] Use PROPKA pH: 7.0
 
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-
-## shp2
-``` bash
-qligfep -l1 '10' -l2 'Example_30' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
-
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-
-## syk
-``` bash
-qligfep -l1 'CHEMBL3259820' -l2 'CHEMBL3265005' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
-
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-
-## tnks2
-``` bash
-qligfep -l1 '1a' -l2 '5a' -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -S sigmoidal -clean .dcd -s protein
-
-setupFEP -FF AMBER14sb -c TETRA -r 25 -l 0.5 -R 10 -w 100 -j lomap.json -S sigmoidal -clean .dcd
-```
-
-# Analysis dataset
-
-``` bash
-qligfep_analyze -t cdk8 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscdk8 && mv cdk8* resultscdk8
-qligfep_analyze -t cmet -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultscmet && mv cmet* resultscmet
-qligfep_analyze -t eg5 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultseg5 && mv eg5* resultseg5
-qligfep_analyze -t hif2a -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultshif2a && mv hif2a* resultshif2a
-qligfep_analyze -t pfkfb3 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultspfkfb3 && mv pfkfb3* resultspfkfb3
-qligfep_analyze -t shp2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultsshp2 && mv shp2* resultsshp2
-qligfep_analyze -t syk -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultssyk && mv syk* resultssyk
-qligfep_analyze -t tnks2 -j lomap.json -l debug -exp delta_r_user_dG.exp -m ddGbar && mkdir resultstnks2 && mv tnks2* resultstnks2
+### tnks2

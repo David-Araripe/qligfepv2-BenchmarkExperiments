@@ -1,0 +1,262 @@
+{
+  "nodes": {
+    "jmc_23": {
+      "dg_value": -11.7,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[F])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "jmc_28": {
+      "dg_value": -10.98,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "jmc_27": {
+      "dg_value": -11.28,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[Cl])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "jmc_30": {
+      "dg_value": -10.94,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[C]#[N])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_46": {
+      "dg_value": -11.31,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_47": {
+      "dg_value": -9.7,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_49": {
+      "dg_value": -7.75,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_31": {
+      "dg_value": -9.54,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_45": {
+      "dg_value": -9.56,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[C]2([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_44": {
+      "dg_value": -7.42,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_43": {
+      "dg_value": -8.26,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_50": {
+      "dg_value": -8.98,
+      "smiles": "[H][O][C]([H])([H])[C](=[O])[N]([H])[c]1[n][c]([H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_42": {
+      "dg_value": -9.78,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_55": {
+      "dg_value": -9.21,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[O][C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_54": {
+      "dg_value": -10.53,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[N]([H])[C]([H])([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    },
+    "ejm_48": {
+      "dg_value": -9,
+      "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
+      "formal_charge": 0.0
+    }
+  },
+  "edges": [
+    {
+      "from": "jmc_23",
+      "to": "jmc_28",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.72,
+      "same_charge": true
+    },
+    {
+      "from": "jmc_23",
+      "to": "jmc_27",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.42,
+      "same_charge": true
+    },
+    {
+      "from": "jmc_23",
+      "to": "ejm_31",
+      "similarity": 0.33287108369807955,
+      "strict_flag": false,
+      "ddg_value": 2.16,
+      "same_charge": true
+    },
+    {
+      "from": "jmc_28",
+      "to": "jmc_30",
+      "similarity": 0.7788007830714048,
+      "strict_flag": true,
+      "ddg_value": 0.04,
+      "same_charge": true
+    },
+    {
+      "from": "jmc_27",
+      "to": "ejm_46",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.03,
+      "same_charge": true
+    },
+    {
+      "from": "jmc_30",
+      "to": "ejm_46",
+      "similarity": 0.8187307530779818,
+      "strict_flag": true,
+      "ddg_value": -0.37,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_46",
+      "to": "ejm_31",
+      "similarity": 0.36787944117144233,
+      "strict_flag": false,
+      "ddg_value": 1.77,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_47",
+      "to": "ejm_31",
+      "similarity": 0.33287108369807955,
+      "strict_flag": false,
+      "ddg_value": 0.16,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_47",
+      "to": "ejm_50",
+      "similarity": 0.301194211912202,
+      "strict_flag": false,
+      "ddg_value": 0.72,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_49",
+      "to": "ejm_31",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false,
+      "ddg_value": -1.79,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_49",
+      "to": "ejm_50",
+      "similarity": 0.24659696394160643,
+      "strict_flag": false,
+      "ddg_value": -1.23,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_44",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true,
+      "ddg_value": 2.12,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_45",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true,
+      "ddg_value": -0.02,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_42",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.24,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_31",
+      "to": "ejm_48",
+      "similarity": 0.301194211912202,
+      "strict_flag": false,
+      "ddg_value": 0.54,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_44",
+      "to": "ejm_43",
+      "similarity": 0.7408182206817179,
+      "strict_flag": true,
+      "ddg_value": -0.84,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_43",
+      "to": "ejm_42",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -1.52,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_55",
+      "similarity": 0.9048374180359595,
+      "strict_flag": true,
+      "ddg_value": -0.23,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_42",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": -0.8,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_50",
+      "to": "ejm_48",
+      "similarity": 0.27253179303401254,
+      "strict_flag": false,
+      "ddg_value": -0.02,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_42",
+      "to": "ejm_54",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true,
+      "ddg_value": -0.75,
+      "same_charge": true
+    },
+    {
+      "from": "ejm_55",
+      "to": "ejm_54",
+      "similarity": 0.8607079764250578,
+      "strict_flag": true,
+      "ddg_value": -1.32,
+      "same_charge": true
+    }
+  ]
+}
