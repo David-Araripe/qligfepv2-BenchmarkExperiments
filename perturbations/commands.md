@@ -52,7 +52,7 @@ qligfep_analyze -t mcl1 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkd
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -74,7 +74,7 @@ qligfep_analyze -t ptp1b -j mapping.json -l debug -exp ddg_value -m ddGbar && mk
 
 ## thrombin
 
-<!-- Setup FEP's for target (radius set to 24 to avoid non-bonded charged lysine from being included in the system) -->
+<!-- Here we used our internally prepared structure. The overlap with the IndustryBenchmarks structures was very high, so we used the same ligands as in the dataset -->
 ```bash
 setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
@@ -154,12 +154,12 @@ qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && m
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t eg5 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_eg5 && mv eg5*  results_eg5 && cp mapping_ddG.json results_eg5
 ```
 
 ## hif2a
@@ -214,12 +214,16 @@ qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && m
 
 ## cmet
 
+<!-- This target contains some perturbations that are quite challenging. Ring structure v.s. linear decoration
+causes the restraints to be absent for a big part of the molecule. However, the space overlap is somewhat reasonable.
+I expect some crashes... -->
+
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t cmet -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cmet && mv cmet*  results_cmet && cp mapping_ddG.json results_cmet
 ```
