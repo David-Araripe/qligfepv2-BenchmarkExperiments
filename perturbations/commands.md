@@ -109,45 +109,20 @@ Analyze the results
 qligfep_analyze -t cdk8 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cdk8 && mv cdk8*  results_cdk8 && cp mapping_ddG.json results_cdk8
 ```
 
-## pfkfb3
+## cmet
+
+<!-- This target contains some perturbations that are quite challenging. Ring structure v.s. linear decoration
+causes the restraints to be absent for a big part of the molecule. However, the space overlap is somewhat reasonable.
+I expect some crashes... -->
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
-```
-
-## syk
-
-Setup FEP's for target
-```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
-```
-
-## cdk8
-
-Setup FEP's for target
-```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t cmet -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cmet && mv cmet*  results_cmet && cp mapping_ddG.json results_cmet
 ```
 
 ## eg5
@@ -164,31 +139,48 @@ qligfep_analyze -t eg5 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdi
 
 ## hif2a
 
+<!-- These compounds have a common core ring in the series, but it's broken in one of the ligands. This results in very few atoms being mapped. I'll try heavyatom_p and if not, should do `kartograf` -->
+
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t hif2a -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_hif2a && mv hif2a*  results_hif2a && cp mapping_ddG.json results_hif2a
 ```
-
-## pde2
-
-Setup FEP's for target
-```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
-```
-
-
 
 ## shp2
+
+Setup FEP's for target
+```bash
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p_1.2 -rs 42
+```
+
+Analyze the results
+```bash
+qligfep_analyze -t shp2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_shp2 && mv shp2*  results_shp2 && cp mapping_ddG.json results_shp2
+```
+
+## syk
+
+Setup FEP's for target
+```bash
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+```
+
+Analyze the results
+```bash
+qligfep_analyze -t syk -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_syk && mv syk*  results_syk && cp mapping_ddG.json results_syk
+```
+
+Analyze the results
+```bash
+qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
+```
+
+## pfkfb3
 
 Setup FEP's for target
 ```bash
@@ -204,26 +196,10 @@ qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && m
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
-```
-
-## cmet
-
-<!-- This target contains some perturbations that are quite challenging. Ring structure v.s. linear decoration
-causes the restraints to be absent for a big part of the molecule. However, the space overlap is somewhat reasonable.
-I expect some crashes... -->
-
-Setup FEP's for target
-```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t cmet -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cmet && mv cmet*  results_cmet && cp mapping_ddG.json results_cmet
+qligfep_analyze -t tnks2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tnks2 && mv tnks2*  results_tnks2 && cp mapping_ddG.json results_tnks2
 ```
