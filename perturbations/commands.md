@@ -1,3 +1,24 @@
+# Contents
+
+- [JACS dataset](#jacs-dataset)
+    - [bace](#bace)
+    - [cdk2](#cdk2)
+    - [jnk1](#jnk1)
+    - [mcl1](#mcl1)
+    - [p38](#p38)
+    - [ptp1b](#ptp1b)
+    - [thrombin](#thrombin)
+    - [tyk2](#tyk2)
+- [Merck dataset](#merck-dataset)
+    - [cdk8](#cdk8)
+    - [cmet](#cmet)
+    - [eg5](#eg5)
+    - [hif2a](#hif2a)
+    - [shp2](#shp2)
+    - [syk](#syk)
+    - [pfkfb3](#pfkfb3)
+    - [tnks2](#tnks2)
+
 # JACS dataset
 
 ## bace
@@ -91,6 +112,7 @@ Setup FEP's for target
 setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
+Analyze the results
 ```bash
 qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
 ```
@@ -139,7 +161,7 @@ qligfep_analyze -t eg5 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdi
 
 ## hif2a
 
-<!-- These compounds have a common core ring in the series, but it's broken in one of the ligands. This results in very few atoms being mapped. I'll try heavyatom_p and if not, should do `kartograf` -->
+<!-- These compounds have a common core ring in the series, but it's broken in one of the ligands. This results in very few atoms being mapped. I'll try heavyatom_p and if not, should do `kartograf` (update, the results seem ok) -->
 
 Setup FEP's for target
 ```bash
@@ -173,11 +195,6 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 Analyze the results
 ```bash
 qligfep_analyze -t syk -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_syk && mv syk*  results_syk && cp mapping_ddG.json results_syk
-```
-
-Analyze the results
-```bash
-qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
 ```
 
 ## pfkfb3
