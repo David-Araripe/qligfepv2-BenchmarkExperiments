@@ -89,9 +89,9 @@
             "strict_flag": true,
             "ddg_value": 0.72,
             "same_charge": true,
-            "Q_ddG_avg": 1.594199999999999,
-            "Q_ddG_sem": 0.26636425435857575,
-            "Q_ddG_std": 0.842317731025532
+            "Q_ddG_avg": 1.6609999999999996,
+            "Q_ddG_sem": 0.2553169246250627,
+            "Q_ddG_std": 0.80738300700473
         },
         {
             "from": "jmc_23",
@@ -100,9 +100,9 @@
             "strict_flag": true,
             "ddg_value": 0.42,
             "same_charge": true,
-            "Q_ddG_avg": 0.6380999999999997,
-            "Q_ddG_sem": 0.21923518193939592,
-            "Q_ddG_std": 0.6932825181699018
+            "Q_ddG_avg": 1.2031999999999998,
+            "Q_ddG_sem": 0.16893880548885148,
+            "Q_ddG_std": 0.5342314105329262
         },
         {
             "from": "jmc_23",
@@ -111,9 +111,9 @@
             "strict_flag": false,
             "ddg_value": 2.16,
             "same_charge": true,
-            "Q_ddG_avg": 2.2686,
-            "Q_ddG_sem": 0.234121724750182,
-            "Q_ddG_std": 0.7403578999375909
+            "Q_ddG_avg": 2.3635,
+            "Q_ddG_sem": 0.34457572897695515,
+            "Q_ddG_std": 1.0896441299800594
         },
         {
             "from": "jmc_28",
@@ -122,9 +122,9 @@
             "strict_flag": true,
             "ddg_value": 0.04,
             "same_charge": true,
-            "Q_ddG_avg": -1.6194000000000004,
-            "Q_ddG_sem": 0.2627959571818241,
-            "Q_ddG_std": 0.8310337845786482
+            "Q_ddG_avg": -1.8201999999999994,
+            "Q_ddG_sem": 0.2634523448367845,
+            "Q_ddG_std": 0.8331094645963398
         },
         {
             "from": "jmc_27",
@@ -133,9 +133,9 @@
             "strict_flag": true,
             "ddg_value": -0.03,
             "same_charge": true,
-            "Q_ddG_avg": 0.6000999999999994,
-            "Q_ddG_sem": 0.1991480077731133,
-            "Q_ddG_std": 0.629761296047955
+            "Q_ddG_avg": -0.3775999999999975,
+            "Q_ddG_sem": 0.24625229745121158,
+            "Q_ddG_std": 0.7787181389951051
         },
         {
             "from": "jmc_30",
@@ -144,9 +144,9 @@
             "strict_flag": true,
             "ddg_value": -0.37,
             "same_charge": true,
-            "Q_ddG_avg": 0.7952222222222227,
-            "Q_ddG_sem": 0.31260746102957615,
-            "Q_ddG_std": 0.988551590415786
+            "Q_ddG_avg": 0.29711111111111066,
+            "Q_ddG_sem": 0.29054829946325217,
+            "Q_ddG_std": 0.9187943965925546
         },
         {
             "from": "ejm_46",
@@ -155,9 +155,9 @@
             "strict_flag": false,
             "ddg_value": 1.77,
             "same_charge": true,
-            "Q_ddG_avg": 0.9790000000000028,
-            "Q_ddG_sem": 0.17784931262166861,
-            "Q_ddG_std": 0.5624089081798049
+            "Q_ddG_avg": 1.1128,
+            "Q_ddG_sem": 0.2536636473758114,
+            "Q_ddG_std": 0.8021548852933578
         },
         {
             "from": "ejm_47",
@@ -166,9 +166,9 @@
             "strict_flag": false,
             "ddg_value": 0.16,
             "same_charge": true,
-            "Q_ddG_avg": -0.0926000000000009,
-            "Q_ddG_sem": 0.30246973732920795,
-            "Q_ddG_std": 0.9564932932331521
+            "Q_ddG_avg": -1.0044999999999966,
+            "Q_ddG_sem": 0.2524182976727321,
+            "Q_ddG_std": 0.7982167437482129
         },
         {
             "from": "ejm_47",
@@ -177,9 +177,9 @@
             "strict_flag": false,
             "ddg_value": 0.72,
             "same_charge": true,
-            "Q_ddG_avg": -0.05519999999999925,
-            "Q_ddG_sem": 0.3358227210895654,
-            "Q_ddG_std": 1.0619646886784893
+            "Q_ddG_avg": 0.30519999999999925,
+            "Q_ddG_sem": 0.41340806716850614,
+            "Q_ddG_std": 1.307311095340356
         },
         {
             "from": "ejm_49",
@@ -188,9 +188,9 @@
             "strict_flag": false,
             "ddg_value": -1.79,
             "same_charge": true,
-            "Q_ddG_avg": 1.1948000000000008,
-            "Q_ddG_sem": 0.33796267545396197,
-            "Q_ddG_std": 1.0687318185588002
+            "Q_ddG_avg": 1.0751000000000133,
+            "Q_ddG_sem": 0.29144978469712424,
+            "Q_ddG_std": 0.9216451432086001
         },
         {
             "from": "ejm_49",
@@ -199,9 +199,9 @@
             "strict_flag": false,
             "ddg_value": -1.23,
             "same_charge": true,
-            "Q_ddG_avg": 0.9613000000000014,
-            "Q_ddG_sem": 0.43569971884315006,
-            "Q_ddG_std": 1.3778034874393374
+            "Q_ddG_avg": 0.3465000000000016,
+            "Q_ddG_sem": 0.34638169264555535,
+            "Q_ddG_std": 1.0953550885443495
         },
         {
             "from": "ejm_31",
@@ -210,9 +210,9 @@
             "strict_flag": true,
             "ddg_value": 2.12,
             "same_charge": true,
-            "Q_ddG_avg": 2.7631000000000014,
-            "Q_ddG_sem": 0.28750973722641104,
-            "Q_ddG_std": 0.9091856191119608
+            "Q_ddG_avg": 3.8647999999999954,
+            "Q_ddG_sem": 0.4879996618851285,
+            "Q_ddG_std": 1.5431904289490643
         },
         {
             "from": "ejm_31",
@@ -221,9 +221,9 @@
             "strict_flag": true,
             "ddg_value": -0.02,
             "same_charge": true,
-            "Q_ddG_avg": -0.02639999999999887,
-            "Q_ddG_sem": 0.1879375694213374,
-            "Q_ddG_std": 0.5943107772874393
+            "Q_ddG_avg": -0.14199999999999946,
+            "Q_ddG_sem": 0.3270926963415721,
+            "Q_ddG_std": 1.0343579264451928
         },
         {
             "from": "ejm_31",
@@ -232,9 +232,9 @@
             "strict_flag": true,
             "ddg_value": -0.24,
             "same_charge": true,
-            "Q_ddG_avg": 0.5373999999999981,
-            "Q_ddG_sem": 0.21239743877928463,
-            "Q_ddG_std": 0.6716596757287128
+            "Q_ddG_avg": 0.7741000000000042,
+            "Q_ddG_sem": 0.2553177569226238,
+            "Q_ddG_std": 0.8073856389607139
         },
         {
             "from": "ejm_31",
@@ -243,9 +243,9 @@
             "strict_flag": false,
             "ddg_value": 0.54,
             "same_charge": true,
-            "Q_ddG_avg": -1.0044999999999966,
-            "Q_ddG_sem": 0.3361516696373826,
-            "Q_ddG_std": 1.0630049153225962
+            "Q_ddG_avg": -0.28229999999999933,
+            "Q_ddG_sem": 0.31645499048047904,
+            "Q_ddG_std": 1.000718546845216
         },
         {
             "from": "ejm_44",
@@ -254,9 +254,9 @@
             "strict_flag": true,
             "ddg_value": -0.84,
             "same_charge": true,
-            "Q_ddG_avg": -2.724499999999999,
-            "Q_ddG_sem": 0.23160046847966434,
-            "Q_ddG_std": 0.7323849875577736
+            "Q_ddG_avg": -2.726499999999998,
+            "Q_ddG_sem": 0.1954243920292449,
+            "Q_ddG_std": 0.6179861891660687
         },
         {
             "from": "ejm_43",
@@ -265,9 +265,9 @@
             "strict_flag": true,
             "ddg_value": -1.52,
             "same_charge": true,
-            "Q_ddG_avg": -0.8855999999999999,
-            "Q_ddG_sem": 0.22745705528736626,
-            "Q_ddG_std": 0.7192823645829223
+            "Q_ddG_avg": -0.8664000000000001,
+            "Q_ddG_sem": 0.28201230469608946,
+            "Q_ddG_std": 0.8918012110330419
         },
         {
             "from": "ejm_50",
@@ -276,9 +276,9 @@
             "strict_flag": true,
             "ddg_value": -0.23,
             "same_charge": true,
-            "Q_ddG_avg": -0.10779999999999745,
-            "Q_ddG_sem": 0.198110691281415,
-            "Q_ddG_std": 0.6264810132797333
+            "Q_ddG_avg": -0.12179999999998614,
+            "Q_ddG_sem": 0.24862007159519484,
+            "Q_ddG_std": 0.7862056982749477
         },
         {
             "from": "ejm_50",
@@ -287,9 +287,9 @@
             "strict_flag": true,
             "ddg_value": -0.8,
             "same_charge": true,
-            "Q_ddG_avg": 0.5031999999999996,
-            "Q_ddG_sem": 0.19964563105662994,
-            "Q_ddG_std": 0.6313349190405992
+            "Q_ddG_avg": 0.7062999999999988,
+            "Q_ddG_sem": 0.2598615034975363,
+            "Q_ddG_std": 0.8217542272480262
         },
         {
             "from": "ejm_50",
@@ -298,9 +298,9 @@
             "strict_flag": false,
             "ddg_value": -0.02,
             "same_charge": true,
-            "Q_ddG_avg": 0.31279999999999575,
-            "Q_ddG_sem": 1.0936541720306288,
-            "Q_ddG_std": 3.4584381561624027
+            "Q_ddG_avg": 0.21960000000000335,
+            "Q_ddG_sem": 0.5673440226176706,
+            "Q_ddG_std": 1.7940993283539237
         },
         {
             "from": "ejm_42",
@@ -309,9 +309,9 @@
             "strict_flag": true,
             "ddg_value": -0.75,
             "same_charge": true,
-            "Q_ddG_avg": -1.8220000000000027,
-            "Q_ddG_sem": 0.2009650914960111,
-            "Q_ddG_std": 0.6355074193115303
+            "Q_ddG_avg": -2.4920000000000044,
+            "Q_ddG_sem": 0.23435270427285446,
+            "Q_ddG_std": 0.7410883213220945
         },
         {
             "from": "ejm_55",
@@ -320,9 +320,9 @@
             "strict_flag": true,
             "ddg_value": -1.32,
             "same_charge": true,
-            "Q_ddG_avg": -1.492700000000001,
-            "Q_ddG_sem": 0.20856610702604564,
-            "Q_ddG_std": 0.6595439409167514
+            "Q_ddG_avg": -1.3033000000000001,
+            "Q_ddG_sem": 0.1699467710784763,
+            "Q_ddG_std": 0.5374188775992153
         }
     ]
 }

@@ -1,0 +1,215 @@
+{
+    "nodes": {
+        "6a": {
+            "ddg_value": -9.18,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([Cl])[c]([H])[c]([H])[c]2[Cl])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "3a": {
+            "ddg_value": -8.32,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]([H])([H])[H])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "1d": {
+            "ddg_value": -8.25,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([I])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "6e": {
+            "ddg_value": -8.91,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([Cl])[c]([H])[c]([H])[c]2[F])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "6b": {
+            "ddg_value": -8.89,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([Cl])[c]([H])[c]([H])[c]2[C]([H])([H])[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "1b": {
+            "ddg_value": -8.46,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([Cl])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "1a": {
+            "ddg_value": -7.48,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([F])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "5": {
+            "ddg_value": -7.58,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[N]([H])[C](=[O])[C@@]2([H])[N]([C](=[O])[C@@]([H])([C]([H])([H])[c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[H])[N+]([H])([H])[H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "3b": {
+            "ddg_value": -7.86,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]([H])([H])[C]([H])([H])[H])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "7a": {
+            "ddg_value": -8.22,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([C]([H])([H])[H])[c]([H])[c]([H])[c]2[C]([H])([H])[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "1c": {
+            "ddg_value": -8.56,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[C@]([H])([C](=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([H])[C@@]2([H])[C](=[O])[N]([H])[C]([H])([H])[c]2[c]([H])[c]([H])[c]([H])[c]([Br])[c]2[H])[N+]([H])([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        }
+    },
+    "edges": [
+        {
+            "from": "6a",
+            "to": "6e",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.27,
+            "same_charge": true,
+            "Q_ddG_avg": 0.6284000000000001,
+            "Q_ddG_sem": 0.25771973149140126,
+            "Q_ddG_std": 0.8149813494798515
+        },
+        {
+            "from": "6a",
+            "to": "6b",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.29,
+            "same_charge": true,
+            "Q_ddG_avg": -0.644,
+            "Q_ddG_sem": 0.16453503578265632,
+            "Q_ddG_std": 0.520305467970499
+        },
+        {
+            "from": "3a",
+            "to": "5",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.74,
+            "same_charge": true,
+            "Q_ddG_avg": 1.5335000000000019,
+            "Q_ddG_sem": 0.3845175483641806,
+            "Q_ddG_std": 1.2159512531347627
+        },
+        {
+            "from": "3a",
+            "to": "3b",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.46,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1229999999999993,
+            "Q_ddG_sem": 0.30293869346783675,
+            "Q_ddG_std": 0.9579762627539368
+        },
+        {
+            "from": "1d",
+            "to": "1b",
+            "similarity": 0.9656054162575665,
+            "strict_flag": true,
+            "ddg_value": -0.21,
+            "same_charge": true,
+            "Q_ddG_avg": -0.8476777777777791,
+            "Q_ddG_sem": 0.3769131813613721,
+            "Q_ddG_std": 1.19190413324206
+        },
+        {
+            "from": "1d",
+            "to": "1c",
+            "similarity": 0.9851119396030626,
+            "strict_flag": true,
+            "ddg_value": -0.31,
+            "same_charge": true,
+            "Q_ddG_avg": -0.9299,
+            "Q_ddG_sem": 0.4294770366387474,
+            "Q_ddG_std": 1.3581256385180276
+        },
+        {
+            "from": "6e",
+            "to": "1b",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.45,
+            "same_charge": true,
+            "Q_ddG_avg": -1.235100000000001,
+            "Q_ddG_sem": 0.2375010505239924,
+            "Q_ddG_std": 0.7510442663385428
+        },
+        {
+            "from": "6e",
+            "to": "7a",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.69,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1611000000000002,
+            "Q_ddG_sem": 0.2769255658114649,
+            "Q_ddG_std": 0.875715530295084
+        },
+        {
+            "from": "6b",
+            "to": "1b",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.43,
+            "same_charge": true,
+            "Q_ddG_avg": -0.682999999999998,
+            "Q_ddG_sem": 0.3845973452846496,
+            "Q_ddG_std": 1.2162035931537123
+        },
+        {
+            "from": "6b",
+            "to": "7a",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.67,
+            "same_charge": true,
+            "Q_ddG_avg": 1.9554999999999998,
+            "Q_ddG_sem": 0.29535013966477147,
+            "Q_ddG_std": 0.9339791485895176
+        },
+        {
+            "from": "1b",
+            "to": "1a",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.98,
+            "same_charge": true,
+            "Q_ddG_avg": 2.0637999999999996,
+            "Q_ddG_sem": 0.20829997119538926,
+            "Q_ddG_std": 0.6587023455248964
+        },
+        {
+            "from": "1a",
+            "to": "1c",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": -1.08,
+            "same_charge": true,
+            "Q_ddG_avg": -1.7898999999999998,
+            "Q_ddG_sem": 0.3254070635373485,
+            "Q_ddG_std": 1.0290274874851497
+        },
+        {
+            "from": "1a",
+            "to": "3b",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.38,
+            "same_charge": true,
+            "Q_ddG_avg": 1.7708999999999993,
+            "Q_ddG_sem": 0.46934546871148136,
+            "Q_ddG_std": 1.4842006906075746
+        },
+        {
+            "from": "1a",
+            "to": "5",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.1,
+            "same_charge": true,
+            "Q_ddG_avg": 1.9007999999999976,
+            "Q_ddG_sem": 0.344227947732313,
+            "Q_ddG_std": 1.088544349119502
+        }
+    ]
+}
