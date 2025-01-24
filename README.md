@@ -44,7 +44,7 @@ No manual minimization performed. Bad clashes were only observed against water m
 
 ### ptp1b
 
-No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
+Prepared protein found in the source repository displayed poor correlation with the experimental data. Therefore, we proceeded to use an internally prepared structure by us, generated before this study was conducted and that was known to work well with QligFEP RBFE calculations.
 
 ### thrombin
 
