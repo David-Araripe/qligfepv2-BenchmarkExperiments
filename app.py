@@ -1,17 +1,16 @@
 import json
+import plotly
 from urllib.parse import quote
 from pathlib import Path
 from dash import Dash, dcc, html, Input, Output, callback_context, State
 import plotly.graph_objs as go
 import numpy as np
-from sklearn.metrics import mean_absolute_error
 from dash.exceptions import PreventUpdate
 from chemFilters.img_render import MolPlotter
 from WeightedCCC import GraphClosure
 from dash_molstar.utils import molstar_helper
 import dash_molstar
 import pandas as pd
-from scipy import stats
 
 # local imports
 from assets.pdb_handler import merge_protein_lig, create_pdb_ligand_files
@@ -23,6 +22,7 @@ from assets.graph_handler import (
     set_nx_graph_coordinates,
     add_legend_trace_to_graph_figure,
 )
+from assets.stats_make import cinnabar_stats
 
 # initialize some data that can be later updated based on the dropdown menu...
 target_name = "tyk2"
@@ -58,7 +58,6 @@ def initialize_data(target_name):
         most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
         if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
             ddG_df = add_images_to_df(ddG_df, molplotter)
-        ddG_df = ddG_df.rename(columns={"delta_r_user_dG.exp": "ddg_value"})
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
         ccc = GraphClosure(from_lig=ddG_df["from"], to_lig=ddG_df["to"], b_ddG=ddG_df["Q_ddG_avg"])
         ccc.getAllCyles()
@@ -361,17 +360,14 @@ def create_ddg_plot(ddG_df, perturbations=None):
     if perturbations is None:
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
     # Move the plot creation code here from the old update_ddg_plot function
-    rmse = np.sqrt(np.mean((ddG_df["Q_ddG_avg"] - ddG_df["ddg_value"]) ** 2))
-    mae = mean_absolute_error(ddG_df["ddg_value"], ddG_df["Q_ddG_avg"])
-    ktau = stats.kendalltau(ddG_df["ddg_value"], ddG_df["Q_ddG_avg"]).correlation
-
+    nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
+    stats_dict = cinnabar_stats(ddG_df["Q_ddG_avg"], ddG_df["ddg_value"])
     all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddg_value"]))
     margin = 1.0
     min_val, max_val = all_values.min() - margin, all_values.max() + margin
 
     # Create figure
     fig = go.Figure()
-
     # Add scatter plot with error bars
     fig.add_trace(
         go.Scattergl(
@@ -429,6 +425,10 @@ def create_ddg_plot(ddG_df, perturbations=None):
     )
 
     # Statistical information
+    ktau = f"{stats_dict['KTAU']}"
+    rmse = f"{stats_dict['RMSE']}"
+    mae = f"{stats_dict['MUE']}"
+    text = f"N = {ddG_df.shape[0]} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
     annotations = [
         {
             "x": 0.5,
@@ -436,14 +436,12 @@ def create_ddg_plot(ddG_df, perturbations=None):
             "xref": "paper",
             "yref": "paper",
             "showarrow": False,
-            "text": f"N = {ddG_df.shape[0]} | τ = {ktau:.2f} | RMSE = {rmse:.2f} kcal/mol | MAE = {mae:.2f} kcal/mol",
+            "text": text,
             "font": {"size": 12},
-            # I can't see it because it's in front of the x-axis. Where should I put it?
             "xanchor": "center",
             "yanchor": "auto",
         }
     ]
-
     # Update layout for white background and add annotations
     fig.update_layout(
         plot_bgcolor="white",  # Set background to white
@@ -455,7 +453,6 @@ def create_ddg_plot(ddG_df, perturbations=None):
         legend=dict(yanchor="middle", y=0.5, xanchor="left", x=1.1),
     )
     fig.update_yaxes(scaleanchor="x", scaleratio=1)
-
     return fig
 
 
