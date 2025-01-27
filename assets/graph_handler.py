@@ -12,7 +12,7 @@ def generate_graph(df):
     for idx, row in df.iterrows():
         G.add_edge(row["from"], row["to"])
     for idx, row in df.iterrows():
-        G[row["from"]][row["to"]]["weight"] = row["weight"]
+        G[row["from"]][row["to"]]["similarity"] = row["similarity"]
     return G
 
 

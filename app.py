@@ -18,16 +18,15 @@ from assets.pdb_handler import merge_protein_lig, create_pdb_ligand_files
 from assets.molecule_handler import lomap_json_to_dataframe, add_images_to_df
 from assets.graph_handler import extract_graph_coordinates, generate_graph, get_most_connected_cpd, set_nx_graph_coordinates, add_legend_trace_to_graph_figure
 
-pd.set_option('future.no_silent_downcasting', True)
-
-target_name = "PTP1B"
+target_name = "tyk2"
 method_name = "Gbar"
 
 # write the pdb files for the ligands
-root_path = Path(f"x_results/results{target_name}")
-create_pdb_ligand_files(root_path=root_path, overwrite=False)
+perturbation_root = Path(f"perturbations/{target_name}")
+create_pdb_ligand_files(root_path=perturbation_root, overwrite=False)
 
-mapping = json.loads((root_path/"lomap_ddG.json").read_text())
+results_root = Path('results')
+mapping = json.loads((results_root/ f"{target_name}/mapping_ddG.json").read_text())
 molplotter = MolPlotter(from_smi=True, size=(-1, -1))
 
 ddG_df = lomap_json_to_dataframe(mapping, molplotter)
@@ -47,7 +46,7 @@ most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
 if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
     ddG_df = add_images_to_df(ddG_df, molplotter)
 
-ddG_df = ddG_df.rename(columns={"delta_r_user_dG.exp": "ddG"})
+ddG_df = ddG_df.rename(columns={"delta_r_user_dG.exp": "ddg_value"})
 perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
 ccc = GraphClosure(from_lig=ddG_df['from'], to_lig=ddG_df['to'], b_ddG=ddG_df['Q_ddG_avg'])
 ccc.getAllCyles()
@@ -61,7 +60,7 @@ ccc_results_df = (
     .assign(ccc_ddG = lambda x: x['ccc_ddG'].astype(float),
             ccc_error = lambda x: x['ccc_error'].astype(float))
 )
-ddG_df = pd.concat([ddG_df, ccc_results_df], axis=1).assign(residual = lambda x: x['Q_ddG_avg'] - x['ddG'])
+ddG_df = pd.concat([ddG_df, ccc_results_df], axis=1).assign(residual = lambda x: x['Q_ddG_avg'] - x['ddg_value'])
 
 # Sample data for demonstration
 
@@ -239,13 +238,13 @@ def construct_network_graph(highlighted_nodes: list = []):
 @app.callback(Output("ddg-plot", "figure"), Input("ddg-plot", "clickData"))
 def update_ddg_plot(clickData):
     # Calculate statistical metrics
-    rmse = np.sqrt(np.mean((ddG_df["Q_ddG_avg"] - ddG_df["ddG"]) ** 2))
-    mae = mean_absolute_error(ddG_df["ddG"], ddG_df["Q_ddG_avg"])
-    ktau = stats.kendalltau(ddG_df["ddG"], ddG_df["Q_ddG_avg"]).correlation
-    spearman_corr_coef = ddG_df[["ddG", "Q_ddG_avg"]].corr(method="spearman").iloc[0, 1]
+    rmse = np.sqrt(np.mean((ddG_df["Q_ddG_avg"] - ddG_df["ddg_value"]) ** 2))
+    mae = mean_absolute_error(ddG_df["ddg_value"], ddG_df["Q_ddG_avg"])
+    ktau = stats.kendalltau(ddG_df["ddg_value"], ddG_df["Q_ddG_avg"]).correlation
+    spearman_corr_coef = ddG_df[["ddg_value", "Q_ddG_avg"]].corr(method="spearman").iloc[0, 1]
 
     # Set plotting limits and margins
-    all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddG"]))
+    all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddg_value"]))
     margin = 1.0
     min_val, max_val = all_values.min() - margin, all_values.max() + margin
 
@@ -255,7 +254,7 @@ def update_ddg_plot(clickData):
     # Add scatter plot with error bars
     fig.add_trace(
         go.Scattergl(
-            x=ddG_df["ddG"],
+            x=ddG_df["ddg_value"],
             y=ddG_df["Q_ddG_avg"],
             mode="markers",
             error_y=dict(type="data", array=ddG_df["Q_ddG_sem"], visible=True, thickness=0.75, color='Black'),
@@ -415,20 +414,21 @@ def display_output(load_from_clicks, load_to_clicks, load_both_ligs, from_node, 
         raise PreventUpdate
     
     if not isinstance(selected_node, list):
-        prot_path = root_path / "protein.pdb"
-        lig_path = root_path / f"{selected_node}.pdb"
-        merge_protein_lig(prot_path, lig_path, root_path / 'protlig.pdb', new_ligname='LIG')
+        prot_path = perturbation_root / "protein.pdb"
+        lig_path = perturbation_root / f"{selected_node}.pdb"
+        merge_protein_lig(prot_path, lig_path, perturbation_root / 'protlig.pdb', new_ligname='LIG')
     else:
-        prot_path = root_path / "protein.pdb"
-        lig1_path = root_path / f"{selected_node[0]}.pdb"
-        lig2_path = root_path / f"{selected_node[1]}.pdb"
-        merge_protein_lig(prot_path, lig1_path, root_path / 'protlig.pdb', new_ligname='LIG')
-        merge_protein_lig(root_path / 'protlig.pdb', lig2_path, root_path / 'protlig.pdb', new_ligname='LID')
+        prot_path = perturbation_root / "protein.pdb"
+        lig1_path = perturbation_root / f"{selected_node[0]}.pdb"
+        lig2_path = perturbation_root / f"{selected_node[1]}.pdb"
+        merge_protein_lig(prot_path, lig1_path, perturbation_root / 'protlig.pdb', new_ligname='LIG')
+        merge_protein_lig(perturbation_root / 'protlig.pdb', lig2_path, perturbation_root / 'protlig.pdb', new_ligname='LID')
     
     # Perform actions based on the selected node
     # Example: load molecule data for the selected node
     # Adjust the logic to suit your application's needs
-    data = molstar_helper.parse_molecule(Path(f"x_results/results{target_name}/protlig.pdb"))
+    outname = str(perturbation_root / "protlig.pdb")
+    data = molstar_helper.parse_molecule(outname)
     # data = molstar_helper.parse_molecule(Path("trajectory.pdb"))
     return data
 
