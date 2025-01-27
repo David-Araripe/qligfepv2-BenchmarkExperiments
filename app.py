@@ -29,6 +29,7 @@ target_name = "tyk2"
 method_name = "Gbar"
 results_root = Path("results")
 molplotter = MolPlotter(from_smi=True, size=(-1, -1))
+stats_dict = None
 crashed_edges = []
 
 color_dict = {
@@ -45,7 +46,7 @@ available_targets = sorted([p.name for p in Path("perturbations/").glob("*") if 
 # write the pdb files for the ligands
 def initialize_data(target_name):
     try:
-        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges
+        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges, stats_dict  # Added stats_dict
         perturbation_root = Path(f"perturbations/{target_name}")
         if not perturbation_root.exists():
             raise FileNotFoundError(f"Target directory {perturbation_root} not found")
@@ -81,6 +82,10 @@ def initialize_data(target_name):
         ddG_df = pd.concat([ddG_df, ccc_results_df], axis=1).assign(
             residual=lambda x: x["Q_ddG_avg"] - x["ddg_value"]
         )
+
+        # Calculate statistics once and store them
+        stats_dict = cinnabar_stats(ddG_df["Q_ddG_avg"], ddG_df["ddg_value"])
+
     except Exception as e:
         print(f"Error initializing data for target {target_name}: {e}")
         raise
@@ -365,11 +370,12 @@ def update_all_components(clickData, selected_target):
 def create_ddg_plot(ddG_df, perturbations=None):
     if perturbations is None:
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
-    # Move the plot creation code here from the old update_ddg_plot function
+
     logger.info(f"Crashed perturbations: {crashed_edges}")
     n_crashes = len(crashed_edges)
     ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"])
-    stats_dict = cinnabar_stats(ddG_df["Q_ddG_avg"], ddG_df["ddg_value"])
+
+    # Use pre-calculated statistics instead of recalculating
     all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddg_value"]))
     margin = 1.0
     min_val, max_val = all_values.min() - margin, all_values.max() + margin
