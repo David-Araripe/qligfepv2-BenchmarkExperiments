@@ -5,10 +5,15 @@ This repository contains the benchmarking experiments for the QligFEPv2 software
 In this repostory you can find:
 - The starting structures used as inputs to run the caluculations;
 - Scripts for preparing the systems and the RBFE network for each target;
-- Obtained results;
+- A dash app to interactively visualize the results of the benchmarking experiments, including starting poses of protein structures, ligands, and the calculated RBFE values.
 
-- Details;
-... Add structure of the repository here;
+# FEPviz
+
+The FEPviz is a dash app that allows the interactive visualization of the results of the benchmarking experiments. The app is available on `app.py` and requires the following packages to be installed:
+
+```bash
+python -m pip install git+https://github.com/David-Araripe/Weighted_cc.git git+https://github.com/David-Araripe/chemFilters.git dash cinnabar dash-molstar
+```
 
 ## JACS Benchmark set;
 
