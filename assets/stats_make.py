@@ -11,7 +11,7 @@ def result_to_latex(res, latexify_each=False):
     if latexify_each:
         return f"{mle:.2f}_{{{low:.2f}}}^{{{high:.2f}}}"
     else:
-        return rf"{mle:.2f} <sub>({{{low:.2f}}}, {{{high:.2f}}})<\sub>"
+        return f"{mle:.2f} ({low:.2f}, {high:.2f})"
 
 
 def cinnabar_stats(avg_values, exp_values):

@@ -1,5 +1,5 @@
 import json
-import plotly
+from loguru import logger
 from urllib.parse import quote
 from pathlib import Path
 from dash import Dash, dcc, html, Input, Output, callback_context, State
@@ -29,6 +29,7 @@ target_name = "tyk2"
 method_name = "Gbar"
 results_root = Path("results")
 molplotter = MolPlotter(from_smi=True, size=(-1, -1))
+crashed_edges = []
 
 color_dict = {
     # pallette from https://colorhunt.co/palette/f9f7f7dbe2ef3f72af112d4e
@@ -44,7 +45,7 @@ available_targets = sorted([p.name for p in Path("perturbations/").glob("*") if 
 # write the pdb files for the ligands
 def initialize_data(target_name):
     try:
-        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations
+        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges
         perturbation_root = Path(f"perturbations/{target_name}")
         if not perturbation_root.exists():
             raise FileNotFoundError(f"Target directory {perturbation_root} not found")
@@ -58,6 +59,11 @@ def initialize_data(target_name):
         most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
         if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
             ddG_df = add_images_to_df(ddG_df, molplotter)
+
+        nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
+        crashed_edges = nan_edges.apply(lambda x: f"FEP_{x['from']}_{x['to']}", axis=1).tolist()
+        ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"]).reset_index(drop=True)
+
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
         ccc = GraphClosure(from_lig=ddG_df["from"], to_lig=ddG_df["to"], b_ddG=ddG_df["Q_ddG_avg"])
         ccc.getAllCyles()
@@ -360,7 +366,9 @@ def create_ddg_plot(ddG_df, perturbations=None):
     if perturbations is None:
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
     # Move the plot creation code here from the old update_ddg_plot function
-    nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
+    logger.info(f"Crashed perturbations: {crashed_edges}")
+    n_crashes = len(crashed_edges)
+    ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"])
     stats_dict = cinnabar_stats(ddG_df["Q_ddG_avg"], ddG_df["ddg_value"])
     all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddg_value"]))
     margin = 1.0
@@ -428,7 +436,7 @@ def create_ddg_plot(ddG_df, perturbations=None):
     ktau = f"{stats_dict['KTAU']}"
     rmse = f"{stats_dict['RMSE']}"
     mae = f"{stats_dict['MUE']}"
-    text = f"N = {ddG_df.shape[0]} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
+    text = f"N = {ddG_df.shape[0]} | crashes = {n_crashes} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
     annotations = [
         {
             "x": 0.5,
