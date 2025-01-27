@@ -12,7 +12,7 @@ In this repostory you can find:
 The FEPviz is a dash app that allows the interactive visualization of the results of the benchmarking experiments. The app is available on `app.py` and requires the following packages to be installed:
 
 ```bash
-python -m pip install git+https://github.com/David-Araripe/Weighted_cc.git git+https://github.com/David-Araripe/chemFilters.git dash-molstar
+python -m pip install git+https://github.com/David-Araripe/Weighted_cc.git git+https://github.com/David-Araripe/chemFilters.git dash cinnabar dash-molstar
 ```
 
 ## JACS Benchmark set;
