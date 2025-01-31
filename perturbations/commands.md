@@ -37,7 +37,7 @@ qligfep_analyze -t bace -j mapping.json -l debug -exp ddg_value -m ddGbar && mkd
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42 -wath 1.7
 ```
 
 Analyze the results
@@ -85,12 +85,12 @@ qligfep_analyze -t p38 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdi
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 30 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 30 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -drf 1.5 -rs 42
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t ptp1b -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_ptp1b && mv ptp1b*  results_ptp1b && cp mapping_ddG.json results_ptp1b
+qligfep_analyze -t ptp1b -j mapping.json -l debug -exp ddg_value -m ddGbar -v && mkdir -p results_ptp1b && mv ptp1b*  results_ptp1b && cp mapping_ddG.json results_ptp1b
 ```
 
 ## thrombin
@@ -123,7 +123,7 @@ qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkd
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
