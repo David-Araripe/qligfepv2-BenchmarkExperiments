@@ -101,11 +101,31 @@ All ligands and respective protein structure were loaded in `Maestro`. A minimiz
 
 ### pfkfb3
 
+Ligands `20`, `41`, and `42` and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```val214```
+
+Removed the atoms:
+```txt
+ATOM      1  CH3 ACE A   0      87.427  98.432 260.536  1.00  0.00           C  
+ATOM      2  C   ACE A   0      86.302  98.808 261.499  1.00  0.00           C  
+ATOM      3  O   ACE A   0      85.472  97.963 261.827  1.00  0.00           O  
+ATOM      4 1H   ACE A   0      87.325  97.362 260.246  1.00  0.00           H  
+ATOM      5 2H   ACE A   0      87.370  99.072 259.627  1.00  0.00           H  
+ATOM      6 3H   ACE A   0      88.411  98.593 261.030  1.00  0.00           H  
+...
+ATOM    284  N   NME A  16A     79.441  97.537 254.883  1.00  0.00           N  
+ATOM    285  CA  NME A  16A     80.445  98.441 254.341  1.00  0.00           C  
+ATOM    286  H   NME A  16A     78.820  97.041 254.262  1.00  0.00           H  
+ATOM    287 1HA  NME A  16A     81.022  98.883 255.184  1.00  0.00           H  
+ATOM    288 2HA  NME A  16A     81.132  97.880 253.668  1.00  0.00           H  
+ATOM    289 3HA  NME A  16A     79.949  99.249 253.759  1.00  0.00           H  
+```
 
 ### shp2
 `phe113, his114, thr219, glu249, asp489, lys492`
 
 ### syk
+
 The following residues were minimized to better accommodate the ligands in the binding site:
 `glu376, leu377, gly378, val385, asn457, asp512, phe513, lys402, gly454, ser379, lys375, phe382, lys458`
 
