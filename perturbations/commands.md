@@ -30,19 +30,19 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t bace -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_bace && mv bace*  results_bace && cp mapping_ddG.json results_bace
+qligfep_analyze -t bace -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_bace && mv bace*  results_bace && cp mapping_ddG.json results_bace
 ```
 
 ## cdk2
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42 -wath 1.7
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42 -wath 1.7
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t cdk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cdk2 && mv cdk2*  results_cdk2 && cp mapping_ddG.json results_cdk2
+qligfep_analyze -t cdk2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_cdk2 && mv cdk2*  results_cdk2 && cp mapping_ddG.json results_cdk2
 ```
 
 ## jnk1
@@ -54,7 +54,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t jnk1 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_jnk1 && mv jnk1*  results_jnk1 && cp mapping_ddG.json results_jnk1
+qligfep_analyze -t jnk1 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_jnk1 && mv jnk1*  results_jnk1 && cp mapping_ddG.json results_jnk1
 ```
 
 ## mcl1
@@ -66,7 +66,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t mcl1 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_mcl1 && mv mcl1*  results_mcl1 && cp mapping_ddG.json results_mcl1
+qligfep_analyze -t mcl1 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_mcl1 && mv mcl1*  results_mcl1 && cp mapping_ddG.json results_mcl1
 ```
 
 ## p38
@@ -78,7 +78,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t p38 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_p38 && mv p38*  results_p38 && cp mapping_ddG.json results_p38
+qligfep_analyze -t p38 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_p38 && mv p38*  results_p38 && cp mapping_ddG.json results_p38
 ```
 
 ## ptp1b
@@ -90,7 +90,7 @@ setupFEP -FF AMBER14sb -c SNELLIUS -r 30 -b auto --start 0.5 -R 10 -S sigmoidal 
 
 Analyze the results
 ```bash
-qligfep_analyze -t ptp1b -j mapping.json -l debug -exp ddg_value -m ddGbar -v && mkdir -p results_ptp1b && mv ptp1b*  results_ptp1b && cp mapping_ddG.json results_ptp1b
+qligfep_analyze -t ptp1b -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose -v && mkdir -p results_ptp1b && mv ptp1b*  results_ptp1b && cp mapping_ddG.json results_ptp1b
 ```
 
 ## thrombin
@@ -102,7 +102,7 @@ setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal 
 
 Analyze the results
 ```bash
-qligfep_analyze -t thrombin -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_thrombin && mv thrombin*  results_thrombin && cp mapping_ddG.json results_thrombin
+qligfep_analyze -t thrombin -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_thrombin && mv thrombin*  results_thrombin && cp mapping_ddG.json results_thrombin
 ```
 
 ## tyk2
@@ -114,7 +114,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t tyk2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
+qligfep_analyze -t tyk2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_tyk2 && mv tyk2*  results_tyk2 && cp mapping_ddG.json results_tyk2
 ```
 
 # Merck dataset
@@ -128,7 +128,7 @@ setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal 
 
 Analyze the results
 ```bash
-qligfep_analyze -t cdk8 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cdk8 && mv cdk8*  results_cdk8 && cp mapping_ddG.json results_cdk8
+qligfep_analyze -t cdk8 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_cdk8 && mv cdk8*  results_cdk8 && cp mapping_ddG.json results_cdk8
 ```
 
 ## cmet
@@ -144,7 +144,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t cmet -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_cmet && mv cmet*  results_cmet && cp mapping_ddG.json results_cmet
+qligfep_analyze -t cmet -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_cmet && mv cmet*  results_cmet && cp mapping_ddG.json results_cmet
 ```
 
 ## eg5
@@ -156,7 +156,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t eg5 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_eg5 && mv eg5*  results_eg5 && cp mapping_ddG.json results_eg5
+qligfep_analyze -t eg5 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_eg5 && mv eg5*  results_eg5 && cp mapping_ddG.json results_eg5
 ```
 
 ## hif2a
@@ -170,7 +170,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t hif2a -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_hif2a && mv hif2a*  results_hif2a && cp mapping_ddG.json results_hif2a
+qligfep_analyze -t hif2a -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_hif2a && mv hif2a*  results_hif2a && cp mapping_ddG.json results_hif2a
 ```
 
 ## shp2
@@ -182,7 +182,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t shp2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_shp2 && mv shp2*  results_shp2 && cp mapping_ddG.json results_shp2
+qligfep_analyze -t shp2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_shp2 && mv shp2*  results_shp2 && cp mapping_ddG.json results_shp2
 ```
 
 ## syk
@@ -194,7 +194,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t syk -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_syk && mv syk*  results_syk && cp mapping_ddG.json results_syk
+qligfep_analyze -t syk -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_syk && mv syk*  results_syk && cp mapping_ddG.json results_syk
 ```
 
 ## pfkfb3
@@ -206,7 +206,7 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t TARGET -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
 ```
 
 ## tnks2
@@ -218,5 +218,5 @@ setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -t
 
 Analyze the results
 ```bash
-qligfep_analyze -t tnks2 -j mapping.json -l debug -exp ddg_value -m ddGbar && mkdir -p results_tnks2 && mv tnks2*  results_tnks2 && cp mapping_ddG.json results_tnks2
+qligfep_analyze -t tnks2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_tnks2 && mv tnks2*  results_tnks2 && cp mapping_ddG.json results_tnks2
 ```
