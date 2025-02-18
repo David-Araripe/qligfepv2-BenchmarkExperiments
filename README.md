@@ -33,6 +33,26 @@ All ligands and respective protein structure were loaded in `Maestro`. A minimiz
 
 N-terminal of Chain A was also minimized to remove a clash leading to infinite VDW potentials.
 
+Due to the issues above, an internally-prepared structure was used for the calculations. The structure used, however, is very similar to the one produced by the above modifications.
+
+**Ligand changes**
+
+Another change, however, was the usage of different input ligand structures. We noticed poorer correlation with the experimental data when using the ligands from the `IndustryBenchmarks2024` repository. We hypothesize this is due to rotamer differences in the ligands. For example, ligand `17` in the series contains a halogen meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6GUK`, though different from the ligand in question, displays a different rotamer pointing towards the cyclohexyl group, less solvent-exposed. We hypothesize that caused the poor QligFEP results' correlation with the experimental data and decided to use poses with the halogen pointing towards the cyclohexyl group.
+
+For a quick visualization of the protein structure illustrating this binding pose, see:
+
+```python
+viewer = py3Dmol.view(query="pdb:6GUK")
+viewer.setStyle({"model": 0, "not resn": "FC8"}, {"cartoon": {"color": "gray"}})
+viewer.setStyle(
+    {"model": 0, "resn": "FC8"},
+    {"stick": {"colorscheme": "greenCarbon", "radius": 0.3}},
+)
+viewer.addSurface(py3Dmol.VDW, {"opacity": 0.7, "color": "white"}, {"not resn": "FC8"})
+viewer.zoomTo({"resn": "FC8"})
+viewer.show()
+```
+
 ### jnk1
 
 All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
