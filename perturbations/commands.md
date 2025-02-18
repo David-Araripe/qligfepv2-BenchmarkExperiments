@@ -201,12 +201,12 @@ qligfep_analyze -t syk -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest DEFINE -rs 42
+setupFEP -FF AMBER14sb_plus_cofactor -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42 -wath 1.7
 ```
 
 Analyze the results
 ```bash
-qligfep_analyze -t TARGET -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_TARGET && mv TARGET*  results_TARGET && cp mapping_ddG.json results_TARGET
+qligfep_analyze -t pfkfb3 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_pfkfb3 && mv pfkfb3*  results_pfkfb3 && cp mapping_ddG.json results_pfkfb3
 ```
 
 ## tnks2
