@@ -104,6 +104,9 @@ All ligands and respective protein structure were loaded in `Maestro`. A minimiz
 Ligands `20`, `41`, and `42` and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
 ```val214```
 
+Following that, ligands `44`, `47`, `52`, `53` were loaded. A second minimization step was applied to the folliwng residues by manually selecting them and minimizing with the `Ctrl + m` command:
+```leu238, ile241, his242```
+
 Removed the atoms:
 ```txt
 ATOM      1  CH3 ACE A   0      87.427  98.432 260.536  1.00  0.00           C  
