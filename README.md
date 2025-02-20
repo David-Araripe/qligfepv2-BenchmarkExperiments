@@ -107,6 +107,8 @@ Ligands `20`, `41`, and `42` and respective protein structure were loaded in `Ma
 Following that, ligands `44`, `47`, `52`, `53` were loaded. A second minimization step was applied to the folliwng residues by manually selecting them and minimizing with the `Ctrl + m` command:
 ```leu238, ile241, his242```
 
+The following water molecules were removed: `905, 914, 944, 993, 998, 1022`, as they were clashing with other HOH `O` atoms and not the closest to the protein residues.
+
 Removed the atoms:
 ```txt
 ATOM      1  CH3 ACE A   0      87.427  98.432 260.536  1.00  0.00           C  
