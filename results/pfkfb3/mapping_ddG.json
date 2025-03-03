@@ -1,0 +1,800 @@
+{
+    "nodes": {
+        "43": {
+            "dg_value": -7.99766,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([Br])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "30_flip_b": {
+            "dg_value": -9.19819,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([O][C]([H])([H])[H])[n][c]([H])[c]([H])[c]4[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "65": {
+            "dg_value": -9.4879,
+            "smiles": "[H][C]1=[N][c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]2[S]1",
+            "formal_charge": 0.0
+        },
+        "49": {
+            "dg_value": -7.93429,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([N]([H])[H])[c]([H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "24": {
+            "dg_value": -8.86991,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[C]#[N])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "67": {
+            "dg_value": -10.2436,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])[N]=[C]([N]([H])[H])[S]4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "62_flip": {
+            "dg_value": -7.69174,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])=[N][O][N]=4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "56": {
+            "dg_value": -10.5657,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([C]([H])([H])[H])[c]21",
+            "formal_charge": 0.0
+        },
+        "59": {
+            "dg_value": -8.11517,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])[O][C]([H])([H])[C]([H])([H])[O]4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "38": {
+            "dg_value": -8.75876,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([N]([C]([H])([H])[H])[C]([H])([H])[H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "31": {
+            "dg_value": -9.28247,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[O][C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "48": {
+            "dg_value": -8.00636,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "58": {
+            "dg_value": -9.13315,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])[C]([H])([H])[C]([H])([H])[O]4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "41": {
+            "dg_value": -7.38769,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([O][C]([F])([F])[F])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "29": {
+            "dg_value": -9.64602,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "54": {
+            "dg_value": -8.17959,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "47": {
+            "dg_value": -8.33345,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([C]([H])([H])[C]([H])([H])[H])[c]([H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "26": {
+            "dg_value": -9.16944,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[C](=[O])[N]([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "55": {
+            "dg_value": -10.6355,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([F])[c]21",
+            "formal_charge": 0.0
+        },
+        "20": {
+            "dg_value": -8.51645,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "57": {
+            "dg_value": -10.4744,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([F])[F])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "42": {
+            "dg_value": -8.4668,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([S][C]([H])([H])[H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "35": {
+            "dg_value": -10.1388,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "44": {
+            "dg_value": -9.94868,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([Br])[c]([H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "63": {
+            "dg_value": -8.56164,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])=[N][S][N]=4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "69": {
+            "dg_value": -10.7146,
+            "smiles": "[H][C]1=[C]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]2[S]1",
+            "formal_charge": 0.0
+        },
+        "52": {
+            "dg_value": -10.3953,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "19": {
+            "dg_value": -7.55079,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "68": {
+            "dg_value": -9.77823,
+            "smiles": "[H][C]1=[C]([N]([H])[H])[S][c]2[c]([H])[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "33": {
+            "dg_value": -8.60692,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[C]#[N])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "70": {
+            "dg_value": -10.3039,
+            "smiles": "[H][C]1=[C]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]2[O]1",
+            "formal_charge": 0.0
+        },
+        "53": {
+            "dg_value": -6.99764,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[C]([H])([H])[C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "64": {
+            "dg_value": -9.42228,
+            "smiles": "[H][C]1=[N][c]2[c]([H])[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]2[S]1",
+            "formal_charge": 0.0
+        },
+        "39": {
+            "dg_value": -7.1975,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([H])[c]([N]([H])[H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "23": {
+            "dg_value": -7.91446,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "34": {
+            "dg_value": -9.97238,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[C](=[O])[N]([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "36": {
+            "dg_value": -7.44054,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([c]4[c]([H])[n][c]([H])[c]([H])[c]4[S](=[O])(=[O])[C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "46": {
+            "dg_value": -7.85936,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]([C]([F])([F])[F])[c]([H])[c]3[H])[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        },
+        "37": {
+            "dg_value": -9.99707,
+            "smiles": "[H][C]1=[C]([H])[N]([C]([H])([H])[H])[c]2[c]([H])[c](-[c]3[c]([H])[c]([N]([H])[c]4[c]([H])[n][c]([H])[c]([H])[c]4[C](=[O])[N]([H])[C]4([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]4([H])[H])[c]([H])[c]4[n][c]([H])[c]([H])[n][c]34)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "60_adjust": {
+            "dg_value": -8.14374,
+            "smiles": "[H][c]1[n][c]2[c]([H])[c]([N]([H])[c]3[c]([H])[n][c]([H])[c]([H])[c]3[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c](-[c]3[c]([H])[c]([H])[c]4[c]([c]3[H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[O]4)[c]2[n][c]1[H]",
+            "formal_charge": 0.0
+        }
+    },
+    "edges": [
+        {
+            "from": "43",
+            "to": "59",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": -0.12,
+            "same_charge": true,
+            "Q_ddG_avg": 4.8489,
+            "Q_ddG_sem": 0.29569734019770955,
+            "Q_ddG_std": 0.9350770930784263
+        },
+        {
+            "from": "43",
+            "to": "58",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -1.14,
+            "same_charge": true,
+            "Q_ddG_avg": 1.542399999999997,
+            "Q_ddG_sem": 0.21795778031536292,
+            "Q_ddG_std": 0.6892430195511595
+        },
+        {
+            "from": "43",
+            "to": "63",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -0.56,
+            "same_charge": true,
+            "Q_ddG_avg": 1.3955000000000002,
+            "Q_ddG_sem": 0.2547901038109605,
+            "Q_ddG_std": 0.8057170533133827
+        },
+        {
+            "from": "43",
+            "to": "64",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -1.42,
+            "same_charge": true,
+            "Q_ddG_avg": 3.171100000000001,
+            "Q_ddG_sem": 0.45162483213392957,
+            "Q_ddG_std": 1.42816311743442
+        },
+        {
+            "from": "43",
+            "to": "47",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.34,
+            "same_charge": true,
+            "Q_ddG_avg": 7.486600000000001,
+            "Q_ddG_sem": 0.33108987299523374,
+            "Q_ddG_std": 1.0469981088808138
+        },
+        {
+            "from": "43",
+            "to": "39",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.8,
+            "same_charge": true,
+            "Q_ddG_avg": 3.6571,
+            "Q_ddG_sem": 0.36579514075504055,
+            "Q_ddG_std": 1.1567458018078127
+        },
+        {
+            "from": "43",
+            "to": "20",
+            "similarity": 0.8913661439068313,
+            "strict_flag": true,
+            "ddg_value": -0.52,
+            "same_charge": true,
+            "Q_ddG_avg": 1.9100888888888896,
+            "Q_ddG_sem": 0.37040502049766616,
+            "Q_ddG_std": 1.1713235215339803
+        },
+        {
+            "from": "43",
+            "to": "60_adjust",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -0.15,
+            "same_charge": true,
+            "Q_ddG_avg": 3.1877999999999993,
+            "Q_ddG_sem": 0.9442392758194291,
+            "Q_ddG_std": 2.985946767777349
+        },
+        {
+            "from": "30_flip_b",
+            "to": "19",
+            "similarity": 0.7788007830714049,
+            "strict_flag": true,
+            "ddg_value": 1.65,
+            "same_charge": true,
+            "Q_ddG_avg": -0.7588999999999935,
+            "Q_ddG_sem": 0.547096343435048,
+            "Q_ddG_std": 1.7300705448044598
+        },
+        {
+            "from": "30_flip_b",
+            "to": "31",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.08,
+            "same_charge": true,
+            "Q_ddG_avg": -3.693999999999999,
+            "Q_ddG_sem": 0.20608212440675217,
+            "Q_ddG_std": 0.6516888981715131
+        },
+        {
+            "from": "65",
+            "to": "68",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.29,
+            "same_charge": true,
+            "Q_ddG_avg": -0.9285000000000032,
+            "Q_ddG_sem": 0.3530606364351595,
+            "Q_ddG_std": 1.1164757632837352
+        },
+        {
+            "from": "65",
+            "to": "67",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.76,
+            "same_charge": true,
+            "Q_ddG_avg": -2.4972999999999956,
+            "Q_ddG_sem": 0.20503502383739228,
+            "Q_ddG_std": 0.6483776754330768
+        },
+        {
+            "from": "65",
+            "to": "63",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.93,
+            "same_charge": true,
+            "Q_ddG_avg": 0.19850000000000056,
+            "Q_ddG_sem": 0.17867586574576882,
+            "Q_ddG_std": 0.5650226986590893
+        },
+        {
+            "from": "65",
+            "to": "64",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.07,
+            "same_charge": true,
+            "Q_ddG_avg": 1.4962000000000002,
+            "Q_ddG_sem": 0.24886915437635093,
+            "Q_ddG_std": 0.7869933671893302
+        },
+        {
+            "from": "49",
+            "to": "47",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.4,
+            "same_charge": true,
+            "Q_ddG_avg": 2.8401000000000067,
+            "Q_ddG_sem": 0.30828614143357164,
+            "Q_ddG_std": 0.9748863779948931
+        },
+        {
+            "from": "49",
+            "to": "44",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -2.01,
+            "same_charge": true,
+            "Q_ddG_avg": -1.5539000000000058,
+            "Q_ddG_sem": 0.17083357105674532,
+            "Q_ddG_std": 0.5402231853595332
+        },
+        {
+            "from": "24",
+            "to": "19",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 1.32,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5510999999999999,
+            "Q_ddG_sem": 0.24258472540537257,
+            "Q_ddG_std": 0.7671202578474904
+        },
+        {
+            "from": "24",
+            "to": "33",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.26,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1552000000000007,
+            "Q_ddG_sem": 0.24126582020667597,
+            "Q_ddG_std": 0.7629495134017723
+        },
+        {
+            "from": "67",
+            "to": "68",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.47,
+            "same_charge": true,
+            "Q_ddG_avg": 1.3999000000000024,
+            "Q_ddG_sem": 0.29141621265811546,
+            "Q_ddG_std": 0.9215389790996362
+        },
+        {
+            "from": "62_flip",
+            "to": "39",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 0.49,
+            "same_charge": true,
+            "Q_ddG_avg": 0.34169999999999945,
+            "Q_ddG_sem": 0.26491183627765674,
+            "Q_ddG_std": 0.8377247817750173
+        },
+        {
+            "from": "56",
+            "to": "35",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.43,
+            "same_charge": true,
+            "Q_ddG_avg": -0.9612,
+            "Q_ddG_sem": 0.23133816805706747,
+            "Q_ddG_std": 0.7315555207911427
+        },
+        {
+            "from": "56",
+            "to": "55",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.07,
+            "same_charge": true,
+            "Q_ddG_avg": -1.8669,
+            "Q_ddG_sem": 0.1682517667069205,
+            "Q_ddG_std": 0.5320588031411565
+        },
+        {
+            "from": "38",
+            "to": "44",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -1.19,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1140000000000025,
+            "Q_ddG_sem": 0.27176784578018043,
+            "Q_ddG_std": 0.85940538746275
+        },
+        {
+            "from": "38",
+            "to": "39",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 1.56,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5934999999999988,
+            "Q_ddG_sem": 0.29808676085998836,
+            "Q_ddG_std": 0.9426331046594953
+        },
+        {
+            "from": "31",
+            "to": "23",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 1.37,
+            "same_charge": true,
+            "Q_ddG_avg": 2.6153999999999975,
+            "Q_ddG_sem": 0.3170226995027329,
+            "Q_ddG_std": 1.0025138004037655
+        },
+        {
+            "from": "48",
+            "to": "46",
+            "similarity": 0.7788007830714049,
+            "strict_flag": true,
+            "ddg_value": 0.15,
+            "same_charge": true,
+            "Q_ddG_avg": 3.0375000000000014,
+            "Q_ddG_sem": 0.21459474597482564,
+            "Q_ddG_std": 0.6786081711856994
+        },
+        {
+            "from": "48",
+            "to": "47",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.33,
+            "same_charge": true,
+            "Q_ddG_avg": 2.147199999999999,
+            "Q_ddG_sem": 0.4388652298827056,
+            "Q_ddG_std": 1.3878137122827403
+        },
+        {
+            "from": "58",
+            "to": "42",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": 0.67,
+            "same_charge": true,
+            "Q_ddG_avg": 0.7843111111111121,
+            "Q_ddG_sem": 0.46424576500059517,
+            "Q_ddG_std": 1.4680740114891613
+        },
+        {
+            "from": "41",
+            "to": "42",
+            "similarity": 0.7046880897187134,
+            "strict_flag": true,
+            "ddg_value": -1.08,
+            "same_charge": true,
+            "Q_ddG_avg": 1.2996999999999979,
+            "Q_ddG_sem": 0.3066938881034311,
+            "Q_ddG_std": 0.969851230859661
+        },
+        {
+            "from": "41",
+            "to": "20",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -1.13,
+            "same_charge": true,
+            "Q_ddG_avg": 0.6253999999999991,
+            "Q_ddG_sem": 0.24663625848605475,
+            "Q_ddG_std": 0.7799323303979648
+        },
+        {
+            "from": "29",
+            "to": "19",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 2.1,
+            "same_charge": true,
+            "Q_ddG_avg": 1.2691000000000088,
+            "Q_ddG_sem": 0.39063251912763275,
+            "Q_ddG_std": 1.23528848857261
+        },
+        {
+            "from": "29",
+            "to": "64",
+            "similarity": 0.7788007830714048,
+            "strict_flag": true,
+            "ddg_value": 0.22,
+            "same_charge": true,
+            "Q_ddG_avg": -0.2775999999999925,
+            "Q_ddG_sem": 0.19281642564885387,
+            "Q_ddG_std": 0.609739075342888
+        },
+        {
+            "from": "29",
+            "to": "36",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 2.21,
+            "same_charge": true,
+            "Q_ddG_avg": 0.3014999999999901,
+            "Q_ddG_sem": 0.6398814835576981,
+            "Q_ddG_std": 2.0234829206099088
+        },
+        {
+            "from": "54",
+            "to": "57",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -2.29,
+            "same_charge": true,
+            "Q_ddG_avg": -4.541,
+            "Q_ddG_sem": 0.28388118641431664,
+            "Q_ddG_std": 0.8977111339400888
+        },
+        {
+            "from": "54",
+            "to": "52",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -2.22,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "47",
+            "to": "46",
+            "similarity": 0.7788007830714049,
+            "strict_flag": true,
+            "ddg_value": 0.47,
+            "same_charge": true,
+            "Q_ddG_avg": -0.22070000000000256,
+            "Q_ddG_sem": 0.2520865030103755,
+            "Q_ddG_std": 0.7971675168996794
+        },
+        {
+            "from": "47",
+            "to": "44",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -1.62,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "26",
+            "to": "19",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 1.62,
+            "same_charge": true,
+            "Q_ddG_avg": 1.1296999999999997,
+            "Q_ddG_sem": 0.3268317319355636,
+            "Q_ddG_std": 1.0335326845339732
+        },
+        {
+            "from": "26",
+            "to": "34",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.8,
+            "same_charge": true,
+            "Q_ddG_avg": -1.4215999999999909,
+            "Q_ddG_sem": 0.3181482516060713,
+            "Q_ddG_std": 1.006073108675508
+        },
+        {
+            "from": "26",
+            "to": "37",
+            "similarity": 0.522045776761016,
+            "strict_flag": false,
+            "ddg_value": -0.83,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "55",
+            "to": "35",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.5,
+            "same_charge": true,
+            "Q_ddG_avg": 1.3140888888888889,
+            "Q_ddG_sem": 0.08162323531452229,
+            "Q_ddG_std": 0.25811533358578054
+        },
+        {
+            "from": "20",
+            "to": "60_adjust",
+            "similarity": 0.49658530379140947,
+            "strict_flag": false,
+            "ddg_value": 0.37,
+            "same_charge": true,
+            "Q_ddG_avg": 1.6195,
+            "Q_ddG_sem": 0.6895786227835082,
+            "Q_ddG_std": 2.180639073757966
+        },
+        {
+            "from": "57",
+            "to": "35",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.34,
+            "same_charge": true,
+            "Q_ddG_avg": -0.15949999999999953,
+            "Q_ddG_sem": 0.2111353996846574,
+            "Q_ddG_std": 0.667668757693514
+        },
+        {
+            "from": "35",
+            "to": "23",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": 2.22,
+            "same_charge": true,
+            "Q_ddG_avg": 3.394199999999991,
+            "Q_ddG_sem": 0.5762797844797267,
+            "Q_ddG_std": 1.8223566884668885
+        },
+        {
+            "from": "35",
+            "to": "36",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 2.7,
+            "same_charge": true,
+            "Q_ddG_avg": 4.39545555555555,
+            "Q_ddG_sem": 0.9100340740398573,
+            "Q_ddG_std": 2.8777804223282577
+        },
+        {
+            "from": "35",
+            "to": "64",
+            "similarity": 0.8187307530779817,
+            "strict_flag": true,
+            "ddg_value": 0.72,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "35",
+            "to": "53",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 3.14,
+            "same_charge": true,
+            "Q_ddG_avg": 5.7593999999999985,
+            "Q_ddG_sem": 0.43286330867838635,
+            "Q_ddG_std": 1.3688339709402306
+        },
+        {
+            "from": "35",
+            "to": "69",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.58,
+            "same_charge": true,
+            "Q_ddG_avg": -0.00773333333333337,
+            "Q_ddG_sem": 0.13182567445093707,
+            "Q_ddG_std": 0.4168693853528278
+        },
+        {
+            "from": "35",
+            "to": "70",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.17,
+            "same_charge": true,
+            "Q_ddG_avg": -1.0278000000000005,
+            "Q_ddG_sem": 0.1551211977777376,
+            "Q_ddG_std": 0.4905362983511005
+        },
+        {
+            "from": "69",
+            "to": "70",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.41,
+            "same_charge": true,
+            "Q_ddG_avg": -1.0013999999999998,
+            "Q_ddG_sem": 0.13739197210899914,
+            "Q_ddG_std": 0.43447156408676507
+        },
+        {
+            "from": "52",
+            "to": "53",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 3.4,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        },
+        {
+            "from": "33",
+            "to": "23",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.69,
+            "same_charge": true,
+            "Q_ddG_avg": -0.09549999999999947,
+            "Q_ddG_sem": 0.33901102194471494,
+            "Q_ddG_std": 1.0720469812466245
+        },
+        {
+            "from": "23",
+            "to": "34",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -2.06,
+            "same_charge": true,
+            "Q_ddG_avg": -2.487000000000002,
+            "Q_ddG_sem": 0.2896655174507313,
+            "Q_ddG_std": 0.9160027947555616
+        },
+        {
+            "from": "34",
+            "to": "37",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -0.02,
+            "same_charge": true,
+            "Q_ddG_avg": NaN,
+            "Q_ddG_sem": NaN,
+            "Q_ddG_std": NaN
+        }
+    ]
+}
