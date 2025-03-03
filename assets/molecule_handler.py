@@ -25,7 +25,7 @@ def data_from_lomap_json(
 
     Returns:
         tuple with the perturbation, experimental values, calculated values and calculated errors
-    """    
+    """
     with Path(json_path).open("r") as f:
         mapping_data = json.load(f)
 
@@ -43,7 +43,7 @@ def data_from_lomap_json(
     return perturbation, vals_exp, vals_calc, vals_calc_err
 
 
-def lomap_json_to_dataframe(lomap_json: dict, molplotter: MolPlotter) -> pd.DataFrame:
+def lomap_json_to_dataframe(lomap_json: dict) -> pd.DataFrame:
     return pd.DataFrame.from_dict(lomap_json["edges"]).assign(
         from_smiles=lambda x: x["from"].apply(lambda y: lomap_json["nodes"][y]["smiles"]),
         to_smiles=lambda x: x["to"].apply(lambda y: lomap_json["nodes"][y]["smiles"]),
@@ -60,10 +60,16 @@ def add_images_to_df(df, molplotter: MolPlotter, n_jobs=4) -> pd.DataFrame:
 
     Returns:
         dataframe with images of the molecules
-    """    
+    """
     from MolClusterkit.mcs import MCSClustering
 
-    mcs_handler = MCSClustering([], timeout=20, atomCompare="CompareAnyHeavyAtom", bondCompare="CompareAny")
+    mcs_handler = MCSClustering(
+        [],
+        timeout=20,
+        atomCompare="CompareAnyHeavyAtom",
+        bondCompare="CompareOrder",
+        ringMatchesRingOnly=True,
+    )
     partial_func = partial(molplotter.render_mol, return_svg=True)
     # find the matching pose
     pairs = list(zip(df["from_smiles"].tolist(), df["to_smiles"].tolist()))

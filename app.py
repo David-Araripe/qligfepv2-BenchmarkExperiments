@@ -53,7 +53,7 @@ def initialize_data(target_name):
 
         create_pdb_ligand_files(root_path=perturbation_root, overwrite=False)
         mapping = json.loads((results_root / f"{target_name}/mapping_ddG.json").read_text())
-        ddG_df = lomap_json_to_dataframe(mapping, molplotter)
+        ddG_df = lomap_json_to_dataframe(mapping)
         G = generate_graph(ddG_df)
         G = set_nx_graph_coordinates(G)
         node_labels, node_x, node_y, edge_x, edge_y = extract_graph_coordinates(G)
