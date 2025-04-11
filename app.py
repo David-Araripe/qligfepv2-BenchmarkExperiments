@@ -734,42 +734,48 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
 
     button_id = ctx.triggered[0]["prop_id"].split(".")[0]
     try:
-        protein_path = perturbation_root / "protein.pdb"
-        if not protein_path.exists():
-             logger.error(f"Protein PDB not found: {protein_path}")
-             raise PreventUpdate
+        prot_path = perturbation_root / "protein.pdb"
+        if not prot_path.exists():
+            logger.error(f"Protein PDB not found: {prot_path}")
+            raise PreventUpdate
     except NameError:
-         logger.error("perturbation_root not defined globally. Was initialize_data run?")
-         raise PreventUpdate
+        logger.error("perturbation_root not defined globally. Was initialize_data run?")
+        raise PreventUpdate
 
-    ligand_pdb_path = None
-    pdb_content = None
+    pdb_path = CACHE_DIR / f"{perturbation_root.name}/protlig.pdb"
+    if not pdb_path.parent.exists():
+        pdb_path.parent.mkdir(parents=True, exist_ok=True)
 
     if button_id == "load_from_lig" and from_node:
-        ligand_pdb_path = perturbation_root / f"ligands/{from_node}.pdb"
+        lig1_path = perturbation_root / f"{from_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
+
     elif button_id == "load_to_lig" and to_node:
-        ligand_pdb_path = perturbation_root / f"ligands/{to_node}.pdb"
+        lig1_path = perturbation_root / f"{to_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
+
     elif button_id == "load_both_ligs" and from_node and to_node:
-        lig1_path = perturbation_root / f"ligands/{from_node}.pdb"
-        lig2_path = perturbation_root / f"ligands/{to_node}.pdb"
+        lig1_path = perturbation_root / f"{from_node}.pdb"
+        lig2_path = perturbation_root / f"{to_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        logger.info(f"Loading ligand from {lig2_path}")
         if lig1_path.exists() and lig2_path.exists():
-             pdb_content = merge_protein_lig(str(protein_path), str(lig1_path))
+            pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
+            pdb_df = merge_protein_lig(pdb_path, lig2_path, pdb_path, new_ligname="LID")
         else:
-             logger.error(f"One or both ligand PDBs not found for 'load_both_ligs': {lig1_path}, {lig2_path}")
-             raise PreventUpdate
+            logger.error(f"One or both ligand PDBs not found for 'load_both_ligs': {lig1_path}, {lig2_path}")
+            raise PreventUpdate
 
-    if ligand_pdb_path and pdb_content is None:
-        if ligand_pdb_path.exists():
-            pdb_content = merge_protein_lig(str(protein_path), str(ligand_pdb_path))
+    # Generate payload if PDB content was created
+    if pdb_df is not None:
+        if not pdb_path.exists():
+            logger.error(f"PDB file not found after merge: {pdb_path}")
+            raise PreventUpdate
         else:
-             logger.error(f"Ligand PDB not found: {ligand_pdb_path}")
-             raise PreventUpdate
-
-    if pdb_content:
-        return molstar_helper.create_molstar_payload(pdb_content, format="pdb")
+            return molstar_helper.parse_molecule(pdb_path)
     else:
-        if button_id in ["load_from_lig", "load_to_lig"] and not (from_node or to_node):
-             logger.warning("Load button clicked but corresponding node is missing.")
         raise PreventUpdate
 
 
