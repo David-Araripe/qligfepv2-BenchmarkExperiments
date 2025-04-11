@@ -28,6 +28,7 @@ from assets.stats_make import cinnabar_stats
 target_name = "tyk2"
 method_name = "Gbar"
 results_root = Path("results")
+CACHE_DIR = Path("cache")
 molplotter = MolPlotter(from_smi=True, size=(-1, -1))
 stats_dict = None
 crashed_edges = []
@@ -46,20 +47,53 @@ available_targets = sorted([p.name for p in Path("perturbations/").glob("*") if 
 # write the pdb files for the ligands
 def initialize_data(target_name):
     try:
-        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges, stats_dict  # Added stats_dict
+        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges, stats_dict
         perturbation_root = Path(f"perturbations/{target_name}")
         if not perturbation_root.exists():
             raise FileNotFoundError(f"Target directory {perturbation_root} not found")
 
-        create_pdb_ligand_files(root_path=perturbation_root, overwrite=False)
-        mapping = json.loads((results_root / f"{target_name}/mapping_ddG.json").read_text())
-        ddG_df = lomap_json_to_dataframe(mapping)
+        # Ensure cache directory exists
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
+        cache_file = CACHE_DIR / f"{target_name}_ddG_df.pkl"
+        loaded_from_cache = False
+
+        if cache_file.is_file():
+            try:
+                logger.info(f"Loading cached ddG data from {cache_file}")
+                ddG_df = pd.read_pickle(cache_file)
+                # Basic check to ensure essential columns are present
+                if "from" in ddG_df.columns and "to" in ddG_df.columns and "Q_ddG_avg" in ddG_df.columns and "from_svg" in ddG_df.columns:
+                     loaded_from_cache = True
+                else:
+                    logger.warning("Cached file seems incomplete. Recalculating.")
+            except Exception as e:
+                logger.warning(f"Failed to load cached file {cache_file}: {e}. Recalculating.")
+
+        if not loaded_from_cache:
+            logger.info(f"Calculating ddG data for {target_name}")
+            create_pdb_ligand_files(root_path=perturbation_root, overwrite=False) # Keep this here? Maybe not needed if PDBs are cached later? For now, keep.
+            mapping_file = results_root / f"{target_name}/mapping_ddG.json"
+            if not mapping_file.exists():
+                 raise FileNotFoundError(f"Mapping file not found: {mapping_file}")
+            mapping = json.loads(mapping_file.read_text())
+            ddG_df = lomap_json_to_dataframe(mapping)
+            # Add images only if not loaded from cache or if missing
+            if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
+                 ddG_df = add_images_to_df(ddG_df, molplotter)
+            # Save to cache after calculation
+            try:
+                ddG_df.to_pickle(cache_file)
+                logger.info(f"Saved calculated ddG data to {cache_file}")
+            except Exception as e:
+                logger.error(f"Failed to save data to cache file {cache_file}: {e}")
+
+
+        # Generate graph and extract coordinates regardless of cache status
         G = generate_graph(ddG_df)
         G = set_nx_graph_coordinates(G)
         node_labels, node_x, node_y, edge_x, edge_y = extract_graph_coordinates(G)
         most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
-        if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
-            ddG_df = add_images_to_df(ddG_df, molplotter)
+
 
         nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
         crashed_edges = nan_edges.apply(lambda x: f"FEP_{x['from']}_{x['to']}", axis=1).tolist()
@@ -491,18 +525,19 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
 
     button_id = ctx.triggered[0]["prop_id"].split(".")[0]
     perturbation_root = Path(f"perturbations/{selected_target}")
+    prot_path = perturbation_root / "protein.pdb"
+    cache_dir_target = CACHE_DIR / selected_target
+    cache_dir_target.mkdir(parents=True, exist_ok=True)
+    merged_pdb_cache_path = cache_dir_target / "protlig.pdb"
 
     try:
         if button_id == "load_from_lig" and from_node:
-            prot_path = perturbation_root / "protein.pdb"
             lig_path = perturbation_root / f"{from_node}.pdb"
             merge_protein_lig(prot_path, lig_path, perturbation_root / "protlig.pdb", new_ligname="LIG")
         elif button_id == "load_to_lig" and to_node:
-            prot_path = perturbation_root / "protein.pdb"
             lig_path = perturbation_root / f"{to_node}.pdb"
             merge_protein_lig(prot_path, lig_path, perturbation_root / "protlig.pdb", new_ligname="LIG")
         elif button_id == "load_both_ligs" and from_node and to_node:
-            prot_path = perturbation_root / "protein.pdb"
             lig1_path = perturbation_root / f"{from_node}.pdb"
             lig2_path = perturbation_root / f"{to_node}.pdb"
             merge_protein_lig(prot_path, lig1_path, perturbation_root / "protlig.pdb", new_ligname="LIG")
@@ -515,7 +550,7 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
         else:
             raise PreventUpdate
 
-        outname = str(perturbation_root / "protlig.pdb")
+        outname = str(merged_pdb_cache_path / "protlig.pdb")
         return molstar_helper.parse_molecule(outname)
     except Exception as e:
         print(f"Error in update_viewer: {e}")
