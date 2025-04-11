@@ -25,16 +25,15 @@ from assets.graph_handler import (
 from assets.stats_make import cinnabar_stats
 
 # initialize some data that can be later updated based on the dropdown menu...
-target_name = "tyk2"
 method_name = "Gbar"
 results_root = Path("results")
 CACHE_DIR = Path("cache")
 molplotter = MolPlotter(from_smi=True, size=(-1, -1))
 stats_dict = None
 crashed_edges = []
-perturbation_root = None # Will be set in initialize_data
-ddG_df = pd.DataFrame() # Initialize empty DataFrame
-perturbations = [] # Initialize empty list
+perturbation_root = None  # Will be set in initialize_data
+ddG_df = pd.DataFrame()  # Initialize empty DataFrame
+perturbations = []  # Initialize empty list
 G = None
 node_labels, node_x, node_y, edge_x, edge_y = [], [], [], [], []
 most_connected_name = ""
@@ -69,8 +68,13 @@ def initialize_data(target_name):
                 logger.info(f"Loading cached ddG data from {cache_file}")
                 ddG_df = pd.read_pickle(cache_file)
                 # Basic check to ensure essential columns are present
-                if "from" in ddG_df.columns and "to" in ddG_df.columns and "Q_ddG_avg" in ddG_df.columns and "from_svg" in ddG_df.columns:
-                     loaded_from_cache = True
+                if (
+                    "from" in ddG_df.columns
+                    and "to" in ddG_df.columns
+                    and "Q_ddG_avg" in ddG_df.columns
+                    and "from_svg" in ddG_df.columns
+                ):
+                    loaded_from_cache = True
                 else:
                     logger.warning("Cached file seems incomplete. Recalculating.")
             except Exception as e:
@@ -78,15 +82,17 @@ def initialize_data(target_name):
 
         if not loaded_from_cache:
             logger.info(f"Calculating ddG data for {target_name}")
-            create_pdb_ligand_files(root_path=perturbation_root, overwrite=False) # Keep this here? Maybe not needed if PDBs are cached later? For now, keep.
+            create_pdb_ligand_files(
+                root_path=perturbation_root, overwrite=False
+            )  # Keep this here? Maybe not needed if PDBs are cached later? For now, keep.
             mapping_file = results_root / f"{target_name}/mapping_ddG.json"
             if not mapping_file.exists():
-                 raise FileNotFoundError(f"Mapping file not found: {mapping_file}")
+                raise FileNotFoundError(f"Mapping file not found: {mapping_file}")
             mapping = json.loads(mapping_file.read_text())
             ddG_df = lomap_json_to_dataframe(mapping)
             # Add images only if not loaded from cache or if missing
             if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
-                 ddG_df = add_images_to_df(ddG_df, molplotter)
+                ddG_df = add_images_to_df(ddG_df, molplotter)
             # Save to cache after calculation
             try:
                 ddG_df.to_pickle(cache_file)
@@ -94,17 +100,15 @@ def initialize_data(target_name):
             except Exception as e:
                 logger.error(f"Failed to save data to cache file {cache_file}: {e}")
 
-
         # Generate graph and extract coordinates regardless of cache status
         G = generate_graph(ddG_df)
         G = set_nx_graph_coordinates(G)
         node_labels, node_x, node_y, edge_x, edge_y = extract_graph_coordinates(G)
         most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
 
-
         nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
         crashed_edges = nan_edges.apply(lambda x: f"FEP_{x['from']}_{x['to']}", axis=1).tolist()
-        ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"]).reset_index(drop=True) # Drop NaN and reset index
+        ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"]).reset_index(drop=True)  # Drop NaN and reset index
 
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
         ccc = GraphClosure(from_lig=ddG_df["from"], to_lig=ddG_df["to"], b_ddG=ddG_df["Q_ddG_avg"])
@@ -112,7 +116,9 @@ def initialize_data(target_name):
         if len(ccc.cycles) == 0:
             logger.warning("No cycle found!")
             # Handle case with no cycles gracefully, maybe skip CCC part
-            ddG_df = ddG_df.assign(ccc_ddG=np.nan, ccc_error=np.nan, residual=lambda x: x["Q_ddG_avg"] - x["ddg_value"])
+            ddG_df = ddG_df.assign(
+                ccc_ddG=np.nan, ccc_error=np.nan, residual=lambda x: x["Q_ddG_avg"] - x["ddg_value"]
+            )
         else:
             ccc.iterateCycleClosure(minimum_cycles=2)
             ccc_results_df = (
@@ -120,7 +126,8 @@ def initialize_data(target_name):
                 .rename(columns={"ddG_wcc0": "ccc_ddG", "pair_error": "ccc_error"})
                 .drop(columns=["Pair"])
                 .assign(
-                    ccc_ddG=lambda x: x["ccc_ddG"].astype(float), ccc_error=lambda x: x["ccc_error"].astype(float)
+                    ccc_ddG=lambda x: x["ccc_ddG"].astype(float),
+                    ccc_error=lambda x: x["ccc_error"].astype(float),
                 )
             )
             # Ensure index alignment before concatenation
@@ -142,7 +149,9 @@ def initialize_data(target_name):
 initialize_data(available_targets[0])
 # Set the CSS for the app & layout
 FLATLY_CSS = "https://bootswatch.com/4/flatly/bootstrap.min.css"
-app = Dash(__name__, external_stylesheets=[FLATLY_CSS], suppress_callback_exceptions=True) # Suppress for dynamic layout if needed
+app = Dash(
+    __name__, external_stylesheets=[FLATLY_CSS], suppress_callback_exceptions=True
+)  # Suppress for dynamic layout if needed
 
 app.layout = html.Div(
     style={
@@ -276,8 +285,8 @@ app.layout = html.Div(
                 ),
             ],
         ),
-        dcc.Store(id='clicked-ddg-index-store', storage_type='memory'),
-        dcc.Store(id='perturbation-graph-click-store', storage_type='memory', data={'nodes': []}),
+        dcc.Store(id="clicked-ddg-index-store", storage_type="memory"),
+        dcc.Store(id="perturbation-graph-click-store", storage_type="memory", data={"nodes": []}),
     ],
 )
 
@@ -310,7 +319,9 @@ def construct_network_graph(highlighted_nodes: list = None):
     rest = np.setdiff1d(node_labels, highlighted)
     color_mapping.update({node: color_dict["no_highlight"] for node in rest})
 
-    node_colors = [color_mapping.get(node, color_dict["no_highlight"]) for node in node_labels] # Use .get for safety
+    node_colors = [
+        color_mapping.get(node, color_dict["no_highlight"]) for node in node_labels
+    ]  # Use .get for safety
     node_trace = go.Scatter(
         x=node_x,
         y=node_y,
@@ -346,6 +357,7 @@ def construct_network_graph(highlighted_nodes: list = None):
             ],
             xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
             yaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
+            clickmode="event+select",  # *** ADDED CLICKMODE HERE ***
         ),
     )
     add_legend_trace_to_graph_figure(fig, color_dict)
@@ -374,9 +386,9 @@ def construct_network_graph(highlighted_nodes: list = None):
     [
         Input("ddg-plot", "clickData"),
         Input("target-dropdown", "value"),
-        Input("clicked-ddg-index-store", "data") # Add input from the store
+        Input("clicked-ddg-index-store", "data"),  # Add input from the store
     ],
-    prevent_initial_call=True # Prevent initial call confusion
+    prevent_initial_call=True,  # Prevent initial call confusion
 )
 def update_all_components(ddg_clickData, selected_target, highlight_index_from_graph):
     ctx = callback_context
@@ -390,7 +402,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_g
     lig2_img = no_update
     from_node = no_update
     to_node = no_update
-    clicked_ddg_idx_output = no_update # Avoid loops
+    clicked_ddg_idx_output = no_update  # Avoid loops
 
     if triggered_id == "target-dropdown":
         initialize_data(selected_target)
@@ -401,8 +413,17 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_g
         lig2_img = ""
         from_node = ""
         to_node = ""
-        clicked_ddg_idx_output = None # Reset highlight
-        return ddg_fig, pert_graph_fig, chem_name, lig1_img, lig2_img, from_node, to_node, clicked_ddg_idx_output
+        clicked_ddg_idx_output = None  # Reset highlight
+        return (
+            ddg_fig,
+            pert_graph_fig,
+            chem_name,
+            lig1_img,
+            lig2_img,
+            from_node,
+            to_node,
+            clicked_ddg_idx_output,
+        )
 
     # Handle ddg-plot click
     elif triggered_id == "ddg-plot":
@@ -412,7 +433,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_g
             clicked_ddg_idx_output = None
             # Maybe reset images too? For now, just plot.
             # return ddg_fig, no_update, no_update, no_update, no_update, no_update, no_update, clicked_ddg_idx_output
-            raise PreventUpdate # Or prevent update if nothing should change
+            raise PreventUpdate  # Or prevent update if nothing should change
         else:
             try:
                 clicked_ddg_index = ddg_clickData["points"][0]["customdata"]
@@ -427,7 +448,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_g
                 lig2_img = f"data:image/svg+xml;utf8,{quote(data['to_svg'])}"
                 from_node = lig1
                 to_node = lig2
-                clicked_ddg_idx_output = clicked_ddg_index # Store the index from this click
+                clicked_ddg_idx_output = clicked_ddg_index  # Store the index from this click
 
             except Exception as e:
                 logger.error(f"Error processing ddg-plot click: {e}")
@@ -435,76 +456,96 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_g
                 ddg_fig = create_ddg_plot(ddG_df, perturbations)
                 clicked_ddg_idx_output = None
                 # Return only updated plot and reset index
-                return ddg_fig, no_update, no_update, no_update, no_update, no_update, no_update, clicked_ddg_idx_output
+                return (
+                    ddg_fig,
+                    no_update,
+                    no_update,
+                    no_update,
+                    no_update,
+                    no_update,
+                    no_update,
+                    clicked_ddg_idx_output,
+                )
 
     # Handle highlight update triggered by perturbation graph click
     elif triggered_id == "clicked-ddg-index-store":
         # Only update the ddg plot's highlight
         ddg_fig = create_ddg_plot(ddG_df, perturbations, highlight_index=highlight_index_from_graph)
         # All other outputs remain no_update
-        clicked_ddg_idx_output = highlight_index_from_graph # Ensure store consistency if needed, though maybe redundant
+        clicked_ddg_idx_output = (
+            highlight_index_from_graph  # Ensure store consistency if needed, though maybe redundant
+        )
 
     else:
-         logger.warning(f"Unhandled trigger in update_all_components: {triggered_id}")
-         raise PreventUpdate
+        logger.warning(f"Unhandled trigger in update_all_components: {triggered_id}")
+        raise PreventUpdate
 
     return ddg_fig, pert_graph_fig, chem_name, lig1_img, lig2_img, from_node, to_node, clicked_ddg_idx_output
 
 
 def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
     if perturbations is None:
-        perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
+        # Ensure perturbations match the current ddG_df after potential dropna
+        if not ddG_df.empty:
+            perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
+        else:
+            perturbations = []
 
     logger.info(f"Crashed perturbations: {crashed_edges}")
     n_crashes = len(crashed_edges)
     # Ensure ddG_df is not empty before proceeding
     if ddG_df.empty:
-         logger.warning("ddG_df is empty in create_ddg_plot. Returning empty figure.")
-         return go.Figure()
-    ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"])
-    if ddG_df.empty:
-         logger.warning("ddG_df is empty after dropna in create_ddg_plot. Returning empty figure.")
-         return go.Figure()
-
+        logger.warning("ddG_df is empty in create_ddg_plot. Returning empty figure.")
+        return go.Figure()
+    # Make a copy to avoid modifying the global df if dropna is needed here
+    plot_df = ddG_df.dropna(subset=["Q_ddG_avg"]).copy()
+    if plot_df.empty:
+        logger.warning("ddG_df is empty after dropna in create_ddg_plot. Returning empty figure.")
+        return go.Figure()
+    # Update perturbations to match the filtered df
+    perturbations = list(zip(plot_df["from"], plot_df["to"]))
 
     # Use pre-calculated statistics instead of recalculating
-    all_values = np.concatenate((ddG_df["Q_ddG_avg"], ddG_df["ddg_value"]))
+    all_values = np.concatenate((plot_df["Q_ddG_avg"], plot_df["ddg_value"]))
     margin = 1.0
     min_val, max_val = all_values.min() - margin, all_values.max() + margin
 
     # Define marker colors: red for highlighted, default otherwise
-    marker_colors = ['#1f77b4'] * len(ddG_df) # Default plotly blue
-    marker_sizes = [8] * len(ddG_df) # Default size
-    if highlight_index is not None and highlight_index in ddG_df.index:
+    marker_colors = ["#1f77b4"] * len(plot_df)  # Default plotly blue
+    marker_sizes = [8] * len(plot_df)  # Default size
+    if highlight_index is not None and highlight_index in plot_df.index:
         try:
-            # Get the integer position of the highlight_index
-            loc = ddG_df.index.get_loc(highlight_index)
-            marker_colors[loc] = 'red'
-            marker_sizes[loc] = 12 # Make highlighted point larger
+            # Get the integer position of the highlight_index in the potentially filtered plot_df
+            loc = plot_df.index.get_loc(highlight_index)
+            marker_colors[loc] = "red"
+            marker_sizes[loc] = 12  # Make highlighted point larger
         except KeyError:
-             logger.warning(f"highlight_index {highlight_index} not found in ddG_df index. Skipping highlight.")
+            logger.warning(
+                f"highlight_index {highlight_index} not found in plot_df index. Skipping highlight."
+            )
         except TypeError as e:
-             logger.error(f"TypeError getting location for highlight_index {highlight_index}: {e}")
-
+            logger.error(f"TypeError getting location for highlight_index {highlight_index}: {e}")
 
     # Create figure
     fig = go.Figure()
     # Add scatter plot with error bars
     fig.add_trace(
         go.Scattergl(
-            x=ddG_df["ddg_value"],
-            y=ddG_df["Q_ddG_avg"],
+            x=plot_df["ddg_value"],
+            y=plot_df["Q_ddG_avg"],
             mode="markers",
-            error_y=dict(type="data", array=ddG_df["Q_ddG_sem"], visible=True, thickness=0.75, color="Black"),
+            error_y=dict(
+                type="data", array=plot_df["Q_ddG_sem"], visible=True, thickness=0.75, color="Black"
+            ),
             marker=dict(
-                size=marker_sizes, # Use dynamic sizes
-                color=marker_colors, # Use the dynamic color list
+                size=marker_sizes,  # Use dynamic sizes
+                color=marker_colors,  # Use the dynamic color list
                 opacity=0.8,
-                line=dict(width=0.5, color="Black")
+                line=dict(width=0.5, color="Black"),
             ),
             name="Perturbation",
-            customdata=ddG_df.index, # Ensure index is passed as customdata
-            text=[f"{m[0]} to {m[1]}" for m in perturbations], # Ensure perturbations match ddG_df after dropna
+            customdata=plot_df.index,  # Ensure index is passed as customdata
+            text=[f"{m[0]} to {m[1]}" for m in perturbations],  # Ensure perturbations match plot_df
             hoverinfo="text+name",
         )
     )
@@ -554,7 +595,7 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
     ktau = f"{stats_dict['KTAU']}"
     rmse = f"{stats_dict['RMSE']}"
     mae = f"{stats_dict['MUE']}"
-    text = f"N = {ddG_df.shape[0]} | crashes = {n_crashes} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
+    text = f"N = {plot_df.shape[0]} | crashes = {n_crashes} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
     annotations = [
         {
             "x": 0.5,
@@ -571,81 +612,98 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
     # Update layout for white background and add annotations
     fig.update_layout(
         plot_bgcolor="white",  # Set background to white
-        paper_bgcolor="white", # Also set paper background
+        paper_bgcolor="white",  # Also set paper background
         annotations=annotations,
         xaxis_title="ΔΔG<sub>exp</sub> [kcal/mol]",
         yaxis_title="ΔΔG<sub>pred</sub> [kcal/mol]",
-        xaxis=dict(range=[min_val, max_val], gridcolor='lightgrey'), # Add light grid
-        yaxis=dict(range=[min_val, max_val], gridcolor='lightgrey'), # Add light grid
-        legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01), # Adjust legend position
-        clickmode='event+select' # Ensure click events are captured
+        xaxis=dict(range=[min_val, max_val], gridcolor="lightgrey"),  # Add light grid
+        yaxis=dict(range=[min_val, max_val], gridcolor="lightgrey"),  # Add light grid
+        legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),  # Adjust legend position
+        clickmode="event+select",  # Ensure click events are captured
     )
     return fig
 
 
 @app.callback(
-    [Output('perturbation-graph-click-store', 'data'),
-     Output('clicked-ddg-index-store', 'data', allow_duplicate=True)], # Allow duplicate output
-    [Input('perturbation-graph', 'clickData')],
-    [State('perturbation-graph-click-store', 'data')],
-    prevent_initial_call=True # Prevent initial call
+    [
+        Output("perturbation-graph-click-store", "data"),
+        Output("clicked-ddg-index-store", "data", allow_duplicate=True),
+    ],  # Allow duplicate output
+    [Input("perturbation-graph", "clickData")],
+    [State("perturbation-graph-click-store", "data")],
+    prevent_initial_call=True,  # Prevent initial call
 )
 def update_highlight_from_graph_click(clickData, current_click_store):
+    logger.info(f"Perturbation graph clicked. Data: {clickData}")  # *** ADDED LOGGING ***
     if clickData is None:
         raise PreventUpdate
 
     try:
         # Ensure the click is on a marker point which has 'text'
-        if 'text' not in clickData['points'][0]:
-             logger.warning("Click on perturbation graph did not contain node text.")
-             raise PreventUpdate
-        clicked_node = clickData['points'][0]['text']
+        if "points" not in clickData or not clickData["points"] or "text" not in clickData["points"][0]:
+            logger.warning("Click on perturbation graph did not contain node text.")
+            raise PreventUpdate
+        clicked_node = clickData["points"][0]["text"]
+        logger.info(f"Clicked node: {clicked_node}")
     except (KeyError, IndexError):
         logger.warning("Could not extract node name from perturbation graph clickData")
         raise PreventUpdate
 
-    selected_nodes = current_click_store.get('nodes', [])
-    highlight_index = None # Default: no highlight update
+    selected_nodes = current_click_store.get("nodes", [])
+    highlight_index = None  # Default: no highlight update
+    new_store = current_click_store  # Default to no change
 
     if len(selected_nodes) == 0:
         # First node selected
-        new_store = {'nodes': [clicked_node]}
+        new_store = {"nodes": [clicked_node]}
+        logger.info(f"First node selected: {clicked_node}. Store: {new_store}")
     elif len(selected_nodes) == 1:
         # Second node selected
         node1 = selected_nodes[0]
         node2 = clicked_node
-        if node1 == node2: # Clicked the same node twice
-             new_store = {'nodes': []} # Reset selection
+        if node1 == node2:  # Clicked the same node twice
+            new_store = {"nodes": []}  # Reset selection
+            logger.info(f"Same node clicked twice. Resetting selection. Store: {new_store}")
         else:
-            new_store = {'nodes': [node1, node2]}
             # Find the corresponding edge index in ddG_df
             # Ensure ddG_df is accessible here (it's global after initialize_data)
             try:
                 # Use .loc for potentially faster lookup if index is set appropriately,
                 # but boolean indexing is safer if index isn't guaranteed unique or sorted.
-                edge_forward = ddG_df[(ddG_df['from'] == node1) & (ddG_df['to'] == node2)]
-                edge_backward = ddG_df[(ddG_df['from'] == node2) & (ddG_df['to'] == node1)]
+                edge_forward = ddG_df[(ddG_df["from"] == node1) & (ddG_df["to"] == node2)]
+                edge_backward = ddG_df[(ddG_df["from"] == node2) & (ddG_df["to"] == node1)]
 
                 if not edge_forward.empty:
                     highlight_index = edge_forward.index[0]
+                    new_store = {"nodes": [node1, node2]}  # Keep selected pair
+                    logger.info(
+                        f"Second node selected: {node2}. Found edge {node1}->{node2}. Highlight index: {highlight_index}. Store: {new_store}"
+                    )
                 elif not edge_backward.empty:
                     highlight_index = edge_backward.index[0]
+                    new_store = {"nodes": [node1, node2]}  # Keep selected pair
+                    logger.info(
+                        f"Second node selected: {node2}. Found edge {node2}->{node1}. Highlight index: {highlight_index}. Store: {new_store}"
+                    )
                 else:
-                    logger.warning(f"No edge found between {node1} and {node2}. Resetting selection.")
+                    logger.warning(
+                        f"No edge found between {node1} and {node2}. Resetting selection to {node2}."
+                    )
                     # If no edge exists, reset selection to the newly clicked node
-                    new_store = {'nodes': [clicked_node]}
+                    new_store = {"nodes": [clicked_node]}
             except NameError:
-                 logger.error("ddG_df not accessible in update_highlight_from_graph_click. Was initialize_data run?")
-                 new_store = {'nodes': [clicked_node]} # Reset safely
+                logger.error(
+                    "ddG_df not accessible in update_highlight_from_graph_click. Was initialize_data run?"
+                )
+                new_store = {"nodes": [clicked_node]}  # Reset safely
             except Exception as e:
-                 logger.error(f"Error finding edge between {node1} and {node2}: {e}")
-                 new_store = {'nodes': [clicked_node]} # Reset safely
+                logger.error(f"Error finding edge between {node1} and {node2}: {e}")
+                new_store = {"nodes": [clicked_node]}  # Reset safely
 
-
-    else: # len(selected_nodes) == 2
+    else:  # len(selected_nodes) == 2
         # Third click, reset selection to the newly clicked node
-        new_store = {'nodes': [clicked_node]}
-
+        new_store = {"nodes": [clicked_node]}
+        logger.info(f"Third node clicked: {clicked_node}. Resetting selection. Store: {new_store}")
 
     # Use no_update for highlight_index if it remains None to avoid unnecessary trigger
     return new_store, highlight_index if highlight_index is not None else no_update
@@ -670,57 +728,51 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
         raise PreventUpdate
 
     button_id = ctx.triggered[0]["prop_id"].split(".")[0]
-    # Ensure perturbation_root is accessible (global or passed)
     try:
-        # Use global perturbation_root set by initialize_data
-        protein_path = perturbation_root / "protein.pdb"
-        if not protein_path.exists():
-             logger.error(f"Protein PDB not found: {protein_path}")
-             raise PreventUpdate
+        prot_path = perturbation_root / "protein.pdb"
+        if not prot_path.exists():
+            logger.error(f"Protein PDB not found: {prot_path}")
+            raise PreventUpdate
     except NameError:
-         logger.error("perturbation_root not defined globally. Was initialize_data run?")
-         raise PreventUpdate
+        logger.error("perturbation_root not defined globally. Was initialize_data run?")
+        raise PreventUpdate
 
-
-    ligand_pdb_path = None
-    pdb_content = None
+    pdb_path = CACHE_DIR / f"{perturbation_root.name}/protlig.pdb"
+    if not pdb_path.parent.exists():
+        pdb_path.parent.mkdir(parents=True, exist_ok=True)
 
     if button_id == "load_from_lig" and from_node:
-        ligand_pdb_path = perturbation_root / f"ligands/{from_node}.pdb"
-    elif button_id == "load_to_lig" and to_node:
-        ligand_pdb_path = perturbation_root / f"ligands/{to_node}.pdb"
-    elif button_id == "load_both_ligs" and from_node and to_node:
-        lig1_path = perturbation_root / f"ligands/{from_node}.pdb"
-        lig2_path = perturbation_root / f"ligands/{to_node}.pdb"
-        if lig1_path.exists() and lig2_path.exists():
-             # Simple merge: protein + lig1 + lig2 (adjust merge_protein_lig if needed)
-             # This assumes merge_protein_lig can handle multiple ligands or we have a suitable function
-             # As a placeholder, let's assume merge_protein_lig merges protein and the *first* ligand path given
-             # A better approach would be needed for true multi-ligand viewing
-             pdb_content = merge_protein_lig(str(protein_path), str(lig1_path)) # Example: Load protein + lig1
-             # Ideally: pdb_content = merge_protein_ligs(str(protein_path), [str(lig1_path), str(lig2_path)])
-        else:
-             logger.error(f"One or both ligand PDBs not found for 'load_both_ligs': {lig1_path}, {lig2_path}")
-             raise PreventUpdate
+        lig1_path = perturbation_root / f"{from_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
 
-    # If loading single ligand or fallback from 'both'
-    if ligand_pdb_path and pdb_content is None:
-        if ligand_pdb_path.exists():
-            pdb_content = merge_protein_lig(str(protein_path), str(ligand_pdb_path))
+    elif button_id == "load_to_lig" and to_node:
+        lig1_path = perturbation_root / f"{to_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
+
+    elif button_id == "load_both_ligs" and from_node and to_node:
+        lig1_path = perturbation_root / f"{from_node}.pdb"
+        lig2_path = perturbation_root / f"{to_node}.pdb"
+        logger.info(f"Loading ligand from {lig1_path}")
+        logger.info(f"Loading ligand from {lig2_path}")
+        if lig1_path.exists() and lig2_path.exists():
+            pdb_df = merge_protein_lig(prot_path, lig1_path, pdb_path, new_ligname="LIG")
+            pdb_df = merge_protein_lig(pdb_path, lig2_path, pdb_path, new_ligname="LID")
         else:
-             logger.error(f"Ligand PDB not found: {ligand_pdb_path}")
-             raise PreventUpdate
+            logger.error(f"One or both ligand PDBs not found for 'load_both_ligs': {lig1_path}, {lig2_path}")
+            raise PreventUpdate
 
     # Generate payload if PDB content was created
-    if pdb_content:
-        return molstar_helper.create_molstar_payload(pdb_content, format="pdb")
+    if pdb_df is not None:
+        if not pdb_path.exists():
+            logger.error(f"PDB file not found after merge: {pdb_path}")
+            raise PreventUpdate
+        else:
+            return molstar_helper.parse_molecule(pdb_path)
     else:
-        # Handle cases where no button was effectively processed or node was missing
-        if button_id in ["load_from_lig", "load_to_lig"] and not (from_node or to_node):
-             logger.warning(f"Load button clicked but corresponding node is missing.")
-        # If pdb_content is still None after all checks, prevent update
         raise PreventUpdate
 
 
 if __name__ == "__main__":
-	app.run_server(debug=True)
+    app.run_server(debug=True)
