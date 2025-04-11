@@ -35,23 +35,27 @@ N-terminal of Chain A was also minimized to remove a clash leading to infinite V
 
 Due to the issues above, an internally-prepared structure was used for the calculations. The structure used, however, is very similar to the one produced by the above modifications.
 
-**Ligand changes**
+**Ligand Changes**
 
-Another change, however, was the usage of different input ligand structures. We noticed poorer correlation with the experimental data when using the ligands from the `IndustryBenchmarks2024` repository. We hypothesize this is due to rotamer differences in the ligands. For example, ligand `17` in the series contains a halogen meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6GUK`, though different from the ligand in question, displays a different rotamer pointing towards the cyclohexyl group, less solvent-exposed. We hypothesize that caused the poor QligFEP results' correlation with the experimental data and decided to use poses with the halogen pointing towards the cyclohexyl group.
+An additional change was introduced to the input ligand structures. We noticed poorer correlation with the experimental data when using the ligands from the `IndustryBenchmarks2024` repository. Ligand `17` in the series contains a halogen meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6GUK`, though different from the ligand in question, displays a different rotamer pointing towards the cyclohexyl group, less solvent-exposed. The space where the chlorine group is positioned in this deposited structure has an [overlap](https://www.ebi.ac.uk/pdbe/entry/view3D/6guk/?view=entry_index&viewer=litemol&assembly=1) of both 2Fo-Fc $\sigma$ and Fo-Fc(-ve) $\sigma$ maps, indicating an uncertainty in the positioning of the halogen atom. However, we assumed the rotamer conformation to have contributed for the poor correlation between QligFEP results with the experimental data and decided to use poses with the halogen pointing towards the cyclohexyl group.
 
-For a quick visualization of the protein structure illustrating this binding pose, see:
+<!-- For a quick visualization of the deposited protein structure illustrating this binding pose, see:
 
 ```python
+import py3Dmol
+
 viewer = py3Dmol.view(query="pdb:6GUK")
 viewer.setStyle({"model": 0, "not resn": "FC8"}, {"cartoon": {"color": "gray"}})
 viewer.setStyle(
     {"model": 0, "resn": "FC8"},
     {"stick": {"colorscheme": "greenCarbon", "radius": 0.3}},
 )
-viewer.addSurface(py3Dmol.VDW, {"opacity": 0.7, "color": "white"}, {"not resn": "FC8"})
+viewer.addSurface(
+    py3Dmol.VDW, {"opacity": 0.5, "color": "white"}, {"not": {"resn": "FC8"}}
+)
 viewer.zoomTo({"resn": "FC8"})
 viewer.show()
-```
+``` -->
 
 ### jnk1
 
@@ -125,6 +129,29 @@ ATOM    287 1HA  NME A  16A     81.022  98.883 255.184  1.00  0.00           H
 ATOM    288 2HA  NME A  16A     81.132  97.880 253.668  1.00  0.00           H  
 ATOM    289 3HA  NME A  16A     79.949  99.249 253.759  1.00  0.00           H  
 ```
+
+**Ligand Changes**
+
+An additional change was introduced to the input ligand structures. We noticed poorer correlation with the experimental data for the edges including ligand `43` from the `IndustryBenchmarks2024` repository. This ligand in the series contains a halogen (`Br`) meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6HVI` [with the co-crystalized ligand](https://www.ebi.ac.uk/pdbe/entry/view3D/6hvi/?view=entry_index&viewer=litemol&assembly=1) `38` of the congeneric series also contains a meta-substitution of the phenyl ring, but on the opposite orientation than ligand 43. Therefore, we decided to flip the cyclohexyl group in ligand 43 to match the observed orientation in the protein structure. Doing so, we observed a better correlation between the calculated and experimental data, supporting the decision to use this pose.
+
+<!-- ```python
+import py3Dmol
+
+viewer = py3Dmol.view(query="pdb:6HVI")
+viewer.setStyle(
+    {"model": 0, "not resn": "GV5"},
+    {"cartoon": {"colorscheme": "gray"}},
+)
+viewer.setStyle(
+    {"model": 0, "resn": "GV5"},
+    {"stick": {"colorscheme": "greenCarbon", "radius": 0.3}},
+)
+viewer.addSurface(
+    py3Dmol.VDW, {"opacity": 0.5, "color": "white"}, {"not": {"resn": "GV5"}}
+)
+viewer.zoomTo({"resn": "GV5"})
+viewer.show()
+``` -->
 
 ### shp2
 `phe113, his114, thr219, glu249, asp489, lys492`
