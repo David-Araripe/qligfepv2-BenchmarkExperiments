@@ -1,27 +1,29 @@
 import json
-from loguru import logger
-from urllib.parse import quote
 from pathlib import Path
-from dash import Dash, dcc, html, Input, Output, callback_context, State, no_update
-import plotly.graph_objs as go
-import numpy as np
-from dash.exceptions import PreventUpdate
-from chemFilters.img_render import MolPlotter
-from WeightedCCC import GraphClosure
-from dash_molstar.utils import molstar_helper
-import dash_molstar
-import pandas as pd
+from urllib.parse import quote
 
-# local imports
-from assets.pdb_handler import merge_protein_lig, create_pdb_ligand_files
-from assets.molecule_handler import lomap_json_to_dataframe, add_images_to_df
+import dash_molstar
+import numpy as np
+import pandas as pd
+import plotly.graph_objs as go
+from chemFilters.img_render import MolPlotter
+from dash import Dash, Input, Output, State, callback_context, dcc, html, no_update
+from dash.exceptions import PreventUpdate
+from dash_molstar.utils import molstar_helper
+from loguru import logger
+from WeightedCCC import GraphClosure
+
 from assets.graph_handler import (
+    add_legend_trace_to_graph_figure,
     extract_graph_coordinates,
     generate_graph,
     get_most_connected_cpd,
     set_nx_graph_coordinates,
-    add_legend_trace_to_graph_figure,
 )
+from assets.molecule_handler import add_images_to_df, lomap_json_to_dataframe
+
+# local imports
+from assets.pdb_handler import create_pdb_ligand_files, merge_protein_lig
 from assets.stats_make import cinnabar_stats
 
 # initialize some data that can be later updated based on the dropdown menu...
@@ -627,8 +629,8 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
         annotations=annotations,
         xaxis_title="ΔΔG<sub>exp</sub> [kcal/mol]",
         yaxis_title="ΔΔG<sub>pred</sub> [kcal/mol]",
-        xaxis=dict(range=[min_val, max_val], gridcolor='lightgrey'), # Add light grid
-        yaxis=dict(range=[min_val, max_val], gridcolor='lightgrey'), # Add light grid
+        xaxis=dict(range=[min_val, max_val], gridcolor='lightgrey', constrain='domain'), # Add light grid, constrain domain
+        yaxis=dict(range=[min_val, max_val], gridcolor='lightgrey', scaleanchor="x", scaleratio=1, constrain='domain'), # same as x-axis, scale to 1
         legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01), # Adjust legend position
         clickmode='event+select' # Ensure click events are captured
     )
