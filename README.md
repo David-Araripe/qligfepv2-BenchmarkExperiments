@@ -75,6 +75,8 @@ No manual minimization performed. Bad clashes were only observed against water m
 
 Prepared protein found in the source repository displayed poor correlation with the experimental data. Therefore, we proceeded to use an internally prepared structure by us, generated before this study was conducted and that was known to work well with QligFEP RBFE calculations.
 
+Upon checking the ligands, we noticed a need for optimization of the ligand poses. Despite the good MCS alignment for the scaffold shared by the ligands, other parts of the ligand weren't so well aligned. Therefore, we decided to perform a few additional alignments on top of the ligand preparation on IndustryBenchmarks2024 repository. The changes can be found in our [ligand alignment notebook](startFiles/ligand_alignment.ipynb).
+
 ### thrombin
 
 The protein found in the source repository contained some hydrogen positioning problems, which we attempted to fix using Maestro's `Refine > H-bond-assignment` tool. Further, some amino acids were placed in the sequence in the incorrect order. Those were fixed by manually reordering them.
