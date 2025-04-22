@@ -1,0 +1,484 @@
+{
+    "nodes": {
+        "23477": {
+            "dg_value": -8.85,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23480": {
+            "dg_value": -8.72,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[N]([C](=[O])[O][C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23482": {
+            "dg_value": -10.01,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[N]([S](=[O])(=[O])[C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "20670": {
+            "dg_value": -9.08,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23479": {
+            "dg_value": -9.14,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[N]([C](=[O])[C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23330": {
+            "dg_value": -10.13,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23484": {
+            "dg_value": -7.75,
+            "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([H])[c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[N]([S](=[O])(=[O])[C]([H])([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C]([H])([H])[C]3([H])[H])[c]2[H])[S][C]([C](=[O])[O-])=[C]1[O][C]([H])([H])[C](=[O])[O-]",
+            "formal_charge": -2.0
+        },
+        "20667": {
+            "dg_value": -11.42,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23486": {
+            "dg_value": -12.47,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([Cl])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23485": {
+            "dg_value": -11.01,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([C]([H])([H])[H])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23467": {
+            "dg_value": -7.34,
+            "smiles": "[H][c]1[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23471": {
+            "dg_value": -7.75,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C](=[O])[O][C]([H])([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23466": {
+            "dg_value": -7.85,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23470": {
+            "dg_value": -7.72,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C](=[O])[N]([H])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23468": {
+            "dg_value": -7.75,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C](=[O])[C]([H])([H])[C]([H])([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23475": {
+            "dg_value": -8.72,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "20669": {
+            "dg_value": -8.61,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23469": {
+            "dg_value": -7.72,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C](=[O])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23472": {
+            "dg_value": -8.65,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[S](=[O])(=[O])[c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23473": {
+            "dg_value": -8.39,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[O][c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23483": {
+            "dg_value": -9.87,
+            "smiles": "[H][c]1[c]([H])[c]([H])[c]([S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23474": {
+            "dg_value": -9.11,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]([H])([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        },
+        "23476": {
+            "dg_value": -9.41,
+            "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
+            "formal_charge": -2.0
+        }
+    },
+    "edges": [
+        {
+            "from": "23477",
+            "to": "23330",
+            "similarity": 0.6376281516217733,
+            "strict_flag": true,
+            "ddg_value": -1.28,
+            "same_charge": true,
+            "Q_ddG_avg": -0.8004999999999995,
+            "Q_ddG_sem": 0.20754771258676874,
+            "Q_ddG_std": 0.6563234949321864
+        },
+        {
+            "from": "23477",
+            "to": "20670",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": -0.23,
+            "same_charge": true,
+            "Q_ddG_avg": 2.125599999999995,
+            "Q_ddG_sem": 0.3856780444878863,
+            "Q_ddG_std": 1.219621064101469
+        },
+        {
+            "from": "23477",
+            "to": "23466",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": 1.0,
+            "same_charge": true,
+            "Q_ddG_avg": 5.651875,
+            "Q_ddG_sem": 1.3238561415189718,
+            "Q_ddG_std": 4.186400701602153
+        },
+        {
+            "from": "23480",
+            "to": "20670",
+            "similarity": 0.6376281516217733,
+            "strict_flag": true,
+            "ddg_value": -0.36,
+            "same_charge": true,
+            "Q_ddG_avg": 0.2184999999999988,
+            "Q_ddG_sem": 0.26128148996819517,
+            "Q_ddG_std": 0.8262446187419321
+        },
+        {
+            "from": "23480",
+            "to": "23479",
+            "similarity": 0.6376281516217733,
+            "strict_flag": true,
+            "ddg_value": -0.42,
+            "same_charge": true,
+            "Q_ddG_avg": 1.4585,
+            "Q_ddG_sem": 0.3816079309972475,
+            "Q_ddG_std": 1.206750235135672
+        },
+        {
+            "from": "23480",
+            "to": "23483",
+            "similarity": 0.3499377491111553,
+            "strict_flag": false,
+            "ddg_value": -1.15,
+            "same_charge": true,
+            "Q_ddG_avg": -2.5451222222222327,
+            "Q_ddG_sem": 0.6025418654477745,
+            "Q_ddG_std": 1.9054046804216793
+        },
+        {
+            "from": "23482",
+            "to": "23479",
+            "similarity": 0.6065306597126333,
+            "strict_flag": true,
+            "ddg_value": 0.87,
+            "same_charge": true,
+            "Q_ddG_avg": 2.9395000000000095,
+            "Q_ddG_sem": 0.39138931130014204,
+            "Q_ddG_std": 1.2376816755531268
+        },
+        {
+            "from": "23482",
+            "to": "20667",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -1.41,
+            "same_charge": true,
+            "Q_ddG_avg": -2.525199999999998,
+            "Q_ddG_sem": 0.7843943880472373,
+            "Q_ddG_std": 2.480472850083226
+        },
+        {
+            "from": "23482",
+            "to": "23486",
+            "similarity": 0.5406408953093165,
+            "strict_flag": false,
+            "ddg_value": -2.46,
+            "same_charge": true,
+            "Q_ddG_avg": -0.8237000000000094,
+            "Q_ddG_sem": 0.5589809701590921,
+            "Q_ddG_std": 1.7676530343933445
+        },
+        {
+            "from": "20670",
+            "to": "23330",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -1.05,
+            "same_charge": true,
+            "Q_ddG_avg": -3.4534999999999996,
+            "Q_ddG_sem": 0.20906969412136234,
+            "Q_ddG_std": 0.6611364231382205
+        },
+        {
+            "from": "20670",
+            "to": "23479",
+            "similarity": 0.7046880897187134,
+            "strict_flag": true,
+            "ddg_value": -0.06,
+            "same_charge": true,
+            "Q_ddG_avg": 0.33450000000000557,
+            "Q_ddG_sem": 0.3221915036123705,
+            "Q_ddG_std": 1.0188589941694588
+        },
+        {
+            "from": "20670",
+            "to": "23466",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": 1.23,
+            "same_charge": true,
+            "Q_ddG_avg": 3.8847321428571426,
+            "Q_ddG_sem": 1.294462527034554,
+            "Q_ddG_std": 4.093449931166477
+        },
+        {
+            "from": "23479",
+            "to": "23483",
+            "similarity": 0.3678794411714423,
+            "strict_flag": false,
+            "ddg_value": -0.73,
+            "same_charge": true,
+            "Q_ddG_avg": -3.9669999999999916,
+            "Q_ddG_sem": 0.9198701495319869,
+            "Q_ddG_std": 2.908884824120749
+        },
+        {
+            "from": "23484",
+            "to": "23486",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -4.72,
+            "same_charge": true,
+            "Q_ddG_avg": -1.0991,
+            "Q_ddG_sem": 0.2876287137961021,
+            "Q_ddG_std": 0.9095618560603782
+        },
+        {
+            "from": "23484",
+            "to": "23485",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -3.26,
+            "same_charge": true,
+            "Q_ddG_avg": 0.11500000000000021,
+            "Q_ddG_sem": 0.4070746221517622,
+            "Q_ddG_std": 1.2872829836520019
+        },
+        {
+            "from": "20667",
+            "to": "23485",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.41,
+            "same_charge": true,
+            "Q_ddG_avg": 2.340100000000003,
+            "Q_ddG_sem": 0.1589057236225304,
+            "Q_ddG_std": 0.5025040198844186
+        },
+        {
+            "from": "20667",
+            "to": "23486",
+            "similarity": 0.9851119396030626,
+            "strict_flag": true,
+            "ddg_value": -1.05,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5958999999999994,
+            "Q_ddG_sem": 0.2453189943726331,
+            "Q_ddG_std": 0.7757667755195501
+        },
+        {
+            "from": "23467",
+            "to": "23468",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": -0.41,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5409000000000006,
+            "Q_ddG_sem": 0.38799699096771356,
+            "Q_ddG_std": 1.2269542167497531
+        },
+        {
+            "from": "23467",
+            "to": "23466",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": -0.51,
+            "same_charge": true,
+            "Q_ddG_avg": 0.5258000000000038,
+            "Q_ddG_sem": 0.2821284282024764,
+            "Q_ddG_std": 0.8921684258031098
+        },
+        {
+            "from": "23467",
+            "to": "23473",
+            "similarity": 0.5488116360940264,
+            "strict_flag": false,
+            "ddg_value": -1.05,
+            "same_charge": true,
+            "Q_ddG_avg": -2.0796,
+            "Q_ddG_sem": 0.5557759206730712,
+            "Q_ddG_std": 1.7575177780039666
+        },
+        {
+            "from": "23467",
+            "to": "23474",
+            "similarity": 0.522045776761016,
+            "strict_flag": false,
+            "ddg_value": -1.77,
+            "same_charge": true,
+            "Q_ddG_avg": -2.0151777777777795,
+            "Q_ddG_sem": 0.7828993103668181,
+            "Q_ddG_std": 2.47574499933422
+        },
+        {
+            "from": "23467",
+            "to": "20669",
+            "similarity": 0.522045776761016,
+            "strict_flag": false,
+            "ddg_value": -1.27,
+            "same_charge": true,
+            "Q_ddG_avg": -0.3089999999999993,
+            "Q_ddG_sem": 0.626612615576801,
+            "Q_ddG_std": 1.9815230758181948
+        },
+        {
+            "from": "23467",
+            "to": "23476",
+            "similarity": 0.23457028809379762,
+            "strict_flag": false,
+            "ddg_value": -2.07,
+            "same_charge": true,
+            "Q_ddG_avg": -2.784900000000004,
+            "Q_ddG_sem": 0.8110288295327935,
+            "Q_ddG_std": 2.5646983493840616
+        },
+        {
+            "from": "23471",
+            "to": "23470",
+            "similarity": 0.6376281516217733,
+            "strict_flag": true,
+            "ddg_value": 0.03,
+            "same_charge": true,
+            "Q_ddG_avg": -0.6838999999999977,
+            "Q_ddG_sem": 0.40860415685599677,
+            "Q_ddG_std": 1.292119797077655
+        },
+        {
+            "from": "23471",
+            "to": "23466",
+            "similarity": 0.6703200460356393,
+            "strict_flag": true,
+            "ddg_value": -0.1,
+            "same_charge": true,
+            "Q_ddG_avg": 1.5603999999999942,
+            "Q_ddG_sem": 0.3415801370103361,
+            "Q_ddG_std": 1.0801712364250404
+        },
+        {
+            "from": "23471",
+            "to": "23468",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": -0.44170000000000087,
+            "Q_ddG_sem": 0.24814596712419082,
+            "Q_ddG_std": 0.7847064482977057
+        },
+        {
+            "from": "23466",
+            "to": "23475",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": -0.87,
+            "same_charge": true,
+            "Q_ddG_avg": -3.3019,
+            "Q_ddG_sem": 1.1511098249081186,
+            "Q_ddG_std": 3.6401288837072787
+        },
+        {
+            "from": "23466",
+            "to": "23476",
+            "similarity": 0.49658530379140947,
+            "strict_flag": false,
+            "ddg_value": -1.56,
+            "same_charge": true,
+            "Q_ddG_avg": -1.9757619047619057,
+            "Q_ddG_sem": 1.0703703093289585,
+            "Q_ddG_std": 3.384808117298484
+        },
+        {
+            "from": "23466",
+            "to": "23474",
+            "similarity": 0.49658530379140947,
+            "strict_flag": false,
+            "ddg_value": -1.26,
+            "same_charge": true,
+            "Q_ddG_avg": -3.362285714285715,
+            "Q_ddG_sem": 1.2150920163359091,
+            "Q_ddG_std": 3.842458338307997
+        },
+        {
+            "from": "20669",
+            "to": "23472",
+            "similarity": 0.6065306597126334,
+            "strict_flag": true,
+            "ddg_value": -0.04,
+            "same_charge": true,
+            "Q_ddG_avg": -0.5512999999999977,
+            "Q_ddG_sem": 0.5114252760667979,
+            "Q_ddG_std": 1.6172687253514813
+        },
+        {
+            "from": "20669",
+            "to": "23469",
+            "similarity": 0.7788007830714048,
+            "strict_flag": true,
+            "ddg_value": 0.89,
+            "same_charge": true,
+            "Q_ddG_avg": 0.05860000000000021,
+            "Q_ddG_sem": 0.4025459129093226,
+            "Q_ddG_std": 1.272961947585237
+        },
+        {
+            "from": "20669",
+            "to": "23473",
+            "similarity": 0.951229424500714,
+            "strict_flag": true,
+            "ddg_value": 0.22,
+            "same_charge": true,
+            "Q_ddG_avg": -1.7410000000000032,
+            "Q_ddG_sem": 0.4223590983985072,
+            "Q_ddG_std": 1.3356167414344577
+        },
+        {
+            "from": "23469",
+            "to": "23473",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": -0.67,
+            "same_charge": true,
+            "Q_ddG_avg": -1.1497000000000028,
+            "Q_ddG_sem": 0.4956498088368439,
+            "Q_ddG_std": 1.5673823177514794
+        }
+    ]
+}
