@@ -483,7 +483,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
 
                 ddg_fig = create_ddg_plot(ddG_df, perturbations, highlight_index=clicked_ddg_index)
                 pert_graph_fig = construct_network_graph([lig1, lig2])
-                chem_name = f"Perturbation error = {data['residual']:.2f}"
+                chem_name = ["ΔΔG - calc(ΔΔG):", html.Br(), f"{data['residual']:.2f} ± {data['Q_ddG_sem']:.2f} (SEM) kcal/mol"]
                 lig1_img = f"data:image/svg+xml;utf8,{quote(data['from_svg'])}"
                 lig2_img = f"data:image/svg+xml;utf8,{quote(data['to_svg'])}"
                 from_node = lig1
