@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from urllib.parse import quote
 
+import dash_bootstrap_components as dbc
 import dash_molstar
 import numpy as np
 import pandas as pd
@@ -274,17 +275,13 @@ app.layout = html.Div(
                 html.Div(id="to-node-storage", style={"display": "none"}),
                 html.Div(id="both-nodes-storage", style={"display": "none"}),
                 # Buttons for loading "from" and "to" nodes
-                html.Div(
+                dbc.ButtonGroup(
                     [
-                        html.Button(
-                            'Load "From" Ligand', id="load_from_lig", style={"margin-bottom": "10px"}
-                        ),
-                        html.Button('Load "To" Ligand', id="load_to_lig", style={"margin-bottom": "10px"}),
-                        html.Button(
-                            "Load Both Ligands", id="load_both_ligs", style={"margin-bottom": "10px"}
-                        ),
+                        dbc.Button("Load \"From\" Ligand", id="load_from_lig", color="primary", className="mb-2"),
+                        dbc.Button("Load \"To\" Ligand", id="load_to_lig", color="info", className="mb-2"),
+                        dbc.Button("Load Both Ligands", id="load_both_ligs", color="secondary", className="mb-2"),
                     ],
-                    style={"display": "flex", "flex-direction": "column", "align-items": "center"},
+                    vertical=True,
                 ),
             ],
         ),
@@ -771,12 +768,13 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
             logger.error(f"Protein PDB not found: {prot_path}")
             raise PreventUpdate
         elif not water_path.exists():
-            logger.error(f"WAter PDB not found: {water_path}")
+            logger.error(f"Water PDB not found: {water_path}")
             raise PreventUpdate
     except NameError:
         logger.error("perturbation_root not defined globally. Was initialize_data run?")
         raise PreventUpdate
 
+    pdb_path = None
     if button_id == "load_from_lig" and from_node:
         pdb_path = CACHE_DIR / f"{perturbation_root.name}/protlig_{from_node}.pdb"
     elif button_id == "load_to_lig" and to_node:
@@ -850,4 +848,4 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
