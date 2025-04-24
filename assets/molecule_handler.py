@@ -66,8 +66,8 @@ def add_images_to_df(df, molplotter: MolPlotter, n_jobs=1) -> pd.DataFrame:
     mcs_handler = MCSClustering(
         [],
         timeout=20,
-        atomCompare="CompareAnyHeavyAtom",
-        bondCompare="CompareOrder",
+        bondCompare="CompareOrderExact",
+        ringCompare="StrictRingFusion",
         ringMatchesRingOnly=True,
     )
     partial_func = partial(molplotter.render_mol, return_svg=True)

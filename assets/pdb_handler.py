@@ -1,68 +1,11 @@
 import string
+from typing import Union
 import numpy as np
 import pandas as pd
 from pathlib import Path
 from rdkit import Chem
 from rdkit.Chem import AllChem
-
-
-def read_pdb_to_dataframe(pdb_file):
-    columns = [
-        "record_type",
-        "atom_serial_number",
-        "atom_name",
-        "alt_loc",
-        "residue_name",
-        "chain_id",
-        "residue_seq_number",
-        "insertion_code",
-        "x",
-        "y",
-        "z",
-        "occupancy",
-        "temp_factor",
-        "segment_id",
-        "element_symbol",
-        "charge",
-    ]
-    data = []
-    with open(pdb_file, "r") as file:
-        for line in file:
-            if line.startswith(("ATOM", "HETATM")):
-                parsed_line = [
-                    line[0:6].strip(),  # record_type
-                    int(line[6:11].strip()),  # atom_serial_number
-                    line[12:16].strip(),  # atom_name
-                    line[16].strip(),  # alt_loc
-                    line[17:20].strip(),  # residue_name
-                    line[21].strip(),  # chain_id
-                    int(line[22:26].strip()),  # residue_seq_number
-                    line[26].strip(),  # insertion_code
-                    float(line[30:38].strip()),  # x
-                    float(line[38:46].strip()),  # y
-                    float(line[46:54].strip()),  # z
-                    float(line[54:60].strip()),  # occupancy
-                    float(line[60:66].strip()),  # temp_factor
-                    line[72:76].strip(),  # segment_id
-                    line[76:78].strip(),  # element_symbol
-                    line[78:80].strip(),  # charge
-                ]
-                data.append(parsed_line)
-    df = pd.DataFrame(data, columns=columns)
-    return df
-
-
-def write_dataframe_to_pdb(df, output_file):
-    with open(output_file, "w") as file:
-        for index, row in df.iterrows():
-            pdb_line = (
-                f"{row['record_type']:<6}{row['atom_serial_number']:>5} "
-                f"{row['atom_name']:<4}{row['alt_loc']:<1}{row['residue_name']:>3} "
-                f"{row['chain_id']:>1}{row['residue_seq_number']:>4}{row['insertion_code']:>1}   "
-                f"{row['x']:>8.3f}{row['y']:>8.3f}{row['z']:>8.3f}{row['occupancy']:>6.2f}"
-                f"{row['temp_factor']:>6.2f}          {row['element_symbol']:>2}{row['charge']:>2}\n"
-            )
-            file.write(pdb_line)
+from QligFEP.pdb_utils import read_pdb_to_dataframe, write_dataframe_to_pdb
 
 
 def create_pdb_ligand_files(root_path: Path, overwrite: bool = False) -> None:
@@ -102,9 +45,14 @@ def sdf_to_pdb(in_sdf_file, out_pdb_file):
             break  # there's only one per sdf anyways...
 
 
-def merge_protein_lig(protein_pdb, lig_pdb, save_pdb, new_ligname="LIG"):
-    prot_df = read_pdb_to_dataframe(protein_pdb)
-    lig_df = read_pdb_to_dataframe(lig_pdb)
+def merge_protein_lig(
+    protein_pdb: Union[Path, pd.DataFrame, str],
+    lig_pdb: Union[Path, pd.DataFrame, str],
+    save_pdb: Path,
+    new_ligname="LIG",
+):
+    prot_df = read_pdb_to_dataframe(protein_pdb) if isinstance(protein_pdb, Path) else protein_pdb
+    lig_df = read_pdb_to_dataframe(lig_pdb) if isinstance(lig_pdb, Path) else lig_pdb
 
     # Determine the new chain ID for the ligand
     existing_chain_ids = set(prot_df["chain_id"].replace({"": np.nan}).dropna().unique())

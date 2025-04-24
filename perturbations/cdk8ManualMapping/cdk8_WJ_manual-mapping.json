@@ -1,0 +1,558 @@
+{
+    "nodes": {
+        "43": {
+            "dg_value": -11.938,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[c]2[c]([H])[c]([H])[c]([C]([H])([H])[C]3=[N][N]([H])[c]4[c]([H])[c]([H])[c]([C](=[O])[N]5[C]([H])([H])[C]([H])([H])[C]([F])([F])[C]5([H])[H])[c]([H])[c]43)[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "22": {
+            "dg_value": -10.2855,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C]4=[N][C]([H])=[C]([H])[N]4[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "21": {
+            "dg_value": -9.75447,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C]4=[C]([H])[N]([C]([H])([H])[H])[C]([H])=[N]4)[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "30": {
+            "dg_value": -11.6963,
+            "smiles": "[H][O][C@]1([H])[C]([H])([H])[N]([C](=[O])[c]2[c]([H])[c]([H])[c]3[c]([c]2[H])[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([C]4=[C]([H])[N]([C]([H])([H])[H])[N]=[C]4[H])[c]([H])[c]2[H])=[N][N]3[H])[C]([H])([H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        },
+        "37": {
+            "dg_value": -11.5248,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "38": {
+            "dg_value": -11.3918,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([H])[C]([F])([F])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "31": {
+            "dg_value": -11.938,
+            "smiles": "[H][O][C@@]1([H])[C]([H])([H])[N]([C](=[O])[c]2[c]([H])[c]([H])[c]3[c]([c]2[H])[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([C]4=[C]([H])[N]([C]([H])([H])[H])[N]=[C]4[H])[c]([H])[c]2[H])=[N][N]3[H])[C]([H])([H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        },
+        "24": {
+            "dg_value": -10.3442,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([N]([H])[C](=[O])[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "39": {
+            "dg_value": -11.5248,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([H])[O][C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "40": {
+            "dg_value": -11.1913,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([H])[N]([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "41": {
+            "dg_value": -11.2832,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "29": {
+            "dg_value": -9.25606,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([S](=[O])(=[O])[N]([H])[C]4([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "26": {
+            "dg_value": -10.2153,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([N]4[C](=[O])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "20": {
+            "dg_value": -10.6986,
+            "smiles": "[H][O][C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[N]1[N]=[C]([H])[C]([c]2[c]([H])[c]([H])[c]([C]([H])([H])[C]3=[N][N]([H])[c]4[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]43)[c]([H])[c]2[H])=[C]1[H]",
+            "formal_charge": 0.0
+        },
+        "32": {
+            "dg_value": -9.54958,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "19": {
+            "dg_value": -10.7371,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "33": {
+            "dg_value": -11.1117,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]4([H])[C]([H])([H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "35": {
+            "dg_value": -11.5248,
+            "smiles": "[H][O][C]1([H])[C]([H])([H])[N]([C](=[O])[c]2[c]([H])[c]([H])[c]3[c]([c]2[H])[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]([C]4=[C]([H])[N]([C]([H])([H])[H])[N]=[C]4[H])[c]([H])[c]2[H])=[N][N]3[H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        },
+        "27": {
+            "dg_value": -8.4639,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([N]([H])[C]([H])([H])[C]([H])([H])[N]([H])[C](=[O])[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "13": {
+            "dg_value": -11.2832,
+            "smiles": "[H][O][c]1[c]([H])[c]2[c]([c]([H])[c]1[C](=[O])[N]1[C]([H])([H])[C]([H])([H])[C@]([H])([O][H])[C]1([H])[H])[C]([C]([H])([H])[c]1[c]([H])[c]([H])[c]([H])[c]([C]([H])([H])[H])[c]1[H])=[N][N]2[H]",
+            "formal_charge": 0.0
+        },
+        "23": {
+            "dg_value": -9.01441,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c](-[c]4[n][c]([H])[c]([H])[c]([N]([H])[H])[c]4[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "16-flipped": {
+            "dg_value": -9.29013,
+            "smiles": "[H][c]1[c]([H])[c]([C]([H])([H])[H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]32)[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "15": {
+            "dg_value": -7.68793,
+            "smiles": "[H][c]1[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]([O][C]([H])([H])[H])[c]1[O][C]([H])([H])[H]",
+            "formal_charge": 0.0
+        },
+        "36": {
+            "dg_value": -11.2832,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([H])([O][C]([H])([H])[H])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "34": {
+            "dg_value": -11.1913,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([C](=[O])[N]4[C]([H])([H])[C]([F])([F])[C]4([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "25": {
+            "dg_value": -9.79395,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[C]([H])=[C]1[c]1[c]([H])[c]([H])[c]([C]([H])([H])[C]2=[N][N]([H])[c]3[c]([H])[c]([H])[c]([N]([H])[S](=[O])(=[O])[C]([H])([H])[H])[c]([H])[c]32)[c]([H])[c]1[H]",
+            "formal_charge": 0.0
+        },
+        "14": {
+            "dg_value": -8.33796,
+            "smiles": "[H][c]1[c]([H])[c]2[c]([c]([H])[c]1[C](=[O])[N]([H])[C]([H])([H])[H])[C]([C]([H])([H])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])=[N][N]2[H]",
+            "formal_charge": 0.0
+        },
+        "18-flipped": {
+            "dg_value": -10.9787,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[c]2[c]([H])[c]([H])[c]([C]([H])([H])[C]3=[N][N]([H])[c]4[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]43)[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "17-flipped": {
+            "dg_value": -8.99273,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[c]2[c]([H])[c]([C]([H])([H])[C]3=[N][N]([H])[c]4[c]([H])[c]([H])[c]([C](=[O])[N]([H])[C]([H])([H])[H])[c]([H])[c]43)[c]([H])[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "44-flipped": {
+            "dg_value": -11.5248,
+            "smiles": "[H][O][C]1([H])[C]([H])([H])[N]([C](=[O])[c]2[c]([H])[c]([H])[c]3[c]([c]2[H])[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]4[c]([c]2[H])[C]([H])=[N][N]4[C]([H])([H])[H])=[N][N]3[H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        },
+        "45-flipped": {
+            "dg_value": -11.1913,
+            "smiles": "[H][C]1=[N][N]([C]([H])([H])[H])[c]2[c]([H])[c]([H])[c]([C]([H])([H])[C]3=[N][N]([H])[c]4[c]([H])[c]([H])[c]([C](=[O])[N]5[C]([H])([H])[C]([H])([O][C]([H])([H])[H])[C]5([H])[H])[c]([H])[c]43)[c]([H])[c]21",
+            "formal_charge": 0.0
+        },
+        "42-flipped": {
+            "dg_value": -11.5248,
+            "smiles": "[H][O][C@]1([H])[C]([H])([H])[N]([C](=[O])[c]2[c]([H])[c]([H])[c]3[c]([c]2[H])[C]([C]([H])([H])[c]2[c]([H])[c]([H])[c]4[c]([c]2[H])[C]([H])=[N][N]4[C]([H])([H])[H])=[N][N]3[H])[C]([H])([H])[C]1([H])[H]",
+            "formal_charge": 0.0
+        }
+    },
+    "edges": [
+        {
+            "from": "15",
+            "to": "16-flipped",
+            "ddg_value": -1.6021999999999998,
+            "same_charge": true,
+            "similarity": 0.660377358490566
+        },
+        {
+            "from": "45-flipped",
+            "to": "42-flipped",
+            "ddg_value": -0.3335000000000008,
+            "same_charge": true,
+            "similarity": 0.7611940298507462
+        },
+        {
+            "from": "43",
+            "to": "45-flipped",
+            "ddg_value": 0.7467000000000006,
+            "same_charge": true,
+            "similarity": 0.7
+        },
+        {
+            "from": "18-flipped",
+            "to": "43",
+            "ddg_value": -0.9593000000000007,
+            "same_charge": true,
+            "similarity": 0.6567164179104478
+        },
+        {
+            "from": "45-flipped",
+            "to": "18-flipped",
+            "ddg_value": 0.21260000000000012,
+            "same_charge": true,
+            "similarity": 0.6875
+        },
+        {
+            "from": "18-flipped",
+            "to": "42-flipped",
+            "ddg_value": -0.5461000000000009,
+            "same_charge": true,
+            "similarity": 0.6666666666666666
+        },
+        {
+            "from": "15",
+            "to": "18-flipped",
+            "ddg_value": -3.29077,
+            "same_charge": true,
+            "similarity": 0.6101694915254238
+        },
+        {
+            "from": "16-flipped",
+            "to": "18-flipped",
+            "ddg_value": -1.6885700000000003,
+            "same_charge": true,
+            "similarity": 0.603448275862069
+        },
+        {
+            "from": "17-flipped",
+            "to": "18-flipped",
+            "ddg_value": -1.98597,
+            "same_charge": true,
+            "similarity": 0.8679245283018868
+        },
+        {
+            "from": "14",
+            "to": "16-flipped",
+            "ddg_value": -0.9521699999999989,
+            "same_charge": true,
+            "similarity": 0.62
+        },
+        {
+            "from": "15",
+            "to": "14",
+            "ddg_value": -0.650030000000001,
+            "same_charge": true,
+            "similarity": 0.5961538461538461
+        },
+        {
+            "from": "44-flipped",
+            "to": "45-flipped",
+            "ddg_value": 0.3335000000000008,
+            "same_charge": true,
+            "similarity": 0.8387096774193549
+        },
+        {
+            "from": "39",
+            "to": "41",
+            "ddg_value": 0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.8305084745762712
+        },
+        {
+            "from": "42-flipped",
+            "to": "13",
+            "ddg_value": 0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.5064935064935064
+        },
+        {
+            "from": "31",
+            "to": "42-flipped",
+            "ddg_value": 0.4131999999999998,
+            "same_charge": true,
+            "similarity": 0.7101449275362319
+        },
+        {
+            "from": "31",
+            "to": "30",
+            "ddg_value": 0.2416999999999998,
+            "same_charge": true,
+            "similarity": 1.0
+        },
+        {
+            "from": "30",
+            "to": "42-flipped",
+            "ddg_value": 0.17149999999999999,
+            "same_charge": true,
+            "similarity": 0.7101449275362319
+        },
+        {
+            "from": "45-flipped",
+            "to": "36",
+            "ddg_value": -0.09190000000000076,
+            "same_charge": true,
+            "similarity": 0.7014925373134329
+        },
+        {
+            "from": "18-flipped",
+            "to": "19",
+            "ddg_value": 0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.65
+        },
+        {
+            "from": "19",
+            "to": "20",
+            "ddg_value": 0.03849999999999909,
+            "same_charge": true,
+            "similarity": 0.7333333333333333
+        },
+        {
+            "from": "19",
+            "to": "17-flipped",
+            "ddg_value": 1.74437,
+            "same_charge": true,
+            "similarity": 0.6610169491525424
+        },
+        {
+            "from": "20",
+            "to": "17-flipped",
+            "ddg_value": 1.7058700000000009,
+            "same_charge": true,
+            "similarity": 0.5757575757575758
+        },
+        {
+            "from": "19",
+            "to": "32",
+            "ddg_value": 1.1875199999999992,
+            "same_charge": true,
+            "similarity": 0.7962962962962963
+        },
+        {
+            "from": "22",
+            "to": "21",
+            "ddg_value": 0.5310300000000012,
+            "same_charge": true,
+            "similarity": 0.6842105263157895
+        },
+        {
+            "from": "26",
+            "to": "22",
+            "ddg_value": -0.0702000000000016,
+            "same_charge": true,
+            "similarity": 0.5692307692307692
+        },
+        {
+            "from": "26",
+            "to": "21",
+            "ddg_value": 0.46082999999999963,
+            "same_charge": true,
+            "similarity": 0.5873015873015873
+        },
+        {
+            "from": "38",
+            "to": "21",
+            "ddg_value": 1.6373300000000004,
+            "same_charge": true,
+            "similarity": 0.5362318840579711
+        },
+        {
+            "from": "36",
+            "to": "35",
+            "ddg_value": -0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.8333333333333334
+        },
+        {
+            "from": "34",
+            "to": "35",
+            "ddg_value": -0.3335000000000008,
+            "same_charge": true,
+            "similarity": 0.7580645161290323
+        },
+        {
+            "from": "34",
+            "to": "36",
+            "ddg_value": -0.09190000000000076,
+            "same_charge": true,
+            "similarity": 0.734375
+        },
+        {
+            "from": "35",
+            "to": "37",
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "similarity": 0.7966101694915254
+        },
+        {
+            "from": "36",
+            "to": "37",
+            "ddg_value": -0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.7704918032786885
+        },
+        {
+            "from": "21",
+            "to": "37",
+            "ddg_value": -1.7703300000000013,
+            "same_charge": true,
+            "similarity": 0.5967741935483871
+        },
+        {
+            "from": "26",
+            "to": "38",
+            "ddg_value": -1.1765000000000008,
+            "same_charge": true,
+            "similarity": 0.5342465753424658
+        },
+        {
+            "from": "22",
+            "to": "37",
+            "ddg_value": -1.2393,
+            "same_charge": true,
+            "similarity": 0.578125
+        },
+        {
+            "from": "21",
+            "to": "35",
+            "ddg_value": -1.7703300000000013,
+            "same_charge": true,
+            "similarity": 0.578125
+        },
+        {
+            "from": "38",
+            "to": "35",
+            "ddg_value": -0.1330000000000009,
+            "same_charge": true,
+            "similarity": 0.7121212121212122
+        },
+        {
+            "from": "40",
+            "to": "39",
+            "ddg_value": -0.3335000000000008,
+            "same_charge": true,
+            "similarity": 0.8166666666666667
+        },
+        {
+            "from": "41",
+            "to": "40",
+            "ddg_value": 0.09190000000000076,
+            "same_charge": true,
+            "similarity": 0.8448275862068966
+        },
+        {
+            "from": "18-flipped",
+            "to": "24",
+            "ddg_value": 0.6344999999999992,
+            "same_charge": true,
+            "similarity": 0.4492753623188406
+        },
+        {
+            "from": "24",
+            "to": "19",
+            "ddg_value": -0.39289999999999914,
+            "same_charge": true,
+            "similarity": 0.7068965517241379
+        },
+        {
+            "from": "24",
+            "to": "17-flipped",
+            "ddg_value": 1.3514700000000008,
+            "same_charge": true,
+            "similarity": 0.45588235294117646
+        },
+        {
+            "from": "39",
+            "to": "23",
+            "ddg_value": 2.510390000000001,
+            "same_charge": true,
+            "similarity": 0.5362318840579711
+        },
+        {
+            "from": "23",
+            "to": "41",
+            "ddg_value": -2.268790000000001,
+            "same_charge": true,
+            "similarity": 0.5522388059701493
+        },
+        {
+            "from": "37",
+            "to": "41",
+            "ddg_value": 0.24160000000000004,
+            "same_charge": true,
+            "similarity": 0.9811320754716981
+        },
+        {
+            "from": "40",
+            "to": "30",
+            "ddg_value": -0.5050000000000008,
+            "same_charge": true,
+            "similarity": 0.75
+        },
+        {
+            "from": "19",
+            "to": "33",
+            "ddg_value": -0.37460000000000093,
+            "same_charge": true,
+            "similarity": 0.8070175438596491
+        },
+        {
+            "from": "20",
+            "to": "33",
+            "ddg_value": -0.4131,
+            "same_charge": true,
+            "similarity": 0.6029411764705882
+        },
+        {
+            "from": "33",
+            "to": "32",
+            "ddg_value": 1.5621200000000002,
+            "same_charge": true,
+            "similarity": 0.7288135593220338
+        },
+        {
+            "from": "20",
+            "to": "32",
+            "ddg_value": 1.1490200000000002,
+            "same_charge": true,
+            "similarity": 0.5846153846153846
+        },
+        {
+            "from": "31",
+            "to": "13",
+            "ddg_value": 0.6547999999999998,
+            "same_charge": true,
+            "similarity": 0.5
+        },
+        {
+            "from": "32",
+            "to": "25",
+            "ddg_value": -0.24436999999999998,
+            "same_charge": true,
+            "similarity": 0.6333333333333333
+        },
+        {
+            "from": "29",
+            "to": "25",
+            "ddg_value": -0.5378900000000009,
+            "same_charge": true,
+            "similarity": 0.6507936507936508
+        },
+        {
+            "from": "29",
+            "to": "32",
+            "ddg_value": -0.2935200000000009,
+            "same_charge": true,
+            "similarity": 0.59375
+        },
+        {
+            "from": "25",
+            "to": "27",
+            "ddg_value": 1.33005,
+            "same_charge": true,
+            "similarity": 0.6666666666666666
+        },
+        {
+            "from": "32",
+            "to": "27",
+            "ddg_value": 1.08568,
+            "same_charge": true,
+            "similarity": 0.6349206349206349
+        }
+    ]
+}

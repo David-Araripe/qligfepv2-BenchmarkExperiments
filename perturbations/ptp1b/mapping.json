@@ -25,14 +25,14 @@
       "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[N]([C](=[O])[C]([H])([H])[H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
       "formal_charge": -2.0
     },
+    "23330": {
+      "dg_value": -10.13,
+      "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]2([H])[H])[c]1[H]",
+      "formal_charge": -2.0
+    },
     "23484": {
       "dg_value": -7.75,
       "smiles": "[H][C]1=[C]([c]2[c]([H])[c]([H])[c]([H])[c]([N]([H])[C]3([H])[C]([H])([H])[C]([H])([H])[N]([S](=[O])(=[O])[C]([H])([H])[c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C]([H])([H])[C]3([H])[H])[c]2[H])[S][C]([C](=[O])[O-])=[C]1[O][C]([H])([H])[C](=[O])[O-]",
-      "formal_charge": -2.0
-    },
-    "23485": {
-      "dg_value": -11.01,
-      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([C]([H])([H])[H])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
       "formal_charge": -2.0
     },
     "20667": {
@@ -43,6 +43,11 @@
     "23486": {
       "dg_value": -12.47,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([Cl])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
+      "formal_charge": -2.0
+    },
+    "23485": {
+      "dg_value": -11.01,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[S](=[O])(=[O])[N]2[C]([H])([H])[C]([H])([H])[C]([H])([N]([H])[c]3[c]([H])[c]([H])[c]([H])[c]([C]4=[C]([C]([H])([H])[H])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]4)[c]3[H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]1[H]",
       "formal_charge": -2.0
     },
     "23467": {
@@ -75,14 +80,24 @@
       "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
       "formal_charge": -2.0
     },
-    "23473": {
-      "dg_value": -8.39,
-      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[O][c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
+    "20669": {
+      "dg_value": -8.61,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -2.0
     },
     "23469": {
       "dg_value": -7.72,
       "smiles": "[H][c]1[c]([H])[c]([H])[c]([C](=[O])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
+      "formal_charge": -2.0
+    },
+    "23472": {
+      "dg_value": -8.65,
+      "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[S](=[O])(=[O])[c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[H])[c]1[H]",
+      "formal_charge": -2.0
+    },
+    "23473": {
+      "dg_value": -8.39,
+      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[O][c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
       "formal_charge": -2.0
     },
     "23483": {
@@ -95,34 +110,19 @@
       "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]([H])([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
       "formal_charge": -2.0
     },
-    "20669": {
-      "dg_value": -8.61,
-      "smiles": "[H][c]1[c]([H])[c]([H])[c]([C]([H])([H])[N]([H])[c]2[c]([H])[c]([H])[c]([H])[c]([C]3=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]3)[c]2[H])[c]([H])[c]1[H]",
-      "formal_charge": -2.0
-    },
     "23476": {
       "dg_value": -9.41,
       "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]1[H]",
-      "formal_charge": -2.0
-    },
-    "23472": {
-      "dg_value": -8.65,
-      "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[S](=[O])(=[O])[c]2[c]([H])[c]([H])[c]([F])[c]([H])[c]2[H])[c]1[H]",
-      "formal_charge": -2.0
-    },
-    "23330": {
-      "dg_value": -10.13,
-      "smiles": "[H][c]1[c]([H])[c]([C]2=[C]([Br])[C]([O][C]([H])([H])[C](=[O])[O-])=[C]([C](=[O])[O-])[S]2)[c]([H])[c]([N]([H])[C]2([H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]2([H])[H])[c]1[H]",
       "formal_charge": -2.0
     }
   },
   "edges": [
     {
       "from": "23477",
-      "to": "23479",
-      "similarity": 0.7046880897187134,
+      "to": "23330",
+      "similarity": 0.6376281516217733,
       "strict_flag": true,
-      "ddg_value": -0.29,
+      "ddg_value": -1.28,
       "same_charge": true
     },
     {
@@ -139,14 +139,6 @@
       "similarity": 0.5488116360940264,
       "strict_flag": false,
       "ddg_value": 1.0,
-      "same_charge": true
-    },
-    {
-      "from": "23477",
-      "to": "23330",
-      "similarity": 0.20189651799465538,
-      "strict_flag": false,
-      "ddg_value": -1.28,
       "same_charge": true
     },
     {
@@ -199,6 +191,22 @@
     },
     {
       "from": "20670",
+      "to": "23330",
+      "similarity": 0.6703200460356393,
+      "strict_flag": true,
+      "ddg_value": -1.05,
+      "same_charge": true
+    },
+    {
+      "from": "20670",
+      "to": "23479",
+      "similarity": 0.7046880897187134,
+      "strict_flag": true,
+      "ddg_value": -0.06,
+      "same_charge": true
+    },
+    {
+      "from": "20670",
       "to": "23466",
       "similarity": 0.5488116360940264,
       "strict_flag": false,
@@ -230,11 +238,11 @@
       "same_charge": true
     },
     {
-      "from": "23485",
-      "to": "20667",
+      "from": "20667",
+      "to": "23485",
       "similarity": 0.951229424500714,
       "strict_flag": true,
-      "ddg_value": -0.41,
+      "ddg_value": 0.41,
       "same_charge": true
     },
     {
@@ -318,14 +326,6 @@
       "same_charge": true
     },
     {
-      "from": "23471",
-      "to": "23472",
-      "similarity": 0.24659696394160643,
-      "strict_flag": false,
-      "ddg_value": -0.9,
-      "same_charge": true
-    },
-    {
       "from": "23466",
       "to": "23475",
       "similarity": 0.6065306597126334,
@@ -343,22 +343,6 @@
     },
     {
       "from": "23466",
-      "to": "23472",
-      "similarity": 0.36787944117144233,
-      "strict_flag": false,
-      "ddg_value": -0.8,
-      "same_charge": true
-    },
-    {
-      "from": "23466",
-      "to": "23330",
-      "similarity": 0.36787944117144233,
-      "strict_flag": false,
-      "ddg_value": -2.28,
-      "same_charge": true
-    },
-    {
-      "from": "23466",
       "to": "23474",
       "similarity": 0.49658530379140947,
       "strict_flag": false,
@@ -366,27 +350,35 @@
       "same_charge": true
     },
     {
-      "from": "23466",
-      "to": "20669",
-      "similarity": 0.49658530379140947,
-      "strict_flag": false,
-      "ddg_value": -0.76,
+      "from": "20669",
+      "to": "23472",
+      "similarity": 0.6065306597126334,
+      "strict_flag": true,
+      "ddg_value": -0.04,
       "same_charge": true
     },
     {
-      "from": "23466",
-      "to": "23473",
-      "similarity": 0.4723665527410147,
-      "strict_flag": false,
-      "ddg_value": -0.54,
-      "same_charge": true
-    },
-    {
-      "from": "23473",
+      "from": "20669",
       "to": "23469",
+      "similarity": 0.7788007830714048,
+      "strict_flag": true,
+      "ddg_value": 0.89,
+      "same_charge": true
+    },
+    {
+      "from": "20669",
+      "to": "23473",
+      "similarity": 0.951229424500714,
+      "strict_flag": true,
+      "ddg_value": 0.22,
+      "same_charge": true
+    },
+    {
+      "from": "23469",
+      "to": "23473",
       "similarity": 0.7408182206817179,
       "strict_flag": true,
-      "ddg_value": 0.67,
+      "ddg_value": -0.67,
       "same_charge": true
     }
   ]
