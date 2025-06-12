@@ -204,7 +204,7 @@ app.layout = html.Div(
                 "margin-bottom": "20px",  # Space between top and bottom rows
             },
             children=[
-                dcc.Graph(id="ddg-plot", style={"width": "38%", "height": "100%"}),
+                dcc.Graph(id="ddg-plot", style={"width": "28%", "height": "100%"}),  # Reduced width
                 html.Div(
                     [
                         # Text above the images
@@ -222,7 +222,11 @@ app.layout = html.Div(
                             [
                                 html.Img(
                                     id="lig1_img",
-                                    style={"maxWidth": "35%", "marginRight": "5%", "height": "250px"},
+                                    style={
+                                        "maxWidth": "35%",
+                                        "marginRight": "1%",
+                                        "height": "300px"
+                                    }
                                 ),
                                 # Arrow in between images
                                 html.Div(
@@ -235,7 +239,9 @@ app.layout = html.Div(
                                         "width": "5%",  # Allocate width for the arrow, adjust as needed
                                     },
                                 ),
-                                html.Img(id="lig2_img", style={"maxWidth": "35%", "height": "250px"}),
+                                html.Img(
+                                    id="lig2_img", style={"maxWidth": "35%", "height": "300px"}
+                                ),
                             ],
                             style={
                                 "width": "100%",  # Container takes the full width of its parent
@@ -253,8 +259,8 @@ app.layout = html.Div(
                         "flexDirection": "column",  # Stack elements vertically
                         "alignItems": "center",  # Center elements horizontally
                         "justifyContent": "space-around",  # Evenly space out the elements
-                        "height": "400px",  # Fixed height for the container
-                        "width": "38%",  # Fixed width for the container
+                        "height": "450px",  # Increased height for the container
+                        "width": "48%",  # Increased width for the container
                     },
                 ),
             ],
@@ -268,8 +274,12 @@ app.layout = html.Div(
                 "width": "100%",
             },
             children=[
-                dcc.Graph(id="perturbation-graph", style={"width": "38%", "height": "400px"}),
-                dash_molstar.MolstarViewer(id="viewer", style={"width": "700px", "height": "500px"}),
+                dcc.Graph(
+                    id="perturbation-graph", style={"width": "28%", "height": "400px"}
+                ),  # Reduced width
+                dash_molstar.MolstarViewer(
+                    id="viewer", style={"width": "800px", "height": "600px", "marginLeft": "5%"}
+                ),  # Increased size
                 # Hidden divs for storing "from" and "to" node identifiers
                 html.Div(id="from-node-storage", style={"display": "none"}),
                 html.Div(id="to-node-storage", style={"display": "none"}),
@@ -277,9 +287,13 @@ app.layout = html.Div(
                 # Buttons for loading "from" and "to" nodes
                 dbc.ButtonGroup(
                     [
-                        dbc.Button("Load \"From\" Ligand", id="load_from_lig", color="primary", className="mb-2"),
-                        dbc.Button("Load \"To\" Ligand", id="load_to_lig", color="info", className="mb-2"),
-                        dbc.Button("Load Both Ligands", id="load_both_ligs", color="secondary", className="mb-2"),
+                        dbc.Button(
+                            'Load "From" Ligand', id="load_from_lig", color="primary", className="mb-2"
+                        ),
+                        dbc.Button('Load "To" Ligand', id="load_to_lig", color="info", className="mb-2"),
+                        dbc.Button(
+                            "Load Both Ligands", id="load_both_ligs", color="secondary", className="mb-2"
+                        ),
                     ],
                     vertical=True,
                 ),
@@ -480,7 +494,11 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
 
                 ddg_fig = create_ddg_plot(ddG_df, perturbations, highlight_index=clicked_ddg_index)
                 pert_graph_fig = construct_network_graph([lig1, lig2])
-                chem_name = ["ΔΔG - calc(ΔΔG):", html.Br(), f"{data['residual']:.2f} ± {data['Q_ddG_sem']:.2f} (SEM) kcal/mol"]
+                chem_name = [
+                    "ΔΔG - calc(ΔΔG):",
+                    html.Br(),
+                    f"{data['residual']:.2f} ± {data['Q_ddG_sem']:.2f} (SEM) kcal/mol",
+                ]
                 lig1_img = f"data:image/svg+xml;utf8,{quote(data['from_svg'])}"
                 lig2_img = f"data:image/svg+xml;utf8,{quote(data['to_svg'])}"
                 from_node = lig1
@@ -645,7 +663,7 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
         yaxis=dict(
             range=[min_val, max_val], gridcolor="lightgrey", scaleanchor="x", scaleratio=1, constrain="domain"
         ),  # same as x-axis, scale to 1
-        legend=dict(yanchor="top", y=0.99, xanchor="left", x=0.01),  # Adjust legend position
+        legend=dict(yanchor="bottom", y=0.01, xanchor="right", x=0.99),  # Position legend at bottom right
         clickmode="event+select",  # Ensure click events are captured
     )
     return fig
