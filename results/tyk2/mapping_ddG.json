@@ -1,82 +1,82 @@
 {
     "nodes": {
         "jmc_23": {
-            "ddg_value": -11.7,
+            "dg_value": -11.7,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[F])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "jmc_28": {
-            "ddg_value": -10.98,
+            "dg_value": -10.98,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "jmc_27": {
-            "ddg_value": -11.28,
+            "dg_value": -11.28,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[Cl])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "jmc_30": {
-            "ddg_value": -10.94,
+            "dg_value": -10.94,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C@@]2([H])[C]([H])([H])[C@@]2([H])[C]#[N])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_46": {
-            "ddg_value": -11.31,
+            "dg_value": -11.31,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_47": {
-            "ddg_value": -9.7,
+            "dg_value": -9.7,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_49": {
-            "ddg_value": -7.75,
+            "dg_value": -7.75,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[c]2[c]([H])[c]([H])[c]([H])[c]([H])[c]2[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_31": {
-            "ddg_value": -9.54,
+            "dg_value": -9.54,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_45": {
-            "ddg_value": -9.56,
+            "dg_value": -9.56,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[C]2([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_44": {
-            "ddg_value": -7.42,
+            "dg_value": -7.42,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([C]([H])([H])[H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_43": {
-            "ddg_value": -8.26,
+            "dg_value": -8.26,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_50": {
-            "ddg_value": -8.98,
+            "dg_value": -8.98,
             "smiles": "[H][O][C]([H])([H])[C](=[O])[N]([H])[c]1[n][c]([H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_42": {
-            "ddg_value": -9.78,
+            "dg_value": -9.78,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]([H])([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_55": {
-            "ddg_value": -9.21,
+            "dg_value": -9.21,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[O][C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_54": {
-            "ddg_value": -10.53,
+            "dg_value": -10.53,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[N]([H])[C]([H])([H])[C]([H])([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         },
         "ejm_48": {
-            "ddg_value": -9,
+            "dg_value": -9,
             "smiles": "[H][c]1[n][c]([N]([H])[C](=[O])[C]2([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]2([H])[H])[c]([H])[c]([N]([H])[C](=[O])[c]2[c]([Cl])[c]([H])[c]([H])[c]([H])[c]2[Cl])[c]1[H]",
             "formal_charge": 0.0
         }

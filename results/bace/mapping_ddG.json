@@ -1,182 +1,182 @@
 {
     "nodes": {
         "CAT-13n": {
-            "ddg_value": -8.543,
+            "dg_value": -8.543,
             "smiles": "[H][c]1[n][c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[n][c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13m": {
-            "ddg_value": -8.763,
+            "dg_value": -8.763,
             "smiles": "[H][c]1[n][c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[n]1",
             "formal_charge": 1.0
         },
         "CAT-13j": {
-            "ddg_value": -8.733,
+            "dg_value": -8.733,
             "smiles": "[H][c]1[n][c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4n": {
-            "ddg_value": -9.093,
+            "dg_value": -9.093,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[N]",
             "formal_charge": 1.0
         },
         "CAT-4p": {
-            "ddg_value": -10.083,
+            "dg_value": -10.083,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[Cl]",
             "formal_charge": 1.0
         },
         "CAT-4i": {
-            "ddg_value": -8.263,
+            "dg_value": -8.263,
             "smiles": "[H][c]1[n][c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13e": {
-            "ddg_value": -9.963,
+            "dg_value": -9.963,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4d": {
-            "ddg_value": -9.113,
+            "dg_value": -9.113,
             "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[C]([H])([H])[H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4a": {
-            "ddg_value": -7.933,
+            "dg_value": -7.933,
             "smiles": "[H][c]1[c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4m": {
-            "ddg_value": -9.153,
+            "dg_value": -9.153,
             "smiles": "[H][c]1[n][c]([H])[c]([C]([H])([H])[H])[c]([H])[c]1-[c]1[c]([H])[c]([H])[c]([H])[c]([C@]2([c]3[c]([H])[c]([H])[c]([H])[c]([H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4k": {
-            "ddg_value": -7.853,
+            "dg_value": -7.853,
             "smiles": "[H][c]1[n][c]([H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4l": {
-            "ddg_value": -9.343,
+            "dg_value": -9.343,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[n][c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4j": {
-            "ddg_value": -9.023,
+            "dg_value": -9.023,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4c": {
-            "ddg_value": -7.853,
+            "dg_value": -7.853,
             "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13k": {
-            "ddg_value": -9.703,
+            "dg_value": -9.703,
             "smiles": "[H][c]1[n][c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-4o": {
-            "ddg_value": -9.383,
+            "dg_value": -9.383,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[F]",
             "formal_charge": 1.0
         },
         "CAT-4b": {
-            "ddg_value": -9.633,
+            "dg_value": -9.633,
             "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-17h": {
-            "ddg_value": -10.333,
+            "dg_value": -10.333,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[Cl]",
             "formal_charge": 1.0
         },
         "CAT-17e": {
-            "ddg_value": -10.023,
+            "dg_value": -10.023,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[O][C]([H])([H])[H]",
             "formal_charge": 1.0
         },
         "CAT-17b": {
-            "ddg_value": -10.023,
+            "dg_value": -10.023,
             "smiles": "[H][c]1[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13d": {
-            "ddg_value": -10.473,
+            "dg_value": -10.473,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13h": {
-            "ddg_value": -9.633,
+            "dg_value": -9.633,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([C]([H])([H])[H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-17g": {
-            "ddg_value": -9.743,
+            "dg_value": -9.743,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[F]",
             "formal_charge": 1.0
         },
         "CAT-17f": {
-            "ddg_value": -9.423,
+            "dg_value": -9.423,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[N]",
             "formal_charge": 1.0
         },
         "CAT-24": {
-            "ddg_value": -11.35,
+            "dg_value": -11.35,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[C]#[C][C]([H])([H])[H]",
             "formal_charge": 1.0
         },
         "CAT-17i": {
-            "ddg_value": -9.473,
+            "dg_value": -9.473,
             "smiles": "[H][c]1[n][c]([H])[c]([C]([H])([H])[H])[c]([H])[c]1-[c]1[c]([H])[c]([H])[c]([H])[c]([C@]2([C]3([H])[C]([H])([H])[C]3([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-17a": {
-            "ddg_value": -10.733,
+            "dg_value": -10.733,
             "smiles": "[H][c]1[c]([H])[c](-[c]2[c]([H])[c]([Cl])[c]([H])[c]([Cl])[c]2[H])[c]([H])[c]([C@]2([C]3([H])[C]([H])([H])[C]3([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-17c": {
-            "ddg_value": -9.863,
+            "dg_value": -9.863,
             "smiles": "[H][c]1[c]([H])[c]([C]#[N])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-17d": {
-            "ddg_value": -9.423,
+            "dg_value": -9.423,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13a": {
-            "ddg_value": -8.843,
+            "dg_value": -8.843,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13i": {
-            "ddg_value": -9.273,
+            "dg_value": -9.273,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13c": {
-            "ddg_value": -9.323,
+            "dg_value": -9.323,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([C]([H])([H])[H])[C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13b": {
-            "ddg_value": -9.123,
+            "dg_value": -9.123,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]([H])([H])[C]([H])([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13o": {
-            "ddg_value": -8.543,
+            "dg_value": -8.543,
             "smiles": "[H][C]1=[C]([H])[S][C]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([H])[c]([Cl])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])=[N]1",
             "formal_charge": 1.0
         },
         "CAT-13g": {
-            "ddg_value": -9.093,
+            "dg_value": -9.093,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         },
         "CAT-13f": {
-            "ddg_value": -9.093,
+            "dg_value": -9.093,
             "smiles": "[H][c]1[c]([H])[c]([Cl])[c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]([H])([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]1[H]",
             "formal_charge": 1.0
         }
