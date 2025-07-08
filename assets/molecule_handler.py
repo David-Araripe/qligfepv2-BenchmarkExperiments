@@ -69,6 +69,7 @@ def add_images_to_df(df, molplotter: MolPlotter, n_jobs=1) -> pd.DataFrame:
         bondCompare="CompareOrderExact",
         ringCompare="StrictRingFusion",
         ringMatchesRingOnly=True,
+        completeRingsOnly=True,
     )
     partial_func = partial(molplotter.render_mol, return_svg=True)
     # find the matching pose
