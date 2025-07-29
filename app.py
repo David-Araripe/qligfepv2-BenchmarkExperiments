@@ -222,11 +222,7 @@ app.layout = html.Div(
                             [
                                 html.Img(
                                     id="lig1_img",
-                                    style={
-                                        "maxWidth": "35%",
-                                        "marginRight": "1%",
-                                        "height": "300px"
-                                    }
+                                    style={"maxWidth": "35%", "marginRight": "1%", "height": "300px"},
                                 ),
                                 # Arrow in between images
                                 html.Div(
@@ -239,9 +235,7 @@ app.layout = html.Div(
                                         "width": "5%",  # Allocate width for the arrow, adjust as needed
                                     },
                                 ),
-                                html.Img(
-                                    id="lig2_img", style={"maxWidth": "35%", "height": "300px"}
-                                ),
+                                html.Img(id="lig2_img", style={"maxWidth": "35%", "height": "300px"}),
                             ],
                             style={
                                 "width": "100%",  # Container takes the full width of its parent
@@ -354,8 +348,7 @@ def construct_network_graph(highlighted_nodes: list = None):
     fig = go.Figure(
         data=[edge_trace, node_trace],
         layout=go.Layout(
-            title="Perturbation mapping",
-            titlefont_size=16,
+            title=dict(text="Perturbation mapping", font=dict(size=16)),
             showlegend=False,
             hovermode="closest",
             margin=dict(b=20, l=5, r=5, t=40),
@@ -469,7 +462,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
                 )
             else:
                 try:
-                    clicked_ddg_index = ddg_clickData["points"][0]["customdata"]
+                    clicked_ddg_index = ddg_clickData["points"][0]["pointIndex"]
                     logger.info(f"ddg-plot clicked. Index: {clicked_ddg_index}")
                 except (KeyError, IndexError):
                     logger.warning("Could not extract index from ddg-plot clickData.")
