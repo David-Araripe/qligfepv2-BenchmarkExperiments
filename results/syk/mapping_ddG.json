@@ -295,9 +295,9 @@
             "strict_flag": false,
             "ddg_value": -0.43,
             "same_charge": true,
-            "Q_ddG_avg": -0.6947999999999972,
-            "Q_ddG_sem": 0.35918507207288003,
-            "Q_ddG_std": 1.1358429292820378
+            "Q_ddG_avg": -1.0772000000000048,
+            "Q_ddG_sem": 0.31931474441372115,
+            "Q_ddG_std": 1.0097618828218862
         },
         {
             "from": "CHEMBL3259820",
@@ -328,9 +328,9 @@
             "strict_flag": false,
             "ddg_value": -0.61,
             "same_charge": true,
-            "Q_ddG_avg": -0.2917000000000023,
-            "Q_ddG_sem": 0.30599696893923634,
-            "Q_ddG_std": 0.9676473789557846
+            "Q_ddG_avg": -0.6816999999999993,
+            "Q_ddG_sem": 0.3250245544570441,
+            "Q_ddG_std": 1.0278178875656914
         },
         {
             "from": "CHEMBL3265036",
@@ -647,9 +647,9 @@
             "strict_flag": false,
             "ddg_value": 1.16,
             "same_charge": true,
-            "Q_ddG_avg": 0.5633999999999979,
-            "Q_ddG_sem": 0.4459317772933434,
-            "Q_ddG_std": 1.4101600972939208
+            "Q_ddG_avg": 0.31889999999999574,
+            "Q_ddG_sem": 0.5318326663528669,
+            "Q_ddG_std": 1.6818025597554542
         },
         {
             "from": "CHEMBL3265024",
@@ -658,9 +658,9 @@
             "strict_flag": false,
             "ddg_value": 1.59,
             "same_charge": true,
-            "Q_ddG_avg": 2.6542111111111115,
-            "Q_ddG_sem": 0.6232593173425657,
-            "Q_ddG_std": 1.9709190157241903
+            "Q_ddG_avg": 2.0967000000000002,
+            "Q_ddG_sem": 0.5443567221960246,
+            "Q_ddG_std": 1.7214071017629735
         },
         {
             "from": "CHEMBL3265008",
@@ -702,9 +702,9 @@
             "strict_flag": true,
             "ddg_value": -0.37,
             "same_charge": true,
-            "Q_ddG_avg": 0.5046999999999962,
-            "Q_ddG_sem": 0.3161667297487197,
-            "Q_ddG_std": 0.9998069863728697
+            "Q_ddG_avg": -0.3180000000000014,
+            "Q_ddG_sem": 0.3388638340100635,
+            "Q_ddG_std": 1.0715815321290298
         },
         {
             "from": "CHEMBL3265006",
@@ -713,9 +713,9 @@
             "strict_flag": false,
             "ddg_value": -0.24,
             "same_charge": true,
-            "Q_ddG_avg": 3.3571999999999997,
-            "Q_ddG_sem": 0.9601122986401122,
-            "Q_ddG_std": 3.036141673242538
+            "Q_ddG_avg": 3.4391,
+            "Q_ddG_sem": 0.5534894479572307,
+            "Q_ddG_std": 1.7502873164140793
         },
         {
             "from": "CHEMBL3265009",
@@ -757,9 +757,9 @@
             "strict_flag": false,
             "ddg_value": 0.12,
             "same_charge": true,
-            "Q_ddG_avg": 0.3809999999999967,
-            "Q_ddG_sem": 0.7378669527767183,
-            "Q_ddG_std": 2.3333401809423333
+            "Q_ddG_avg": 2.014400000000002,
+            "Q_ddG_sem": 0.611075064128786,
+            "Q_ddG_std": 1.9323890239804198
         },
         {
             "from": "CHEMBL3265002",
@@ -812,9 +812,9 @@
             "strict_flag": true,
             "ddg_value": -0.75,
             "same_charge": true,
-            "Q_ddG_avg": -1.7787000000000006,
-            "Q_ddG_sem": 0.24170472275071506,
-            "Q_ddG_std": 0.764337445111778
+            "Q_ddG_avg": -2.2039000000000044,
+            "Q_ddG_sem": 0.33116676312697785,
+            "Q_ddG_std": 1.0472412568267155
         },
         {
             "from": "docked-CHEMBL3264998",

@@ -65,6 +65,11 @@
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
         },
+        "CAT-4j_flip": {
+            "dg_value": -9.023,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([c]4[c]([H])[c]([H])[c]([H])[c]([H])[c]4[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
         "CAT-4c": {
             "dg_value": -7.853,
             "smiles": "[H][c]1[c]([H])[c]([H])[c]([C@@]2([c]3[c]([H])[c]([H])[c]([H])[c](-[c]4[c]([H])[c]([H])[c]([O][C]([H])([H])[H])[c]([H])[c]4[H])[c]3[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]2[H])[c]([H])[c]1[H]",
@@ -141,6 +146,11 @@
             "formal_charge": 1.0
         },
         "CAT-17d": {
+            "dg_value": -9.423,
+            "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
+            "formal_charge": 1.0
+        },
+        "CAT-17d_flip": {
             "dg_value": -9.423,
             "smiles": "[H][c]1[n][c]([H])[c](-[c]2[c]([H])[c]([H])[c]([H])[c]([C@]3([C]4([H])[C]([H])([H])[C]4([H])[H])[C](=[O])[N]([C]([H])([H])[H])[C]([N]([H])[H])=[N+]3[H])[c]2[H])[c]([H])[c]1[H]",
             "formal_charge": 1.0
@@ -414,6 +424,17 @@
             "Q_ddG_std": 0.6357761005259633
         },
         {
+            "from": "CAT-4m",
+            "to": "CAT-4j_flip",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": 0.13,
+            "same_charge": true,
+            "Q_ddG_avg": 0.4230999999999989,
+            "Q_ddG_sem": 0.357527645084964,
+            "Q_ddG_std": 1.1306016849447909
+        },
+        {
             "from": "CAT-4k",
             "to": "CAT-4j",
             "similarity": 0.9048374180359595,
@@ -423,6 +444,17 @@
             "Q_ddG_avg": -0.5147000000000013,
             "Q_ddG_sem": 0.2179427929526461,
             "Q_ddG_std": 0.6891956253488553
+        },
+        {
+            "from": "CAT-4k",
+            "to": "CAT-4j_flip",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -1.17,
+            "same_charge": true,
+            "Q_ddG_avg": -2.7714,
+            "Q_ddG_sem": 0.2379652915868194,
+            "Q_ddG_std": 0.7525123254804534
         },
         {
             "from": "CAT-4l",
@@ -436,6 +468,17 @@
             "Q_ddG_std": 1.0277434893980115
         },
         {
+            "from": "CAT-4l",
+            "to": "CAT-4j_flip",
+            "similarity": 0.8607079764250578,
+            "strict_flag": true,
+            "ddg_value": 0.32,
+            "same_charge": true,
+            "Q_ddG_avg": -1.3067000000000064,
+            "Q_ddG_sem": 0.21695088153773429,
+            "Q_ddG_std": 0.6860589260406136
+        },
+        {
             "from": "CAT-4j",
             "to": "CAT-4o",
             "similarity": 0.9048374180359595,
@@ -445,6 +488,17 @@
             "Q_ddG_avg": -2.235199999999999,
             "Q_ddG_sem": 0.259504755255082,
             "Q_ddG_std": 0.8206260902506087
+        },
+        {
+            "from": "CAT-4j_flip",
+            "to": "CAT-4o",
+            "similarity": 0.9048374180359595,
+            "strict_flag": true,
+            "ddg_value": -0.36,
+            "same_charge": true,
+            "Q_ddG_avg": 0.35989999999999966,
+            "Q_ddG_sem": 0.3254257042705754,
+            "Q_ddG_std": 1.029086434659402
         },
         {
             "from": "CAT-13k",
@@ -591,6 +645,17 @@
         },
         {
             "from": "CAT-17f",
+            "to": "CAT-17d_flip",
+            "similarity": 0.8187307530779818,
+            "strict_flag": true,
+            "ddg_value": 0.0,
+            "same_charge": true,
+            "Q_ddG_avg": 0.3521000000000001,
+            "Q_ddG_sem": 0.3501064823735773,
+            "Q_ddG_std": 1.107133907890098
+        },
+        {
+            "from": "CAT-17f",
             "to": "CAT-17c",
             "similarity": 0.951229424500714,
             "strict_flag": true,
@@ -621,6 +686,17 @@
             "Q_ddG_avg": 4.631299999999999,
             "Q_ddG_sem": 1.2260441040191008,
             "Q_ddG_std": 3.8770918805207595
+        },
+        {
+            "from": "CAT-24",
+            "to": "CAT-17d_flip",
+            "similarity": 0.7408182206817179,
+            "strict_flag": true,
+            "ddg_value": 1.93,
+            "same_charge": true,
+            "Q_ddG_avg": 3.3648000000000016,
+            "Q_ddG_sem": 0.9099401881442538,
+            "Q_ddG_std": 2.877483529057986
         },
         {
             "from": "CAT-17i",
