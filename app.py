@@ -154,142 +154,324 @@ initialize_data(available_targets[0])
 # Set the CSS for the app & layout
 FLATLY_CSS = "https://bootswatch.com/4/flatly/bootstrap.min.css"
 app = Dash(
-    __name__, external_stylesheets=[FLATLY_CSS], suppress_callback_exceptions=True
+    __name__,
+    external_stylesheets=[FLATLY_CSS],
+    suppress_callback_exceptions=True,
+    assets_folder="assets",  # Include custom CSS
 )  # Suppress for dynamic layout if needed
 
 app.layout = html.Div(
     style={
         "display": "flex",
         "flex-direction": "column",
-        "justify-content": "center",  # Center children vertically in the column
-        "align-items": "center",  # Center children horizontally
-        "height": "100vh",  # Use full height of the viewport
-        "padding": "20px",  # Add some padding around the outer div
+        "justify-content": "flex-start",
+        "align-items": "center",
+        "min-height": "100vh",
+        "padding": "15px",
+        "backgroundColor": "#F9F7F7",  # Light background from color palette
+        "fontFamily": "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
     },
     children=[
-        # Dropdown for selecting target_name
+        # Header section with title, dropdown, and metrics
         html.Div(
             style={
                 "width": "100%",
+                "maxWidth": "1400px",
                 "display": "flex",
-                "justifyContent": "center",
-                "marginBottom": "20px",
-                "zIndex": "1000",  # Ensure dropdown is above other elements
+                "justifyContent": "space-between",
+                "alignItems": "center",
+                "marginBottom": "25px",
+                "padding": "20px 30px",
+                "backgroundColor": "white",
+                "borderRadius": "12px",
+                "boxShadow": "0 2px 8px rgba(0,0,0,0.1)",
+                "border": f"2px solid {color_dict['no_highlight']}",
             },
             children=[
-                html.Label(
-                    "Select Target: ",
-                    style={"marginRight": "10px", "fontSize": "16px", "alignSelf": "center"},
-                ),
-                dcc.Dropdown(
-                    id="target-dropdown",
-                    options=[{"label": target, "value": target} for target in available_targets],
-                    value=available_targets[0],
-                    clearable=False,
+                html.H1(
+                    "QligFEP Dashboard",
                     style={
-                        "width": "200px",
-                        "fontSize": "14px",
-                        "backgroundColor": "white",
+                        "margin": "0",
+                        "fontSize": "24px",
+                        "fontWeight": "600",
+                        "color": color_dict["to"],
+                        "letterSpacing": "0.5px",
                     },
                 ),
-            ],
-        ),
-        # Top row
-        html.Div(
-            style={
-                "display": "flex",
-                "justify-content": "center",  # Center children horizontally
-                "align-items": "center",  # Center children vertically
-                "width": "100%",  # Take full width to properly space out children
-                "margin-bottom": "20px",  # Space between top and bottom rows
-            },
-            children=[
-                dcc.Graph(id="ddg-plot", style={"width": "28%", "height": "100%"}),  # Reduced width
+                # Metrics panel in header
                 html.Div(
-                    [
-                        # Text above the images
-                        html.A(
-                            id="chem_name",
-                            style={
-                                "fontSize": "22px",
-                                "marginBottom": "20px",
-                                "width": "100%",  # Ensure the text spans the full width of the container
-                                "textAlign": "center",  # Center the text horizontally
-                            },
-                        ),
-                        # Container for images and arrow
-                        html.Div(
-                            [
-                                html.Img(
-                                    id="lig1_img",
-                                    style={"maxWidth": "35%", "marginRight": "1%", "height": "300px"},
-                                ),
-                                # Arrow in between images
-                                html.Div(
-                                    "→",
-                                    style={
-                                        "fontSize": "22px",  # Match the arrow size with the text size
-                                        "display": "flex",
-                                        "alignItems": "center",  # Vertically center the arrow
-                                        "justifyContent": "center",  # Horizontally center the arrow
-                                        "width": "5%",  # Allocate width for the arrow, adjust as needed
-                                    },
-                                ),
-                                html.Img(id="lig2_img", style={"maxWidth": "35%", "height": "300px"}),
-                            ],
-                            style={
-                                "width": "100%",  # Container takes the full width of its parent
-                                "display": "flex",
-                                "flexDirection": "row",
-                                "justifyContent": "center",
-                                "alignItems": "center",
-                            },
-                        ),
-                        # Optional: Description text (uncomment if needed)
-                        # html.P(id='chem_desc', style={"textAlign": "center"}),
-                    ],
+                    id="metrics-panel",
+                    style={
+                        "flex": "1.5",
+                        "margin": "0 40px",
+                        "maxWidth": "600px",
+                        "minWidth": "500px",
+                    },
+                ),
+                html.Div(
                     style={
                         "display": "flex",
-                        "flexDirection": "column",  # Stack elements vertically
-                        "alignItems": "center",  # Center elements horizontally
-                        "justifyContent": "space-around",  # Evenly space out the elements
-                        "height": "450px",  # Increased height for the container
-                        "width": "48%",  # Increased width for the container
+                        "alignItems": "center",
+                        "gap": "15px",
                     },
+                    children=[
+                        html.Label(
+                            "Target:",
+                            style={
+                                "fontSize": "16px",
+                                "fontWeight": "500",
+                                "color": color_dict["to"],
+                            },
+                        ),
+                        dcc.Dropdown(
+                            id="target-dropdown",
+                            options=[
+                                {"label": target.upper(), "value": target} for target in available_targets
+                            ],
+                            value=available_targets[0],
+                            clearable=False,
+                            style={
+                                "width": "180px",
+                                "fontSize": "14px",
+                                "fontWeight": "500",
+                            },
+                            className="custom-dropdown",
+                        ),
+                    ],
                 ),
             ],
         ),
-        # Bottom row
+        # Main content container
         html.Div(
             style={
-                "display": "flex",
-                "justify-content": "center",
-                "align-items": "center",
                 "width": "100%",
+                "maxWidth": "1400px",
+                "display": "flex",
+                "flexDirection": "column",
+                "gap": "20px",
             },
             children=[
-                dcc.Graph(
-                    id="perturbation-graph", style={"width": "28%", "height": "400px"}
-                ),  # Reduced width
-                dash_molstar.MolstarViewer(
-                    id="viewer", style={"width": "800px", "height": "600px", "marginLeft": "5%"}
-                ),  # Increased size
-                # Hidden divs for storing "from" and "to" node identifiers
-                html.Div(id="from-node-storage", style={"display": "none"}),
-                html.Div(id="to-node-storage", style={"display": "none"}),
-                html.Div(id="both-nodes-storage", style={"display": "none"}),
-                # Buttons for loading "from" and "to" nodes
-                dbc.ButtonGroup(
-                    [
-                        dbc.Button(
-                            'Load "From" Ligand', id="load_from_lig", color="primary", className="mb-2"
+                # Top row with correlation plot and ligand display
+                html.Div(
+                    style={
+                        "display": "flex",
+                        "gap": "20px",
+                        "alignItems": "stretch",
+                        "height": "450px",
+                    },
+                    children=[
+                        # Left: Correlation plot (optimized)
+                        html.Div(
+                            style={
+                                "flex": "1.2",  # Slightly more space for the plot
+                                "backgroundColor": "white",
+                                "borderRadius": "8px",
+                                "boxShadow": "0 2px 6px rgba(0,0,0,0.1)",
+                                "border": f"1px solid {color_dict['no_highlight']}",
+                                "overflow": "hidden",
+                            },
+                            children=[
+                                dcc.Graph(
+                                    id="ddg-plot",
+                                    style={"height": "100%", "width": "100%"},
+                                ),
+                            ],
                         ),
-                        dbc.Button('Load "To" Ligand', id="load_to_lig", color="info", className="mb-2"),
-                        dbc.Button(
-                            "Load Both Ligands", id="load_both_ligs", color="secondary", className="mb-2"
+                        # Right: Ligand display
+                        html.Div(
+                            [
+                                html.Div(
+                                    id="chem_name",
+                                    style={
+                                        "fontSize": "18px",
+                                        "fontWeight": "500",
+                                        "marginBottom": "20px",
+                                        "textAlign": "center",
+                                        "color": color_dict["to"],
+                                        "minHeight": "50px",
+                                        "display": "flex",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                    },
+                                ),
+                                html.Div(
+                                    [
+                                        html.Img(
+                                            id="lig1_img",
+                                            style={
+                                                "maxWidth": "40%",
+                                                "height": "280px",
+                                                "borderRadius": "6px",
+                                                "border": f"2px solid {color_dict['from']}",
+                                            },
+                                        ),
+                                        html.Div(
+                                            "→",
+                                            style={
+                                                "fontSize": "28px",
+                                                "fontWeight": "bold",
+                                                "color": color_dict["to"],
+                                                "display": "flex",
+                                                "alignItems": "center",
+                                                "justifyContent": "center",
+                                                "width": "8%",
+                                            },
+                                        ),
+                                        html.Img(
+                                            id="lig2_img",
+                                            style={
+                                                "maxWidth": "40%",
+                                                "height": "280px",
+                                                "borderRadius": "6px",
+                                                "border": f"2px solid {color_dict['to']}",
+                                            },
+                                        ),
+                                    ],
+                                    style={
+                                        "display": "flex",
+                                        "alignItems": "center",
+                                        "justifyContent": "center",
+                                        "gap": "15px",
+                                    },
+                                ),
+                            ],
+                            style={
+                                "flex": "1",
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "justifyContent": "center",
+                                "backgroundColor": "white",
+                                "padding": "25px",
+                                "borderRadius": "8px",
+                                "boxShadow": "0 2px 6px rgba(0,0,0,0.1)",
+                                "border": f"1px solid {color_dict['no_highlight']}",
+                            },
                         ),
                     ],
-                    vertical=True,
+                ),
+                # Bottom row with network and 3D viewer
+                html.Div(
+                    style={
+                        "display": "flex",
+                        "gap": "20px",
+                        "alignItems": "stretch",
+                        "height": "550px",
+                    },
+                    children=[
+                        # Left: Perturbation network (more space)
+                        html.Div(
+                            style={
+                                "flex": "1.4",  # More space for the network
+                                "backgroundColor": "white",
+                                "borderRadius": "8px",
+                                "boxShadow": "0 2px 6px rgba(0,0,0,0.1)",
+                                "border": f"1px solid {color_dict['no_highlight']}",
+                                "overflow": "hidden",
+                            },
+                            children=[
+                                dcc.Graph(
+                                    id="perturbation-graph",
+                                    style={"height": "100%", "width": "100%"},
+                                ),
+                            ],
+                        ),
+                        # Right: 3D Viewer with controls
+                        html.Div(
+                            style={
+                                "flex": "1.6",  # Adjusted for better balance
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "gap": "15px",
+                            },
+                            children=[
+                                # Control panel for structure loading
+                                html.Div(
+                                    style={
+                                        "backgroundColor": "white",
+                                        "padding": "20px",
+                                        "borderRadius": "8px",
+                                        "boxShadow": "0 2px 6px rgba(0,0,0,0.1)",
+                                        "border": f"1px solid {color_dict['no_highlight']}",
+                                    },
+                                    children=[
+                                        html.H4(
+                                            "Structure Controls",
+                                            style={
+                                                "margin": "0 0 15px 0",
+                                                "fontSize": "16px",
+                                                "fontWeight": "600",
+                                                "color": color_dict["to"],
+                                            },
+                                        ),
+                                        html.Div(
+                                            [
+                                                dbc.Button(
+                                                    "Load From Ligand",
+                                                    id="load_from_lig",
+                                                    style={
+                                                        "backgroundColor": color_dict["from"],
+                                                        "borderColor": color_dict["from"],
+                                                        "fontWeight": "500",
+                                                        "borderRadius": "6px",
+                                                        "padding": "8px 16px",
+                                                    },
+                                                ),
+                                                dbc.Button(
+                                                    "Load To Ligand",
+                                                    id="load_to_lig",
+                                                    style={
+                                                        "backgroundColor": color_dict["to"],
+                                                        "borderColor": color_dict["to"],
+                                                        "fontWeight": "500",
+                                                        "borderRadius": "6px",
+                                                        "padding": "8px 16px",
+                                                    },
+                                                ),
+                                                dbc.Button(
+                                                    "Load Both Ligands",
+                                                    id="load_both_ligs",
+                                                    style={
+                                                        "backgroundColor": color_dict["most_connected"],
+                                                        "borderColor": color_dict["most_connected"],
+                                                        "color": color_dict["to"],
+                                                        "fontWeight": "500",
+                                                        "borderRadius": "6px",
+                                                        "padding": "8px 16px",
+                                                    },
+                                                ),
+                                            ],
+                                            style={
+                                                "display": "flex",
+                                                "gap": "12px",
+                                                "flexWrap": "wrap",
+                                            },
+                                        ),
+                                    ],
+                                ),
+                                # 3D Viewer
+                                html.Div(
+                                    style={
+                                        "flex": "1",
+                                        "backgroundColor": "white",
+                                        "borderRadius": "8px",
+                                        "boxShadow": "0 2px 6px rgba(0,0,0,0.1)",
+                                        "border": f"1px solid {color_dict['no_highlight']}",
+                                        "overflow": "hidden",
+                                    },
+                                    children=[
+                                        dash_molstar.MolstarViewer(
+                                            id="viewer",
+                                            style={"width": "100%", "height": "100%"},
+                                        ),
+                                    ],
+                                ),
+                            ],
+                        ),
+                        # Hidden divs for storing node identifiers
+                        html.Div(id="from-node-storage", style={"display": "none"}),
+                        html.Div(id="to-node-storage", style={"display": "none"}),
+                        html.Div(id="both-nodes-storage", style={"display": "none"}),
+                    ],
                 ),
             ],
         ),
@@ -297,6 +479,82 @@ app.layout = html.Div(
         dcc.Store(id="perturbation-graph-click-store", storage_type="memory", data={"nodes": []}),
     ],
 )
+
+
+def create_metrics_panel():
+    """Create a split metrics panel for the header"""
+    if stats_dict is None or ddG_df.empty:
+        return html.Div(
+            "No data available",
+            style={
+                "textAlign": "center",
+                "color": "#666",
+                "fontStyle": "italic",
+                "fontSize": "14px",
+            },
+        )
+
+    n_crashes = len(crashed_edges)
+    ktau = stats_dict["KTAU"]
+    rmse = stats_dict["RMSE"]
+    mae = stats_dict["MUE"]
+
+    return html.Div(
+        [
+            # Left side: Dataset info
+            html.Div(
+                [
+                    html.Span(
+                        f"N: {ddG_df.shape[0]}",
+                        style={"fontWeight": "600", "color": color_dict["to"], "marginRight": "25px"},
+                    ),
+                    html.Span(
+                        f"Crashes: {n_crashes}",
+                        style={"fontWeight": "500", "color": "#666"},
+                    ),
+                ],
+                style={
+                    "display": "flex",
+                    "alignItems": "center",
+                    "justifyContent": "flex-start",
+                },
+            ),
+            # Right side: Performance metrics
+            html.Div(
+                [
+                    html.Span(
+                        f"τ = {ktau}",
+                        style={
+                            "fontWeight": "600",
+                            "color": color_dict["to"],
+                            "marginRight": "20px",
+                            "marginLeft": "5px",
+                        },
+                    ),
+                    html.Span(
+                        f"RMSE = {rmse}",
+                        style={"fontWeight": "600", "color": color_dict["to"], "marginRight": "20px"},
+                    ),
+                    html.Span(
+                        f"MAE = {mae}",
+                        style={"fontWeight": "600", "color": color_dict["to"]},
+                    ),
+                ],
+                style={
+                    "display": "flex",
+                    "alignItems": "center",
+                    "justifyContent": "flex-end",
+                },
+            ),
+        ],
+        style={
+            "display": "flex",
+            "justifyContent": "space-between",
+            "alignItems": "center",
+            "fontSize": "14px",
+            "width": "100%",
+        },
+    )
 
 
 def construct_network_graph(highlighted_nodes: list = None):
@@ -348,18 +606,25 @@ def construct_network_graph(highlighted_nodes: list = None):
     fig = go.Figure(
         data=[edge_trace, node_trace],
         layout=go.Layout(
-            title=dict(text="Perturbation mapping", font=dict(size=16)),
+            title=dict(
+                text="Perturbation Network",
+                font=dict(size=18, color=color_dict["to"]),
+                x=0.5,
+                xanchor="center",
+            ),
             showlegend=False,
             hovermode="closest",
-            margin=dict(b=20, l=5, r=5, t=40),
+            margin=dict(b=30, l=20, r=20, t=50),
             annotations=[
                 dict(
-                    text=f"Most connected compound: {most_connected_name}",
+                    text=f"Most connected: {most_connected_name}",
                     showarrow=False,
                     xref="paper",
                     yref="paper",
-                    x=0.005,
-                    y=-0.002,
+                    x=0.5,
+                    y=-0.05,
+                    xanchor="center",
+                    font=dict(size=12, color=color_dict["to"]),
                 )
             ],
             xaxis=dict(showgrid=False, zeroline=False, showticklabels=False),
@@ -382,6 +647,7 @@ def construct_network_graph(highlighted_nodes: list = None):
     [
         Output("ddg-plot", "figure"),
         Output("perturbation-graph", "figure"),
+        Output("metrics-panel", "children"),
         Output("chem_name", "children"),
         Output("lig1_img", "src"),
         Output("lig2_img", "src"),
@@ -405,6 +671,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
     # Default values for outputs to allow partial updates
     ddg_fig = no_update
     pert_graph_fig = no_update
+    metrics_panel = no_update
     chem_name = no_update
     lig1_img = no_update
     lig2_img = no_update
@@ -417,6 +684,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
         initialize_data(selected_target)
         ddg_fig = create_ddg_plot(ddG_df, perturbations)
         pert_graph_fig = construct_network_graph()
+        metrics_panel = create_metrics_panel()
         chem_name = ""
         lig1_img = ""
         lig2_img = ""
@@ -426,6 +694,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
         return (
             ddg_fig,
             pert_graph_fig,
+            metrics_panel,
             chem_name,
             lig1_img,
             lig2_img,
@@ -445,6 +714,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
                 clicked_ddg_idx_output = None
                 # Reset other elements as well
                 pert_graph_fig = construct_network_graph()  # Reset graph highlight
+                metrics_panel = create_metrics_panel()
                 chem_name = ""
                 lig1_img = ""
                 lig2_img = ""
@@ -453,6 +723,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
                 return (
                     ddg_fig,
                     pert_graph_fig,
+                    metrics_panel,
                     chem_name,
                     lig1_img,
                     lig2_img,
@@ -487,6 +758,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
 
                 ddg_fig = create_ddg_plot(ddG_df, perturbations, highlight_index=clicked_ddg_index)
                 pert_graph_fig = construct_network_graph([lig1, lig2])
+                metrics_panel = create_metrics_panel()
                 chem_name = [
                     "ΔΔG - calc(ΔΔG):",
                     html.Br(),
@@ -503,6 +775,7 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
                 # Fallback to a non-highlighted state in case of error
                 ddg_fig = create_ddg_plot(ddG_df, perturbations)
                 pert_graph_fig = construct_network_graph()
+                metrics_panel = create_metrics_panel()
                 chem_name = "Error processing selection"
                 lig1_img = ""
                 lig2_img = ""
@@ -518,7 +791,17 @@ def update_all_components(ddg_clickData, selected_target, highlight_index_from_s
         logger.warning(f"Unhandled trigger in update_all_components: {triggered_id}")
         raise PreventUpdate
 
-    return ddg_fig, pert_graph_fig, chem_name, lig1_img, lig2_img, from_node, to_node, clicked_ddg_idx_output
+    return (
+        ddg_fig,
+        pert_graph_fig,
+        metrics_panel,
+        chem_name,
+        lig1_img,
+        lig2_img,
+        from_node,
+        to_node,
+        clicked_ddg_idx_output,
+    )
 
 
 def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
@@ -625,20 +908,16 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
         )
     )
 
-    # Statistical information
-    ktau = f"{stats_dict['KTAU']}"
-    rmse = f"{stats_dict['RMSE']}"
-    mae = f"{stats_dict['MUE']}"
-    text = f"N = {plot_df.shape[0]} | crashes = {n_crashes} | τ = {ktau} | RMSE = {rmse} kcal/mol | MAE = {mae} kcal/mol"
+    # Compact title annotation (metrics moved to header)
     annotations = [
         {
             "x": 0.5,
-            "y": 1.15,
+            "y": 1.02,
             "xref": "paper",
             "yref": "paper",
             "showarrow": False,
-            "text": text,
-            "font": {"size": 12},
+            "text": "Experimental vs Predicted ΔΔG",
+            "font": {"size": 14, "color": color_dict["to"]},
             "xanchor": "center",
             "yanchor": "auto",
         }
