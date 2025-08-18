@@ -220,3 +220,16 @@ Analyze the results
 ```bash
 qligfep_analyze -t tnks2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_tnks2 && mv tnks2*  results_tnks2 && cp mapping_ddG.json results_tnks2
 ```
+
+# GPCR dataset
+
+# 4s0v-OX2R
+
+Setup FEP's for target
+```bash
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+```
+
+```bash
+qligfep_analyze -t 4s0v-OX2R -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_4s0v-OX2R && mv 4s0v-OX2R*  results_4s0v-OX2R && cp mapping_ddG.json results_4s0v-OX2R
+```
