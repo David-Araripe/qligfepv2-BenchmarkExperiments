@@ -223,11 +223,13 @@ qligfep_analyze -t tnks2 -j mapping.json -log debug -exp ddg_value -m ddGbar -la
 
 # GPCR dataset
 
+note: We ran experiments for these targets at 310K.
+
 # 4s0v-OX2R
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42 -T 310 -wath 1.4
 ```
 
 ```bash
