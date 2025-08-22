@@ -33,8 +33,6 @@ All ligands and respective protein structure were loaded in `Maestro`. A minimiz
 
 N-terminal of Chain A was also minimized to remove a clash leading to infinite VDW potentials.
 
-Due to the issues above, an internally-prepared structure was used for the calculations. The structure used, however, is very similar to the one produced by the above modifications.
-
 **Ligand Changes**
 
 An additional change was introduced to the input ligand structures. We noticed poorer correlation with the experimental data when using the ligands from the `IndustryBenchmarks2024` repository. Ligand `17` in the series contains a halogen meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6GUK`, though different from the ligand in question, displays a different rotamer pointing towards the cyclohexyl group, less solvent-exposed. The space where the chlorine group is positioned in this deposited structure has an [overlap](https://www.ebi.ac.uk/pdbe/entry/view3D/6guk/?view=entry_index&viewer=litemol&assembly=1) of both 2Fo-Fc $\sigma$ and Fo-Fc(-ve) $\sigma$ maps, indicating an uncertainty in the positioning of the halogen atom. However, we assumed the rotamer conformation to have contributed for the poor correlation between QligFEP results with the experimental data and decided to use poses with the halogen pointing towards the cyclohexyl group.
@@ -73,7 +71,7 @@ No manual minimization performed. Bad clashes were only observed against water m
 
 ### ptp1b
 
-Prepared protein found in the source repository displayed poor correlation with the experimental data. Therefore, we proceeded to use an internally prepared structure by us, generated before this study was conducted and that was known to work well with QligFEP RBFE calculations.
+No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
 
 Upon checking the ligands, we noticed a need for optimization of the ligand poses. Despite the good MCS alignment for the scaffold shared by the ligands, other parts of the ligand weren't so well aligned. Therefore, we decided to perform a few additional alignments on top of the ligand preparation on IndustryBenchmarks2024 repository. The changes can be found in our [ligand alignment notebook](startFiles/ligand_alignment.ipynb).
 
