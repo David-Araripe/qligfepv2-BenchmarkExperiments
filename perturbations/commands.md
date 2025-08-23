@@ -25,7 +25,7 @@
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
@@ -49,7 +49,7 @@ qligfep_analyze -t cdk2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lam
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
@@ -61,7 +61,7 @@ qligfep_analyze -t jnk1 -j mapping.json -log debug -exp ddg_value -m ddGbar -lam
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -73,7 +73,7 @@ qligfep_analyze -t mcl1 -j mapping.json -log debug -exp ddg_value -m ddGbar -lam
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -109,7 +109,7 @@ qligfep_analyze -t thrombin -j mapping.json -log debug -exp ddg_value -m ddGbar 
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42
 ```
 
 Analyze the results
@@ -139,7 +139,7 @@ I expect some crashes... -->
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_ls -rs 42
 ```
 
 Analyze the results
@@ -151,7 +151,7 @@ qligfep_analyze -t cmet -j mapping.json -log debug -exp ddg_value -m ddGbar -lam
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -165,7 +165,7 @@ qligfep_analyze -t eg5 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -177,7 +177,7 @@ qligfep_analyze -t hif2a -j mapping.json -log debug -exp ddg_value -m ddGbar -la
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p_1.2 -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p_1.2 -rs 42
 ```
 
 Analyze the results
@@ -189,7 +189,7 @@ qligfep_analyze -t shp2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lam
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
@@ -213,7 +213,7 @@ qligfep_analyze -t pfkfb3 -j mapping.json -log debug -exp ddg_value -m ddGbar -l
 
 Setup FEP's for target
 ```bash
-setupFEP -FF AMBER14sb -c DARDEL -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -S sigmoidal -ts 2fs -clean dcd inp -j mapping.json -log info -rest heavyatom_p -rs 42
 ```
 
 Analyze the results
