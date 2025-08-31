@@ -12,7 +12,7 @@ In this repostory you can find:
 The FEPviz is a dash app that allows the interactive visualization of the results of the benchmarking experiments. The app is available on `app.py` and requires the following packages to be installed:
 
 ```bash
-python -m pip install git+https://github.com/David-Araripe/SFC_FreeEnergyCorrection.git git+https://github.com/David-Araripe/chemFilters.git dash cinnabar dash-molstar dash-bootstrap-components statannotations fastparquet
+python -m pip install git+https://github.com/David-Araripe/SFC_FreeEnergyCorrection.git git+https://github.com/David-Araripe/chemFilters.git dash cinnabar dash-molstar dash-bootstrap-components statannotations statsmodels fastparquet tabulate
 ```
 
 ## JACS Benchmark set;
@@ -71,7 +71,7 @@ No manual minimization performed. Bad clashes were only observed against water m
 
 ### ptp1b
 
-No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
+Prepared protein from the source repository displayed poor correlation with the experimental data. Therefore, we proceeded to use an internally prepared structure by us, generated before this study was conducted and known to work well with QligFEP RBFE calculations.
 
 Upon checking the ligands, we noticed a need for optimization of the ligand poses. Despite the good MCS alignment for the scaffold shared by the ligands, other parts of the ligand weren't so well aligned. Therefore, we decided to perform a few additional alignments on top of the ligand preparation on IndustryBenchmarks2024 repository. The changes can be found in our [ligand alignment notebook](startFiles/ligand_alignment.ipynb).
 
