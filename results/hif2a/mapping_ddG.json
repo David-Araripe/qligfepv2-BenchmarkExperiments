@@ -280,9 +280,9 @@
             "strict_flag": false,
             "ddg_value": 1.54,
             "same_charge": true,
-            "Q_ddG_avg": NaN,
-            "Q_ddG_sem": NaN,
-            "Q_ddG_std": NaN
+            "Q_ddG_avg": null,
+            "Q_ddG_sem": null,
+            "Q_ddG_std": null
         },
         {
             "from": "1",
@@ -434,9 +434,9 @@
             "strict_flag": false,
             "ddg_value": -2.21,
             "same_charge": true,
-            "Q_ddG_avg": NaN,
-            "Q_ddG_sem": NaN,
-            "Q_ddG_std": NaN
+            "Q_ddG_avg": null,
+            "Q_ddG_sem": null,
+            "Q_ddG_std": null
         },
         {
             "from": "155",
