@@ -50,7 +50,7 @@ def lomap_json_to_dataframe(lomap_json: dict) -> pd.DataFrame:
     )
 
 
-def add_images_to_df(df, molplotter: MolPlotter, n_jobs=1) -> pd.DataFrame:
+def add_images_to_df(df, molplotter: MolPlotter, n_jobs=4) -> pd.DataFrame:
     """Use MolPlotter to render images of the molecules in the dataframe
 
     Args:
