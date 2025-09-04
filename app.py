@@ -257,7 +257,7 @@ app.layout = html.Div(
                         "display": "flex",
                         "gap": "20px",
                         "alignItems": "stretch",
-                        "height": "450px",
+                        "height": "480px",
                     },
                     children=[
                         # Left: Correlation plot (optimized)
@@ -285,7 +285,7 @@ app.layout = html.Div(
                                     style={
                                         "fontSize": "18px",
                                         "fontWeight": "500",
-                                        "marginBottom": "20px",
+                                        "marginBottom": "10px",
                                         "textAlign": "center",
                                         "color": color_dict["to"],
                                         "minHeight": "50px",
@@ -300,9 +300,9 @@ app.layout = html.Div(
                                             id="lig1_img",
                                             style={
                                                 "maxWidth": "40%",
-                                                "height": "280px",
+                                                "height": "300px",
                                                 "borderRadius": "6px",
-                                                "border": f"2px solid {color_dict['from']}",
+                                                "border": f"1px solid {color_dict['from']}",
                                             },
                                         ),
                                         html.Div(
@@ -314,16 +314,16 @@ app.layout = html.Div(
                                                 "display": "flex",
                                                 "alignItems": "center",
                                                 "justifyContent": "center",
-                                                "width": "8%",
+                                                "width": "4%",
                                             },
                                         ),
                                         html.Img(
                                             id="lig2_img",
                                             style={
                                                 "maxWidth": "40%",
-                                                "height": "280px",
+                                                "height": "300px",
                                                 "borderRadius": "6px",
-                                                "border": f"2px solid {color_dict['to']}",
+                                                "border": f"1px solid {color_dict['to']}",
                                             },
                                         ),
                                     ],
