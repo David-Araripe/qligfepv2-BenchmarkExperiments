@@ -1,8 +1,8 @@
 {
     "1.water": {
         "FEP_1a_1c": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_1c",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_1c",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -98,8 +98,8 @@
             }
         },
         "FEP_1a_3b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_3b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_3b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -195,8 +195,8 @@
             }
         },
         "FEP_1a_5": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_5",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1a_5",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -292,8 +292,8 @@
             }
         },
         "FEP_1b_1a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1b_1a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1b_1a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -389,8 +389,8 @@
             }
         },
         "FEP_1d_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1d_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1d_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -488,8 +488,8 @@
             }
         },
         "FEP_1d_1c": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1d_1c",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_1d_1c",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -585,8 +585,8 @@
             }
         },
         "FEP_3a_3b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_3a_3b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_3a_3b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -682,8 +682,8 @@
             }
         },
         "FEP_3a_5": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_3a_5",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_3a_5",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -779,8 +779,8 @@
             }
         },
         "FEP_6a_6b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6a_6b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6a_6b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -876,8 +876,8 @@
             }
         },
         "FEP_6a_6e": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6a_6e",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6a_6e",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -973,8 +973,8 @@
             }
         },
         "FEP_6b_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6b_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6b_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1070,8 +1070,8 @@
             }
         },
         "FEP_6b_7a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6b_7a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6b_7a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1167,8 +1167,8 @@
             }
         },
         "FEP_6e_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6e_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6e_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1264,8 +1264,8 @@
             }
         },
         "FEP_6e_7a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6e_7a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/1.water/FEP_6e_7a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1363,8 +1363,8 @@
     },
     "2.protein": {
         "FEP_1a_1c": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_1c",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_1c",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1374,94 +1374,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        -0.967,
-                        -0.595,
-                        -1.617,
-                        -0.292,
-                        -0.825,
-                        0.278,
-                        -2.719,
-                        -0.333,
-                        -0.81,
-                        0.627
+                        -1.427,
+                        -0.02,
+                        -0.314,
+                        -0.882,
+                        -0.824,
+                        -1.353,
+                        0.229,
+                        -1.376,
+                        -1.0,
+                        -0.514
                     ],
-                    "avg": -0.7253000000000001,
-                    "sem": 0.28353931120745846,
-                    "std": 0.8966300296108758
+                    "avg": -0.7481,
+                    "sem": 0.17425013342893023,
+                    "std": 0.5510273042236654
                 },
                 "dGf": {
                     "energies": [
-                        -0.694,
-                        -0.168,
-                        -1.418,
-                        0.261,
-                        -0.552,
-                        0.615,
-                        -2.02,
-                        0.13,
-                        -0.493,
-                        1.093
+                        -1.031,
+                        -0.176,
+                        0.422,
+                        -0.328,
+                        -0.11,
+                        -0.751,
+                        1.011,
+                        -1.044,
+                        -0.654,
+                        0.295
                     ],
-                    "avg": -0.32460000000000006,
-                    "sem": 0.27844174256027054,
-                    "std": 0.8805101021566987
+                    "avg": -0.2366,
+                    "sem": 0.20056690654243037,
+                    "std": 0.6342482479282068
                 },
                 "dGr": {
                     "energies": [
-                        1.239,
-                        1.022,
-                        1.816,
-                        0.845,
-                        1.098,
-                        0.059,
-                        3.419,
-                        0.796,
-                        1.127,
-                        -0.16
+                        1.822,
+                        -0.137,
+                        1.05,
+                        1.435,
+                        1.537,
+                        1.956,
+                        0.554,
+                        1.708,
+                        1.346,
+                        1.324
                     ],
-                    "avg": 1.1261,
-                    "sem": 0.29560894607572347,
-                    "std": 0.9347975663211795
+                    "avg": 1.2595,
+                    "sem": 0.19010398470310924,
+                    "std": 0.6011615839356337
                 },
                 "dGos": {
                     "energies": [
-                        -0.815,
-                        -0.483,
-                        -1.65,
-                        -0.158,
-                        -0.861,
-                        0.381,
-                        -2.843,
-                        -0.345,
-                        -0.825,
-                        0.66
+                        -1.557,
+                        -0.383,
+                        -0.16,
+                        -0.747,
+                        -0.777,
+                        -1.538,
+                        0.163,
+                        -1.232,
+                        -0.911,
+                        -0.381
                     ],
-                    "avg": -0.6939,
-                    "sem": 0.3005725686086473,
-                    "std": 0.9504939189705529
+                    "avg": -0.7523,
+                    "sem": 0.172732223397952,
+                    "std": 0.5462272512425574
                 },
                 "dGbar": {
                     "energies": [
-                        -0.805,
-                        -0.491,
-                        -1.647,
-                        -0.152,
-                        -0.878,
-                        0.366,
-                        -2.849,
-                        -0.356,
-                        -0.823,
-                        0.648
+                        -1.562,
+                        -0.447,
+                        -0.177,
+                        -0.782,
+                        -0.819,
+                        -1.509,
+                        0.162,
+                        -1.213,
+                        -0.89,
+                        -0.394
                     ],
-                    "avg": -0.6987,
-                    "sem": 0.29981014158964,
-                    "std": 0.9480829130408374
+                    "avg": -0.7630999999999999,
+                    "sem": 0.168881049854624,
+                    "std": 0.5340487711810598
                 }
             }
         },
         "FEP_1a_3b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_3b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_3b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1471,94 +1471,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        8.441,
-                        10.385,
-                        12.448,
-                        10.402,
-                        9.196,
-                        10.917,
-                        9.194,
-                        12.825,
-                        11.595,
-                        11.158
+                        11.379,
+                        11.131,
+                        11.943,
+                        12.785,
+                        8.538,
+                        12.432,
+                        11.572,
+                        8.621,
+                        12.495,
+                        10.477
                     ],
-                    "avg": 10.656099999999999,
-                    "sem": 0.42931220457843955,
-                    "std": 1.3576043937760365
+                    "avg": 11.1373,
+                    "sem": 0.45448003366484646,
+                    "std": 1.437192057450917
                 },
                 "dGf": {
                     "energies": [
-                        9.076,
-                        11.252,
-                        13.552,
-                        11.024,
-                        10.459,
-                        11.217,
-                        9.559,
-                        13.637,
-                        12.245,
-                        11.904
+                        12.406,
+                        11.772,
+                        12.634,
+                        13.221,
+                        9.185,
+                        13.287,
+                        11.941,
+                        9.119,
+                        13.661,
+                        11.315
                     ],
-                    "avg": 11.392500000000002,
-                    "sem": 0.45249595025812106,
-                    "std": 1.4309178348179186
+                    "avg": 11.854099999999999,
+                    "sem": 0.47967833909819196,
+                    "std": 1.516876095796885
                 },
                 "dGr": {
                     "energies": [
-                        -7.806,
-                        -9.518,
-                        -11.344,
-                        -9.78,
-                        -7.932,
-                        -10.617,
-                        -8.828,
-                        -12.013,
-                        -10.944,
-                        -10.412
+                        -10.353,
+                        -10.49,
+                        -11.251,
+                        -12.349,
+                        -7.891,
+                        -11.578,
+                        -11.203,
+                        -8.123,
+                        -11.329,
+                        -9.64
                     ],
-                    "avg": -9.9194,
-                    "sem": 0.424024508725616,
-                    "std": 1.3408832313068875
+                    "avg": -10.4207,
+                    "sem": 0.44138158208063005,
+                    "std": 1.3957711166233524
                 },
                 "dGos": {
                     "energies": [
-                        8.551,
-                        10.427,
-                        12.555,
-                        10.553,
-                        9.506,
-                        10.964,
-                        9.278,
-                        13.163,
-                        11.698,
-                        11.253
+                        11.918,
+                        11.322,
+                        12.087,
+                        12.92,
+                        8.736,
+                        12.896,
+                        11.749,
+                        8.449,
+                        12.739,
+                        10.761
                     ],
-                    "avg": 10.794799999999999,
-                    "sem": 0.43532851503203873,
-                    "std": 1.3766296379200906
+                    "avg": 11.3577,
+                    "sem": 0.4837896247337266,
+                    "std": 1.5298771225167074
                 },
                 "dGbar": {
                     "energies": [
-                        8.559,
-                        10.427,
-                        12.619,
-                        10.556,
-                        9.382,
-                        10.968,
-                        9.283,
-                        13.115,
-                        11.73,
-                        11.275
+                        11.928,
+                        11.302,
+                        12.088,
+                        12.912,
+                        8.725,
+                        12.844,
+                        11.77,
+                        8.463,
+                        12.694,
+                        10.694
                     ],
-                    "avg": 10.7914,
-                    "sem": 0.43953105009771504,
-                    "std": 1.3899192206743531
+                    "avg": 11.342,
+                    "sem": 0.4815676276495338,
+                    "std": 1.5228505507764052
                 }
             }
         },
         "FEP_1a_5": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_5",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1a_5",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1568,94 +1568,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        9.019,
-                        7.117,
-                        8.827,
-                        7.787,
-                        9.103,
-                        7.735,
-                        9.349,
-                        9.208,
-                        8.242,
-                        8.738
+                        7.334,
+                        6.605,
+                        7.394,
+                        7.261,
+                        7.675,
+                        6.82,
+                        6.797,
+                        7.86,
+                        5.337,
+                        6.559
                     ],
-                    "avg": 8.512500000000001,
-                    "sem": 0.22560790101412667,
-                    "std": 0.7134348253344519
+                    "avg": 6.9642,
+                    "sem": 0.2169563458394338,
+                    "std": 0.6860762056798064
                 },
                 "dGf": {
                     "energies": [
-                        9.416,
-                        7.916,
-                        9.145,
-                        8.227,
-                        9.316,
-                        7.985,
-                        9.926,
-                        9.574,
-                        8.534,
-                        9.179
+                        7.681,
+                        7.272,
+                        7.478,
+                        7.542,
+                        7.926,
+                        7.686,
+                        7.164,
+                        8.422,
+                        6.06,
+                        6.831
                     ],
-                    "avg": 8.921800000000001,
-                    "sem": 0.2114649758234209,
-                    "std": 0.6687109689544504
+                    "avg": 7.4062,
+                    "sem": 0.19233360600789454,
+                    "std": 0.6082122655783917
                 },
                 "dGr": {
                     "energies": [
-                        -8.623,
-                        -6.318,
-                        -8.509,
-                        -7.348,
-                        -8.891,
-                        -7.485,
-                        -8.773,
-                        -8.842,
-                        -7.951,
-                        -8.297
+                        -6.987,
+                        -5.938,
+                        -7.311,
+                        -6.98,
+                        -7.424,
+                        -5.953,
+                        -6.43,
+                        -7.297,
+                        -4.614,
+                        -6.287
                     ],
-                    "avg": -8.1037,
-                    "sem": 0.25000220199030254,
-                    "std": 0.7905763783468365
+                    "avg": -6.5221,
+                    "sem": 0.26137537948322526,
+                    "std": 0.8265415234578358
                 },
                 "dGos": {
                     "energies": [
-                        9.096,
-                        6.746,
-                        8.714,
-                        7.806,
-                        9.167,
-                        7.747,
-                        9.121,
-                        9.074,
-                        8.18,
-                        8.618
+                        7.38,
+                        6.553,
+                        7.44,
+                        7.204,
+                        7.764,
+                        6.964,
+                        6.823,
+                        7.919,
+                        5.197,
+                        6.554
                     ],
-                    "avg": 8.4269,
-                    "sem": 0.2397721188962553,
-                    "std": 0.7582260151168647
+                    "avg": 6.9798,
+                    "sem": 0.23422108359411195,
+                    "std": 0.7406721001900908
                 },
                 "dGbar": {
                     "energies": [
-                        9.103,
-                        6.788,
-                        8.698,
-                        7.806,
-                        9.173,
-                        7.762,
-                        9.146,
-                        9.076,
-                        8.177,
-                        8.633
+                        7.39,
+                        6.564,
+                        7.451,
+                        7.207,
+                        7.783,
+                        6.948,
+                        6.823,
+                        7.914,
+                        5.212,
+                        6.564
                     ],
-                    "avg": 8.436199999999998,
-                    "sem": 0.2375578161206236,
-                    "std": 0.7512237749166357
+                    "avg": 6.9856,
+                    "sem": 0.23357933127740563,
+                    "std": 0.738642701175609
                 }
             }
         },
         "FEP_1b_1a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1b_1a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1b_1a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1665,94 +1665,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        -5.13,
-                        -5.664,
-                        -4.56,
-                        -5.203,
-                        -5.238,
-                        -5.219,
-                        -4.409,
-                        -4.661,
-                        -4.365,
-                        -5.481
+                        -5.281,
+                        -5.558,
+                        -5.45,
+                        -4.692,
+                        -5.667,
+                        -4.587,
+                        -4.775,
+                        -5.966,
+                        -5.164,
+                        -5.554
                     ],
-                    "avg": -4.993,
-                    "sem": 0.137677449133836,
-                    "std": 0.435374321704898
+                    "avg": -5.2694,
+                    "sem": 0.1376581417860927,
+                    "std": 0.43531326651045227
                 },
                 "dGf": {
                     "energies": [
-                        -4.73,
-                        -5.351,
-                        -3.854,
-                        -4.979,
-                        -5.128,
-                        -4.869,
-                        -4.174,
-                        -4.301,
-                        -3.896,
-                        -4.756
+                        -4.676,
+                        -5.077,
+                        -5.064,
+                        -4.478,
+                        -5.044,
+                        -4.006,
+                        -4.355,
+                        -5.539,
+                        -4.636,
+                        -5.228
                     ],
-                    "avg": -4.603800000000001,
-                    "sem": 0.1556562751706464,
-                    "std": 0.4922283616371571
+                    "avg": -4.810300000000001,
+                    "sem": 0.13815288994443795,
+                    "std": 0.43687779755899686
                 },
                 "dGr": {
                     "energies": [
-                        5.53,
-                        5.977,
-                        5.265,
-                        5.427,
-                        5.348,
-                        5.57,
-                        4.645,
-                        5.02,
-                        4.835,
-                        6.206
+                        5.886,
+                        6.039,
+                        5.835,
+                        4.906,
+                        6.289,
+                        5.167,
+                        5.195,
+                        6.393,
+                        5.691,
+                        5.881
                     ],
-                    "avg": 5.3823,
-                    "sem": 0.14424077440169275,
-                    "std": 0.45612937857586
+                    "avg": 5.7282,
+                    "sem": 0.14796457684189143,
+                    "std": 0.4679050758433808
                 },
                 "dGos": {
                     "energies": [
-                        -5.159,
-                        -5.713,
-                        -4.668,
-                        -5.284,
-                        -5.32,
-                        -5.307,
-                        -4.39,
-                        -4.696,
-                        -4.265,
-                        -5.493
+                        -5.278,
+                        -5.637,
+                        -5.606,
+                        -4.635,
+                        -5.937,
+                        -4.727,
+                        -4.75,
+                        -6.026,
+                        -5.095,
+                        -5.535
                     ],
-                    "avg": -5.0295000000000005,
-                    "sem": 0.14697845080146957,
-                    "std": 0.4647866714956445
+                    "avg": -5.3225999999999996,
+                    "sem": 0.15184631704456977,
+                    "std": 0.480180216168888
                 },
                 "dGbar": {
                     "energies": [
-                        -5.14,
-                        -5.727,
-                        -4.65,
-                        -5.315,
-                        -5.34,
-                        -5.301,
-                        -4.382,
-                        -4.678,
-                        -4.259,
-                        -5.499
+                        -5.242,
+                        -5.661,
+                        -5.603,
+                        -4.615,
+                        -5.942,
+                        -4.736,
+                        -4.741,
+                        -6.026,
+                        -5.103,
+                        -5.532
                     ],
-                    "avg": -5.029100000000001,
-                    "sem": 0.15004255729625512,
-                    "std": 0.47447622701248165
+                    "avg": -5.320100000000001,
+                    "sem": 0.15339911668585318,
+                    "std": 0.485090599785236
                 }
             }
         },
         "FEP_1d_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1d_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1d_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1762,94 +1762,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        9.399,
-                        9.732,
-                        8.952,
-                        8.109,
-                        7.988,
-                        6.385,
-                        9.07,
-                        9.648,
-                        6.742,
-                        9.089
+                        8.579,
+                        9.38,
+                        9.167,
+                        9.675,
+                        8.362,
+                        8.364,
+                        8.707,
+                        7.336,
+                        7.356,
+                        8.213
                     ],
-                    "avg": 8.5114,
-                    "sem": 0.3535190009037703,
-                    "std": 1.117925239003038
+                    "avg": 8.513899999999998,
+                    "sem": 0.23303675461179943,
+                    "std": 0.7369269231070339
                 },
                 "dGf": {
                     "energies": [
-                        9.89,
-                        10.188,
-                        9.574,
-                        9.116,
-                        8.293,
-                        6.746,
-                        9.506,
-                        10.213,
-                        7.257,
-                        9.623
+                        9.226,
+                        9.732,
+                        9.661,
+                        9.819,
+                        8.821,
+                        8.826,
+                        9.213,
+                        8.013,
+                        7.923,
+                        8.648
                     ],
-                    "avg": 9.040600000000001,
-                    "sem": 0.36419555735895515,
-                    "std": 1.1516874749687955
+                    "avg": 8.9882,
+                    "sem": 0.2014665629825456,
+                    "std": 0.6370932113906097
                 },
                 "dGr": {
                     "energies": [
-                        -8.909,
-                        -9.276,
-                        -8.329,
-                        -7.101,
-                        -7.683,
-                        -6.025,
-                        -8.633,
-                        -9.082,
-                        -6.228,
-                        -8.555
+                        -7.932,
+                        -9.028,
+                        -8.674,
+                        -9.531,
+                        -7.904,
+                        -7.901,
+                        -8.201,
+                        -6.659,
+                        -6.789,
+                        -7.779
                     ],
-                    "avg": -7.9821,
-                    "sem": 0.35196918757186685,
-                    "std": 1.1130242989261285
+                    "avg": -8.0398,
+                    "sem": 0.26864224537477355,
+                    "std": 0.8495213711261186
                 },
                 "dGos": {
                     "energies": [
-                        9.477,
-                        9.593,
-                        8.737,
-                        7.989,
-                        7.994,
-                        6.254,
-                        9.034,
-                        9.555,
-                        6.594,
-                        8.96
+                        8.514,
+                        9.396,
+                        9.191,
+                        9.834,
+                        8.286,
+                        8.258,
+                        8.727,
+                        7.106,
+                        7.336,
+                        8.083
                     ],
-                    "avg": 8.418699999999998,
-                    "sem": 0.35977131764497294,
-                    "std": 1.13769680055804
+                    "avg": 8.473099999999999,
+                    "sem": 0.25847094420843514,
+                    "std": 0.8173568926729621
                 },
                 "dGbar": {
                     "energies": [
-                        9.46,
-                        9.624,
-                        8.761,
-                        8.015,
-                        8.012,
-                        6.25,
-                        9.035,
-                        9.551,
-                        6.611,
-                        8.952
+                        8.525,
+                        9.41,
+                        9.216,
+                        9.869,
+                        8.28,
+                        8.273,
+                        8.715,
+                        7.119,
+                        7.352,
+                        8.086
                     ],
-                    "avg": 8.4271,
-                    "sem": 0.3591555777097162,
-                    "std": 1.135749659916304
+                    "avg": 8.4845,
+                    "sem": 0.2599183429463953,
+                    "std": 0.8219339693673695
                 }
             }
         },
         "FEP_1d_1c": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1d_1c",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_1d_1c",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1859,94 +1859,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        2.287,
-                        0.438,
-                        3.758,
-                        2.372,
-                        3.41,
-                        2.84,
-                        -0.071,
-                        3.324,
-                        2.959,
-                        1.038
+                        2.944,
+                        1.375,
+                        3.693,
+                        2.965,
+                        2.567,
+                        1.376,
+                        2.088,
+                        2.832,
+                        3.379,
+                        4.203
                     ],
-                    "avg": 2.2355,
-                    "sem": 0.3972077604982057,
-                    "std": 1.256081227468988
+                    "avg": 2.7422,
+                    "sem": 0.27814222261282084,
+                    "std": 0.8795629369181037
                 },
                 "dGf": {
                     "energies": [
-                        2.88,
-                        0.663,
-                        4.428,
-                        2.896,
-                        4.135,
-                        3.428,
-                        0.193,
-                        3.705,
-                        3.476,
-                        1.178
+                        3.44,
+                        2.005,
+                        4.031,
+                        3.325,
+                        2.732,
+                        1.545,
+                        2.51,
+                        3.341,
+                        3.755,
+                        4.677
                     ],
-                    "avg": 2.6982000000000004,
-                    "sem": 0.4473150969953954,
-                    "std": 1.4145345382845906
+                    "avg": 3.1361,
+                    "sem": 0.28450945327001,
+                    "std": 0.8996978881824721
                 },
                 "dGr": {
                     "energies": [
-                        -1.695,
-                        -0.213,
-                        -3.088,
-                        -1.848,
-                        -2.685,
-                        -2.252,
-                        0.336,
-                        -2.943,
-                        -2.443,
-                        -0.899
+                        -2.448,
+                        -0.746,
+                        -3.355,
+                        -2.605,
+                        -2.401,
+                        -1.208,
+                        -1.667,
+                        -2.323,
+                        -3.003,
+                        -3.728
                     ],
-                    "avg": -1.7730000000000001,
-                    "sem": 0.35021816057994476,
-                    "std": 1.1074870653872215
+                    "avg": -2.3484000000000003,
+                    "sem": 0.2785088939333895,
+                    "std": 0.8807224534437623
                 },
                 "dGos": {
                     "energies": [
-                        2.369,
-                        0.315,
-                        3.731,
-                        2.42,
-                        3.334,
-                        2.915,
-                        -0.118,
-                        3.305,
-                        2.976,
-                        0.988
+                        2.957,
+                        1.035,
+                        3.819,
+                        2.845,
+                        2.572,
+                        1.425,
+                        1.99,
+                        2.908,
+                        3.449,
+                        4.16
                     ],
-                    "avg": 2.2235,
-                    "sem": 0.4053526180993531,
-                    "std": 1.281837528706349
+                    "avg": 2.716,
+                    "sem": 0.299847861423089,
+                    "std": 0.9482021936274984
                 },
                 "dGbar": {
                     "energies": [
-                        2.398,
-                        0.311,
-                        3.723,
-                        2.415,
-                        3.355,
-                        2.909,
-                        -0.136,
-                        3.302,
-                        2.98,
-                        0.972
+                        2.974,
+                        0.957,
+                        3.851,
+                        2.861,
+                        2.569,
+                        1.429,
+                        2.015,
+                        2.933,
+                        3.442,
+                        4.157
                     ],
-                    "avg": 2.2229,
-                    "sem": 0.40733800338293996,
-                    "std": 1.2881158682354628
+                    "avg": 2.7188000000000003,
+                    "sem": 0.3047924146037759,
+                    "std": 0.9638382436902989
                 }
             }
         },
         "FEP_3a_3b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_3a_3b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_3a_3b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -1956,94 +1956,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        15.59,
-                        15.735,
-                        15.39,
-                        14.184,
-                        14.859,
-                        14.835,
-                        13.374,
-                        15.601,
-                        15.055,
-                        15.61
+                        15.538,
+                        16.169,
+                        16.082,
+                        14.272,
+                        15.05,
+                        18.029,
+                        14.642,
+                        16.283,
+                        16.211,
+                        16.684
                     ],
-                    "avg": 15.0233,
-                    "sem": 0.2264544126308869,
-                    "std": 0.7161117301092057
+                    "avg": 15.896,
+                    "sem": 0.32530791567375056,
+                    "std": 1.0287139544110404
                 },
                 "dGf": {
                     "energies": [
-                        16.206,
-                        16.594,
-                        15.86,
-                        14.716,
-                        15.285,
-                        15.458,
-                        13.989,
-                        16.301,
-                        15.705,
-                        16.509
+                        16.239,
+                        16.9,
+                        16.797,
+                        15.091,
+                        15.539,
+                        19.22,
+                        15.553,
+                        17.096,
+                        16.981,
+                        17.201
                     ],
-                    "avg": 15.662299999999998,
-                    "sem": 0.2491772882908873,
-                    "std": 0.7879677721836089
+                    "avg": 16.6617,
+                    "sem": 0.35123852436770076,
+                    "std": 1.1107137389984871
                 },
                 "dGr": {
                     "energies": [
-                        -14.975,
-                        -14.877,
-                        -14.92,
-                        -13.652,
-                        -14.433,
-                        -14.213,
-                        -12.759,
-                        -14.902,
-                        -14.405,
-                        -14.71
+                        -14.836,
+                        -15.439,
+                        -15.368,
+                        -13.453,
+                        -14.561,
+                        -16.839,
+                        -13.731,
+                        -15.47,
+                        -15.441,
+                        -16.166
                     ],
-                    "avg": -14.3846,
-                    "sem": 0.21125232306414998,
-                    "std": 0.6680385018844348
+                    "avg": -15.1304,
+                    "sem": 0.3088389288933634,
+                    "std": 0.9766344454298138
                 },
                 "dGos": {
                     "energies": [
-                        15.731,
-                        15.788,
-                        15.44,
-                        14.311,
-                        14.897,
-                        15.14,
-                        13.54,
-                        15.843,
-                        15.208,
-                        15.811
+                        15.447,
+                        16.577,
+                        16.223,
+                        14.491,
+                        15.193,
+                        18.438,
+                        14.862,
+                        16.684,
+                        16.253,
+                        16.824
                     ],
-                    "avg": 15.1709,
-                    "sem": 0.2259424904704735,
-                    "std": 0.7144928900975853
+                    "avg": 16.099200000000003,
+                    "sem": 0.34594970154633753,
+                    "std": 1.0939890127419014
                 },
                 "dGbar": {
                     "energies": [
-                        15.751,
-                        15.748,
-                        15.454,
-                        14.303,
-                        14.886,
-                        15.141,
-                        13.541,
-                        15.835,
+                        15.469,
+                        16.59,
+                        16.22,
+                        14.451,
                         15.212,
-                        15.777
+                        18.426,
+                        14.875,
+                        16.756,
+                        16.224,
+                        16.835
                     ],
-                    "avg": 15.1648,
-                    "sem": 0.22475087541542516,
-                    "std": 0.7107246724294857
+                    "avg": 16.1058,
+                    "sem": 0.3472305804505126,
+                    "std": 1.0980395074859552
                 }
             }
         },
         "FEP_3a_5": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_3a_5",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_3a_5",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2053,94 +2053,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        12.328,
-                        11.193,
-                        14.364,
-                        13.646,
-                        11.637,
-                        11.77,
-                        13.393,
-                        11.98,
-                        12.115,
-                        13.169
+                        11.14,
+                        10.319,
+                        11.922,
+                        12.227,
+                        12.359,
+                        11.304,
+                        12.578,
+                        11.629,
+                        11.857,
+                        10.273
                     ],
-                    "avg": 12.5595,
-                    "sem": 0.30710823010788896,
-                    "std": 0.9711614953240273
+                    "avg": 11.5608,
+                    "sem": 0.24045805455421942,
+                    "std": 0.7603951341243576
                 },
                 "dGf": {
                     "energies": [
-                        12.848,
-                        11.738,
-                        14.886,
-                        14.0,
-                        12.402,
-                        12.621,
-                        13.798,
-                        12.359,
-                        12.749,
-                        13.48
+                        11.718,
+                        10.502,
+                        12.72,
+                        12.901,
+                        12.905,
+                        11.703,
+                        13.196,
+                        12.167,
+                        12.667,
+                        11.377
                     ],
-                    "avg": 13.088099999999997,
-                    "sem": 0.28173496233162115,
-                    "std": 0.8909241774696655
+                    "avg": 12.185599999999999,
+                    "sem": 0.25510414343949794,
+                    "std": 0.8067101338151142
                 },
                 "dGr": {
                     "energies": [
-                        -11.808,
-                        -10.649,
-                        -13.842,
-                        -13.292,
-                        -10.871,
-                        -10.919,
-                        -12.988,
-                        -11.601,
-                        -11.48,
-                        -12.858
+                        -10.563,
+                        -10.137,
+                        -11.123,
+                        -11.552,
+                        -11.813,
+                        -10.906,
+                        -11.96,
+                        -11.09,
+                        -11.047,
+                        -9.169
                     ],
-                    "avg": -12.030800000000001,
-                    "sem": 0.33911528423236836,
-                    "std": 1.0723766875496688
+                    "avg": -10.936,
+                    "sem": 0.24837242197957482,
+                    "std": 0.7854225614279232
                 },
                 "dGos": {
                     "energies": [
-                        12.231,
-                        10.998,
-                        14.412,
-                        13.729,
-                        11.454,
-                        11.542,
-                        13.267,
-                        11.882,
-                        12.092,
-                        13.036
+                        10.866,
+                        10.476,
+                        11.921,
+                        12.237,
+                        12.259,
+                        11.439,
+                        12.525,
+                        11.654,
+                        11.642,
+                        9.922
                     ],
-                    "avg": 12.4643,
-                    "sem": 0.3304187963781722,
-                    "std": 1.0448759782864185
+                    "avg": 11.4941,
+                    "sem": 0.25169395900577346,
+                    "std": 0.7959261837632934
                 },
                 "dGbar": {
                     "energies": [
-                        12.214,
-                        11.04,
-                        14.4,
-                        13.748,
-                        11.439,
-                        11.594,
-                        13.251,
-                        11.858,
-                        12.069,
-                        13.027
+                        10.868,
+                        10.542,
+                        11.937,
+                        12.188,
+                        12.252,
+                        11.438,
+                        12.552,
+                        11.644,
+                        11.588,
+                        9.914
                     ],
-                    "avg": 12.464000000000002,
-                    "sem": 0.32793523750887155,
-                    "std": 1.037022275556316
+                    "avg": 11.492299999999998,
+                    "sem": 0.24901478068580593,
+                    "std": 0.7874538780144525
                 }
             }
         },
         "FEP_6a_6b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6a_6b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6a_6b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2150,94 +2150,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        0.667,
-                        0.614,
-                        0.372,
-                        -0.095,
-                        0.275,
-                        0.55,
-                        1.117,
-                        0.481,
-                        -0.273,
-                        0.216
+                        2.153,
+                        2.24,
+                        1.587,
+                        1.275,
+                        0.878,
+                        2.993,
+                        1.709,
+                        1.428,
+                        0.773,
+                        0.72
                     ],
-                    "avg": 0.3924,
-                    "sem": 0.11865396748528892,
-                    "std": 0.37521679066907443
+                    "avg": 1.5756000000000001,
+                    "sem": 0.21855837664111616,
+                    "std": 0.6911422718948682
                 },
                 "dGf": {
                     "energies": [
-                        1.155,
-                        1.042,
-                        1.117,
-                        0.532,
-                        0.785,
-                        1.071,
-                        1.492,
-                        0.797,
-                        -0.044,
-                        0.845
+                        2.354,
+                        2.669,
+                        2.174,
+                        1.527,
+                        1.253,
+                        3.45,
+                        2.389,
+                        1.966,
+                        1.336,
+                        1.094
                     ],
-                    "avg": 0.8792,
-                    "sem": 0.12494301100901962,
-                    "std": 0.3951044925079947
+                    "avg": 2.0212,
+                    "sem": 0.22129404872250855,
+                    "std": 0.6997932266034017
                 },
                 "dGr": {
                     "energies": [
-                        -0.179,
-                        -0.186,
-                        0.373,
-                        0.722,
-                        0.235,
-                        -0.028,
-                        -0.742,
-                        -0.165,
-                        0.502,
-                        0.413
+                        -1.951,
+                        -1.812,
+                        -0.999,
+                        -1.023,
+                        -0.503,
+                        -2.537,
+                        -1.029,
+                        -0.89,
+                        -0.209,
+                        -0.346
                     ],
-                    "avg": 0.09449999999999999,
-                    "sem": 0.1301583074567275,
-                    "std": 0.4115967079557367
+                    "avg": -1.1299,
+                    "sem": 0.2251943804805084,
+                    "std": 0.7121271585889699
                 },
                 "dGos": {
                     "energies": [
-                        0.683,
-                        0.733,
-                        0.213,
-                        -0.021,
-                        0.437,
-                        0.557,
-                        1.219,
-                        0.428,
-                        -0.25,
-                        0.125
+                        2.215,
+                        2.327,
+                        1.59,
+                        1.213,
+                        0.935,
+                        2.927,
+                        1.721,
+                        1.454,
+                        0.813,
+                        0.799
                     ],
-                    "avg": 0.4124,
-                    "sem": 0.12638585363876764,
-                    "std": 0.39966716152318543
+                    "avg": 1.5994,
+                    "sem": 0.21346429209589127,
+                    "std": 0.6750333621384945
                 },
                 "dGbar": {
                     "energies": [
-                        0.668,
-                        0.745,
-                        0.237,
-                        -0.031,
-                        0.42,
-                        0.55,
-                        1.243,
-                        0.417,
-                        -0.214,
-                        0.134
+                        2.226,
+                        2.351,
+                        1.593,
+                        1.196,
+                        0.925,
+                        2.952,
+                        1.697,
+                        1.489,
+                        0.863,
+                        0.812
                     ],
-                    "avg": 0.41689999999999994,
-                    "sem": 0.12577411895934712,
-                    "std": 0.39773268661250366
+                    "avg": 1.6103999999999998,
+                    "sem": 0.2141829218215122,
+                    "std": 0.6773058688657585
                 }
             }
         },
         "FEP_6a_6e": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6a_6e",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6a_6e",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2247,94 +2247,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        -0.128,
-                        -0.612,
-                        0.267,
-                        -0.838,
-                        -1.778,
-                        -1.24,
-                        -0.303,
-                        -0.5,
-                        -0.654,
-                        -0.284
+                        -2.027,
+                        -0.464,
+                        -1.456,
+                        -1.252,
+                        -1.769,
+                        0.21,
+                        -1.571,
+                        -1.35,
+                        -1.216,
+                        -0.816
                     ],
-                    "avg": -0.607,
-                    "sem": 0.17404125947602192,
-                    "std": 0.5503667867885924
+                    "avg": -1.1711,
+                    "sem": 0.19761646945535688,
+                    "std": 0.624918146640022
                 },
                 "dGf": {
                     "energies": [
-                        0.676,
-                        0.057,
-                        0.552,
-                        -0.477,
-                        -1.588,
-                        -0.829,
-                        -0.002,
-                        -0.293,
-                        -0.047,
-                        0.171
+                        -1.664,
+                        -0.212,
+                        -1.079,
+                        -0.821,
+                        -0.94,
+                        0.768,
+                        -1.118,
+                        -0.818,
+                        -0.916,
+                        -0.252
                     ],
-                    "avg": -0.17799999999999994,
-                    "sem": 0.2000476443250457,
-                    "std": 0.6326061966184018
+                    "avg": -0.7051999999999999,
+                    "sem": 0.19935103711794427,
+                    "std": 0.6304033312094726
                 },
                 "dGr": {
                     "energies": [
-                        0.932,
-                        1.28,
-                        0.017,
-                        1.2,
-                        1.968,
-                        1.651,
-                        0.605,
-                        0.708,
-                        1.261,
-                        0.739
+                        2.39,
+                        0.716,
+                        1.833,
+                        1.684,
+                        2.599,
+                        0.349,
+                        2.024,
+                        1.881,
+                        1.516,
+                        1.38
                     ],
-                    "avg": 1.0361,
-                    "sem": 0.16776879626438285,
-                    "std": 0.5305315165001981
+                    "avg": 1.6372,
+                    "sem": 0.20809271010777866,
+                    "std": 0.6580469284177232
                 },
                 "dGos": {
                     "energies": [
-                        -0.083,
-                        -0.742,
-                        0.338,
-                        -0.859,
-                        -1.809,
-                        -1.198,
-                        -0.322,
-                        -0.608,
-                        -0.668,
-                        -0.272
+                        -1.98,
+                        -0.449,
+                        -1.57,
+                        -1.094,
+                        -1.929,
+                        0.164,
+                        -1.725,
+                        -1.484,
+                        -1.142,
+                        -0.906
                     ],
-                    "avg": -0.6223,
-                    "sem": 0.17995127396048077,
-                    "std": 0.5690558935640682
+                    "avg": -1.2115,
+                    "sem": 0.2038929253309197,
+                    "std": 0.6447660428403469
                 },
                 "dGbar": {
                     "energies": [
-                        -0.059,
-                        -0.73,
-                        0.338,
-                        -0.856,
-                        -1.808,
-                        -1.198,
-                        -0.324,
-                        -0.633,
-                        -0.664,
-                        -0.27
+                        -1.99,
+                        -0.44,
+                        -1.579,
+                        -1.059,
+                        -1.882,
+                        0.175,
+                        -1.727,
+                        -1.479,
+                        -1.124,
+                        -0.879
                     ],
-                    "avg": -0.6203999999999998,
-                    "sem": 0.18049732407988767,
-                    "std": 0.5707826556580009
+                    "avg": -1.1984,
+                    "sem": 0.20458084954364616,
+                    "std": 0.6469414502101407
                 }
             }
         },
         "FEP_6b_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6b_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6b_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2344,94 +2344,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        9.989,
-                        10.38,
-                        8.957,
-                        10.938,
-                        11.425,
-                        9.644,
-                        10.475,
-                        11.781,
-                        11.867,
-                        8.28
+                        9.313,
+                        9.648,
+                        11.652,
+                        9.486,
+                        10.543,
+                        10.207,
+                        10.198,
+                        9.96,
+                        10.408,
+                        9.411
                     ],
-                    "avg": 10.3736,
-                    "sem": 0.35658772272752187,
-                    "std": 1.1276293894715588
+                    "avg": 10.082600000000001,
+                    "sem": 0.2100674272703885,
+                    "std": 0.6642915323861953
                 },
                 "dGf": {
                     "energies": [
-                        10.574,
-                        10.801,
-                        9.995,
-                        11.535,
-                        11.953,
-                        10.508,
-                        10.97,
-                        12.188,
-                        12.561,
-                        8.929
+                        10.014,
+                        10.165,
+                        12.422,
+                        10.341,
+                        11.361,
+                        10.75,
+                        10.468,
+                        10.689,
+                        11.015,
+                        10.254
                     ],
-                    "avg": 11.0014,
-                    "sem": 0.32871851788422257,
-                    "std": 1.039499225588937
+                    "avg": 10.7479,
+                    "sem": 0.21493135881020262,
+                    "std": 0.6796726344351379
                 },
                 "dGr": {
                     "energies": [
-                        -9.404,
-                        -9.959,
-                        -7.919,
-                        -10.341,
-                        -10.896,
-                        -8.78,
-                        -9.981,
-                        -11.374,
-                        -11.173,
-                        -7.632
+                        -8.612,
+                        -9.13,
+                        -10.881,
+                        -8.631,
+                        -9.725,
+                        -9.665,
+                        -9.927,
+                        -9.231,
+                        -9.801,
+                        -8.568
                     ],
-                    "avg": -9.7459,
-                    "sem": 0.3914189175295441,
-                    "std": 1.2377752986709667
+                    "avg": -9.417100000000001,
+                    "sem": 0.2193355169597482,
+                    "std": 0.6935998053632945
                 },
                 "dGos": {
                     "energies": [
-                        9.929,
-                        10.202,
-                        8.394,
-                        10.703,
-                        11.231,
-                        9.262,
-                        10.258,
-                        11.667,
-                        11.568,
-                        8.139
+                        8.986,
+                        9.413,
+                        11.329,
+                        9.471,
+                        10.332,
+                        10.079,
+                        9.869,
+                        9.512,
+                        10.23,
+                        9.117
                     ],
-                    "avg": 10.135299999999999,
-                    "sem": 0.3709936940164886,
-                    "std": 1.1731850706516853
+                    "avg": 9.8338,
+                    "sem": 0.20849416298784001,
+                    "std": 0.6593164338919515
                 },
                 "dGbar": {
                     "energies": [
-                        9.943,
-                        10.213,
-                        8.533,
-                        10.726,
-                        11.255,
-                        9.291,
-                        10.25,
-                        11.671,
-                        11.621,
-                        8.158
+                        9.052,
+                        9.502,
+                        11.367,
+                        9.485,
+                        10.264,
+                        10.104,
+                        9.772,
+                        9.537,
+                        10.24,
+                        9.15
                     ],
-                    "avg": 10.1661,
-                    "sem": 0.3661276129985282,
-                    "std": 1.1577971713560198
+                    "avg": 9.8473,
+                    "sem": 0.2043138296836511,
+                    "std": 0.6460970592720571
                 }
             }
         },
         "FEP_6b_7a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6b_7a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6b_7a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2441,94 +2441,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        7.661,
-                        5.743,
-                        4.67,
-                        7.317,
-                        6.448,
-                        5.791,
-                        5.874,
-                        6.778,
-                        6.311,
-                        4.915
+                        7.596,
+                        6.277,
+                        5.048,
+                        6.505,
+                        8.087,
+                        6.152,
+                        4.311,
+                        4.673,
+                        7.652,
+                        4.31
                     ],
-                    "avg": 6.150799999999999,
-                    "sem": 0.28706172855328516,
-                    "std": 0.9077688912933731
+                    "avg": 6.061100000000001,
+                    "sem": 0.4280825726422415,
+                    "std": 1.3537159561739678
                 },
                 "dGf": {
                     "energies": [
-                        8.218,
-                        6.434,
-                        5.375,
-                        8.139,
-                        7.032,
-                        6.739,
-                        6.453,
-                        7.381,
-                        6.892,
-                        5.457
+                        8.248,
+                        6.676,
+                        5.569,
+                        7.034,
+                        8.424,
+                        6.3,
+                        5.07,
+                        5.074,
+                        8.23,
+                        5.152
                     ],
-                    "avg": 6.812,
-                    "sem": 0.28800024305545296,
-                    "std": 0.9107367347373224
+                    "avg": 6.5777,
+                    "sem": 0.40997780549683416,
+                    "std": 1.2964636554874958
                 },
                 "dGr": {
                     "energies": [
-                        -7.104,
-                        -5.052,
-                        -3.965,
-                        -6.495,
-                        -5.864,
-                        -4.842,
-                        -5.294,
-                        -6.175,
-                        -5.73,
-                        -4.374
+                        -6.944,
+                        -5.878,
+                        -4.527,
+                        -5.975,
+                        -7.75,
+                        -6.005,
+                        -3.553,
+                        -4.272,
+                        -7.074,
+                        -3.469
                     ],
-                    "avg": -5.4895000000000005,
-                    "sem": 0.29159843106573813,
-                    "std": 0.9221152042993328
+                    "avg": -5.5447,
+                    "sem": 0.45386284381958386,
+                    "std": 1.4352403317911604
                 },
                 "dGos": {
                     "energies": [
-                        7.759,
-                        5.682,
-                        4.847,
-                        7.249,
-                        6.511,
-                        5.773,
-                        5.998,
-                        6.638,
-                        6.224,
-                        4.846
+                        7.558,
+                        6.295,
+                        5.096,
+                        6.551,
+                        8.064,
+                        6.193,
+                        4.316,
+                        4.725,
+                        7.738,
+                        4.04
                     ],
-                    "avg": 6.1527,
-                    "sem": 0.2820112072241101,
-                    "std": 0.891797740521919
+                    "avg": 6.0576,
+                    "sem": 0.4384415400027694,
+                    "std": 1.3864738872405786
                 },
                 "dGbar": {
                     "energies": [
-                        7.783,
-                        5.675,
-                        4.832,
-                        7.272,
-                        6.533,
-                        5.755,
-                        6.001,
-                        6.651,
-                        6.236,
-                        4.847
+                        7.552,
+                        6.319,
+                        5.093,
+                        6.6,
+                        8.059,
+                        6.193,
+                        4.274,
+                        4.74,
+                        7.734,
+                        4.05
                     ],
-                    "avg": 6.158499999999999,
-                    "sem": 0.2858097356634305,
-                    "std": 0.9038097421470961
+                    "avg": 6.0614,
+                    "sem": 0.4394095629364476,
+                    "std": 1.38953504453828
                 }
             }
         },
         "FEP_6e_1b": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6e_1b",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6e_1b",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2538,94 +2538,94 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        10.736,
-                        12.107,
-                        12.449,
-                        12.137,
-                        11.211,
-                        11.888,
-                        11.533,
-                        11.893,
-                        12.197,
-                        12.773
+                        11.855,
+                        13.812,
+                        14.255,
+                        11.35,
+                        13.652,
+                        12.361,
+                        13.257,
+                        11.574,
+                        13.617,
+                        12.753
                     ],
-                    "avg": 11.8924,
-                    "sem": 0.1792952425470346,
-                    "std": 0.5669813400809587
+                    "avg": 12.8486,
+                    "sem": 0.3068113817966993,
+                    "std": 0.9702227785410937
                 },
                 "dGf": {
                     "energies": [
-                        10.94,
-                        12.668,
-                        12.943,
-                        12.397,
-                        11.719,
-                        12.504,
-                        12.043,
-                        12.624,
-                        12.659,
-                        13.438
+                        12.154,
+                        14.49,
+                        14.782,
+                        11.953,
+                        14.335,
+                        12.766,
+                        13.741,
+                        12.325,
+                        14.181,
+                        13.385
                     ],
-                    "avg": 12.3935,
-                    "sem": 0.20723384134836675,
-                    "std": 0.6553309469268184
+                    "avg": 13.4112,
+                    "sem": 0.3146643862911722,
+                    "std": 0.9950561592191672
                 },
                 "dGr": {
                     "energies": [
-                        -10.533,
-                        -11.547,
-                        -11.955,
-                        -11.876,
-                        -10.702,
-                        -11.273,
-                        -11.023,
-                        -11.162,
-                        -11.736,
-                        -12.108
+                        -11.555,
+                        -13.133,
+                        -13.729,
+                        -10.747,
+                        -12.97,
+                        -11.957,
+                        -12.774,
+                        -10.822,
+                        -13.054,
+                        -12.121
                     ],
-                    "avg": -11.3915,
-                    "sem": 0.16197044483485257,
-                    "std": 0.5121955193087891
+                    "avg": -12.2862,
+                    "sem": 0.30458374217938816,
+                    "std": 0.9631783635443645
                 },
                 "dGos": {
                     "energies": [
-                        10.781,
-                        11.929,
-                        12.378,
-                        12.214,
-                        11.029,
-                        11.756,
-                        11.492,
-                        12.035,
-                        12.099,
-                        13.002
+                        11.755,
+                        13.675,
+                        14.165,
+                        11.135,
+                        13.804,
+                        12.191,
+                        13.136,
+                        11.353,
+                        13.691,
+                        12.871
                     ],
-                    "avg": 11.871500000000001,
-                    "sem": 0.19468000667762467,
-                    "std": 0.6156322359980835
+                    "avg": 12.7776,
+                    "sem": 0.32973635529010137,
+                    "std": 1.0427179100792312
                 },
                 "dGbar": {
                     "energies": [
-                        10.797,
-                        11.918,
-                        12.371,
-                        12.233,
-                        11.008,
-                        11.761,
-                        11.478,
-                        12.017,
-                        12.104,
-                        12.953
+                        11.742,
+                        13.677,
+                        14.175,
+                        11.151,
+                        13.784,
+                        12.173,
+                        13.118,
+                        11.402,
+                        13.687,
+                        12.882
                     ],
-                    "avg": 11.864,
-                    "sem": 0.19219484904648199,
-                    "std": 0.6077734775391239
+                    "avg": 12.779100000000001,
+                    "sem": 0.32717513505766305,
+                    "std": 1.0346186205554202
                 }
             }
         },
         "FEP_6e_7a": {
-            "root": "/proj/uucompbiochem/users/x_davfi/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6e_7a",
-            "lambda_sum": 100,
+            "root": "/gpfs/scratch1/shared/dfigueiredo/qligfepv2-BenchmarkExperiments/perturbations/thrombin/2.protein/FEP_6e_7a",
+            "lambda_sum": "101",
             "fep_stage": "FEP1",
             "temperature": "298",
             "replicates": 10,
@@ -2635,88 +2635,88 @@
             "FEP_result": {
                 "dG": {
                     "energies": [
-                        8.555,
-                        8.957,
-                        7.711,
-                        6.604,
-                        7.458,
-                        6.964,
-                        6.711,
-                        8.086,
-                        7.367,
-                        6.542
+                        10.874,
+                        7.744,
+                        10.797,
+                        10.683,
+                        11.457,
+                        10.969,
+                        11.092,
+                        9.178,
+                        11.056,
+                        7.842
                     ],
-                    "avg": 7.495500000000002,
-                    "sem": 0.25046833133152785,
-                    "std": 0.7920504087493423
+                    "avg": 10.1692,
+                    "sem": 0.4167838960420616,
+                    "std": 1.3179864035717517
                 },
                 "dGf": {
                     "energies": [
-                        9.36,
-                        9.574,
-                        7.995,
-                        6.9,
-                        8.153,
-                        7.353,
-                        7.531,
-                        8.637,
-                        8.051,
-                        7.143
+                        11.64,
+                        8.18,
+                        11.608,
+                        11.218,
+                        11.759,
+                        11.6,
+                        11.817,
+                        9.487,
+                        11.458,
+                        8.209
                     ],
-                    "avg": 8.0697,
-                    "sem": 0.2700614393059475,
-                    "std": 0.8540092563901166
+                    "avg": 10.6976,
+                    "sem": 0.44448750713602747,
+                    "std": 1.4055929140401928
                 },
                 "dGr": {
                     "energies": [
-                        -7.75,
-                        -8.34,
-                        -7.426,
-                        -6.309,
-                        -6.764,
-                        -6.575,
-                        -5.891,
-                        -7.535,
-                        -6.682,
-                        -5.941
+                        -10.109,
+                        -7.308,
+                        -9.985,
+                        -10.149,
+                        -11.156,
+                        -10.339,
+                        -10.366,
+                        -8.87,
+                        -10.653,
+                        -7.474
                     ],
-                    "avg": -6.9213000000000005,
-                    "sem": 0.24351903621688384,
-                    "std": 0.7700748080543863
+                    "avg": -9.6409,
+                    "sem": 0.3957378033496421,
+                    "std": 1.2514328148166804
                 },
                 "dGos": {
                     "energies": [
-                        8.636,
-                        9.029,
-                        7.851,
-                        6.749,
-                        7.515,
-                        7.042,
-                        6.828,
-                        8.131,
-                        7.507,
-                        6.495
+                        10.977,
+                        7.823,
+                        11.244,
+                        10.868,
+                        11.554,
+                        11.075,
+                        11.177,
+                        9.377,
+                        11.169,
+                        8.063
                     ],
-                    "avg": 7.5783000000000005,
-                    "sem": 0.25147640247148434,
-                    "std": 0.7952382095950872
+                    "avg": 10.332699999999999,
+                    "sem": 0.41653876290208564,
+                    "std": 1.3172112245194387
                 },
                 "dGbar": {
                     "energies": [
-                        8.653,
-                        9.011,
-                        7.876,
-                        6.781,
-                        7.498,
-                        7.053,
-                        6.835,
-                        8.114,
-                        7.446,
-                        6.528
+                        10.961,
+                        7.811,
+                        11.173,
+                        10.864,
+                        11.592,
+                        11.081,
+                        11.205,
+                        9.405,
+                        11.187,
+                        8.051
                     ],
-                    "avg": 7.5795,
-                    "sem": 0.248483369664853,
-                    "std": 0.7857734088145258
+                    "avg": 10.333,
+                    "sem": 0.4176771719881277,
+                    "std": 1.3208111901403623
                 }
             }
         }
@@ -2724,500 +2724,500 @@
     "result": {
         "ddG": {
             "FEP_1a_1c": {
-                "ddG_avg": -1.7361,
-                "ddG_sem": 0.30549457769328736,
-                "ddG_std": 0.9660586783420559,
+                "ddG_avg": -1.7589,
+                "ddG_sem": 0.2080757193908025,
+                "ddG_std": 0.6579931990529992,
                 "from": "1a",
                 "to": "1c"
             },
             "FEP_1a_3b": {
-                "ddG_avg": 1.6931999999999992,
-                "ddG_sem": 0.4575521587753684,
-                "ddG_std": 1.4469069700571628,
+                "ddG_avg": 2.1744000000000003,
+                "ddG_sem": 0.4812453740037404,
+                "ddG_std": 1.521831495271405,
                 "from": "1a",
                 "to": "3b"
             },
             "FEP_1a_5": {
-                "ddG_avg": 1.9117000000000015,
-                "ddG_sem": 0.3270204901837192,
-                "ddG_std": 1.034129590525288,
+                "ddG_avg": 0.3634000000000004,
+                "ddG_sem": 0.3211129583184086,
+                "ddG_std": 1.0154483344808836,
                 "from": "1a",
                 "to": "5"
             },
             "FEP_1b_1a": {
-                "ddG_avg": 2.110800000000001,
-                "ddG_sem": 0.1965730296861703,
-                "ddG_std": 0.621618500368192,
+                "ddG_avg": 1.8344000000000014,
+                "ddG_sem": 0.1965595075288906,
+                "ddG_std": 0.6215757395523092,
                 "from": "1b",
                 "to": "1a"
             },
             "FEP_1d_1b": {
-                "ddG_avg": -0.7823777777777767,
-                "ddG_sem": 0.36965625346853664,
-                "ddG_std": 1.1689557122850935,
+                "ddG_avg": -0.779877777777779,
+                "ddG_sem": 0.2568583086614001,
+                "ddG_std": 0.8122572913085796,
                 "from": "1d",
                 "to": "1b"
             },
             "FEP_1d_1c": {
-                "ddG_avg": -1.0310999999999995,
-                "ddG_sem": 0.41456501178946586,
-                "ddG_std": 1.3109696754692688,
+                "ddG_avg": -0.5243999999999995,
+                "ddG_sem": 0.302412367471967,
+                "ddG_std": 0.956311873815232,
                 "from": "1d",
                 "to": "1c"
             },
             "FEP_3a_3b": {
-                "ddG_avg": 1.1454000000000004,
-                "ddG_sem": 0.2803857164692951,
-                "ddG_std": 0.8866574874211572,
+                "ddG_avg": 2.0181000000000004,
+                "ddG_sem": 0.3649106589290041,
+                "ddG_std": 1.1539488246885128,
                 "from": "3a",
                 "to": "3b"
             },
             "FEP_3a_5": {
-                "ddG_avg": 1.553700000000001,
-                "ddG_sem": 0.35673603826919426,
-                "ddG_std": 1.1280984043956452,
+                "ddG_avg": 0.5550000000000015,
+                "ddG_sem": 0.30127265391999974,
+                "ddG_std": 0.9527077831108548,
                 "from": "3a",
                 "to": "5"
             },
             "FEP_6a_6b": {
-                "ddG_avg": -0.6685999999999999,
-                "ddG_sem": 0.14590107607553826,
-                "ddG_std": 0.46137971346820184,
+                "ddG_avg": 0.5146000000000002,
+                "ddG_sem": 0.23446987866248403,
+                "ddG_std": 0.7414588592767639,
                 "from": "6a",
                 "to": "6b"
             },
             "FEP_6a_6e": {
-                "ddG_avg": 0.6615,
-                "ddG_sem": 0.242708601001283,
-                "ddG_std": 0.767511986877078,
+                "ddG_avg": 0.09739999999999993,
+                "ddG_sem": 0.26013337732786235,
+                "ddG_std": 0.8226139677880506,
                 "from": "6a",
                 "to": "6e"
             },
             "FEP_6b_1b": {
-                "ddG_avg": -0.49930000000000163,
-                "ddG_sem": 0.369855394715286,
-                "ddG_std": 1.169585452200907,
+                "ddG_avg": -0.7903000000000002,
+                "ddG_sem": 0.23187611563073923,
+                "ddG_std": 0.7332566603857067,
                 "from": "6b",
                 "to": "1b"
             },
             "FEP_6b_7a": {
-                "ddG_avg": 1.8617999999999997,
-                "ddG_sem": 0.2983012168932604,
-                "ddG_std": 0.9433112741825999,
+                "ddG_avg": 1.772100000000001,
+                "ddG_sem": 0.4356992873531008,
+                "ddG_std": 1.3778021229479942,
                 "from": "6b",
                 "to": "7a"
             },
             "FEP_6e_1b": {
-                "ddG_avg": -1.387500000000001,
-                "ddG_sem": 0.23610165818985676,
-                "ddG_std": 0.7466189992224948,
+                "ddG_avg": -0.431300000000002,
+                "ddG_sem": 0.34311868646286225,
+                "ddG_std": 1.085036556987828,
                 "from": "6e",
                 "to": "1b"
             },
             "FEP_6e_7a": {
-                "ddG_avg": 1.0989000000000022,
-                "ddG_sem": 0.2704413226561355,
-                "ddG_std": 0.8552105530218861,
+                "ddG_avg": 3.7726000000000006,
+                "ddG_sem": 0.4290838379617671,
+                "ddG_std": 1.356882235125805,
                 "from": "6e",
                 "to": "7a"
             }
         },
         "ddGf": {
             "FEP_1a_1c": {
-                "ddGf_avg": -1.6674,
-                "ddGf_sem": 0.31926938468948124,
-                "ddGf_std": 1.0096184427792512,
+                "ddGf_avg": -1.5794,
+                "ddGf_sem": 0.2542247430916196,
+                "ddGf_std": 0.8039292257406743,
                 "from": "1a",
                 "to": "1c"
             },
             "FEP_1a_3b": {
-                "ddGf_avg": 1.7155000000000005,
-                "ddGf_sem": 0.4849228856220337,
-                "ddGf_std": 1.5334608081069434,
+                "ddGf_avg": 2.1770999999999976,
+                "ddGf_sem": 0.5103811605065376,
+                "ddGf_std": 1.6139669420406357,
                 "from": "1a",
                 "to": "3b"
             },
             "FEP_1a_5": {
-                "ddGf_avg": 1.8241000000000005,
-                "ddGf_sem": 0.3148970260259692,
-                "ddGf_std": 0.9957918306553833,
+                "ddGf_avg": 0.30849999999999955,
+                "ddGf_sem": 0.3023820712277763,
+                "ddGf_std": 0.9562160686790406,
                 "from": "1a",
                 "to": "5"
             },
             "FEP_1b_1a": {
-                "ddGf_avg": 2.1453999999999986,
-                "ddGf_sem": 0.20433690807096005,
-                "ddGf_std": 0.6461700395406768,
+                "ddGf_avg": 1.9388999999999985,
+                "ddGf_sem": 0.19133979460634937,
+                "ddGf_std": 0.6050695579848648,
                 "from": "1b",
                 "to": "1a"
             },
             "FEP_1d_1b": {
-                "ddGf_avg": -0.6399555555555541,
-                "ddGf_sem": 0.38369676369385214,
-                "ddGf_std": 1.2133557041079743,
+                "ddGf_avg": -0.6923555555555545,
+                "ddGf_sem": 0.23489056700756594,
+                "ddGf_std": 0.7427891926323095,
                 "from": "1d",
                 "to": "1b"
             },
             "FEP_1d_1c": {
-                "ddGf_avg": -0.9812999999999992,
-                "ddGf_sem": 0.47570747418975873,
-                "ddGf_std": 1.5043191184054001,
+                "ddGf_avg": -0.5433999999999997,
+                "ddGf_sem": 0.3273414639180316,
+                "ddGf_std": 1.0351445985948051,
                 "from": "1d",
                 "to": "1c"
             },
             "FEP_3a_3b": {
-                "ddGf_avg": 1.2536999999999967,
-                "ddGf_sem": 0.29732020617509325,
-                "ddGf_std": 0.9402090459041541,
+                "ddGf_avg": 2.253099999999998,
+                "ddGf_sem": 0.38688303788095946,
+                "ddGf_std": 1.2234315877890352,
                 "from": "3a",
                 "to": "3b"
             },
             "FEP_3a_5": {
-                "ddGf_avg": 1.6031999999999975,
-                "ddGf_sem": 0.3291678264958469,
-                "ddGf_std": 1.040920064173998,
+                "ddGf_avg": 0.7006999999999994,
+                "ddGf_sem": 0.30668386491630095,
+                "ddGf_std": 0.9698195347589156,
                 "from": "3a",
                 "to": "5"
             },
             "FEP_6a_6b": {
-                "ddGf_avg": -0.4854999999999998,
-                "ddGf_sem": 0.16365248852370073,
-                "ddGf_std": 0.517514608489461,
+                "ddGf_avg": 0.6565000000000001,
+                "ddGf_sem": 0.24523955023609054,
+                "ddGf_std": 0.7755155511013302,
                 "from": "6a",
                 "to": "6b"
             },
             "FEP_6a_6e": {
-                "ddGf_avg": 0.8200999999999998,
-                "ddGf_sem": 0.2879172259521823,
-                "ddGf_std": 0.9104742116062376,
+                "ddGf_avg": 0.2928999999999998,
+                "ddGf_sem": 0.2874336532140939,
+                "ddGf_std": 0.9089450203395143,
                 "from": "6a",
                 "to": "6e"
             },
             "FEP_6b_1b": {
-                "ddGf_avg": -0.3743999999999996,
-                "ddGf_sem": 0.36670137714494605,
-                "ddGf_std": 1.1596115728984424,
+                "ddGf_avg": -0.6279000000000003,
+                "ddGf_sem": 0.2694615464217484,
+                "ddGf_std": 0.8521122285239197,
                 "from": "6b",
                 "to": "1b"
             },
             "FEP_6b_7a": {
-                "ddGf_avg": 2.1799,
-                "ddGf_sem": 0.31061302129820634,
-                "ddGf_std": 0.982244618208723,
+                "ddGf_avg": 1.9455999999999998,
+                "ddGf_sem": 0.4261667631338699,
+                "ddGf_std": 1.3476576345645062,
                 "from": "6b",
                 "to": "7a"
             },
             "FEP_6e_1b": {
-                "ddGf_avg": -1.1072000000000006,
-                "ddGf_sem": 0.2426161701123815,
-                "ddGf_std": 0.7672196947419953,
+                "ddGf_avg": -0.08950000000000102,
+                "ddGf_sem": 0.33901388909600744,
+                "ddGf_std": 1.072056047975105,
                 "from": "6e",
                 "to": "1b"
             },
             "FEP_6e_7a": {
-                "ddGf_avg": 1.195999999999998,
-                "ddGf_sem": 0.2912613980602304,
-                "ddGf_std": 0.9210494123552765,
+                "ddGf_avg": 3.8238999999999983,
+                "ddGf_sem": 0.4576780145473454,
+                "ddGf_std": 1.4473049609532889,
                 "from": "6e",
                 "to": "7a"
             }
         },
         "ddGr": {
             "FEP_1a_1c": {
-                "ddGr_avg": 1.8049000000000002,
-                "ddGr_sem": 0.32903997477510233,
-                "ddGr_std": 1.0405157615336733,
+                "ddGr_avg": 1.9383000000000001,
+                "ddGr_sem": 0.23879317620066112,
+                "ddGr_std": 0.7551303265000021,
                 "from": "1a",
                 "to": "1c"
             },
             "FEP_1a_3b": {
-                "ddGr_avg": -1.6705000000000005,
-                "ddGr_sem": 0.4568396140879204,
-                "ddGr_std": 1.4446537059101743,
+                "ddGr_avg": -2.171800000000001,
+                "ddGr_sem": 0.47299402744643615,
+                "ddGr_std": 1.4957384463869345,
                 "from": "1a",
                 "to": "3b"
             },
             "FEP_1a_5": {
-                "ddGr_avg": -1.9998000000000005,
-                "ddGr_sem": 0.35192952419483087,
-                "ddGr_std": 1.1128988723150006,
+                "ddGr_avg": -0.41820000000000057,
+                "ddGr_sem": 0.3600977339556582,
+                "ddGr_std": 1.1387290195652344,
                 "from": "1a",
                 "to": "5"
             },
             "FEP_1b_1a": {
-                "ddGr_avg": -2.0759999999999996,
-                "ddGr_sem": 0.22256801657021613,
-                "ddGr_std": 0.7038218666679802,
+                "ddGr_avg": -1.7300999999999993,
+                "ddGr_sem": 0.22499919333188725,
+                "ddGr_std": 0.7115099226293333,
                 "from": "1b",
                 "to": "1a"
             },
             "FEP_1d_1b": {
-                "ddGr_avg": 0.9250111111111119,
-                "ddGr_sem": 0.3750261724035461,
-                "ddGr_std": 1.1859368869701892,
+                "ddGr_avg": 0.8673111111111123,
+                "ddGr_sem": 0.2982129725341511,
+                "ddGr_std": 0.9430322210171526,
                 "from": "1d",
                 "to": "1b"
             },
             "FEP_1d_1c": {
-                "ddGr_avg": 1.0804999999999993,
-                "ddGr_sem": 0.3762721687821197,
-                "ddGr_std": 1.189877073482803,
+                "ddGr_avg": 0.5050999999999992,
+                "ddGr_sem": 0.31063674766517885,
+                "ddGr_std": 0.9823196475689572,
                 "from": "1d",
                 "to": "1c"
             },
             "FEP_3a_3b": {
-                "ddGr_avg": -1.0374999999999996,
-                "ddGr_sem": 0.301596208530545,
-                "ddGr_std": 0.9537309526276265,
+                "ddGr_avg": -1.7832999999999988,
+                "ddGr_sem": 0.37644948266666534,
+                "ddGr_std": 1.1904377892187394,
                 "from": "3a",
                 "to": "3b"
             },
             "FEP_3a_5": {
-                "ddGr_avg": -1.5036000000000005,
-                "ddGr_sem": 0.404325601464958,
-                "ddGr_std": 1.27858981694678,
+                "ddGr_avg": -0.4087999999999994,
+                "ddGr_sem": 0.3319169715455961,
+                "ddGr_std": 1.049613624149382,
                 "from": "3a",
                 "to": "5"
             },
             "FEP_6a_6b": {
-                "ddGr_avg": 0.8517,
-                "ddGr_sem": 0.16214160786177,
-                "ddGr_std": 0.512736784325057,
+                "ddGr_avg": -0.3726999999999999,
+                "ddGr_sem": 0.2450739174208467,
+                "ddGr_std": 0.7749917741498937,
                 "from": "6a",
                 "to": "6b"
             },
             "FEP_6a_6e": {
-                "ddGr_avg": -0.5027999999999999,
-                "ddGr_sem": 0.22025176049239653,
-                "ddGr_std": 0.696497221817862,
+                "ddGr_avg": 0.09830000000000005,
+                "ddGr_sem": 0.2523232946043627,
+                "ddGr_std": 0.7979163176674607,
                 "from": "6a",
                 "to": "6e"
             },
             "FEP_6b_1b": {
-                "ddGr_avg": 0.6239999999999988,
-                "ddGr_sem": 0.4092096504238384,
-                "ddGr_std": 1.2940345358606165,
+                "ddGr_avg": 0.9527999999999981,
+                "ddGr_sem": 0.24970350017570836,
+                "ddGr_std": 0.7896318002714936,
                 "from": "6b",
                 "to": "1b"
             },
             "FEP_6b_7a": {
-                "ddGr_avg": -1.5438000000000005,
-                "ddGr_sem": 0.3052410948741994,
-                "ddGr_std": 0.9652570952860178,
+                "ddGr_avg": -1.5989999999999998,
+                "ddGr_sem": 0.4627461096540953,
+                "ddGr_std": 1.4633316848889728,
                 "from": "6b",
                 "to": "7a"
             },
             "FEP_6e_1b": {
-                "ddGr_avg": 1.667799999999998,
-                "ddGr_sem": 0.2975997412633284,
-                "ddGr_std": 0.9410930134689132,
+                "ddGr_avg": 0.7730999999999995,
+                "ddGr_sem": 0.3938304673333438,
+                "ddGr_std": 1.245401288741906,
                 "from": "6e",
                 "to": "1b"
             },
             "FEP_6e_7a": {
-                "ddGr_avg": -1.0015,
-                "ddGr_sem": 0.2678044379766698,
-                "ddGr_std": 0.8468719915075713,
+                "ddGr_avg": -3.7211,
+                "ddGr_sem": 0.4111278450798486,
+                "ddGr_std": 1.3001003999691716,
                 "from": "6e",
                 "to": "7a"
             }
         },
         "ddGos": {
             "FEP_1a_1c": {
-                "ddGos_avg": -1.7931000000000001,
-                "ddGos_sem": 0.3264439997916947,
-                "ddGos_std": 1.0323065678372874,
+                "ddGos_avg": -1.8515000000000001,
+                "ddGos_sem": 0.2146118286581613,
+                "ddGos_std": 0.6786621913735875,
                 "from": "1a",
                 "to": "1c"
             },
             "FEP_1a_3b": {
-                "ddGos_avg": 1.7521999999999984,
-                "ddGos_sem": 0.46914743951129045,
-                "ddGos_std": 1.48357446729175,
+                "ddGos_avg": 2.3150999999999993,
+                "ddGos_sem": 0.5144325077208866,
+                "ddGos_std": 1.626778426830157,
                 "from": "1a",
                 "to": "3b"
             },
             "FEP_1a_5": {
-                "ddGos_avg": 1.8685999999999998,
-                "ddGos_sem": 0.3463279515141681,
-                "ddGos_std": 1.0951851441651317,
+                "ddGos_avg": 0.4215,
+                "ddGos_sem": 0.34250824369641086,
+                "ddGos_std": 1.0831061674646674,
                 "from": "1a",
                 "to": "5"
             },
             "FEP_1b_1a": {
-                "ddGos_avg": 2.0642000000000005,
-                "ddGos_sem": 0.20901738205230688,
-                "ddGos_std": 0.6609709978508893,
+                "ddGos_avg": 1.7711000000000015,
+                "ddGos_sem": 0.2124685976797513,
+                "ddGos_std": 0.6718846999299807,
                 "from": "1b",
                 "to": "1a"
             },
             "FEP_1d_1b": {
-                "ddGos_avg": -0.8453000000000017,
-                "ddGos_sem": 0.3774917819561698,
-                "ddGos_std": 1.1937338289771486,
+                "ddGos_avg": -0.7909000000000006,
+                "ddGos_sem": 0.2826161238224819,
+                "ddGos_std": 0.8937106547672151,
                 "from": "1d",
                 "to": "1b"
             },
             "FEP_1d_1c": {
-                "ddGos_avg": -0.9106999999999994,
-                "ddGos_sem": 0.4293798097256088,
-                "ddGos_std": 1.357818180022642,
+                "ddGos_avg": -0.41819999999999924,
+                "ddGos_sem": 0.33160973447714104,
+                "ddGos_std": 1.048642055231431,
                 "from": "1d",
                 "to": "1c"
             },
             "FEP_3a_3b": {
-                "ddGos_avg": 1.131499999999999,
-                "ddGos_sem": 0.30258055621602653,
-                "ddGos_std": 0.9568437333232633,
+                "ddGos_avg": 2.0598000000000027,
+                "ddGos_sem": 0.40023265733820373,
+                "ddGos_std": 1.2656467911704277,
                 "from": "3a",
                 "to": "3b"
             },
             "FEP_3a_5": {
-                "ddGos_avg": 1.5244000000000018,
-                "ddGos_sem": 0.38448866043096774,
-                "ddGos_std": 1.2158599014689153,
+                "ddGos_avg": 0.5542000000000016,
+                "ddGos_sem": 0.3193818999254654,
+                "ddGos_std": 1.0099742471964321,
                 "from": "3a",
                 "to": "5"
             },
             "FEP_6a_6b": {
-                "ddGos_avg": -0.6518,
-                "ddGos_sem": 0.1667896279748834,
-                "ddGos_std": 0.5274351144927687,
+                "ddGos_avg": 0.5351999999999999,
+                "ddGos_sem": 0.23960884791676618,
+                "ddGos_std": 0.7577097069458725,
                 "from": "6a",
                 "to": "6b"
             },
             "FEP_6a_6e": {
-                "ddGos_avg": 0.6191999999999999,
-                "ddGos_sem": 0.2587398809615557,
-                "ddGos_std": 0.8182073453593534,
+                "ddGos_avg": 0.029999999999999805,
+                "ddGos_sem": 0.2759278710097985,
+                "ddGos_std": 0.872560542312108,
                 "from": "6a",
                 "to": "6e"
             },
             "FEP_6b_1b": {
-                "ddGos_avg": -0.6862000000000013,
-                "ddGos_sem": 0.3909854805488305,
-                "ddGos_std": 1.2364046505897652,
+                "ddGos_avg": -0.9877000000000002,
+                "ddGos_sem": 0.24228731085221936,
+                "ddGos_std": 0.7661797504502451,
                 "from": "6b",
                 "to": "1b"
             },
             "FEP_6b_7a": {
-                "ddGos_avg": 1.9398000000000009,
-                "ddGos_sem": 0.291605092548124,
-                "ddGos_std": 0.9221362697562654,
+                "ddGos_avg": 1.8447000000000005,
+                "ddGos_sem": 0.4446731305127397,
+                "ddGos_std": 1.4061799066975749,
                 "from": "6b",
                 "to": "7a"
             },
             "FEP_6e_1b": {
-                "ddGos_avg": -1.2483000000000004,
-                "ddGos_sem": 0.2389486158151999,
-                "ddGos_std": 0.7556218697205634,
+                "ddGos_avg": -0.34220000000000184,
+                "ddGos_sem": 0.3576621310678557,
+                "ddGos_std": 1.1310269669640949,
                 "from": "6e",
                 "to": "1b"
             },
             "FEP_6e_7a": {
-                "ddGos_avg": 1.1557000000000004,
-                "ddGos_sem": 0.27817768602100346,
-                "ddGos_std": 0.879675082061553,
+                "ddGos_avg": 3.910099999999999,
+                "ddGos_sem": 0.43318239230144145,
+                "ddGos_std": 1.3698430019531433,
                 "from": "6e",
                 "to": "7a"
             }
         },
         "ddGbar": {
             "FEP_1a_1c": {
-                "ddGbar_avg": -1.7898999999999998,
-                "ddGbar_sem": 0.3254070635373485,
-                "ddGbar_std": 1.0290274874851497,
+                "ddGbar_avg": -1.8542999999999998,
+                "ddGbar_sem": 0.21100816334919367,
+                "ddGbar_std": 0.6672664010723153,
                 "from": "1a",
                 "to": "1c"
             },
             "FEP_1a_3b": {
-                "ddGbar_avg": 1.7708999999999993,
-                "ddGbar_sem": 0.46934546871148136,
-                "ddGbar_std": 1.4842006906075746,
+                "ddGbar_avg": 2.3215000000000003,
+                "ddGbar_sem": 0.5089253432479072,
+                "ddGbar_std": 1.6093632436463812,
                 "from": "1a",
                 "to": "3b"
             },
             "FEP_1a_5": {
-                "ddGbar_avg": 1.9007999999999976,
-                "ddGbar_sem": 0.344227947732313,
-                "ddGbar_std": 1.088544349119502,
+                "ddGbar_avg": 0.4501999999999997,
+                "ddGbar_sem": 0.3414944626198205,
+                "ddGbar_std": 1.0799003102138642,
                 "from": "1a",
                 "to": "5"
             },
             "FEP_1b_1a": {
-                "ddGbar_avg": 2.0637999999999996,
-                "ddGbar_sem": 0.20829997119538926,
-                "ddGbar_std": 0.6587023455248964,
+                "ddGbar_avg": 1.7727999999999993,
+                "ddGbar_sem": 0.21073062900299994,
+                "ddGbar_std": 0.6663887604094174,
                 "from": "1b",
                 "to": "1a"
             },
             "FEP_1d_1b": {
-                "ddGbar_avg": -0.8476777777777791,
-                "ddGbar_sem": 0.3769131813613721,
-                "ddGbar_std": 1.19190413324206,
+                "ddGbar_avg": -0.7902777777777779,
+                "ddGbar_sem": 0.28395133788019133,
+                "ddGbar_std": 0.8979329723534525,
                 "from": "1d",
                 "to": "1b"
             },
             "FEP_1d_1c": {
-                "ddGbar_avg": -0.9299,
-                "ddGbar_sem": 0.4294770366387474,
-                "ddGbar_std": 1.3581256385180276,
+                "ddGbar_avg": -0.4339999999999997,
+                "ddGbar_sem": 0.3338033732603672,
+                "ddGbar_std": 1.055578950150106,
                 "from": "1d",
                 "to": "1c"
             },
             "FEP_3a_3b": {
-                "ddGbar_avg": 1.1229999999999993,
-                "ddGbar_sem": 0.30293869346783675,
-                "ddGbar_std": 0.9579762627539368,
+                "ddGbar_avg": 2.0639999999999983,
+                "ddGbar_sem": 0.40227847568568703,
+                "ddGbar_std": 1.2721162368274366,
                 "from": "3a",
                 "to": "3b"
             },
             "FEP_3a_5": {
-                "ddGbar_avg": 1.5335000000000019,
-                "ddGbar_sem": 0.3845175483641806,
-                "ddGbar_std": 1.2159512531347627,
+                "ddGbar_avg": 0.5617999999999981,
+                "ddGbar_sem": 0.31987589155796037,
+                "ddGbar_std": 1.0115363859001811,
                 "from": "3a",
                 "to": "5"
             },
             "FEP_6a_6b": {
-                "ddGbar_avg": -0.644,
-                "ddGbar_sem": 0.16453503578265632,
-                "ddGbar_std": 0.520305467970499,
+                "ddGbar_avg": 0.5494999999999999,
+                "ddGbar_sem": 0.2390124954892526,
+                "ddGbar_std": 0.7558238749867591,
                 "from": "6a",
                 "to": "6b"
             },
             "FEP_6a_6e": {
-                "ddGbar_avg": 0.6284000000000001,
-                "ddGbar_sem": 0.25771973149140126,
-                "ddGbar_std": 0.8149813494798515,
+                "ddGbar_avg": 0.0504,
+                "ddGbar_sem": 0.275124517264456,
+                "ddGbar_std": 0.870020114709999,
                 "from": "6a",
                 "to": "6e"
             },
             "FEP_6b_1b": {
-                "ddGbar_avg": -0.682999999999998,
-                "ddGbar_sem": 0.3845973452846496,
-                "ddGbar_std": 1.2162035931537123,
+                "ddGbar_avg": -1.0017999999999976,
+                "ddGbar_sem": 0.23581736577275214,
+                "ddGbar_std": 0.7457199876629296,
                 "from": "6b",
                 "to": "1b"
             },
             "FEP_6b_7a": {
-                "ddGbar_avg": 1.9554999999999998,
-                "ddGbar_sem": 0.29535013966477147,
-                "ddGbar_std": 0.9339791485895176,
+                "ddGbar_avg": 1.8584000000000005,
+                "ddGbar_sem": 0.4456739435955393,
+                "ddGbar_std": 1.4093447555513163,
                 "from": "6b",
                 "to": "7a"
             },
             "FEP_6e_1b": {
-                "ddGbar_avg": -1.235100000000001,
-                "ddGbar_sem": 0.2375010505239924,
-                "ddGbar_std": 0.7510442663385428,
+                "ddGbar_avg": -0.3200000000000003,
+                "ddGbar_sem": 0.35568449221184784,
+                "ddGbar_std": 1.1247731237898604,
                 "from": "6e",
                 "to": "1b"
             },
             "FEP_6e_7a": {
-                "ddGbar_avg": 1.1611000000000002,
-                "ddGbar_sem": 0.2769255658114649,
-                "ddGbar_std": 0.875715530295084,
+                "ddGbar_avg": 3.9146,
+                "ddGbar_sem": 0.43519880974101943,
+                "ddGbar_std": 1.3762194737758946,
                 "from": "6e",
                 "to": "7a"
             }
