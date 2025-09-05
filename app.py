@@ -488,7 +488,7 @@ def create_metrics_panel():
                 "textAlign": "center",
                 "color": "#666",
                 "fontStyle": "italic",
-                "fontSize": "14px",
+                "fontSize": "18px",
             },
         )
 
@@ -501,7 +501,7 @@ def create_metrics_panel():
         [
             html.Span(
                 f"N: {ddG_df.shape[0]}",
-                style={"fontWeight": "600", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": color_dict["to"]},
             ),
             html.Span(
                 f"Crashes: {n_crashes}",
@@ -509,15 +509,15 @@ def create_metrics_panel():
             ),
             html.Span(
                 f"τ = {ktau}",
-                style={"fontWeight": "600", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": color_dict["to"]},
             ),
             html.Span(
                 f"RMSE = {rmse}",
-                style={"fontWeight": "600", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": color_dict["to"]},
             ),
             html.Span(
                 f"MAE = {mae}",
-                style={"fontWeight": "600", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": color_dict["to"]},
             ),
         ],
         style={
