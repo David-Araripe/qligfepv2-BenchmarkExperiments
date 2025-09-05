@@ -149,8 +149,6 @@ def initialize_data(target_name):
         raise
 
 
-# Initialize with the first target
-initialize_data(available_targets[0])
 # Set the CSS for the app & layout
 FLATLY_CSS = "https://bootswatch.com/4/flatly/bootstrap.min.css"
 app = Dash(
@@ -204,8 +202,8 @@ app.layout = html.Div(
                     style={
                         "flex": "1.5",
                         "margin": "0 40px",
-                        "maxWidth": "600px",
-                        "minWidth": "500px",
+                        "maxWidth": "800px",
+                        "minWidth": "600px",
                     },
                 ),
                 html.Div(
@@ -501,55 +499,30 @@ def create_metrics_panel():
 
     return html.Div(
         [
-            # Left side: Dataset info
-            html.Div(
-                [
-                    html.Span(
-                        f"N: {ddG_df.shape[0]}",
-                        style={"fontWeight": "600", "color": color_dict["to"], "marginRight": "25px"},
-                    ),
-                    html.Span(
-                        f"Crashes: {n_crashes}",
-                        style={"fontWeight": "500", "color": "#666"},
-                    ),
-                ],
-                style={
-                    "display": "flex",
-                    "alignItems": "center",
-                    "justifyContent": "flex-start",
-                },
+            html.Span(
+                f"N: {ddG_df.shape[0]}",
+                style={"fontWeight": "600", "color": color_dict["to"]},
             ),
-            # Right side: Performance metrics
-            html.Div(
-                [
-                    html.Span(
-                        f"τ = {ktau}",
-                        style={
-                            "fontWeight": "600",
-                            "color": color_dict["to"],
-                            "marginRight": "20px",
-                            "marginLeft": "5px",
-                        },
-                    ),
-                    html.Span(
-                        f"RMSE = {rmse}",
-                        style={"fontWeight": "600", "color": color_dict["to"], "marginRight": "20px"},
-                    ),
-                    html.Span(
-                        f"MAE = {mae}",
-                        style={"fontWeight": "600", "color": color_dict["to"]},
-                    ),
-                ],
-                style={
-                    "display": "flex",
-                    "alignItems": "center",
-                    "justifyContent": "flex-end",
-                },
+            html.Span(
+                f"Crashes: {n_crashes}",
+                style={"fontWeight": "500", "color": "#666"},
+            ),
+            html.Span(
+                f"τ = {ktau}",
+                style={"fontWeight": "600", "color": color_dict["to"]},
+            ),
+            html.Span(
+                f"RMSE = {rmse}",
+                style={"fontWeight": "600", "color": color_dict["to"]},
+            ),
+            html.Span(
+                f"MAE = {mae}",
+                style={"fontWeight": "600", "color": color_dict["to"]},
             ),
         ],
         style={
             "display": "flex",
-            "justifyContent": "space-between",
+            "justifyContent": "space-evenly",
             "alignItems": "center",
             "fontSize": "14px",
             "width": "100%",
@@ -1138,4 +1111,6 @@ def update_viewer(from_clicks, to_clicks, both_clicks, from_node, to_node, selec
 
 
 if __name__ == "__main__":
+    # Initialize with the first target
+    initialize_data(available_targets[0])
     app.run(debug=True)
