@@ -79,6 +79,7 @@ def initialize_data(target_name):
                     and "to" in ddG_df.columns
                     and "Q_ddG_avg" in ddG_df.columns
                     and "from_svg" in ddG_df.columns
+                    and "residual" in ddG_df.columns
                 ):
                     loaded_from_cache = True
                 else:
@@ -99,12 +100,6 @@ def initialize_data(target_name):
             # Add images only if not loaded from cache or if missing
             if not np.isin(["from_svg", "to_svg"], ddG_df.columns).all():
                 ddG_df = add_images_to_df(ddG_df, molplotter)
-            # Save to cache after calculation
-            try:
-                ddG_df.to_pickle(cache_file)
-                logger.info(f"Saved calculated ddG data to {cache_file}")
-            except Exception as e:
-                logger.error(f"Failed to save data to cache file {cache_file}: {e}")
 
         # Identify and handle crashed edges before graph generation
         nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
@@ -154,6 +149,14 @@ def initialize_data(target_name):
 
         # Calculate statistics once and store them
         stats_dict = cinnabar_stats(ddG_df["Q_ddG_avg"], ddG_df["ddg_value"])
+
+        # If not loaded from cache, save it there after processing is complete
+        if not loaded_from_cache:
+            try:
+                ddG_df.to_pickle(cache_file)
+                logger.info(f"Saved processed ddG data to {cache_file}")
+            except Exception as e:
+                logger.error(f"Failed to save data to cache file {cache_file}: {e}")
 
     except Exception as e:
         print(f"Error initializing data for target {target_name}: {e}")
@@ -920,12 +923,12 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
     annotations = [
         {
             "x": 0.5,
-            "y": 1.02,
+            "y": 1.15,
             "xref": "paper",
             "yref": "paper",
             "showarrow": False,
-            "text": "Experimental vs Predicted ΔΔG",
-            "font": {"size": 14, "color": color_dict["to"]},
+            "text": "Experimental vs Calculated ΔΔG",
+            "font": {"size": 18, "color": color_dict["to"]},
             "xanchor": "center",
             "yanchor": "auto",
         }
