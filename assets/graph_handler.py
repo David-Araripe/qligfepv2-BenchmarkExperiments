@@ -77,6 +77,51 @@ def extract_graph_coordinates(G) -> Tuple[List, List, List, List, List]:
     return node_labels, node_x, node_y, edge_x, edge_y
 
 
+def extract_graph_coordinates_with_crashed_edges(G, crashed_edge_pairs) -> Tuple[List, List, List, List, List, List]:
+    """extracts the x and y coordinates of the nodes and edges of a networkx graph,
+    separating crashed edges from normal edges
+
+    Args:
+        G: networkx graph
+        crashed_edge_pairs: set of (from, to) tuples representing crashed edges
+
+    Returns:
+        Tuple of node_labels, node_x, node_y, edge_x, edge_y, crashed_edge_coords
+    """
+    node_x = []
+    node_y = []
+    node_labels = []
+    for node in G.nodes():
+        x, y = G.nodes[node]["pos"]
+        node_x.append(x)
+        node_y.append(y)
+        node_labels.append(node)
+
+    # Separate normal edges and crashed edges
+    normal_edge_x = []
+    normal_edge_y = []
+    crashed_edge_x = []
+    crashed_edge_y = []
+    
+    for edge in G.edges():
+        x0, y0 = G.nodes[edge[0]]["pos"]
+        x1, y1 = G.nodes[edge[1]]["pos"]
+        
+        # Check if this edge is a crashed edge (check both directions)
+        if (edge[0], edge[1]) in crashed_edge_pairs or (edge[1], edge[0]) in crashed_edge_pairs:
+            # Add to crashed edges
+            crashed_edge_x.extend([x0, x1, None])
+            crashed_edge_y.extend([y0, y1, None])
+        else:
+            # Add to normal edges
+            normal_edge_x.extend([x0, x1, None])
+            normal_edge_y.extend([y0, y1, None])
+
+    # Return normal edge coordinates and crashed edge coordinates separately
+    crashed_edge_coords = [crashed_edge_x, crashed_edge_y]
+    return node_labels, node_x, node_y, normal_edge_x, normal_edge_y, crashed_edge_coords
+
+
 def add_legend_trace_to_graph_figure(fig, color_dict):
     fig.add_trace(
         go.Scatter(
@@ -123,5 +168,16 @@ def add_legend_trace_to_graph_figure(fig, color_dict):
             legendgroup="no_highlight",  # Same legend group for "no_highlight" items
             showlegend=True,
             name="No Highlight",
+        )
+    )
+    # Add a trace for crashed edges legend
+    fig.add_trace(
+        go.Scatter(
+            x=[None],
+            y=[None],  # No actual data points
+            mode="lines",
+            line=dict(width=3, color="red", dash="dash"),
+            showlegend=True,
+            name="Crashed Edges",
         )
     )

@@ -18,6 +18,7 @@ from WeightedCCC import GraphClosure
 from assets.graph_handler import (
     add_legend_trace_to_graph_figure,
     extract_graph_coordinates,
+    extract_graph_coordinates_with_crashed_edges,
     generate_graph,
     get_most_connected_cpd,
     set_nx_graph_coordinates,
@@ -40,6 +41,7 @@ ddG_df = pd.DataFrame()  # Initialize empty DataFrame
 perturbations = []  # Initialize empty list
 G = None
 node_labels, node_x, node_y, edge_x, edge_y = [], [], [], [], []
+crashed_edge_coords = []  # Will store coordinates for crashed edges
 most_connected_name = ""
 
 
@@ -57,7 +59,7 @@ available_targets = sorted([p.name for p in Path("perturbations/").glob("*") if 
 # write the pdb files for the ligands
 def initialize_data(target_name):
     try:
-        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, most_connected_name, perturbations, crashed_edges, stats_dict
+        global perturbation_root, mapping, ddG_df, G, node_labels, node_x, node_y, edge_x, edge_y, crashed_edge_coords, most_connected_name, perturbations, crashed_edges, stats_dict
         perturbation_root = Path(f"perturbations/{target_name}")
         if not perturbation_root.exists():
             raise FileNotFoundError(f"Target directory {perturbation_root} not found")
@@ -104,15 +106,24 @@ def initialize_data(target_name):
             except Exception as e:
                 logger.error(f"Failed to save data to cache file {cache_file}: {e}")
 
-        # Generate graph and extract coordinates regardless of cache status
-        G = generate_graph(ddG_df)
-        G = set_nx_graph_coordinates(G)
-        node_labels, node_x, node_y, edge_x, edge_y = extract_graph_coordinates(G)
-        most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
-
+        # Identify and handle crashed edges before graph generation
         nan_edges = ddG_df.query("Q_ddG_avg.isnull()")
         crashed_edges = nan_edges.apply(lambda x: f"FEP_{x['from']}_{x['to']}", axis=1).tolist()
-        ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"]).reset_index(drop=True)  # Drop NaN and reset index
+
+        # Create crashed edge pairs for easy lookup
+        crashed_edge_pairs = set((row["from"], row["to"]) for _, row in nan_edges.iterrows())
+
+        full_ddG_df = ddG_df.copy()
+        # Filter out crashed edges for calculations and data analysis
+        ddG_df = ddG_df.dropna(subset=["Q_ddG_avg"]).reset_index(drop=True)
+
+        # Generate the graph and set coordinates, extracting coordinates for crashed edges
+        G = generate_graph(full_ddG_df)
+        G = set_nx_graph_coordinates(G)
+        node_labels, node_x, node_y, edge_x, edge_y, crashed_edge_coords = (
+            extract_graph_coordinates_with_crashed_edges(G, crashed_edge_pairs)
+        )
+        most_connected_name, most_connected_smiles = get_most_connected_cpd(G, ddG_df)
 
         perturbations = list(zip(ddG_df["from"], ddG_df["to"]))
         ccc = GraphClosure(from_lig=ddG_df["from"], to_lig=ddG_df["to"], b_ddG=ddG_df["Q_ddG_avg"])
@@ -486,7 +497,7 @@ def create_metrics_panel():
             "No data available",
             style={
                 "textAlign": "center",
-                "color": '#000000',
+                "color": "#000000",
                 "fontStyle": "italic",
                 "fontSize": "18px",
             },
@@ -501,23 +512,23 @@ def create_metrics_panel():
         [
             html.Span(
                 f"N: {ddG_df.shape[0]}",
-                style={"fontWeight": "500", "color": '#000000'},
+                style={"fontWeight": "500", "color": "#000000"},
             ),
             html.Span(
                 f"Crashes: {n_crashes}",
-                style={"fontWeight": "500", "color": '#000000'},
+                style={"fontWeight": "500", "color": "#000000"},
             ),
             html.Span(
                 f"τ = {ktau}",
-                style={"fontWeight": "500", "color": '#000000'},
+                style={"fontWeight": "500", "color": "#000000"},
             ),
             html.Span(
                 f"RMSE = {rmse}",
-                style={"fontWeight": "500", "color": '#000000'},
+                style={"fontWeight": "500", "color": "#000000"},
             ),
             html.Span(
                 f"MAE = {mae}",
-                style={"fontWeight": "500", "color": '#000000'},
+                style={"fontWeight": "500", "color": "#000000"},
             ),
         ],
         style={
@@ -535,7 +546,8 @@ def construct_network_graph(highlighted_nodes: list = None):
         highlighted_nodes = ["", ""]
     elif len(highlighted_nodes) != 2:
         highlighted_nodes = ["", ""]
-    # Assuming edge_x, edge_y, node_x, node_y are available globally or passed to this function
+
+    # Create trace for normal edges (gray)
     edge_trace = go.Scatter(
         x=edge_x,
         y=edge_y,
@@ -543,7 +555,24 @@ def construct_network_graph(highlighted_nodes: list = None):
         hoverinfo="none",
         mode="lines",
         showlegend=False,
+        name="Valid Edges",
     )
+
+    # Create trace for crashed edges (red), provided there are crashed edges
+    if crashed_edge_coords and len(crashed_edge_coords) >= 2 and len(crashed_edge_coords[0]) > 0:
+        crashed_edge_trace = go.Scatter(
+            x=crashed_edge_coords[0],
+            y=crashed_edge_coords[1],
+            line=dict(width=1.5, color="red", dash="dash"),
+            hoverinfo="none",
+            mode="lines",
+            showlegend=False,
+            name="Crashed Edges",
+        )
+        has_crashed_edges = True
+    else:
+        crashed_edge_trace = None
+        has_crashed_edges = False
 
     _from, _to = highlighted_nodes
 
@@ -576,8 +605,14 @@ def construct_network_graph(highlighted_nodes: list = None):
         ),
     )
 
+    # Build data list conditionally
+    data_traces = [edge_trace]
+    if has_crashed_edges and crashed_edge_trace is not None:
+        data_traces.append(crashed_edge_trace)
+    data_traces.append(node_trace)
+
     fig = go.Figure(
-        data=[edge_trace, node_trace],
+        data=data_traces,
         layout=go.Layout(
             title=dict(
                 text="Perturbation Network",
@@ -959,6 +994,18 @@ def update_highlight_from_graph_click(clickData, current_click_store):
             return new_store_state, no_update
         else:
             try:
+                # Check if this is a crashed edge first
+                edge_name_forward = f"FEP_{node1}_{node2}"
+                edge_name_backward = f"FEP_{node2}_{node1}"
+
+                if edge_name_forward in crashed_edges or edge_name_backward in crashed_edges:
+                    logger.info(
+                        f"Clicked on crashed edge between {node1} and {node2}. No highlight will be shown."
+                    )
+                    new_store_state = {"nodes": []}  # Reset store
+                    return new_store_state, no_update
+
+                # Look for edge in the filtered dataframe (non-crashed edges only)
                 edge_forward = ddG_df[(ddG_df["from"] == node1) & (ddG_df["to"] == node2)]
                 edge_backward = ddG_df[(ddG_df["from"] == node2) & (ddG_df["to"] == node1)]
 
