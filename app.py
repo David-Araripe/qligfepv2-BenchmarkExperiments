@@ -486,7 +486,7 @@ def create_metrics_panel():
             "No data available",
             style={
                 "textAlign": "center",
-                "color": "#666",
+                "color": '#000000',
                 "fontStyle": "italic",
                 "fontSize": "18px",
             },
@@ -501,23 +501,23 @@ def create_metrics_panel():
         [
             html.Span(
                 f"N: {ddG_df.shape[0]}",
-                style={"fontWeight": "500", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": '#000000'},
             ),
             html.Span(
                 f"Crashes: {n_crashes}",
-                style={"fontWeight": "500", "color": "#666"},
+                style={"fontWeight": "500", "color": '#000000'},
             ),
             html.Span(
                 f"τ = {ktau}",
-                style={"fontWeight": "500", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": '#000000'},
             ),
             html.Span(
                 f"RMSE = {rmse}",
-                style={"fontWeight": "500", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": '#000000'},
             ),
             html.Span(
                 f"MAE = {mae}",
-                style={"fontWeight": "500", "color": color_dict["to"]},
+                style={"fontWeight": "500", "color": '#000000'},
             ),
         ],
         style={
@@ -901,7 +901,7 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
         paper_bgcolor="white",  # Also set paper background
         annotations=annotations,
         xaxis_title="ΔΔG<sub>exp</sub> [kcal/mol]",
-        yaxis_title="ΔΔG<sub>pred</sub> [kcal/mol]",
+        yaxis_title="ΔΔG<sub>calc</sub> [kcal/mol]",
         xaxis=dict(
             range=[min_val, max_val], gridcolor="lightgrey", constrain="domain"
         ),  # Add light grid, constrain domain
