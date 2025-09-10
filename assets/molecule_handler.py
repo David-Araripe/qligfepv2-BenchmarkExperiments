@@ -1,6 +1,7 @@
 from functools import partial
 import pandas as pd
 import json
+from rdkit import Chem
 from pathlib import Path
 from chemFilters.img_render import MolPlotter
 from joblib import Parallel, delayed
@@ -50,6 +51,21 @@ def lomap_json_to_dataframe(lomap_json: dict) -> pd.DataFrame:
     )
 
 
+def rm_H_from_smiles(smiles: str) -> str:
+    """Remove hydrogens from a SMILES string because it doesn't make sense to use them
+    for MCS calculation :)
+
+    Args:
+        smiles: SMILES string
+
+    Returns:
+        SMILES string without hydrogens
+    """
+    mol = Chem.MolFromSmiles(smiles)
+    mol = Chem.RemoveHs(mol)
+    return Chem.MolToSmiles(mol)
+
+
 def add_images_to_df(df, molplotter: MolPlotter, n_jobs=4) -> pd.DataFrame:
     """Use MolPlotter to render images of the molecules in the dataframe
 
@@ -73,7 +89,9 @@ def add_images_to_df(df, molplotter: MolPlotter, n_jobs=4) -> pd.DataFrame:
     )
     partial_func = partial(molplotter.render_mol, return_svg=True)
     # find the matching pose
-    pairs = list(zip(df["from_smiles"].tolist(), df["to_smiles"].tolist()))
+    from_smiles_noH = df["from_smiles"].apply(rm_H_from_smiles).tolist()
+    to_smiles_noH = df["to_smiles"].apply(rm_H_from_smiles).tolist()
+    pairs = list(zip(from_smiles_noH, to_smiles_noH))  # only use no-H smiles for MCS
     pairs = tqdm(pairs, total=len(pairs))
     logger.info("Calculating MCS similarity")
     results = Parallel(n_jobs=n_jobs)(delayed(mcs_handler.pairwise_mcs_similarity)(p) for p in pairs)
