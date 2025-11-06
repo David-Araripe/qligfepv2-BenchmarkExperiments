@@ -941,11 +941,21 @@ def create_ddg_plot(ddG_df, perturbations=None, highlight_index=None):
         xaxis_title="ΔΔG<sub>exp</sub> [kcal/mol]",
         yaxis_title="ΔΔG<sub>calc</sub> [kcal/mol]",
         xaxis=dict(
-            range=[min_val, max_val], gridcolor="lightgrey", constrain="domain"
-        ),  # Add light grid, constrain domain
+            range=[min_val, max_val],
+            gridcolor="lightgrey",
+            zeroline=True,
+            zerolinecolor="lightgrey",
+            constrain="domain",
+        ),
         yaxis=dict(
-            range=[min_val, max_val], gridcolor="lightgrey", scaleanchor="x", scaleratio=1, constrain="domain"
-        ),  # same as x-axis, scale to 1
+            range=[min_val, max_val],
+            gridcolor="lightgrey",
+            zeroline=True,
+            zerolinecolor="lightgrey",
+            scaleanchor="x",
+            scaleratio=1,
+            constrain="domain",
+        ),
         legend=dict(yanchor="bottom", y=0.01, xanchor="right", x=0.99),  # Position legend at bottom right
         clickmode="event+select",  # Ensure click events are captured
     )
