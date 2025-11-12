@@ -1,173 +1,158 @@
 # QligFEPv2 Benchmarking Experiments
 
-This repository contains the benchmarking experiments for the QligFEPv2 software for relative binding free energy (RBFE) calculations.
+This repository contains the benchmarking experiments for **QligFEPv2**, an iteration on the development of the QligFEP software for relative binding free energy (RBFE) calculations. QligFEP is a Python-based tool that automates the setup, execution, and analysis of free energy perturbation (FEP) calculations using the [Q simulation package](https://github.com/qusers/Q6).
 
-In this repostory you can find:
-- The starting structures used as inputs to run the RBFE calculations;
-- Scripts for preparing the systems and the RBFE network for each target;
-- A dash app to interactively visualize the results of the benchmarking experiments, including starting poses of protein structures, ligands, and the calculated RBFE values.
+**Original QligFEP publication:** Jespers, W., Esguerra, M., Åqvist, J., Gutiérrez-de-Terán, H., QligFEP: an automated workflow for small molecule free energy calculations in Q. *J Cheminform* **11**, 26 (2019). https://doi.org/10.1186/s13321-019-0348-5
 
-# FEPviz
+> 📄 *Manuscript describing this work is coming soon.*
 
-The FEPviz is a dash app that allows the interactive visualization of the results of the benchmarking experiments. The app is available on `app.py` and requires the following packages to be installed:
+## Overview
 
+This benchmarking study evaluates QligFEPv2 performance across **16 protein-ligand systems** from two established datasets:
+- **JACS Benchmark Set** (8 targets): BACE1, CDK2, JNK1, MCL1, P38, PTP1B, Thrombin, TYK2
+- **Merck Public Dataset** (8 targets): CDK8, cMET, EG5, HIF-2α, PFKFB3, SHP2, SYK, TNKS2
+
+The repository provides:
+- Starting structures and preparation workflows
+- Complete FEP setup and analysis scripts
+- Interactive visualization dashboard
+- Comprehensive performance analysis notebooks
+- Detailed performance metrics and regression plots
+
+## Interactive Dashboard
+
+Explore the benchmarking results through an interactive Dash web application that visualizes perturbation networks, molecular structures, and performance metrics for each target.
+
+<div align="center">
+  <img src="figures/qligfep-dashboard.png" alt="QligFEP Dashboard" width="800">
+</div>
+
+### Running the Dashboard
+
+Install dependencies:
 ```bash
-python -m pip install git+https://github.com/David-Araripe/SFC_FreeEnergyCorrection.git git+https://github.com/David-Araripe/Weighted_cc.git git+https://github.com/David-Araripe/chemFilters.git dash cinnabar dash-molstar dash-bootstrap-components statannotations statsmodels fastparquet tabulate pyfonts
+python -m pip install git+https://github.com/David-Araripe/SFC_FreeEnergyCorrection.git \
+    git+https://github.com/David-Araripe/Weighted_cc.git \
+    git+https://github.com/David-Araripe/chemFilters.git \
+    dash cinnabar dash-molstar dash-bootstrap-components \
+    statannotations statsmodels fastparquet tabulate pyfonts
 ```
 
-## JACS Benchmark set;
-
-The JACS benchmark set is a set of 8 protein-ligand systems used to benchmark the QligFEPv2 software. The prepared ligands/structures used for our calculations are the same reported in the [IndustryBenchmark2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024/) repository, with exception of Thrombin, which was prepared by us.
-
-Here you can find the modifications applied to each of the targets obtained from the original repository:
-
-### bace
-
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```ILE171, SER96, SER71, PHE169, GLY291```
-
-### cdk2
-
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```LYS89, ASP86, LEU138```
-
-N-terminal of Chain A was also minimized to remove a clash leading to infinite VDW potentials.
-
-**Ligand Changes**
-
-An additional change was introduced to the input ligand structures. We noticed poorer correlation with the experimental data when using the ligands from the `IndustryBenchmarks2024` repository. Ligand `17` in the series contains a halogen meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6GUK`, though different from the ligand in question, displays a different rotamer pointing towards the cyclohexyl group, less solvent-exposed. The space where the chlorine group is positioned in this deposited structure has an [overlap](https://www.ebi.ac.uk/pdbe/entry/view3D/6guk/?view=entry_index&viewer=litemol&assembly=1) of both 2Fo-Fc $\sigma$ and Fo-Fc(-ve) $\sigma$ maps, indicating an uncertainty in the positioning of the halogen atom. However, we assumed the rotamer conformation to have contributed for the poor correlation between QligFEP results with the experimental data and decided to use poses with the halogen pointing towards the cyclohexyl group.
-
-<!-- For a quick visualization of the deposited protein structure illustrating this binding pose, see:
-
-```python
-import py3Dmol
-
-viewer = py3Dmol.view(query="pdb:6GUK")
-viewer.setStyle({"model": 0, "not resn": "FC8"}, {"cartoon": {"color": "gray"}})
-viewer.setStyle(
-    {"model": 0, "resn": "FC8"},
-    {"stick": {"colorscheme": "greenCarbon", "radius": 0.3}},
-)
-viewer.addSurface(
-    py3Dmol.VDW, {"opacity": 0.5, "color": "white"}, {"not": {"resn": "FC8"}}
-)
-viewer.zoomTo({"resn": "FC8"})
-viewer.show()
-``` -->
-
-### jnk1
-
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```GLY35, VAL40, LEU110, MET111, ALA113```
-
-### mcl1
-
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```VAL253, MET231, LEU246, LEU290, ILE294, LEU267, MET250, VAL274, LEU235, PHE270, GLY271```
-
-### p38
-
-No manual minimization performed. Bad clashes were only observed against water molecules, which are automatically removed before QligFEP RBFE simulations.
-
-### ptp1b
-
-Prepared protein from the source repository displayed poor correlation with the experimental data. Therefore, we proceeded to use an internally prepared structure by us, generated before this study was conducted and known to work well with QligFEP RBFE calculations.
-
-Upon checking the ligands, we noticed a need for optimization of the ligand poses. Despite the good MCS alignment for the scaffold shared by the ligands, other parts of the ligand weren't so well aligned. Therefore, we decided to perform a few additional alignments on top of the ligand preparation on IndustryBenchmarks2024 repository. The changes can be found in our [ligand alignment notebook](startFiles/ligand_alignment.ipynb).
-
-### thrombin
-
-The protein found in the source repository contained some hydrogen positioning problems, which we attempted to fix using Maestro's `Refine > H-bond-assignment` tool. Further, some amino acids were placed in the sequence in the incorrect order. Those were fixed by manually reordering them.
-
-The resulting structure, however, resulted in crashes during the FEP, which wasn't observed for any of the other targets used in this study. Therefore, we proceeded to use an internally prepared structures by us.
-
-### tyk2
-
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```LEU903, TYR980, GLY984, PRO982```
-
-## Merck Benchmark set;
-
-### cdk8
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```val27, gly28, tyr32, lys52, ile79, his102, asp103, asn156, leu158, arg356```
-
-### cmet
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```ile1084, gly1085, met1160, lys1161```
-
-### eg5
-All ligands and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```arg119, pro121, leu160, gly217, ala218```
-
-### hif2a
-```met289, his293, cys339```
-
-### pfkfb3
-
-Ligands `20`, `41`, and `42` and respective protein structure were loaded in `Maestro`. A minimization step was applied to the following residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```val214```
-
-Following that, ligands `44`, `47`, `52`, `53` were loaded. A second minimization step was applied to the folliwng residues by manually selecting them and minimizing with the `Ctrl + m` command:
-```leu238, ile241, his242```
-
-The following water molecules were removed: `905, 914, 944, 993, 998, 1022`, as they were clashing with other HOH `O` atoms and not the closest to the protein residues.
-
-Removed the atoms:
-```txt
-ATOM      1  CH3 ACE A   0      87.427  98.432 260.536  1.00  0.00           C  
-ATOM      2  C   ACE A   0      86.302  98.808 261.499  1.00  0.00           C  
-ATOM      3  O   ACE A   0      85.472  97.963 261.827  1.00  0.00           O  
-ATOM      4 1H   ACE A   0      87.325  97.362 260.246  1.00  0.00           H  
-ATOM      5 2H   ACE A   0      87.370  99.072 259.627  1.00  0.00           H  
-ATOM      6 3H   ACE A   0      88.411  98.593 261.030  1.00  0.00           H  
-...
-ATOM    284  N   NME A  16A     79.441  97.537 254.883  1.00  0.00           N  
-ATOM    285  CA  NME A  16A     80.445  98.441 254.341  1.00  0.00           C  
-ATOM    286  H   NME A  16A     78.820  97.041 254.262  1.00  0.00           H  
-ATOM    287 1HA  NME A  16A     81.022  98.883 255.184  1.00  0.00           H  
-ATOM    288 2HA  NME A  16A     81.132  97.880 253.668  1.00  0.00           H  
-ATOM    289 3HA  NME A  16A     79.949  99.249 253.759  1.00  0.00           H  
+Launch the dashboard:
+```bash
+python app.py
 ```
 
-**Ligand Changes**
+The dashboard provides:
+- Interactive perturbation network graphs
+- 3D molecular visualization using Molstar ([everburstSun/dash-molstar](https://github.com/everburstSun/dash-molstar))
+- Experimental vs. calculated ΔΔG regression plots
+- Statistical performance metrics (RMSE, MUE, Kendall's τ)
 
-An additional change was introduced to the input ligand structures. We noticed poorer correlation with the experimental data for the edges including ligand `43` from the `IndustryBenchmarks2024` repository. This ligand in the series contains a halogen (`Br`) meta-substituted phenyl ring, pointing towards the solvent. The protein structure `6HVI` [with the co-crystalized ligand](https://www.ebi.ac.uk/pdbe/entry/view3D/6hvi/?view=entry_index&viewer=litemol&assembly=1) `38` of the congeneric series also contains a meta-substitution of the phenyl ring, but on the opposite orientation than ligand 43. Therefore, we decided to flip the cyclohexyl group in ligand 43 to match the observed orientation in the protein structure. Doing so, we observed a better correlation between the calculated and experimental data, supporting the decision to use this pose.
+## Repository Structure
 
-<!-- ```python
-import py3Dmol
+```
+├── perturbations/          # Input structures and FEP setup files
+│   └── <target>/
+│       ├── protein.pdb     # Prepared protein structure
+│       ├── water.pdb       # Equilibrated water sphere
+│       ├── ligands.sdf     # All ligands for the target
+│       ├── mapping.json    # Perturbation network definition
+│       ├── <ligand>.lib    # Q library files (force field parameters)
+│       ├── <ligand>.prm    # Q parameter files
+│       ├── <ligand>.pdb    # Individual ligand structures
+│       ├── prepare.sh      # SLURM script to setup FEP calculations
+│       └── analyze.sh      # SLURM script to analyze results
+│
+├── results/                # Analyzed FEP results
+│   └── <target>/
+│       ├── <target>_FEP_results.json         # Raw FEP energies
+│       ├── <target>_dgBar_verbose.parquet    # Verbose output from qfep
+│       ├── <target>_run_data.parquet         # Runtime data (all replicates)
+│       └── mapping_ddG.json                  # Network with calculated ΔΔG
+│
+├── startFiles/             # Raw inputs, data preparation notebooks
+├── figures/                # Figures for manuscript
+├── cache/                  # Cached processed data for dashboard
+├── app.py                  # Interactive Dash visualization dashboard
+└── results_check.ipynb     # Main analysis notebook with all metrics
+```
 
-viewer = py3Dmol.view(query="pdb:6HVI")
-viewer.setStyle(
-    {"model": 0, "not resn": "GV5"},
-    {"cartoon": {"colorscheme": "gray"}},
-)
-viewer.setStyle(
-    {"model": 0, "resn": "GV5"},
-    {"stick": {"colorscheme": "greenCarbon", "radius": 0.3}},
-)
-viewer.addSurface(
-    py3Dmol.VDW, {"opacity": 0.5, "color": "white"}, {"not": {"resn": "GV5"}}
-)
-viewer.zoomTo({"resn": "GV5"})
-viewer.show()
-``` -->
+## Data Source and Preparation
 
-### shp2
-`phe113, his114, thr219, glu249, asp489, lys492`
+The starting structures are derived from the [IndustryBenchmarks2024](https://github.com/OpenFreeEnergy/IndustryBenchmarks2024) repository ([Zenodo](https://zenodo.org/records/17245550)), with specific modifications detailed in [`PROT_PREPARATION.md`](PROT_PREPARATION.md).
 
-### syk
+### Preparation Workflow Notebooks
 
-The following residues were minimized to better accommodate the ligands in the binding site:
-`glu376, leu377, gly378, val385, asn457, asp512, phe513, lys402, gly454, ser379, lys375, phe382, lys458`
+The `startFiles/` directory contains Jupyter notebooks documenting the complete preparation workflow:
 
-Further, other amino acids were minimized to avoid protein-protein clashes.
+| Notebook | Description |
+|----------|-------------|
+| [`extract_data.ipynb`](startFiles/extract_data.ipynb) | Downloads structures from IndustryBenchmarks2024 repository |
+| [`ligand_alignment.ipynb`](startFiles/ligand_alignment.ipynb) | Aligns ligand structures to reference conformations |
+| [`rename_and_prepare_pdbs.ipynb`](startFiles/rename_and_prepare_pdbs.ipynb) | Standardizes atom naming and generates water spheres with `qprep` |
+| [`perturbation_mapping.ipynb`](startFiles/perturbation_mapping.ipynb) | Creates perturbation network mappings using automatic algorithms |
+| [`restraint_check.ipynb`](startFiles/restraint_check.ipynb) | Validates restraint selection for each perturbation |
+| [`system_sizes_and_total_compute.ipynb`](startFiles/system_sizes_and_total_compute.ipynb) | Analyzes system sizes and computational requirements |
 
-Finally, the orientation of the protein's hydrogen atoms were refined using Maestro's `Refine > H-bond-assignment` tool by checking the boxes:
+## Running FEP Calculations
 
-- [x] Sample water orientations
-- [x] Use PROPKA pH: 7.0
+### Setup
+Navigate to a target directory and run the preparation script:
+```bash
+cd perturbations/<target>
+sbatch prepare.sh  # or run setupFEP command directly
+```
 
-### tnks2
+The `prepare.sh` script:
+1. Splits the multi-molecule SDF file into individual ligand files
+2. Runs `setupFEP` to generate FEP input files with appropriate restraints
 
-No manual minimization performed.
+### Analysis
+After simulations complete, analyze results:
+```bash
+cd perturbations/<target>
+sbatch analyze.sh  # or run qligfep_analyze command directly
+```
+
+The `analyze.sh` script runs `qligfep_analyze` to:
+1. Process FEP trajectories using the Gbar estimator
+2. Calculate ΔΔG values with statistical uncertainties
+3. Generate detailed results in parquet and JSON formats
+4. Move results to the appropriate directory
+
+**Note:** Target-specific setup commands with restraint strategies are documented in [`perturbations/commands.md`](perturbations/commands.md).
+
+## Performance Results
+
+Comprehensive performance metrics and analysis are available in:
+
+- **[`results/README.md`](results/README.md)** - Performance tables for ΔΔG and ΔG predictions across all targets, including:
+  - Kendall's τ (correlation coefficient)
+  - RMSE (root mean square error)
+  - MUE (mean unsigned error)
+  - Regression plots for each target
+
+- **[`results_check.ipynb`](results_check.ipynb)** - Interactive analysis notebook containing:
+  - Detailed statistical comparisons across force fields (QligFEP, OPLS3e, PMX-Sage 2.0)
+  - Stripplots and stacked metrics visualizations
+  - Computational performance analysis
+  - System size distributions
+
+## Citation
+
+If you use this data or code, please cite:
+
+- **QligFEP original paper**: Jespers, W., Esguerra, M., Åqvist, J., Gutiérrez-de-Terán, H., QligFEP: an automated workflow for small molecule free energy calculations in Q. *J Cheminform* **11**, 26 (2019). https://doi.org/10.1186/s13321-019-0348-5
+
+- **IndustryBenchmarks2024**: Baumann H., Alibay I., Horton J., Ries B., Henry M., *et al.*, OpenFreeEnergy/IndustryBenchmarks2024: v1.0.0 (v1.0.0). Zenodo. (2025) https://doi.org/10.5281/zenodo.17245550
+
+- **Manuscript for this work**: *Coming soon*
+
+## License
+
+See [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions about this benchmarking study or QligFEPv2, please open an issue in this repository.
