@@ -1,10 +1,13 @@
 # QligFEPv2 Benchmarking Experiments
 
-This repository contains the benchmarking experiments for **QligFEPv2**, an iteration on the development of the QligFEP software for relative binding free energy (RBFE) calculations. QligFEP is a Python-based tool that automates the setup, execution, and analysis of free energy perturbation (FEP) calculations using the [Q simulation package](https://github.com/qusers/Q6).
+This repository contains the benchmarking experiments for **QligFEPv2**, an iteration on the development of the QligFEP software for relative binding free energy (RBFE) calculations. QligFEP is a Python-based tool that automates the setup, execution, and analysis of free energy perturbation (FEP) calculations using the Q molecular dynamics engine.
 
-**Original QligFEP publication:** Jespers, W., Esguerra, M., Åqvist, J., Gutiérrez-de-Terán, H., QligFEP: an automated workflow for small molecule free energy calculations in Q. *J Cheminform* **11**, 26 (2019). https://doi.org/10.1186/s13321-019-0348-5
+The current work is currently available as a _preprint_ on ChemRxiv:
+> Alencar Araripe D, Díaz Holguín A, Poso A, van Westen GJP, Åqvist J, Gutiérrez-de-Terán H, et al. QligFEP-2: an automated workflow for small molecule free energy calculations in Q. ChemRxiv. 2025; [doi:10.26434/chemrxiv-2025-x3r3z](https://doi.org/10.26434/chemrxiv-2025-x3r3z)
 
-> 📄 *Manuscript describing this work is coming soon.*
+## Installation
+
+To reproduce the benchmarking results, we recommend users to setup an enviroment following the instructions in the [QligFEPv2 repository](https://github.com/qusers/Q). Additional dependencies for analysis and visualization are listed below under [Interactive Dashboard](#interactive-dashboard).
 
 ## Overview
 
@@ -147,7 +150,7 @@ If you use this data or code, please cite:
 
 - **IndustryBenchmarks2024**: Baumann H., Alibay I., Horton J., Ries B., Henry M., *et al.*, OpenFreeEnergy/IndustryBenchmarks2024: v1.0.0 (v1.0.0). Zenodo. (2025) https://doi.org/10.5281/zenodo.17245550
 
-- **Manuscript for this work**: *Coming soon*
+- **QligFEP v2 preprint**: Alencar Araripe D, Díaz Holguín A, Poso A, van Westen GJP, Åqvist J, Gutiérrez-de-Terán H, _et al._ QligFEP-2: an automated workflow for small molecule free energy calculations in Q. ChemRxiv. 2025; [doi:10.26434/chemrxiv-2025-x3r3z](https://doi.org/10.26434/chemrxiv-2025-x3r3z)
 
 ## License
 
