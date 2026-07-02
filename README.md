@@ -158,8 +158,10 @@ To cite QligFEPv2 and this benchmarking study, please use the following referenc
 }
 ```
 
-If you use this data or code, please consider citing:
+If you use qligfep, also consider citing:
 - **QligFEP original paper**: Jespers, W., Esguerra, M., Åqvist, J., Gutiérrez-de-Terán, H., QligFEP: an automated workflow for small molecule free energy calculations in Q. *J Cheminform* **11**, 26 (2019). https://doi.org/10.1186/s13321-019-0348-5
+
+And if you use this benchmarking dataset, please cite:
 - **IndustryBenchmarks2024**: Baumann H., Alibay I., Horton J., Ries B., Henry M., *et al.*, OpenFreeEnergy/IndustryBenchmarks2024: v1.0.0 (v1.0.0). Zenodo. (2025) https://doi.org/10.5281/zenodo.17245550
 
 ## License
