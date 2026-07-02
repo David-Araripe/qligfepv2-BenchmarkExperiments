@@ -2,12 +2,11 @@
 
 This repository contains the benchmarking experiments for **QligFEPv2**, an iteration on the development of the QligFEP software for relative binding free energy (RBFE) calculations. QligFEP is a Python-based tool that automates the setup, execution, and analysis of free energy perturbation (FEP) calculations using the Q molecular dynamics engine.
 
-The current work is currently available as a _preprint_ on ChemRxiv:
-> Alencar Araripe D, Díaz Holguín A, Poso A, van Westen GJP, Åqvist J, Gutiérrez-de-Terán H, et al. QligFEP-2: an automated workflow for small molecule free energy calculations in Q. ChemRxiv. 2025; [doi:10.26434/chemrxiv-2025-x3r3z](https://doi.org/10.26434/chemrxiv-2025-x3r3z)
+## How-to
 
-## Installation
+To reproduce the benchmarking results, we recommend users to setup an enviroment following the instructions in the [qusers/Q repository](https://github.com/qusers/Q). Additional dependencies for analysis and visualization are listed below under [Interactive Dashboard](#interactive-dashboard).
 
-To reproduce the benchmarking results, we recommend users to setup an enviroment following the instructions in the [QligFEPv2 repository](https://github.com/qusers/Q). Additional dependencies for analysis and visualization are listed below under [Interactive Dashboard](#interactive-dashboard).
+After setting up the environment and compiling Q, please check the section [Running FEP Calculations](#running-fep-calculations) for instructions on how to run the FEP calculations and analyze the results. This work relies on Slurm for job scheduling. If necessary, please adjust the partition and resource requests in the `prepare.sh` and `analyze.sh` scripts to match your local cluster configuration.
 
 ## Overview
 
@@ -144,13 +143,24 @@ Comprehensive performance metrics and analysis are available in:
 
 ## Citation
 
-If you use this data or code, please cite:
+To cite QligFEPv2 and this benchmarking study, please use the following reference:
+```bibtex
+@article{araripe2026qligfepv2,
+  author  = {Alencar Araripe, David and Díaz-Holguín, Alejandro and Poso, Antti and van Westen, Gerard J. P. and Åqvist, Johan and Gutiérrez-de-Terán, Hugo and Jespers, Willem},
+  title   = {Doing More with Less: Accurate and Scalable Ligand Free Energy Calculations by Focusing on the Binding Site},
+  journal = {Journal of Chemical Information and Modeling},
+  year    = {2026},
+  volume  = {66},
+  number  = {6},
+  pages   = {3164--3172},
+  doi     = {10.1021/acs.jcim.5c02932},
+  url     = {https://doi.org/10.1021/acs.jcim.5c02932},
+}
+```
 
+If you use this data or code, please consider citing:
 - **QligFEP original paper**: Jespers, W., Esguerra, M., Åqvist, J., Gutiérrez-de-Terán, H., QligFEP: an automated workflow for small molecule free energy calculations in Q. *J Cheminform* **11**, 26 (2019). https://doi.org/10.1186/s13321-019-0348-5
-
 - **IndustryBenchmarks2024**: Baumann H., Alibay I., Horton J., Ries B., Henry M., *et al.*, OpenFreeEnergy/IndustryBenchmarks2024: v1.0.0 (v1.0.0). Zenodo. (2025) https://doi.org/10.5281/zenodo.17245550
-
-- **QligFEP v2 preprint**: Alencar Araripe D, Díaz Holguín A, Poso A, van Westen GJP, Åqvist J, Gutiérrez-de-Terán H, _et al._ QligFEP-2: an automated workflow for small molecule free energy calculations in Q. ChemRxiv. 2025; [doi:10.26434/chemrxiv-2025-x3r3z](https://doi.org/10.26434/chemrxiv-2025-x3r3z)
 
 ## License
 
