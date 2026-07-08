@@ -64,7 +64,9 @@ The dashboard provides:
 │       ├── <ligand>.prm    # Q parameter files
 │       ├── <ligand>.pdb    # Individual ligand structures
 │       ├── prepare.sh      # SLURM script to setup FEP calculations
-│       └── analyze.sh      # SLURM script to analyze results
+│       ├── analyze.sh      # SLURM script to analyze results
+│       ├── prepare-neq.sh  # SLURM script to setup non-equilibrium (NEQ²) FEP (JACS targets)
+│       └── analyze-neq.sh  # SLURM script to analyze NEQ² switching work (JACS targets)
 │
 ├── results/                # Analyzed FEP results
 │   └── <target>/
@@ -124,6 +126,30 @@ The `analyze.sh` script runs `qligfep_analyze` to:
 4. Move results to the appropriate directory
 
 **Note:** Target-specific setup commands with restraint strategies are documented in [`perturbations/commands.md`](perturbations/commands.md).
+
+### Non-Equilibrium (NEQ²) FEP
+
+The eight JACS targets can also be run with the non-equilibrium **NEQ²** protocol as an alternative to the windowed equilibrium workflow. Instead of many fixed-λ windows, NEQ² drives λ continuously between the end states with the `qdyn_neq` engine and estimates ΔΔG from the forward/reverse switching work with BAR. Because each switching trajectory is independent, the runs are trivially parallelizable and are cost-matched to the equilibrium protocol (~510,000 steps/replicate).
+
+Each JACS target directory carries a `prepare-neq.sh` and `analyze-neq.sh` alongside the equilibrium scripts:
+```bash
+cd perturbations/<target>
+sbatch prepare-neq.sh   # setupFEP --neq: builds the NEQ switching inputs
+# ...submit the switching runs, then once they finish:
+cd 2.protein/ && submitFEPjobs && cd ../1.water/ && submitFEPjobs
+# submitFEPjobs needs to be added to our .bashrc; Check link for the function:
+# https://github.com/qusers/Q/tree/main/tutorials/Tyk2#job-submission
+#
+# After the jobs finish running, analyze the switching work:
+sbatch analyze-neq.sh   # calls qligfep_neq_analyze
+```
+
+NEQ² produces different result files than the equilibrium analyzer:
+- `<target>_neq_results.csv` - per-edge ΔΔG, forward/reverse work overlap, and switch counts
+- `<target>_neq_results_run_data.csv` - per-replicate run diagnostics
+- `<target>_neq_ddG_plot.png` - calculated vs. experimental ΔΔG plot
+
+The switching work is read from `neq_1_*.log` (forward) and `neq_0_*.log` (reverse) logs under each leg's `FEP_*/<T>/<replicate>/` directories, rather than the per-window energy files of the equilibrium runs. The full NEQ² protocol and per-target restraints are documented in [`perturbations/commands.md`](perturbations/commands.md#non-equilibrium-neq-fep). The method is described in the accompanying manuscript, *NEQ²: A Cost-Efficient Non-Equilibrium Approach for Alchemical Free-Energy Calculations in QligFEP*.
 
 ## Performance Results
 
