@@ -6,7 +6,7 @@ This repository contains the benchmarking experiments for **QligFEPv2**, an iter
 
 To reproduce the benchmarking results, we recommend users to setup an enviroment following the instructions in the [qusers/Q repository](https://github.com/qusers/Q). Additional dependencies for analysis and visualization are listed below under [Interactive Dashboard](#interactive-dashboard).
 
-After setting up the environment and compiling Q, please check the section [Running FEP Calculations](#running-fep-calculations) for instructions on how to run the FEP calculations and analyze the results. This work relies on Slurm for job scheduling. If necessary, please adjust the partition and resource requests in the `prepare.sh` and `analyze.sh` scripts to match your local cluster configuration.
+After setting up the environment and compiling Q, please check the section [Running FEP Calculations](#running-fep-calculations) for instructions on how to run the FEP calculations and analyze the results. This work relies on Slurm for job scheduling; see [Cluster configuration](#cluster-configuration) for adapting the scripts to your cluster.
 
 ## Overview
 
@@ -101,6 +101,14 @@ The `startFiles/` directory contains Jupyter notebooks documenting the complete 
 
 ## Running FEP Calculations
 
+### Cluster configuration
+
+Every `setupFEP` command hardcodes `-c SNELLIUS`, which selects the profile we use for running jobs in the [Snellius HPC](https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/30660184/Snellius). This setting includes parameters such as task count, walltime, module loads, and Q binary paths, coming from from QligFEP's [`settings.py`](https://github.com/qusers/Q/blob/main/src/QligFEP/settings/settings.py) (`CLUSTER_DICT`). To run on another cluster, add an entry for it there following the existing examples and pass `-c <YOUR_CLUSTER>` after adding the configuration to `settings.py` and to `CLUSTER_DICT`.
+
+If you need a specific partition to run on, you need to add a line in [QligFEP.py](https://github.com/qusers/Q/blob/main/src/QligFEP/qligfep.py#L922-L925), which writes the SLURM script, as we did for the HPC systems that required a custom partition.
+
+The scripts do not pin a Slurm partition. Our benchmark ran on Snellius' `rome` partition; if your cluster requires one, add an `#SBATCH -p <partition>` line to the scripts.
+
 ### Setup
 Navigate to a target directory and run the preparation script:
 ```bash
@@ -137,7 +145,7 @@ cd perturbations/<target>
 sbatch prepare-neq.sh   # setupFEP --neq: builds the NEQ switching inputs
 # ...submit the switching runs, then once they finish:
 cd 2.protein/ && submitFEPjobs && cd ../1.water/ && submitFEPjobs
-# submitFEPjobs needs to be added to our .bashrc; Check link for the function:
+# submitFEPjobs needs to be added to your .bashrc; Check link for the function:
 # https://github.com/qusers/Q/tree/main/tutorials/Tyk2#job-submission
 #
 # After the jobs finish running, analyze the switching work:
