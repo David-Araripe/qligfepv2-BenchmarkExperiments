@@ -18,6 +18,7 @@
     - [syk](#syk)
     - [pfkfb3](#pfkfb3)
     - [tnks2](#tnks2)
+- [Non-equilibrium (NEQ²) FEP](#non-equilibrium-neq-fep)
 
 # JACS dataset
 
@@ -220,3 +221,63 @@ Analyze the results
 ```bash
 qligfep_analyze -t tnks2 -j mapping.json -log debug -exp ddg_value -m ddGbar -lamb 101 --save-verbose && mkdir -p results_tnks2 && mv tnks2*  results_tnks2 && cp mapping_ddG.json results_tnks2
 ```
+
+# Non-equilibrium (NEQ²) FEP
+
+The eight JACS targets (bace, cdk2, jnk1, mcl1, p38, ptp1b, thrombin, tyk2) can also be run with
+the non-equilibrium NEQ² workflow instead of the windowed equilibrium one. Each of those target
+directories carries a `prepare-neq.sh` and `analyze-neq.sh` next to the equilibrium
+`prepare.sh`/`analyze.sh`, submitted the same way (`sbatch prepare-neq.sh`, then
+`sbatch analyze-neq.sh` once the switching runs finish).
+
+NEQ² replaces the fixed-λ windows with continuous λ switching (`--neq`), driven by the `qdyn_neq`
+engine. The protocol values are the optimized defaults from the NEQ² manuscript and are held
+fixed across all targets; only the restraint method (`-rest`) and cdk2's `-wath` differ per
+target, exactly as in the equilibrium commands above.
+
+Setup (shown for tyk2; swap `-rest`/target name as in the equilibrium table):
+```bash
+setupFEP -FF AMBER14sb -c SNELLIUS -r 25 -b auto --start 0.5 -R 10 -ts 2fs -clean dcd inp -j mapping.json -log info -rest hybridization_p -rs 42 -T 300 --neq --neq-reps 5 --neq-steps 50000 --neq-eq-steps 1000 --neq-relax-steps 5000 -L 8.0 --neq-schedule sigmoidal
+```
+
+Analyze:
+```bash
+qligfep_neq_analyze -p 2.protein -w 1.water -T 300 -u kcal -j mapping.json -exp ddg_value -t tyk2 -o tyk2_neq_results.csv -log debug
+```
+
+Protocol parameters (cost-matched to the equilibrium 510,000 steps/replicate = 5 × (2×1000 + 2×50000)):
+
+| Flag | Meaning | Value |
+|------|---------|-------|
+| `--neq-schedule` | λ switching schedule | sigmoidal |
+| `-L` | schedule steepness | 8.0 |
+| `--neq-steps` | tNEQ, switch length | 50000 (100 ps @ 2 fs) |
+| `--neq-eq-steps` | tEQ, equilibration between switches | 1000 steps |
+| `--neq-relax-steps` | one-time endpoint relaxation at λ=0 and λ=1 | 5000 (10 ps @ 2 fs) |
+| `--neq-reps` | N, forward/reverse switch pairs per replicate | 5 |
+| `-R` | independent replicates | 10 |
+| `-T` | production temperature | 300 K |
+
+Two settings matter beyond the CLI defaults: `-T 300` (both `setupFEP` and `qligfep_neq_analyze`
+default to 298) and, for the analyzer, `-u kcal` (the BAR work units).
+
+Per-target restraint (identical to the equilibrium runs above):
+
+| Target | `-rest` | extra |
+|--------|---------|-------|
+| bace | hybridization_p | |
+| cdk2 | heavyatom_p | -wath 1.7 |
+| jnk1 | hybridization_p | |
+| mcl1 | heavyatom_p | |
+| p38 | heavyatom_p | |
+| ptp1b | heavyatom_p | |
+| thrombin | hybridization_p | |
+| tyk2 | hybridization_p | |
+
+NEQ² writes different output files than the equilibrium analyzer: `<target>_neq_results.csv`
+(per-edge ΔΔG, forward/reverse work overlap, and forward/reverse/failed switch counts),
+`<target>_neq_results_run_data.csv` (per-replicate run diagnostics), and `<target>_neq_ddG_plot.png`
+— in place of the parquet/JSON files. The switching work itself is read from `neq_1_*.log`
+(forward, λ 1→0) and `neq_0_*.log` (reverse, λ 0→1) under each `<leg>/FEP_*/<T>/<replicate>/`
+directory. `-clean dcd inp` removes the heavy trajectory and input files after each run; the
+`neq_*.log` work files that BAR needs are kept.
