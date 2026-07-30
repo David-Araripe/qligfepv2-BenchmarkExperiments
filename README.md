@@ -135,6 +135,28 @@ The `analyze.sh` script runs `qligfep_analyze` to:
 
 **Note:** Target-specific setup commands with restraint strategies are documented in [`perturbations/commands.md`](perturbations/commands.md).
 
+### Re-preparing at a different sphere radius or replicate count
+
+The 25 Å input files used in [our manuscript for benchmarking QligFEP v2.1.0](https://pubs.acs.org/jcisd8/article/66/6/3164/5080344/Doing-More-with-Less-Accurate-and-Scalable-Ligand) are available under `perturbations/`. A `Makefile` is provided to facilitate re-preparation of the inputs for different simulation conditions, such as a different water-sphere radius (e.g. a smaller sphere for faster turnover) or with fewer replicates. It re-runs qprep's out-of-sphere neutralization from the fully-charged prepared protein, so the result is correct at any radius, without re-applying .pdb preparation steps performed through the [rename_and_prepare_pdbs notebook](/startFiles/rename_and_prepare_pdbs.ipynb).
+
+```bash
+cd perturbations
+make 20              # all 16 targets at 20 Å, 10 replicates
+make 20 jacs         # JACS subset only (merck / all also accepted)
+make 30 cmet eg5     # specific targets at 30 Å
+make 20 REPS=3       # 3 replicates instead of 10, for faster turnover
+make 20 cmet REPARAM=1
+make 20 pfkfb3 REPARAM=1 QPARAMS_ARGS='-ff openff-2.3.0.offxml -am1bcc'
+```
+
+Each invocation writes `perturbations/<target>-<radius>A/`: a clean copy of the tracked 25 Å baseline inputs with `protein.pdb` and `water.pdb` regenerated at the new radius and the `.sh` scripts patched (radius, replicate count, job names, and analysis labels) so the directory is ready for submission. The 25 Å baselines are left untouched; submit a variant as usual with `sbatch prepare.sh`. `REPS` sets setupFEP's `-R` replicate count (default 10) and does not affect the NEQ² switching replicates.
+
+For safety, the command refuses to replace an existing variant directory, since it may contain completed simulations. Move the directory aside first, or use `OVERWRITE=1` only when you intentionally want to discard and rebuild it (for example, `make 20 cmet OVERWRITE=1`).
+
+By default, variants reuse the committed ligand and PFKFB3 cofactor parameters so sphere-size experiments remain directly comparable with the baseline. Set `REPARAM=1` to run `qparams` over every ligand SDF distributed with the selected targets. For PFKFB3 this also reparameterizes `cofactors.sdf`, regenerates the matching `all_cofactors.pdb` and combined `AMBER14sb_plus_cofactor` force field, and uses those files during qprep. `QPARAMS_ARGS` accepts additional `qparams` options for testing another OpenFF release or charge method; the example above selects OpenFF 2.3.0 with AM1-BCC. Each reparameterized variant records the exact commands in `reparameterization.json`.
+
+Reparameterization changes more than the benchmark protocol's radius or replicate count, so treat those variants as a separate force-field/parameterization experiment rather than a direct reduced-cost baseline.
+
 ### Non-Equilibrium (NEQ²) FEP
 
 The eight JACS targets can also be run with the non-equilibrium **NEQ²** protocol as an alternative to the windowed equilibrium workflow. Instead of many fixed-λ windows, NEQ² drives λ continuously between the end states with the `qdyn_neq` engine and estimates ΔΔG from the forward/reverse switching work with BAR. Because each switching trajectory is independent, the runs are trivially parallelizable and are cost-matched to the equilibrium protocol (~510,000 steps/replicate).
