@@ -7,7 +7,9 @@
 #
 # REPS sets the setupFEP replicate count (-R); it defaults to 10 (the baseline).
 # REPARAM=1 regenerates all ligand/cofactor parameters with qparams. Optional
-# QPARAMS_ARGS are passed to every qparams call.
+# QPARAMS_ARGS are passed to every qparams call, including PFKFB3 cofactors.
+# Use '-ff openff-2.2.1.offxml -am1bcc' for the settings in the "doing more with less"
+# paper or just leave it be, since it's how these parameters were originally generated.
 #
 # Examples:
 #   make 20            make 20 jacs            make 30 cmet
@@ -35,7 +37,7 @@ help:
 	@echo "  make 30 cmet eg5     # specific targets"
 	@echo "  make 20 REPS=3       # 3 replicates instead of 10"
 	@echo "  make 20 cmet REPARAM=1  # regenerate ligand parameters"
-	@echo "  make 20 pfkfb3 REPARAM=1 QPARAMS_ARGS='-am1bcc'"
+	@echo "  make 20 pfkfb3 REPARAM=1 QPARAMS_ARGS='-ff openff-2.2.1.offxml -am1bcc'"
 	@echo "  make 20 cmet OVERWRITE=1  # replace an existing unsubmitted variant"
 
 # Numeric radius and subset words all arrive as goals; funnel them to the driver
