@@ -94,7 +94,7 @@ def add_images_to_df(df, molplotter: MolPlotter, n_jobs=4) -> pd.DataFrame:
     pairs = list(zip(from_smiles_noH, to_smiles_noH))  # only use no-H smiles for MCS
     pairs = tqdm(pairs, total=len(pairs))
     logger.info("Calculating MCS similarity")
-    results = Parallel(n_jobs=n_jobs)(delayed(mcs_handler.pairwise_mcs_similarity)(p) for p in pairs)
+    results = Parallel(n_jobs=n_jobs)(delayed(mcs_handler.mcs_similarity)(p) for p in pairs)
     smarts_strings, _ = zip(*results)
     from_variables = list(zip(df["from_smiles"].tolist(), df["from"].tolist(), smarts_strings))
     to_variables = list(zip(df["to_smiles"].tolist(), df["to"].tolist(), smarts_strings))

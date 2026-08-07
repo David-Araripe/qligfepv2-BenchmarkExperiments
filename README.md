@@ -36,7 +36,9 @@ Install dependencies:
 python -m pip install git+https://github.com/David-Araripe/SFC_FreeEnergyCorrection.git \
     git+https://github.com/David-Araripe/Weighted_cc.git \
     git+https://github.com/David-Araripe/chemFilters.git \
-    dash cinnabar dash-molstar dash-bootstrap-components \
+    git+https://github.com/David-Araripe/MolClusterkit.git \
+    dash dash-molstar dash-bootstrap-components \
+    numpy scipy scikit-learn \
     statannotations statsmodels fastparquet tabulate pyfonts
 ```
 
