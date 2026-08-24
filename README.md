@@ -161,7 +161,9 @@ Reparameterization changes more than the benchmark protocol's radius or replicat
 
 ### Non-Equilibrium (NEQ²) FEP
 
-The eight JACS targets can also be run with the non-equilibrium **NEQ²** protocol as an alternative to the windowed equilibrium workflow. Instead of many fixed-λ windows, NEQ² drives λ continuously between the end states with the `qdyn_neq` engine and estimates ΔΔG from the forward/reverse switching work with BAR. Because each switching trajectory is independent, the runs are trivially parallelizable and are cost-matched to the equilibrium protocol (~510,000 steps/replicate).
+The eight JACS targets can also be run with the non-equilibrium **NEQ²** protocol as an alternative to the windowed equilibrium workflow. Instead of many fixed-λ windows, NEQ² drives λ continuously between the end states with the standard `qdyn` executable in NEQ mode and estimates ΔΔG from the forward/reverse switching work with BAR. Because each switching trajectory is independent, the runs are trivially parallelizable and are cost-matched to the equilibrium protocol (~510,000 steps/replicate).
+
+The archived NEQ² workflow is pinned to [Q/QligFEP v2.2.1](https://github.com/qusers/Q/releases/tag/v2.2.1) (commit `26de05fd539707002827814c50146e39e788500a`). Rebuild the Q executables after checking out that release.
 
 Each JACS target directory carries a `prepare-neq.sh` and `analyze-neq.sh` alongside the equilibrium scripts:
 ```bash
@@ -224,7 +226,7 @@ And if you use this benchmarking dataset, please cite:
 
 ## License
 
-See [LICENSE](LICENSE) file for details.
+This repository is distributed under the [MIT License](LICENSE). Reused benchmark materials retain their upstream notices in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Contact
 

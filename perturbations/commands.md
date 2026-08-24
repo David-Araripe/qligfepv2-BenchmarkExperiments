@@ -230,10 +230,12 @@ directories carries a `prepare-neq.sh` and `analyze-neq.sh` next to the equilibr
 `prepare.sh`/`analyze.sh`, submitted the same way (`sbatch prepare-neq.sh`, then
 `sbatch analyze-neq.sh` once the switching runs finish).
 
-NEQ² replaces the fixed-λ windows with continuous λ switching (`--neq`), driven by the `qdyn_neq`
-engine. The protocol values are the optimized defaults from the NEQ² manuscript and are held
-fixed across all targets; only the restraint method (`-rest`) and cdk2's `-wath` differ per
-target, exactly as in the equilibrium commands above.
+NEQ² replaces the fixed-λ windows with continuous λ switching (`--neq`), driven by the standard
+`qdyn` executable in NEQ mode. These instructions are pinned to
+[Q/QligFEP v2.2.1](https://github.com/qusers/Q/releases/tag/v2.2.1).
+The protocol values are the optimized defaults from
+the NEQ² manuscript and are held fixed across all targets; only the restraint method (`-rest`)
+and cdk2's `-wath` differ per target, exactly as in the equilibrium commands above.
 
 Setup (shown for tyk2; swap `-rest`/target name as in the equilibrium table):
 ```bash
